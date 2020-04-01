@@ -6,13 +6,7 @@ import en_core_web_sm
 import numpy as np
 import matplotlib.pyplot as plt
 
-#NOT USED
-def test_supplthree():
-	words = pd.read_csv("corona/manuscript/Supplemental_file3.csv")
-	words = [list(word) for word in words.values]
-	words = [pair[0] for pair in words]
-	print(words[4])
-
+#loads a metadata file and puts the content into lists
 def load_metadata():
 	articles = []
 	metadata = pd.read_csv("metadata_comm_use_subset_100.csv")
@@ -21,9 +15,9 @@ def load_metadata():
 	for article in metadata:
 		articles.append(article)
 
-	print(articles)
+	return articles
 
-
+#temporary to understand how the task should be performed
 def test_dict():
 	dictionary_sars = ['sars']
 	temp_dict = ['disease', 'icecream', 'horse', 'sars']
@@ -42,7 +36,7 @@ def test_dict():
 
 def main():
 	#test_dict()
-	load_metadata()
+	metadata = load_metadata()
 
 if __name__ == '__main__':
 	main()
