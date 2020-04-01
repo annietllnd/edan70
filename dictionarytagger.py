@@ -17,6 +17,16 @@ def load_metadata():
 
 	return articles
 
+def load_dictionaries():
+	dictionary_virus = [row.strip() for row in open('Supplemental_file1.txt')]
+	dictionary_disease = [row.strip() for row in open('Supplemental_file2.txt')]
+
+	return dictionary_virus, dictionary_disease
+
+#def tag():
+	#load dictionaries
+
+
 #temporary to understand how the task should be performed
 def test_dict():
 	dictionary_sars = ['sars']
@@ -35,8 +45,12 @@ def test_dict():
 
 
 def main():
-	#test_dict()
-	metadata = load_metadata()
+	#load metadata
+	#metadata = load_metadata()
+	#load dictionary
+	viruses, diseases = load_dictionaries()
+	tags = ['virus', 'disease']
+	
 
 if __name__ == '__main__':
 	main()
