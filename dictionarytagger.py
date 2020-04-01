@@ -18,7 +18,12 @@ def load_metadata():
 	for article in metadata:
 		articles.append(article)
 
-	return articles
+	abstracts = [[entry[8].split()] for entry in metadata if isinstance(entry[8], str)]
+
+	for abstract in abstracts:
+		abstract[0] = [re.sub(r'[^\w\s]','',w).lower() for w in abstract[0]] 
+
+	return articles, abstracts
 
 #loads the dictionaries from the supplemental files provided by @Aitslab
 def load_dictionaries():
@@ -30,8 +35,6 @@ def load_dictionaries():
 def tag(dictionary, corpus, tag):
 	tagged_words = []
 	for w in corpus[0]:
-		w = re.sub(r'[^\w\s]','',w)
-		w = w.lower()
 		
 		if w in dictionary:
 			tagged_words.append(w)
@@ -40,8 +43,8 @@ def tag(dictionary, corpus, tag):
 
 def main():
 	#load metadata
-	metadata = load_metadata()
-	abstracts = [[entry[8].split()] for entry in metadata if isinstance(entry[8], str)]
+	metadata, abstracts = load_metadata()
+	
 	#load dictionary
 	viruses, diseases = load_dictionaries()
 	tags = ['virus', 'disease']
