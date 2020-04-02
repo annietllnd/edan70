@@ -6,7 +6,25 @@ import en_core_web_sm
 import numpy as np
 import matplotlib.pyplot as plt
 import string
+import json
 
+def load_article(path):
+	article = []
+	paragraphs = []
+	with open(path, 'r') as f:
+		article_dict = json.load(f)
+
+	for section in article_dict['body_text']:
+		if(section['text'] is not None):
+			article.append(section['text'])
+
+	article = [paragraph.split() for paragraph in article]
+
+	for paragraph in article:
+		paragraph = [re.sub(r'[^\w\s]','',w).lower() for w in paragraph]
+		paragraphs.append(paragraph)
+
+	return paragraphs
 
 #loads a metadata file and puts the content into lists
 def load_metadata():
@@ -34,27 +52,31 @@ def load_dictionaries():
 
 def tag(dictionary, corpus, tag):
 	tagged_words = []
-	for w in corpus[0]:
-		
+	for w in corpus:
 		if w in dictionary:
 			tagged_words.append(w)
 
 	return tag, tagged_words
 
-def main():
-	#load metadata
-	metadata, abstracts = load_metadata()
-	
-	#load dictionary
-	viruses, diseases = load_dictionaries()
-	tags = ['virus', 'disease']
+def tag_article(path):
+	article = load_article(path)
 
-	for tagword in tags:
-		for abstract in abstracts:
-			_, virus_words = tag(viruses, abstract, tagword)
-			if(virus_words != []):
-				print("matching words found in dictionary", tagword, ":")
-				print(virus_words)
+	virus_dict, disease_dict = load_dictionaries()
+	dicts = [virus_dict, disease_dict]
+	dicts = {'virus':virus_dict, 'disease':disease_dict}
+
+	for dictionary in dicts:
+		for section in article:
+			tagword, virus_words = tag(dicts[dictionary], section, dictionary)
+			
+			print("matching words found in dictionary", tagword, ":")
+			print(virus_words)
+
+
+def main():
+
+	tag_article('comm_use_subset_100/0fb887acf88daa31d5ae2b7d176baf904d6c5dfc.json')
+	
 
 
 
