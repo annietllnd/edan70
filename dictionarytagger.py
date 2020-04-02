@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import string
 import json
+import os
 
 def load_article(path):
 	article = []
@@ -75,9 +76,12 @@ def tag_article(path):
 
 def main():
 
-	tag_article('comm_use_subset_100/0fb887acf88daa31d5ae2b7d176baf904d6c5dfc.json')
-	
-	
+	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
+	files_path = [path.split('edan70/edan70/') for path in files_path]
+	files_path = [path[1] for path in files_path]
+
+	for path in files_path[1:3]:
+		tag_article('comm_use_subset_100/'+path)
 
 if __name__ == '__main__':
 	main()
