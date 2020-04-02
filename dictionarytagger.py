@@ -77,10 +77,6 @@ def main():
 
 	tag_article('comm_use_subset_100/0fb887acf88daa31d5ae2b7d176baf904d6c5dfc.json')
 	
-
-
-
-
 	
 
 if __name__ == '__main__':
