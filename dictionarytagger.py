@@ -76,8 +76,8 @@ def tag_article(path):
 			
 			#print("matching words found in dictionary", tagword, ":")
 			#print(virus_words)
-def construct_annotations(corduid_text, sourcedb_text, sourceid_text, divid_index, main_text):
-	cord_uid = "{\"cord_uid\":\"" + corduid_text + "\", "
+def construct_annotation(corduid_text, sourcedb_text, sourceid_text, divid_index, main_text, dennotation):
+	cord_uid = "\"cord_uid\":\"" + corduid_text + "\", "
 
 	sourcedb = "\"sourcedb\":\"" + sourcedb_text + "\", "
 
@@ -89,10 +89,19 @@ def construct_annotations(corduid_text, sourcedb_text, sourceid_text, divid_inde
 
 	project = "\"project\":\"cdlai_CORD-19\", "
 
-	denotations = "\"denotations\":"
+	denotations = "\"denotations\":" + dennotation
 
-	body = cord_uid + sourcedb + sourceid + divid + text + project + denotations
+	body = "{" + cord_uid + sourcedb + sourceid + divid + text + project + denotations + "}"
+	return body
 
+def construct_dennoation(idd, begin, end, obj_url):
+	idd = "\"id\":\"" + idd + "\", "
+
+	span = "\"span\":{\"begin\":" + begin + "," + "\"end\":" + end  + "}, "
+
+	obj = "\"obj\":\"" + obj_url + "\""
+
+	body = "[{" + idd + span + obj + "}]"
 	return body
 
 def export_pubannotation(id, section_index, type, body):
@@ -109,7 +118,8 @@ def main():
 	#files_path = [path[1] for path in files_path]
 
 	#tag_article('comm_use_subset_100/'+files_path[1])
-	annotation = construct_annotations("jjpi5gjm", "PMC", "PMC3516577", "1", "Cathepsin B \u0026 L are not required for ebola virus replication.\nEbola virus (EBOV), family Filoviridae, eme...")
+	dennotation = construct_dennoation("PD-MONDO_T1", "37", "42","http://purl.obolibrary.org/obo/MONDO_0005737" ) 
+	annotation = construct_annotation("jjpi5gjm", "PMC", "PMC3516577", "1", "Cathepsin B \u0026 L are not required for ebola virus replication.\nEbola virus (EBOV), family Filoviridae, eme...", dennotation)
 	export_pubannotation("jjpi5gjm", "1", "abstract", annotation)
 
 if __name__ == '__main__':
