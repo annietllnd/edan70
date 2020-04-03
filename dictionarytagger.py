@@ -96,7 +96,7 @@ def tag_article(title, abstract, paragraphs, type, dictionary):
 		return None
 
 def get_span(match, body):
-	regex_match = r"\b({0})\b".format(match)
+	regex_match = r"(?i)\b({0})\b".format(match)
 	a = re.search(regex_match, body)
 	if(a is None):
 		return None, None
@@ -145,7 +145,6 @@ def export_pubannotation(id, section_index, type, body):
 
 
 def main():
-
 	# find paths
 	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
 	files_path = [path.split('edan70/edan70/') for path in files_path]
@@ -174,6 +173,8 @@ def main():
 		start, end = get_span(w, title_text)
 		if(not start):
 			print("No matches found, no index")
+		else:
+			print(start, end)
 
 
 
