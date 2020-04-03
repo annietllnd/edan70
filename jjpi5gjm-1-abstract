@@ -1,2 +1,2 @@
 {"cord_uid":"jjpi5gjm", "sourcedb":"PMC", "sourceid":"PMC3516577", "divid":1, "text":"Cathepsin B & L are not required for ebola virus replication.
-Ebola virus (EBOV), family Filoviridae, eme...", "project":"cdlai_CORD-19", "denotations":[{"id":"PD-MONDO_T1", "span":{"begin":37,"end":42}, "obj":"http://purl.obolibrary.org/obo/MONDO_0005737"}]}
+Ebola virus (EBOV), family Filoviridae, eme...", "project":"cdlai_CORD-19", [{"id":"PD-MONDO_T1", "span":{"begin":37,"end":42}, "obj":"http://purl.obolibrary.org/obo/MONDO_0005737"}]}
