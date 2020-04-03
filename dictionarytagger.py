@@ -1,11 +1,5 @@
 import re
 import pandas as pd
-from collections import defaultdict
-import spacy
-import en_core_web_sm
-import numpy as np
-import matplotlib.pyplot as plt
-import string
 import json
 import os
 
@@ -41,7 +35,6 @@ def load_article(path):
 
 #loads a metadata file and puts the content into lists
 def load_metadata():
-	articles = []
 	metadata = pd.read_csv("metadata_comm_use_subset_100.csv")
 	metadata = [[row] for row in metadata.values]
 
@@ -148,7 +141,7 @@ def construct_dennoation(idd, begin, end, obj_url):
 def export_pubannotation(id, section_index, type, body):
 	file_name = id + "-" + section_index + "-" + type
 	text_file = open(file_name, "wt")
-	n = text_file.write(body)
+	text_file.write(body)
 	text_file.close()
 
 
@@ -162,7 +155,7 @@ def main():
 	tag_article('comm_use_subset_100/'+files_path[1], "title")
 
 	metadata = load_metadata()
-	row = load_metadata_row("ff7dg890", metadata)
+	load_metadata_row("ff7dg890", metadata)
 
 	# test pubannotations
 	#dennotation = construct_dennoation("PD-MONDO_T1", "37", "42","http://purl.obolibrary.org/obo/MONDO_0005737" ) 
