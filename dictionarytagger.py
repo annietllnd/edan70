@@ -3,15 +3,15 @@ import pandas as pd
 import json
 import os
 
-def load_article(path):
+def load_article(article_dict):
 	article = []
 	paragraphs = []
-	with open(path, 'r') as f:
-		article_dict = json.load(f)
-
 
 	title = article_dict['metadata']['title'] 
+	title = re.sub(r'[^\w\s]','',title).lower()
 	title = title.split()
+
+
 	abstract = [s['text'] for s in article_dict['abstract']]
 
 	for section in article_dict['body_text']:
@@ -70,41 +70,40 @@ def load_dictionaries():
 
 	return dictionary_virus, dictionary_disease
 
-def tag(dictionary, corpus, tag):
+def tag(dictionary, corpus):
 	tagged_words = []
 	for w in corpus:
 		if w in dictionary:
 			tagged_words.append(w)
 
-	return tag, tagged_words
+	return tagged_words
 
-def tag_article(path, type):
-	title, abstract, paragraphs = load_article(path)
+def tag_article(title, abstract, paragraphs, type, dictionary):
 
-	virus_dict, disease_dict = load_dictionaries()
-	dicts = [virus_dict, disease_dict]
-	dicts = {'virus':virus_dict, 'disease':disease_dict}
+	if(type == "main_body"):
+		for p in paragraphs:
+			p_words = tag(dictionary, p)
+			return p_words
+	elif(type == "abstract"):
+		for a in abstract:
+			a_words = tag(dictionary, a)
+			return a_words
+	elif(type == "title"):
+		t_words = tag(dictionary, title)
+		return t_words
+	else:
+		print("Invalid type")
+		return None
 
-	for dictionary in dicts:
-
-		if(type == "main_body"):
-			for p in paragraphs:
-				p_tagword, p_words = tag(dicts[dictionary], p, dictionary)
-				return p_tagword, p_words
-		elif(type == "abstract"):
-			for a in abstract:
-				a_tagword, a_words = tag(dicts[dictionary], a, dictionary)
-				return a_tagword, a_words
-		elif(type == "title"):
-			t_tagword, t_words = tag(dicts[dictionary], title, dictionary)
-			return t_tagword, t_words
-		else:
-			print("Invalid type")
-			return None
+def get_span(match, body):
+	regex_match = r"\b({0})\b".format(match)
+	a = re.search(regex_match, body)
+	if(a is None):
+		return None, None
+	else:
+		return a.start(), a.end()
 
 
-
-	
 
 def construct_annotation(corduid_text, sourcedb_text, sourceid_text, divid_index, main_text, denotations):
 	cord_uid = "\"cord_uid\":\"" + corduid_text + "\", "
@@ -147,20 +146,46 @@ def export_pubannotation(id, section_index, type, body):
 
 def main():
 
-	# test tagger
+	# find paths
 	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
 	files_path = [path.split('edan70/edan70/') for path in files_path]
 	files_path = [path[1] for path in files_path]
 
-	tag_article('comm_use_subset_100/'+files_path[1], "title")
+	# load dictionaries
+	virus_dict, disease_dict = load_dictionaries()
+	disease_dict = disease_dict + ["sars"]
+	dicts = [virus_dict, disease_dict]
+	dicts = {'virus':virus_dict, 'disease':disease_dict}
 
-	metadata = load_metadata()
-	load_metadata_row("ff7dg890", metadata)
+	# load article
+	path = 'comm_use_subset_100/' + files_path[0]
+	with open(path, 'r') as f:
+		article_dict = json.load(f)
+
+	title_text = article_dict['metadata']['title'] 
+
+	title, abstract, paragraphs = load_article(article_dict)
+
+	for dictionary in dicts:
+		words = tag_article(title, abstract, paragraphs, "title", dicts[dictionary])
+		print("tag dictionary found", len(words), "matches: ", words)
+
+	for w in words:
+		start, end = get_span(w, title_text)
+		if(not start):
+			print("No matches found, no index")
+
+
+
+	#metadata = load_metadata()
+	#load_metadata_row("ff7dg890", metadata)
 
 	# test pubannotations
 	#dennotation = construct_dennoation("PD-MONDO_T1", "37", "42","http://purl.obolibrary.org/obo/MONDO_0005737" ) 
 	#annotation = construct_annotation("jjpi5gjm", "PMC", "PMC3516577", "1", "Cathepsin B \u0026 L are not required for ebola virus replication.\nEbola virus (EBOV), family Filoviridae, eme...", dennotation)
 	#export_pubannotation("jjpi5gjm", "1", "abstract", annotation)
+
+	#test search
 
 if __name__ == '__main__':
 	main()
