@@ -12,9 +12,13 @@ import os
 def load_article(path):
 	article = []
 	paragraphs = []
+	abstract = []
 	with open(path, 'r') as f:
 		article_dict = json.load(f)
 
+		abstract = [s['text'] for s in article_dict['abstract']]
+
+	print(abstract)
 	for section in article_dict['body_text']:
 		if(section['text'] is not None):
 			article.append(section['text'])
@@ -70,18 +74,43 @@ def tag_article(path):
 		for section in article:
 			tagword, virus_words = tag(dicts[dictionary], section, dictionary)
 			
-			print("matching words found in dictionary", tagword, ":")
-			print(virus_words)
+			#print("matching words found in dictionary", tagword, ":")
+			#print(virus_words)
+def construct_annotations(corduid_text, sourcedb_text, sourceid_text, divid_index, main_text):
+	cord_uid = "{\"cord_uid\":\"" + corduid_text + "\", "
+
+	sourcedb = "\"sourcedb\":\"" + sourcedb_text + "\", "
+
+	sourceid = "\"sourceid\":\"" + sourceid_text + "\", "
+
+	divid = "\"divid\":" + divid_index + ", "
+
+	text = "\"text\":\"" + main_text + "\", "
+
+	project = "\"project\":\"cdlai_CORD-19\", "
+
+	denotations = "\"denotations\":"
+
+	body = cord_uid + sourcedb + sourceid + divid + text + project + denotations
+
+	return body
+
+def export_pubannotation(id, section_index, type, body):
+	file_name = id + "-" + section_index + "-" + type
+	text_file = open(file_name, "wt")
+	n = text_file.write(body)
+	text_file.close()
 
 
 def main():
 
-	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
-	files_path = [path.split('edan70/edan70/') for path in files_path]
-	files_path = [path[1] for path in files_path]
+	#files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
+	#files_path = [path.split('edan70/edan70/') for path in files_path]
+	#files_path = [path[1] for path in files_path]
 
-	for path in files_path[1:3]:
-		tag_article('comm_use_subset_100/'+path)
+	#tag_article('comm_use_subset_100/'+files_path[1])
+	annotation = construct_annotations("jjpi5gjm", "PMC", "PMC3516577", "1", "Cathepsin B \u0026 L are not required for ebola virus replication.\nEbola virus (EBOV), family Filoviridae, eme...")
+	export_pubannotation("jjpi5gjm", "1", "abstract", annotation)
 
 if __name__ == '__main__':
 	main()
