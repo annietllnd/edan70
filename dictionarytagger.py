@@ -142,6 +142,7 @@ def export_pubannotation(id, section_index, type, annotation):
 def main():
 	# find paths, can be separate
 	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
+	
 	# splits the path so we will only obtain the actual file name
 	# improve: this is machine specific, would be better to have a general solution
 	# or a list of files
