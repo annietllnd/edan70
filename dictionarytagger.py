@@ -154,7 +154,7 @@ def concat_denotations(den_list):
 
 def export_pubannotation(id, section_index, type, annotation):
 	file_name = id + "-" + section_index + "-" + type
-	text_file = open(file_name + ".json", "wt")
+	text_file = open("out/" + file_name + ".json", "wt")
 	text_file.write(annotation)
 	text_file.close()
 
@@ -225,23 +225,13 @@ def main():
 
 				final_denotation = concat_denotations(denotations) 
 
-				print(final_denotation)
 					
-			temp_divid = str(divid_index)
-			annotation = construct_annotation(cord_uid, sourcedb, sourceid, temp_divid, section[0], denotations)	
-			divid_index = divid_index + 1
-			#export_pubannotation(cord_uid, temp_divid, c, annotation)
+				temp_divid = str(divid_index)
+				annotation = construct_annotation(cord_uid, sourcedb, sourceid, temp_divid, section[0], final_denotation)	
+				print(annotation)
+				divid_index = divid_index + 1
+				export_pubannotation(cord_uid, temp_divid, c, annotation)
 
-	#TODO: 
-	#fix tag_article to that it only tags and returns one section at the time!
-	#fix divid_index and i? 
-
-	# test pubannotations
-	#dennotation = construct_dennoation("PD-MONDO_T1", "37", "42","http://purl.obolibrary.org/obo/MONDO_0005737" ) 
-	#annotation = construct_annotation("jjpi5gjm", "PMC", "PMC3516577", "1", "Cathepsin B \u0026 L are not required for ebola virus replication.\nEbola virus (EBOV), family Filoviridae, eme...", dennotation)
-	#export_pubannotation("jjpi5gjm", "1", "abstract", annotation)
-
-	#test search
 
 if __name__ == '__main__':
 	main()
