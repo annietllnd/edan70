@@ -13,6 +13,9 @@ def load_article(article_dict):
 
 
 	abstract = [s['text'] for s in article_dict['abstract']]
+	abstract = [section.split() for section in abstract]
+
+	abstract = [re.sub(r'[^\w\s]','',w).lower() for w in abstract[0]]
 
 	for section in article_dict['body_text']:
 		if(section['text'] is not None):
@@ -24,12 +27,6 @@ def load_article(article_dict):
 		paragraph = [re.sub(r'[^\w\s]','',w).lower() for w in paragraph]
 		paragraphs.append(paragraph)
 
-		#corduid_text: 	metadata file
-		#sourcedb_text	metadata file
-		#sourceid_text:	metadata file
-		#divid_index: 	obtain in program
-		#main_text:		article file
-		#denotations: 	obtain in program
 
 	return title, abstract, paragraphs
 
@@ -124,7 +121,7 @@ def construct_annotation(corduid_text, sourcedb_text, sourceid_text, divid_index
 
 	denotations_str = "\"denotations\":" + denotations_temp
 
-	body = "{" + cord_uid + sourcedb + sourceid + divid + text + project + denotations + "}"
+	body = "{" + cord_uid + sourcedb + sourceid + divid + text + project + denotations_str + "}"
 	return body
 
 def construct_dennoation(idd, begin, end, obj_url):
@@ -134,52 +131,110 @@ def construct_dennoation(idd, begin, end, obj_url):
 
 	obj = "\"obj\":\"" + obj_url + "\""
 
-	body = "[{" + idd + span + obj + "}]"
+	body = "{" + idd + span + obj + "}"
 	return body
 
-def export_pubannotation(id, section_index, type, body):
+def concat_denotations(den_list):
+	if(len(den_list) == 1):
+		return  "[" + den_list[0] + "]"
+	elif(len(den_list) == 0):
+		return "[]"
+
+	final_denotation = ''
+	first = True
+
+	for d in den_list:
+		if(d == den_list[-1]):
+			final_denotation += d
+		else:
+			final_denotation += d + ", "
+
+
+	return "[" + final_denotation + "]"
+
+def export_pubannotation(id, section_index, type, annotation):
 	file_name = id + "-" + section_index + "-" + type
-	text_file = open(file_name, "wt")
-	text_file.write(body)
+	text_file = open(file_name + ".json", "wt")
+	text_file.write(annotation)
 	text_file.close()
 
 
 def main():
-	# find paths
+	# find paths, can be separate
 	files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
 	files_path = [path.split('edan70/edan70/') for path in files_path]
 	files_path = [path[1] for path in files_path]
 
-	# load dictionaries
+
+	# load dictionaries, can be separate
 	virus_dict, disease_dict = load_dictionaries()
+	disease_dict = disease_dict
 	disease_dict = disease_dict + ["sars"]
+	virus_dict = virus_dict + ["sars"]
 	dicts = [virus_dict, disease_dict]
-	dicts = {'virus':virus_dict, 'disease':disease_dict}
+	dicts = {'Virus_SARS-CoV-2':virus_dict, 'Disease_COVID-19':disease_dict} #fix this
 
-	# load article
-	path = 'comm_use_subset_100/' + files_path[0]
-	with open(path, 'r') as f:
-		article_dict = json.load(f)
-
-	title_text = article_dict['metadata']['title'] 
-
-	title, abstract, paragraphs = load_article(article_dict)
-
-	for dictionary in dicts:
-		words = tag_article(title, abstract, paragraphs, "title", dicts[dictionary])
-		print("tag dictionary found", len(words), "matches: ", words)
-
-	for w in words:
-		start, end = get_span(w, title_text)
-		if(not start):
-			print("No matches found, no index")
-		else:
-			print(start, end)
+	# load metadata, can be separate
+	metadata = load_metadata()
+	cord_uids = [metadata[i][0][0] for i in range(len(metadata))]
 
 
+	for i in range(0,2): #exchange for range(len(files_path))
+		#load the ith file in the directory
+		divid_index = 0
+		path = 'comm_use_subset_100/' + files_path[i] #for loop
+		with open(path, 'r') as f:
+			article_dict = json.load(f)
 
-	#metadata = load_metadata()
-	#load_metadata_row("ff7dg890", metadata)
+		#load article from file
+		title, abstract, body_text = load_article(article_dict)
+
+		corpus = {"title": title, "abstract": abstract, "body_text": body_text}
+
+		# load args for pubannotations
+		# corduid_text: 	metadata file
+		# sourcedb_text:	metadata file
+		# sourceid_text:	metadata file
+		cord_uid, sourcedb, sourceid = obtain_metadata_args(metadata[i])
+
+		#obj_url 
+		obj_url = metadata[i][0][16]
+
+		for c in corpus:
+			#obtain the original, untokenized text
+			if(c == 'title'):
+				section = [article_dict['metadata'][c]]
+			else:
+				section = [article_dict[c][0]['text'] for s in article_dict[c]]
+			for subc in section:
+				denotations = []	
+
+				for dictionary in dicts:
+					idd = dictionary
+					words = tag(dicts[dictionary], corpus[c])
+					#print("tag dictionary found", len(words), "matches: ", words)	
+					if(words == []):
+						[begin, end] = ['-1', '-1']				
+					for w in words:
+						begin, end = get_span(w, section[0])
+						begin = str(begin)
+						end = str(end)	
+
+					if(begin != '-1'):
+						denotations.append(construct_dennoation(idd, begin, end, obj_url))
+
+				final_denotation = concat_denotations(denotations) 
+
+				print(final_denotation)
+					
+			temp_divid = str(divid_index)
+			annotation = construct_annotation(cord_uid, sourcedb, sourceid, temp_divid, section[0], denotations)	
+			divid_index = divid_index + 1
+			#export_pubannotation(cord_uid, temp_divid, c, annotation)
+
+	#TODO: 
+	#fix tag_article to that it only tags and returns one section at the time!
+	#fix divid_index and i? 
 
 	# test pubannotations
 	#dennotation = construct_dennoation("PD-MONDO_T1", "37", "42","http://purl.obolibrary.org/obo/MONDO_0005737" ) 
