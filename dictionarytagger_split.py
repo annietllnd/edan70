@@ -35,15 +35,39 @@ import copy
 import pandas as pd
 
 
-PUNCTUATION_REGEX = r'[^\w\s]'
-METADATA_HEADER = ['cord_uid', 'sha', 'source_x', 'title', 'doi',
-                   'pmcid', 'pubmed_id', 'license', 'abstract',
-                   'publish_time', 'authors', 'journal', 'microsoftap_id',
-                   '_', 'has_pdf_parse', 'has_pmc_xml_parse', 'full_text_file'
-                   'url']
+# Importing files locally
+CURRENT_WORKING_DIR = os.getcwd() + '/'
+ARTICLE_FULL_PATHS = os.listdir('comm_use_subset_100')
+
+# Importing files from Kaggle project (for Kaggle implementation)
+# ARTICLE_DIR_PATH = '../input/comm-use-subset-100/'  # Can be changed to path
+# ARTICLE_FULL_PATHS = []                             # of folder for another
+# for file in os.listdir(articles_dir):               # dataset.
+#    ARTICLE_FULL_PATHS.append(ARTICLE_DIR_PATH = file)
 
 
+# Importing files locally (machine dependent)
+# files_path = [os.path.abspath(x) for x in os.listdir('comm_use_subset_100')]
+# splits the path so we will only obtain the actual file name
+# files_path = [path.split('edan70/edan70/') for path in files_path]
+# files_path = [path[1] for path in files_path] # only the name of the file
 
+
+# Load JSON-files from git-repository https://github.com/annietllnd/edan70/comm_use_subset 100. 
+# TODO fix
+
+
+# Parse JSON-files and add articles to array.
+articles = []
+for article_path in ARTICLE_FULL_PATHS:
+    with open(article_path, 'r') as file_:
+        articles.append(json.load(file_))
+
+
+# Define functions for cleaning the articles.
+
+# First function cleans the title section of the article and removes
+# all punctuations and adjusts to lower case.
 def clean_title(data_dict, regex):
     """
     Return title string after removing punctuations and format to lower case
@@ -59,6 +83,8 @@ def clean_title(data_dict, regex):
     return title
 
 
+# Second function cleans the abstract section of the article and removes
+# all punctuations and adjusts to lower case.
 def clean_abstract(data_dict, regex):
     """
     Return abstract list with strings after removing punctuations and format to
@@ -74,6 +100,8 @@ def clean_abstract(data_dict, regex):
     return abstract
 
 
+# Third function cleans the body text section of the article and removes
+# all punctuations and adjusts to lower case.
 def clean_body_text(data_dict, regex):
     """
     Return paragraphs list words strings after removing punctuations and format
@@ -93,6 +121,41 @@ def clean_body_text(data_dict, regex):
     return paragraphs
 
 
+# Run defined cleaner functions on article data, iterating through every
+# article and put files in a new array of cleaned articles.
+cleaned_articles = []
+PUNCTUATION_REGEX = r'[^\w\s]'  # Regex for everything that is not a
+for article_dict in articles:           # character or space.
+    clean_article_dict = copy.deepcopy(article_dict)
+    clean_article_dict['metadata']['title'] = clean_title(clean_article_dict,
+                                                          PUNCTUATION_REGEX)
+    clean_article_dict['abstract'] = clean_abstract(clean_article_dict,
+                                                    PUNCTUATION_REGEX)
+    clean_article_dict['body_text'] = clean_body_text(clean_article_dict,
+                                                      PUNCTUATION_REGEX)
+    cleaned_articles.append(clean_article_dict)
+
+
+# Import dicitonaries with words regarding viruses and disieases for COVID
+# for tagging of data.
+
+# Import from Kaggle path.
+# VOCAB_COLLECTION_DICT = {'Virus_SARS-CoV-2':
+#                          [row.strip()for row in
+#                           open('../input/supplement/Supplemental_file1.txt')],
+#                          'Disease_COVID-19':
+#                          [row.strip() for row in
+#                           open('../input/supplement/Supplemental_file2.txt')]}
+
+# Import from local directory.
+VOCAB_COL_DICT = {'Virus_SARS-CoV-2':
+                         [row.strip()for row in
+                          open(CURRENT_WORKING_DIR+'Supplemental_file1.txt')],
+                         'Disease_COVID-19':
+                         [row.strip() for row in
+                          open(CURRENT_WORKING_DIR+'Supplemental_file2.txt')]}
+
+
 # Define function for tagging words in vocabulary list.
 def tag_tokens(vocabulary, tokens):
     """
@@ -103,6 +166,24 @@ def tag_tokens(vocabulary, tokens):
         if token in vocabulary:         # TODO Maybe find another definition
             tagged_words.append(token)  # than vocabulary?
     return tagged_words
+
+
+# CSV-files with metadata for compensation for data missing in JSON-files.
+# Import CSV-files with metadata for articles using Kaggle path.
+# METADATA_CSV_PATH = '../input/metadata/metadata_comm_use_subset_100.csv'
+
+# Import CSV-files with metadata for articles using local path.
+METADATA_CSV_PATH = '../input/metadata/metadata_comm_use_subset_100.csv'
+# TODO Fix CSV-file with header
+METADATA_HEADER = ['cord_uid', 'sha', 'source_x', 'title', 'doi',
+                   'pmcid', 'pubmed_id', 'license', 'abstract',
+                   'publish_time', 'authors', 'journal', 'microsoftap_id',
+                   '_', 'has_pdf_parse', 'has_pmc_xml_parse', 'full_text_file'
+                   'url']
+METADATA_FRAME = pd.read_csv(METADATA_CSV_PATH,
+                             names=METADATA_HEADER,
+                             engine='python')
+metadata_list = METADATA_FRAME.to_dict('records')
 
 
 def obtain_metadata_args(metadata_dict):
@@ -129,6 +210,15 @@ def load_vocabularies():
                        disease_vocab_list}
     return vocabs_col_dict
 
+
+# tag a tokenized text using a given dictionary and return a list of the words
+def tag(dictionary, corpus):
+    tagged_words = []
+    for w in corpus:
+        if w in dictionary:
+            tagged_words.append(w)
+
+    return tagged_words
 
 # given a word and a corpus, find the match for that word
 # improve: what if there are several matches? 
@@ -205,9 +295,14 @@ def load_metadata():
     of metadata list as values.
     """
     metadata_csv_path = 'metadata_comm_use_subset_100.csv'
+    metadata_header = ['cord_uid', 'sha', 'source_x', 'title', 'doi',
+                       'pmcid', 'pubmed_id', 'license', 'abstract',
+                       'publish_time', 'authors', 'journal', 'microsoftap_id',
+                       '_', 'has_pdf_parse', 'has_pmc_xml_parse',
+                       'full_text_file', 'url']
     metadata_frame = pd.read_csv(metadata_csv_path,
                                  na_filter=False,
-                                 names=METADATA_HEADER,
+                                 names=metadata_header,
                                  engine='python')
     metadata = metadata_frame.to_dict('records')
     indice = 0
@@ -239,31 +334,29 @@ def tag_and_export(article_dict, tokens_dict, metadata_dict):
     cord_uid, pcmid, pubmed_id = obtain_metadata_args(metadata_dict)
     for token in tokens_dict:
         # obtain the original, untokenized text
-        if token == 'title':
+        if(token == 'title'):
             section = [article_dict['metadata'][token]]
         else:
-            section = [article_dict[token][0]['text']
-                       for s in article_dict[token]]
+            section = [article_dict[token][0]['text'] for s in article_dict[token]]
         for subc in section:  # iterate through each section that will have its own file
             denotations = []
-            for vocabulary in VOCABS_COL_DICT:
+            for vocabulary in VOCAB_COL_DICT:
                 idd = vocabulary
-                words = tag_tokens(VOCABS_COL_DICT[vocabulary],
-                                   tokens_dict[token])
-                if words == []:
+                words = tag(VOCAB_COL_DICT[vocabulary], tokens_dict[token])
+                if(words == []):
                     [begin, end] = ['-1', '-1']  # improve: maybe make a more sleek solution
                 for w in words:
                     begin, end = get_span(w, section[0])
                     begin = str(begin)
                     end = str(end)
-                    if begin != '-1':
+                    if(begin != '-1'):
                         print("tag dictionary found",
                               len(words), "matches: ", words)
                         denotations.append(
-                            construct_dennoation(idd,
-                                                 begin,
-                                                 end,
-                                                 metadata_dict['url']))
+                        construct_dennoation(idd,
+                                             begin,
+                                             end,
+                                             metadata_dict['url']))
 
         final_denotation = concat_denotations(denotations)
 
@@ -274,33 +367,5 @@ def tag_and_export(article_dict, tokens_dict, metadata_dict):
                                           temp_divid,
                                           section[0],
                                           final_denotation)
-        divid_index = divid_index + 1  # increase with each file
+        divid_index = divid_index + 1  # we want the index in each file to increase
         export_pubannotation(cord_uid, temp_divid, token, annotation)
-
-
-VOCABS_COL_DICT = load_vocabularies()
-
-
-def main():
-    """
-    Main program.
-    """
-    article_paths = os.listdir('comm_use_subset_100')
-    metadata_list, metadata_indices_dict = load_metadata()
-
-    for article_name in article_paths:
-        with open(article_name, 'r') as file_:
-            article_dict = json.load(file_)
-
-        # this index is used for the file name counter
-        tokens_dict = generate_tokens_dict(article_dict)
-        # Finds indice of metadata that matches with sha of article_name
-        # without '.JSON' part.
-        metadata_indice = metadata_indices_dict[
-            article_name.replace('.json', '')]
-        metadata_dict = metadata_list[metadata_indice]
-        tag_and_export(article_dict, tokens_dict, metadata_dict)
-
-
-if __name__ == '__main__':
-    main()
