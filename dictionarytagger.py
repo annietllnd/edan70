@@ -2,6 +2,8 @@ import re
 import pandas as pd
 import json
 import os
+import numpy as np
+
 
 # given a dictionary, tokenize and return the title, abstract and corpus, respectively
 def load_article(article_dict):
@@ -9,14 +11,20 @@ def load_article(article_dict):
 	paragraphs = []
 
 	title = article_dict['metadata']['title'] 
-	title = re.sub(r'[^\w\s]','',title).lower()
-	title = title.split()
+	if(title is not None):
+		title = re.sub(r'[^\w\s]','',title).lower()
+		title = title.split()
+	else:
+		tile = ''
 
 
 	abstract = [s['text'] for s in article_dict['abstract']]
-	abstract = [section.split() for section in abstract]
+	if(abstract != []):
+		abstract = [section.split() for section in abstract]
+		abstract = [re.sub(r'[^\w\s]','',w).lower() for w in abstract[0]]
+	else:
+		abstract = '[]'
 
-	abstract = [re.sub(r'[^\w\s]','',w).lower() for w in abstract[0]]
 
 	for section in article_dict['body_text']:
 		if(section['text'] is not None):
@@ -32,7 +40,7 @@ def load_article(article_dict):
 
 # loads a metadata file and puts the content into lists
 def load_metadata():
-	metadata = pd.read_csv("metadata_comm_use_subset_100.csv")
+	metadata = pd.read_csv("metadata_comm_use_subset_100.csv", na_filter=False, header=None)
 	metadata = [[row] for row in metadata.values]
 
 	return metadata
@@ -132,8 +140,8 @@ def concat_denotations(den_list):
 	return "[" + final_denotation + "]"
 
 # exports a given annotation string to a file
-def export_pubannotation(id, section_index, type, annotation):
-	file_name = id + "-" + section_index + "-" + type
+def export_pubannotation(idd, section_index, type_text, annotation):
+	file_name = idd + "-" + section_index + "-" + type_text
 	text_file = open("out/" + file_name + ".json", "wt")
 	text_file.write(annotation)
 	text_file.close()
@@ -156,14 +164,33 @@ def main():
 
 	# load metadata, can be separate
 	metadata = load_metadata()
+
 	cord_uids = [metadata[i][0][0] for i in range(len(metadata))]
 
-	for i in range(0,2): # improve: exchange for range(len(files_path)) for the real thing
+	for i in range(len(files_path)-1): # improve: exchange for range(len(files_path)) for the real thing
 		#this index is used for the file name counter
 		divid_index = 0
+		filepath = metadata[i][0][1]
+		filepath = filepath.split(';', 1)
+
+		if(len(filepath) == 1):
+			filepath = filepath[0]
+
+		else:
+			if((filepath[0] + '.json') in files_path):
+				filepath = filepath[0]
+			else:
+				filepath = filepath[1:]
+				for paperid in filepath:
+					if paperid in filepath:
+						filepath = paperid
+						filepath = filepath[1:]
+			
+
+
 
 		#load the ith file in the directory
-		path = 'comm_use_subset_100/' + files_path[i] 
+		path = 'comm_use_subset_100/' + filepath + '.json'
 		with open(path, 'r') as f:
 			article_dict = json.load(f)
 
@@ -176,7 +203,10 @@ def main():
 		# corduid_text: 	metadata file
 		# sourcedb_text:	metadata file
 		# sourceid_text:	metadata file
+
 		cord_uid, sourcedb, sourceid = obtain_metadata_args(metadata[i])
+
+		
 
 		# obj_url 
 		obj_url = metadata[i][0][16]
@@ -193,24 +223,28 @@ def main():
 				for dictionary in dicts:
 					idd = dictionary
 					words = tag(dicts[dictionary], corpus[c])
-					# print("tag dictionary found", len(words), "matches: ", words)	
 					if(words == []):
 						[begin, end] = ['-1', '-1']	#improve: maybe make a more sleek solution			
+					
 					for w in words:
 						begin, end = get_span(w, section[0])
 						begin = str(begin)
 						end = str(end)	
 
 					if(begin != '-1'):
+						print("tag dictionary found", len(words), "matches: ", words)	
+
 						denotations.append(construct_dennoation(idd, begin, end, obj_url))
 
+	
 				final_denotation = concat_denotations(denotations) 
+
 
 					
 				temp_divid = str(divid_index)
 				annotation = construct_annotation(cord_uid, sourcedb, sourceid, temp_divid, section[0], final_denotation)	
 				divid_index = divid_index + 1 # we want the index in each file to increase
-				export_pubannotation(cord_uid, temp_divid, c, annotation)
+				#export_pubannotation(cord_uid, temp_divid, c, annotation)
 
 
 if __name__ == '__main__':
