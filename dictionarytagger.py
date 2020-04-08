@@ -26,6 +26,7 @@ TODO-list:
     - Why we need "path = path[1:]" in find sha.
     - Find good solution for keeping track of metadata index.
     - Check correct columns retrieved!
+    - Merge tag and returning indices
 '''
 
 import os
@@ -41,7 +42,6 @@ METADATA_HEADER = ['cord_uid', 'sha', 'source_x', 'title', 'doi',
                    'publish_time', 'authors', 'journal', 'microsoftap_id',
                    '_', 'has_pdf_parse', 'has_pmc_xml_parse', 'full_text_file'
                    'url']
-
 
 
 def clean_title(data_dict, regex):
@@ -130,14 +130,17 @@ def load_vocabularies():
     return vocabs_col_dict
 
 
-# given a word and a corpus, find the match for that word
-# improve: what if there are several matches? 
-def get_span(match, body):
-    regex_match = r"(?i)\b({0})\b".format(match)
-    a = re.search(regex_match, body)
-    if(a is None):
-        return None, None
-    return a.start(), a.end()
+def find_token_index(token, text):
+    """
+    Returns a list of index placement for tokens in a text.
+    """
+    regex_token_match = fr"(?i)\b({token})\b"
+    matches_list = re.findall(regex_token_match, text)
+    token_index_list = [[None, None]]
+    for match in matches_list:
+        token_index_list.append([match.start(), match.end()])
+    return token_index_list
+
 
 # returns a pubannotation string
 def construct_annotation(corduid_text, sourcedb_text, sourceid_text, divid_index, main_text, denotations):
@@ -163,28 +166,27 @@ def construct_annotation(corduid_text, sourcedb_text, sourceid_text, divid_index
     return body
 
 # returns a denotation string for a single match
-def construct_dennoation(idd, begin, end, obj_url):
+def construct_denotation(idd, begin, end, obj_url):
     idd = "\"id\":\"" + idd + "\", "
 
     span = "\"span\":{\"begin\":" + begin + "," + "\"end\":" + end  + "}, "
 
     obj = "\"obj\":\"" + obj_url + "\""
-
+    
     body = "{" + idd + span + obj + "}"
     return body
 
 # returns a denotation string given a list of denotations, or just a placeholder string if it's empty
 def concat_denotations(den_list):
     if(len(den_list) == 1):
-        return  "[" + den_list[0] + "]"
+        return "[" + den_list[0] + "]"
     elif(len(den_list) == 0):
         return "[]"
 
     final_denotation = ''
-    first = True
 
     for d in den_list:
-        if(d == den_list[-1]): # if d is the last element
+        if(d == den_list[-1]):  # if d is the last element
             final_denotation += d
         else:
             final_denotation += d + ", "
@@ -237,45 +239,41 @@ def generate_tokens_dict(article_dict, regex=PUNCTUATION_REGEX):
 def tag_and_export(article_dict, tokens_dict, metadata_dict):
     divid_index = 0  # TODO Check indices for file index and content index
     cord_uid, pcmid, pubmed_id = obtain_metadata_args(metadata_dict)
-    for token in tokens_dict:
+    for section in tokens_dict:
         # obtain the original, untokenized text
-        if token == 'title':
-            section = [article_dict['metadata'][token]]
+        if section == 'title':
+            unprocessed_texts = [article_dict['metadata'][section]]
         else:
-            section = [article_dict[token][0]['text']
-                       for s in article_dict[token]]
-        for subc in section:  # iterate through each section that will have its own file
+            unprocessed_texts = [section['text'] for section in article_dict[c]]
+        for unprocessed_text in unprocessed_texts:  # iterate through each section that will have its own file
             denotations = []
             for vocabulary in VOCABS_COL_DICT:
-                idd = vocabulary
-                words = tag_tokens(VOCABS_COL_DICT[vocabulary],
-                                   tokens_dict[token])
-                if words == []:
-                    [begin, end] = ['-1', '-1']  # improve: maybe make a more sleek solution
-                for w in words:
-                    begin, end = get_span(w, section[0])
+                found_tokens = tag_tokens(VOCABS_COL_DICT[vocabulary],
+                                          tokens_dict[section])
+                if found_tokens == []:
+                    [begin, end] = ['-1', '-1']  # No tokens found
+                for found_token in found_tokens:
+                    begin, end = find_token_index(found_token, unprocessed_text)  #TODO fix indice and tagging
                     begin = str(begin)
                     end = str(end)
                     if begin != '-1':
-                        print("tag dictionary found",
-                              len(words), "matches: ", words)
                         denotations.append(
-                            construct_dennoation(idd,
+                            construct_denotation(vocabulary,
                                                  begin,
                                                  end,
                                                  metadata_dict['url']))
 
-        final_denotation = concat_denotations(denotations)
+            final_denotation = concat_denotations(denotations)
 
-        temp_divid = str(divid_index)
-        annotation = construct_annotation(cord_uid,
-                                          pcmid,
-                                          pubmed_id,
-                                          temp_divid,
-                                          section[0],
-                                          final_denotation)
-        divid_index = divid_index + 1  # increase with each file
-        export_pubannotation(cord_uid, temp_divid, token, annotation)
+            temp_divid = str(divid_index)
+            annotation = construct_annotation(cord_uid,
+                                              pcmid,
+                                              pubmed_id,
+                                              temp_divid,
+                                              unprocessed_texts[0],
+                                              final_denotation)
+            divid_index = divid_index + 1  # increase with each file
+            export_pubannotation(cord_uid, temp_divid, section, annotation)
 
 
 VOCABS_COL_DICT = load_vocabularies()
