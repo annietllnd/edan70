@@ -14,18 +14,17 @@ Credit:
     TODO
 
 TODO-list:
-    - Way of reaching files through github.
-    - What to do when entries are empty?
-    - Generate correct CSV-file so we do not have to explicitly include header.
-    - Create a variable that denotes the index that should be written to the
-      file. I.e. a file can be abcdefg-7-body_text but be the 2nd section of
-      the body_text if the abstract has several sections.
-    - Find another word than vocabulary representing covid dictionaries
-      and not dictionary since this will confuse with the data type
-    - Greedu search when tagging (non-composite words)
-    - Why we need "path = path[1:]" in find sha.
-    - Find good solution for keeping track of metadata index.
-    - Check correct columns retrieved!
+    (- Way of reaching files through github.)
+    * - Generate correct CSV-file so we do not have to explicitly include
+    header. UPDATE CODE and correct columns.
+    // ANNIE
+    *- Greedy search when tagging (non-composite words)
+    // ANNIE
+    - Create notebook with program.
+    - Prioritize vocabularies
+    * - Add to tag tokens who end with 'vir'.
+    //  SOFI
+    - Evaluate model (last)
 '''
 
 import os
@@ -74,11 +73,11 @@ def load_metadata():
     metadata = metadata_frame.to_dict('records')
     index = 0
     metadata_indices_dict = dict()
-    for data in metadata:  # TODO other solution?
+    for data in metadata:
         shas = data['sha'].split('; ', 1)
-        for sha in shas:                                # TODO Do we need to
-            metadata_indices_dict.update({sha: index})  # keep track of indice
-        index += 1                                      # of page-id/sha?
+        for sha in shas:
+            metadata_indices_dict.update({sha: index})
+        index += 1
     return metadata, metadata_indices_dict
 
 
@@ -102,7 +101,6 @@ def clean_title(data_dict, regex):
     for title section of JSON-files.
     """
     title = data_dict['metadata']['title']
-    # TODO What should we do when content is empty?
     if title is not None:
         title = re.sub(regex, '', title).lower()
         title = title.split()
@@ -117,7 +115,6 @@ def clean_abstract(data_dict, regex):
     lower case for title section of JSON-files.
     """
     abstract = [section['text'] for section in data_dict['abstract']]
-    # TODO What should we do when content is empty?
     if abstract != []:
         abstract = [section.split() for section in abstract]
         abstract = [re.sub(regex, '', w).lower() for w in abstract[0]]
@@ -151,7 +148,7 @@ def obtain_metadata_args(metadata_dict):
     index 1 gives source_x, index 2 gives pmcid.
     """
     cord_uid = metadata_dict['cord_uid']
-    source_x = metadata_dict['source_x']  # TODO not sure which column
+    source_x = metadata_dict['source_x']
     pmcid = metadata_dict['pmcid']
     metadata_info = [cord_uid, source_x, pmcid]
     return metadata_info
@@ -184,7 +181,7 @@ def process_section(article_dict, tokens_dict, metadata_dict):
     """
     For each text section
     """
-    file_index = 0  # TODO Check indices for file index and content index
+    file_index = 0
     metadata_info = obtain_metadata_args(metadata_dict)
     for text_section in tokens_dict:
         paragraph_index = 0
@@ -210,7 +207,7 @@ def process_section(article_dict, tokens_dict, metadata_dict):
             #                     file_index,
             #                     text_section,
             #                     annotation)
-            file_index += 1  # Increase with each file
+            file_index += 1       # Increase with each file
             paragraph_index += 1  # Increase with each paragraph
 
 
