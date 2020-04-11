@@ -1,0 +1,1 @@
+{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":28, "text":"HFold: Given an RNA sequence, S, and a pseudoknotfree input structure, G, find a pseudoknot-free structure, G such that G∪G is the lowest energy structure that contains G. We note that G ∪ G might not be pseudoknotted.", "project":"cdlai_CORD-19", "denotations":[]}
