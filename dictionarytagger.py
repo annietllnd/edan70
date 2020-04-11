@@ -35,11 +35,6 @@ import pandas as pd
 
 DIRECTORY_NAME = 'comm_use_subset_100'
 PUNCTUATION_REGEX = r'[^\w\s]'
-METADATA_HEADER = ['cord_uid', 'sha', 'source_x', 'title', 'doi',
-                   'pmcid', 'pubmed_id', 'license', 'abstract',
-                   'publish_time', 'authors', 'journal', 'microsoftap_id',
-                   '_', 'has_pdf_parse', 'full_text_file', 'url']
-
 
 def load_vocabularies():
     """
@@ -68,7 +63,6 @@ def load_metadata():
     metadata_csv_path = 'metadata_comm_use_subset_100.csv'
     metadata_frame = pd.read_csv(metadata_csv_path,
                                  na_filter=False,
-                                 names=METADATA_HEADER,
                                  engine='python')
     metadata = metadata_frame.to_dict('records')
     index = 0
@@ -202,11 +196,10 @@ def process_section(article_dict, tokens_dict, metadata_dict):
                                                  paragraph_index,
                                                  unprocessed_text,
                                                  denotation)
-            print(annotation)
-            # export_pubannotation(metadata_info[0],
-            #                     file_index,
-            #                     text_section,
-            #                     annotation)
+            #export_pubannotation(metadata_info[0],
+            #                    file_index,
+            #                    text_section,
+            #                    annotation)
             file_index += 1       # Increase with each file
             paragraph_index += 1  # Increase with each paragraph
 
@@ -225,6 +218,7 @@ def obtain_denotation(tokens_dict, section, unprocessed_text, url):
             token_index_pairs = find_token_indices(found_token, unprocessed_text)
             if bool(token_index_pairs):
                 token_index_list.append(token_index_pairs)
+                print(found_token)
         for token_index_pair in token_index_list:
             begin, end = token_index_pair[0][0], token_index_pair[0][1]
             denotations.append(
@@ -310,7 +304,6 @@ def main():
         full_path = DIRECTORY_NAME + '/' + article_name
         with open(full_path) as article:
             article_dict = json.load(article)
-        print(article_name)
         tokens_dict = generate_tokens_dict(article_dict)
         # Finds indice of metadata that matches with sha of article_name
         # (without '.JSON' part.)
