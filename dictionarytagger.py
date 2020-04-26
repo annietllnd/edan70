@@ -16,7 +16,6 @@ Credit:
 TODO-list:
     (- Way of reaching files through github.)
     - Create notebook with program.
-    - Prioritize vocabularies
     - Evaluate model (last)
 '''
 
@@ -33,13 +32,14 @@ Patterns:
 1. All words ending in 'vir' case insensitive in class 'chemical_antiviral'.
 """
 patterns = {'chemical_antiviral':
-                r'(?i)\b\S*vir\b'
+            r'(?i)\b\S*vir\b'
             }
+section_matches = dict()
 
 
 def load_vocabularies():
     """
-    Return dictionary of imported vocabularies lists proviced by p@Aitslab.
+    Return dictionary of imported vocabularies lists provided by @Aitslab.
     """
     virus_vocab_list = [row.strip() for row in
                         open('Supplemental_file1.txt')]
@@ -76,67 +76,6 @@ def load_metadata():
     return metadata, metadata_indices_dict
 
 
-def generate_tokens_dict(article_dict, regex=PUNCTUATION_REGEX):
-    """
-    Return dicionary of tokenized sections.
-    """
-    title = clean_title(article_dict, regex)
-    abstract = clean_abstract(article_dict, regex)
-    body_text = clean_body_text(article_dict, regex)
-
-    tokens_dict = {'title': title,
-                   'abstract': abstract,
-                   'body_text': body_text}
-    return tokens_dict
-
-
-def clean_title(data_dict, regex):
-    """
-    Return title string after removing punctuations and format to lower case
-    for title section of JSON-files.
-    """
-    title = data_dict['metadata']['title']
-    if title is not None:
-        title = re.sub(regex, '', title).lower()
-        title = title.split()
-    else:
-        title = ''
-    return title
-
-
-def clean_abstract(data_dict, regex):
-    """
-    Return abstract list with strings after removing punctuations and format to
-    lower case for title section of JSON-files.
-    """
-    abstract = [section['text'] for section in data_dict['abstract']]
-    if abstract != []:
-        abstract = [section.split() for section in abstract]
-        abstract = [re.sub(regex, '', w).lower() for w in abstract[0]]
-    else:
-        abstract = ['']
-    return abstract
-
-
-def clean_body_text(data_dict, regex):
-    """
-    Return paragraphs list words strings after removing punctuations and format
-    to lower case for title section of JSON-files.
-    """
-    body_text = []
-
-    for paragraph in data_dict['body_text']:
-        if paragraph['text'] is not None:
-            body_text.append(paragraph['text'])
-
-    body_text = [paragraph.split() for paragraph in body_text]
-    paragraphs = ['']
-    for paragraph in body_text:
-        paragraph = [re.sub(regex, '', word).lower() for word in paragraph]
-        paragraphs.append(paragraph)
-    return paragraphs
-
-
 def obtain_metadata_args(metadata_dict):
     """
     Returns necessary columns from metadata dictionary. Index 0 gives cord_uid,
@@ -149,79 +88,40 @@ def obtain_metadata_args(metadata_dict):
     return metadata_info
 
 
-def tag_tokens(vocabulary, tokens):
+def process_article(article_dict, metadata_dict):
     """
-    Return list of token strings found in dictionary.
-    """
-    tagged_words = set()
-    for token in tokens:
-        if token in vocabulary:  # TODO Maybe find another definition
-            tagged_words.add(token)  # than vocabulary?
-    return tagged_words
-
-
-def find_token_indices(token, section_text):
-    """
-    Returns a list of index placement for tokens in a section text.
-    """
-    regex_token_match = fr"(?i)\b" + token + r"\b"
-    matches_iterator = re.finditer(regex_token_match, section_text)
-    token_index_list = []
-    for match in matches_iterator:
-        token_index_list.append([str(match.start()), str(match.end())])
-    return token_index_list
-
-
-def tag_pattern(pattern, section_text):
-    """
-    Returns a list of index placement for matches found using
-    pattern in a section text.
-    """
-    matches_iterator = re.finditer(pattern, section_text)
-    token_index_list = []
-    for match in matches_iterator:
-        token_index_list.append([str(match.start()), str(match.end())])
-        print(match.group(0))
-    return token_index_list
-
-
-def process_section(article_dict, tokens_dict, metadata_dict):
-    """
-    For each text section
+    Process article for each section and generate pub annotations for export to file.
     """
     file_index = 0
     metadata_info = obtain_metadata_args(metadata_dict)
-    for text_section in tokens_dict:
+    sections = ['metadata', 'abstract', 'body_text']
+    for section in sections:
+        section_matches.clear()
         paragraph_index = 0
-        # obtain the original, untokenized text
-        if text_section == 'title':
-            unprocessed_text = [article_dict['metadata'][text_section]]
+        if section == 'metadata':
+            section_texts = [article_dict[section]['title']]
+            section = 'title'
         else:
-            unprocessed_text = [section['text'] for section in
-                                 article_dict[text_section]]
-
-        if unprocessed_text == []:
-            unprocessed_text = ''
-        else:
-            unprocessed_text = unprocessed_text[0]
-        # Iterate through each section of unprocessed texts that will generate
-        # its own file
-        #for unprocessed_text in unprocessed_texts:
-        denotation = obtain_denotation(unprocessed_text,
-                                       metadata_dict['url'])
-        annotation = construct_pubannotation(metadata_info,
-                                             paragraph_index,
-                                             unprocessed_text,
-                                             denotation)
+            section_texts = [section['text'] for section in
+                             article_dict[section]]
+        if bool(section_texts):
+            section_texts = ['']
+        for section_text in section_texts:
+            denotation, paragraph_index = get_denotation(section_text,
+                                                         metadata_dict['url'],
+                                                         paragraph_index)
+            annotation = construct_pubannotation(metadata_info,
+                                                 paragraph_index,
+                                                 section_text,
+                                                 denotation)
             # export_pubannotation(metadata_info[0],
             #                    file_index,
-            #                    text_section,
+            #                    section,
             #                    annotation)
         file_index += 1  # Increase with each file
-        paragraph_index += 1  # Increase with each paragraph
 
 
-def obtain_denotation(section_text, url):
+def get_denotation(section_text, url, paragraph_index):
     """
     Returns a denotation string, string with text where token and pattern
     matches where found.
@@ -230,32 +130,55 @@ def obtain_denotation(section_text, url):
     for vocabulary in VOCABS_COL_DICT:
         for word in VOCABS_COL_DICT[vocabulary]:
             pattern = fr'(?i)\b{word}\b'
-            token_index_list = []
-            token_index_pairs = tag_pattern(pattern, section_text)
-            if bool(token_index_pairs):
-                token_index_list.append(token_index_pairs)
-            for token_index_pair in token_index_list:
-                begin, end = token_index_pair[0][0], token_index_pair[0][1]
-                denotations.append(
-                    construct_denotation(vocabulary,
-                                         begin,
-                                         end,
-                                         url))
+            tag_section(pattern, section_text, url, denotations, vocabulary)
 
-    for pattern in patterns:
-        token_index_list = []
-        token_index_pairs = tag_pattern(pattern, section_text)
-        if bool(token_index_pairs):
-            token_index_list.append(token_index_pairs)
-        for token_index_pair in token_index_list:
-            begin, end = token_index_pair[0][0], token_index_pair[0][1]
-            denotations.append(
-                construct_denotation(pattern,
-                                     begin,
-                                     end,
-                                     url))
+    for word_class in patterns:
+        tag_section(patterns[word_class], section_text, url, denotations, word_class)
+    paragraph_index += 1
+    return concat_denotations(denotations), paragraph_index
 
-    return concat_denotations(denotations)
+
+def tag_section(pattern, section_text, url, denotations, word_class):
+    """
+    Finds all matches of a section for a pattern.
+    """
+    matches = tag_pattern(pattern, section_text, word_class)
+    if bool(matches):
+        for match in matches:
+            begin, end = match.begin(), match.end()
+            denotations.append(construct_denotation(word_class,
+                                                    begin,
+                                                    end,
+                                                    url))
+
+
+def tag_pattern(pattern, section_text, word_class):
+    """Virus_SARS-CoV-2
+    Returns a list of index placement for matches found using
+    pattern in a section text.
+    """
+    matches = []
+    for match in re.finditer(pattern, section_text):
+        word_match = match.group(0)
+        is_priority = check_match_priority(pattern, match, word_class)
+        if is_priority:
+            matches.append(match)
+            section_matches.update({word_match: word_class})
+    return matches
+
+
+def check_match_priority(pattern, new_match, word_class):
+    for word_match in section_matches:
+        if word_class == 'Virus_SARS-CoV-2' or word_class == 'Disease_COVID-19':
+            prev_tagged = re.match(pattern, word_match)
+            if prev_tagged:
+                longest_match = max(new_match, word_match, key=len)
+                if longest_match == new_match:
+                    del section_matches[word_match]
+                    return True
+                return False
+            return True
+        return True
 
 
 def construct_denotation(idd, begin, end, url):
@@ -273,7 +196,7 @@ def construct_denotation(idd, begin, end, url):
 
 def concat_denotations(denotations):
     """
-    Returns a complete string of all seperate denotations in list parameter,
+    Returns a complete string of all separate denotations in list parameter,
     or and empty string if there where no elements in the list.
     """
     if not bool(denotations):
@@ -333,13 +256,12 @@ def main():
         full_path = DIRECTORY_NAME + '/' + article_name
         with open(full_path) as article:
             article_dict = json.load(article)
-        tokens_dict = generate_tokens_dict(article_dict)
-        # Finds indice of metadata that matches with sha of article_name
+        # Finds index of metadata that matches with sha of article_name
         # (without '.JSON' part.)
-        metadata_indice = metadata_indices_dict[
+        metadata_index = metadata_indices_dict[
             article_name.replace('.json', '')]
-        metadata_dict = metadata_list[metadata_indice]
-        process_section(article_dict, tokens_dict, metadata_dict)
+        metadata_dict = metadata_list[metadata_index]
+        process_article(article_dict, metadata_dict)
 
 
 if __name__ == '__main__':
