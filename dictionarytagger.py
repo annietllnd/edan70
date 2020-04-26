@@ -15,11 +15,6 @@ Credit:
 
 TODO-list:
     (- Way of reaching files through github.)
-    * - Generate correct CSV-file so we do not have to explicitly include
-    header. UPDATE CODE and correct columns.
-    // ANNIE
-    *- Greedy search when tagging (non-composite words)
-    // ANNIE
     - Create notebook with program.
     - Prioritize vocabularies
     - Evaluate model (last)
@@ -185,7 +180,6 @@ def tag_pattern(pattern, section_text):
     matches_iterator = re.finditer(pattern, section_text)
     token_index_list = []
     for match in matches_iterator:
-        print(match)
         token_index_list.append([str(match.start()), str(match.end())])
     return token_index_list
 
@@ -223,7 +217,7 @@ def process_section(article_dict, tokens_dict, metadata_dict):
             paragraph_index += 1  # Increase with each paragraph
 
 
-def obtain_denotation(tokens_dict, section, unprocessed_text, url):
+def obtain_denotation(section_text, url):
     """
     Returns a denotation string, string with text where token and pattern
     matches where found.
@@ -233,7 +227,7 @@ def obtain_denotation(tokens_dict, section, unprocessed_text, url):
         for word in vocabulary:
             pattern = fr'(?i)\b{word}\b'
             token_index_list = []
-            token_index_pairs = tag_pattern(pattern, unprocessed_text)
+            token_index_pairs = tag_pattern(pattern, section_text)
             if bool(token_index_pairs):
                 token_index_list.append(token_index_pairs)
             for token_index_pair in token_index_list:
@@ -246,7 +240,7 @@ def obtain_denotation(tokens_dict, section, unprocessed_text, url):
 
     for pattern in patterns:
         token_index_list = []
-        token_index_pairs = tag_pattern(pattern, unprocessed_text)
+        token_index_pairs = tag_pattern(pattern, section_text)
         if bool(token_index_pairs):
             token_index_list.append(token_index_pairs)
         for token_index_pair in token_index_list:
