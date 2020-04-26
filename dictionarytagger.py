@@ -181,6 +181,7 @@ def tag_pattern(pattern, section_text):
     token_index_list = []
     for match in matches_iterator:
         token_index_list.append([str(match.start()), str(match.end())])
+        print(match.group(0))
     return token_index_list
 
 
@@ -194,27 +195,30 @@ def process_section(article_dict, tokens_dict, metadata_dict):
         paragraph_index = 0
         # obtain the original, untokenized text
         if text_section == 'title':
-            unprocessed_texts = [article_dict['metadata'][text_section]]
+            unprocessed_text = [article_dict['metadata'][text_section]]
         else:
-            unprocessed_texts = [section['text'] for section in
+            unprocessed_text = [section['text'] for section in
                                  article_dict[text_section]]
+
+        if unprocessed_text == []:
+            unprocessed_text = ''
+        else:
+            unprocessed_text = unprocessed_text[0]
         # Iterate through each section of unprocessed texts that will generate
         # its own file
-        for unprocessed_text in unprocessed_texts:
-            denotation = obtain_denotation(tokens_dict,
-                                           text_section,
-                                           unprocessed_text,
-                                           metadata_dict['url'])
-            annotation = construct_pubannotation(metadata_info,
-                                                 paragraph_index,
-                                                 unprocessed_text,
-                                                 denotation)
+        #for unprocessed_text in unprocessed_texts:
+        denotation = obtain_denotation(unprocessed_text,
+                                       metadata_dict['url'])
+        annotation = construct_pubannotation(metadata_info,
+                                             paragraph_index,
+                                             unprocessed_text,
+                                             denotation)
             # export_pubannotation(metadata_info[0],
             #                    file_index,
             #                    text_section,
             #                    annotation)
-            file_index += 1  # Increase with each file
-            paragraph_index += 1  # Increase with each paragraph
+        file_index += 1  # Increase with each file
+        paragraph_index += 1  # Increase with each paragraph
 
 
 def obtain_denotation(section_text, url):
@@ -224,7 +228,7 @@ def obtain_denotation(section_text, url):
     """
     denotations = []
     for vocabulary in VOCABS_COL_DICT:
-        for word in vocabulary:
+        for word in VOCABS_COL_DICT[vocabulary]:
             pattern = fr'(?i)\b{word}\b'
             token_index_list = []
             token_index_pairs = tag_pattern(pattern, section_text)
