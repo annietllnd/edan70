@@ -28,7 +28,6 @@ TODO-list:
 import os
 import json
 import re
-import copy
 import pandas as pd
 
 DIRECTORY_NAME = 'comm_use_subset_100'
@@ -39,7 +38,7 @@ Patterns:
 1. All words ending in 'vir' case insensitive in class 'chemical_antiviral'.
 """
 patterns = {'chemical_antiviral':
-            r'(?i)\b\S*vir\b'
+                r'(?i)\b\S*vir\b'
             }
 
 
@@ -52,9 +51,9 @@ def load_vocabularies():
     disease_vocab_list = [row.strip() for row in
                           open('Supplemental_file2.txt')]
     vocabs_col_dict = {'Virus_SARS-CoV-2':
-                           virus_vocab_list,
+                       virus_vocab_list,
                        'Disease_COVID-19':
-                           disease_vocab_list}
+                       disease_vocab_list}
     return vocabs_col_dict
 
 
@@ -231,21 +230,19 @@ def obtain_denotation(tokens_dict, section, unprocessed_text, url):
     """
     denotations = []
     for vocabulary in VOCABS_COL_DICT:
-        token_index_list = []
-        found_tokens = tag_tokens(VOCABS_COL_DICT[vocabulary],
-                                  tokens_dict[section])
-        for found_token in found_tokens:
-            token_index_pairs = find_token_indices(found_token, unprocessed_text)
+        for word in vocabulary:
+            pattern = fr'(?i)\b{word}\b'
+            token_index_list = []
+            token_index_pairs = tag_pattern(pattern, unprocessed_text)
             if bool(token_index_pairs):
                 token_index_list.append(token_index_pairs)
-                print(found_token)
-        for token_index_pair in token_index_list:
-            begin, end = token_index_pair[0][0], token_index_pair[0][1]
-            denotations.append(
-                construct_denotation(vocabulary,
-                                     begin,
-                                     end,
-                                     url))
+            for token_index_pair in token_index_list:
+                begin, end = token_index_pair[0][0], token_index_pair[0][1]
+                denotations.append(
+                    construct_denotation(vocabulary,
+                                         begin,
+                                         end,
+                                         url))
 
     for pattern in patterns:
         token_index_list = []
