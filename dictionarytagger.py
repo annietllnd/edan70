@@ -163,7 +163,7 @@ def find_token_indices(token, section_text):
     """
     Returns a list of index placement for tokens in a section text.
     """
-    regex_token_match = fr"(?i)\b({token})\b"
+    regex_token_match = fr"(?i)\b" + token + r"\b"
     matches_iterator = re.finditer(regex_token_match, section_text)
     token_index_list = []
     for match in matches_iterator:
