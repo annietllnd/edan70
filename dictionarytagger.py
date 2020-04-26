@@ -22,8 +22,6 @@ TODO-list:
     // ANNIE
     - Create notebook with program.
     - Prioritize vocabularies
-    * - Add to tag tokens who end with 'vir'.
-    //  SOFI
     - Evaluate model (last)
 '''
 
@@ -36,18 +34,27 @@ import pandas as pd
 DIRECTORY_NAME = 'comm_use_subset_100'
 PUNCTUATION_REGEX = r'[^\w\s]'
 
+"""
+Patterns:
+1. All words ending in 'vir' case insensitive in class 'chemical_antiviral'.
+"""
+patterns = {'chemical_antiviral':
+            r'(?i)\b\S*vir\b'
+            }
+
+
 def load_vocabularies():
     """
     Return dictionary of imported vocabularies lists proviced by p@Aitslab.
     """
     virus_vocab_list = [row.strip() for row in
                         open('Supplemental_file1.txt')]
-    disease_vocab_list = [row.strip() for row in 
+    disease_vocab_list = [row.strip() for row in
                           open('Supplemental_file2.txt')]
     vocabs_col_dict = {'Virus_SARS-CoV-2':
-                       virus_vocab_list,
+                           virus_vocab_list,
                        'Disease_COVID-19':
-                       disease_vocab_list}
+                           disease_vocab_list}
     return vocabs_col_dict
 
 
@@ -154,7 +161,7 @@ def tag_tokens(vocabulary, tokens):
     """
     tagged_words = set()
     for token in tokens:
-        if token in vocabulary:      # TODO Maybe find another definition
+        if token in vocabulary:  # TODO Maybe find another definition
             tagged_words.add(token)  # than vocabulary?
     return tagged_words
 
@@ -167,6 +174,19 @@ def find_token_indices(token, section_text):
     matches_iterator = re.finditer(regex_token_match, section_text)
     token_index_list = []
     for match in matches_iterator:
+        token_index_list.append([str(match.start()), str(match.end())])
+    return token_index_list
+
+
+def tag_pattern(pattern, section_text):
+    """
+    Returns a list of index placement for matches found using
+    pattern in a section text.
+    """
+    matches_iterator = re.finditer(pattern, section_text)
+    token_index_list = []
+    for match in matches_iterator:
+        print(match)
         token_index_list.append([str(match.start()), str(match.end())])
     return token_index_list
 
@@ -196,18 +216,18 @@ def process_section(article_dict, tokens_dict, metadata_dict):
                                                  paragraph_index,
                                                  unprocessed_text,
                                                  denotation)
-            #export_pubannotation(metadata_info[0],
+            # export_pubannotation(metadata_info[0],
             #                    file_index,
             #                    text_section,
             #                    annotation)
-            file_index += 1       # Increase with each file
+            file_index += 1  # Increase with each file
             paragraph_index += 1  # Increase with each paragraph
 
 
 def obtain_denotation(tokens_dict, section, unprocessed_text, url):
     """
-    Returns a denotation string, string with text where tokens matches
-    where found.
+    Returns a denotation string, string with text where token and pattern
+    matches where found.
     """
     denotations = []
     for vocabulary in VOCABS_COL_DICT:
@@ -226,6 +246,20 @@ def obtain_denotation(tokens_dict, section, unprocessed_text, url):
                                      begin,
                                      end,
                                      url))
+
+    for pattern in patterns:
+        token_index_list = []
+        token_index_pairs = tag_pattern(pattern, unprocessed_text)
+        if bool(token_index_pairs):
+            token_index_list.append(token_index_pairs)
+        for token_index_pair in token_index_list:
+            begin, end = token_index_pair[0][0], token_index_pair[0][1]
+            denotations.append(
+                construct_denotation(pattern,
+                                     begin,
+                                     end,
+                                     url))
+
     return concat_denotations(denotations)
 
 
@@ -300,7 +334,7 @@ def main():
     metadata_list, metadata_indices_dict = load_metadata()
     for article_name in article_paths:
         if article_name == ".DS_Store":  # For MacOS users skip .DS_Store-file
-            continue                     # generated.
+            continue  # generated.
         full_path = DIRECTORY_NAME + '/' + article_name
         with open(full_path) as article:
             article_dict = json.load(article)
