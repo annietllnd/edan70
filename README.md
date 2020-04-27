@@ -1,6 +1,3 @@
-# edan70
-## by Sofi Flink, Annie Tallund
-
 # Dictionary tagger for COVID-19
 This is a dictionary tagger which uses pattern based search for matching words in articles and exports them in pub-annotations format.
 
@@ -8,7 +5,6 @@ This is a dictionary tagger which uses pattern based search for matching words i
 Annie Tallind, Lund University, Faculty of Engineering
 Kaggle ID: atllnd
 Github ID: annietllnd
-
 Sofi Flink, Lund University, Faculty of Engineering
 Kaggle ID: sofiflinck
 Github ID: obakanue
