@@ -1,1 +1,0 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":33, "text":"Iterative HFold: Given an RNA sequence, S, and a pseudoknot free input structure, G, run the following four methods and pick the structure with the lowest free energy among these four as the output structure.", "project":"cdlai_CORD-19", "denotations":[]}

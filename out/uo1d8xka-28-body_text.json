@@ -1,1 +1,0 @@
-{"cord_uid":"uo1d8xka", "sourcedb":"PMC", "sourceid":"PMC2259424", "divid":24, "text":"Input buffers are continuously polled by the corresponding component and processing continued once data is available. An adjustable buffer length according to load expectation helps to prevent overflows.", "project":"cdlai_CORD-19", "denotations":[]}

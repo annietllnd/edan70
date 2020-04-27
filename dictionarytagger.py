@@ -11,7 +11,7 @@ Authors:
     Github ID: obakanue
 
 Credit:
-    Dictionaries where generated using golden- and silver-standard implemented by Aitslab.
+    Dictionaries were generated using golden- and silver-standard implemented by Aitslab.
 
 TODO-list:
     (- Way of reaching files through github.)
@@ -100,6 +100,7 @@ def process_article(article_dict, metadata_dict):
     for section in sections:
         if section == 'metadata':
             section_paragraphs = [article_dict[section]['title']]
+            section = 'title'
         else:
             section_paragraphs = [section['text'] for section in
                                   article_dict[section]]
@@ -109,17 +110,17 @@ def process_article(article_dict, metadata_dict):
         for paragraph in section_paragraphs:
             tag_paragraph(paragraph)
             denotation = get_paragraph_denotation(metadata_dict['url'])
-            annotation = construct_pub_annotation(metadata_info,
-                                                  paragraph_index,
-                                                  paragraph,
-                                                  denotation)
-            #print(annotation)
-            # export_pub_annotation(metadata_info[0],
-            #                    file_index,
-            #                    section,
-            #                    annotation)
+            if not re.fullmatch(r'\[\]', denotation):
+                annotation = construct_pub_annotation(metadata_info,
+                                                      paragraph_index,
+                                                      paragraph,
+                                                      denotation)
+                export_pub_annotation(metadata_info[0],
+                                      file_index,
+                                      section,
+                                      annotation)
             paragraph_index += 1
-        file_index += 1  # Increase with each file
+        file_index += 1  # Increment with each file
 
 
 def tag_paragraph(paragraph):
@@ -142,7 +143,6 @@ def tag_pattern(pattern, text, word_class):
     prioritized.
     """
     for match in re.finditer(pattern, text):
-        print(match)
         is_priority = is_match_priority(pattern, match.group(0), word_class)
         if is_priority:
             paragraph_matches.update({match: word_class})
@@ -174,6 +174,8 @@ def get_paragraph_denotation(url):
     """
     denotations = []
     for match in paragraph_matches:
+        print(match)
+
         denotations.append(construct_denotation(paragraph_matches[match],
                                                 str(match.start()),
                                                 str(match.end()), url))
