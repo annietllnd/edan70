@@ -15,7 +15,6 @@ Credit:
 
 TODO-list:
     (- Way of reaching files through github.)
-    - Create notebook with program.
     - Evaluate model (last) see discord for more information.
         * For every dictionary class
         * Precision recall
@@ -28,15 +27,13 @@ import re
 import pandas as pd
 
 DIRECTORY_NAME = 'comm_use_subset_100'
-PUNCTUATION_REGEX = r'[^\w\s]'
-
 """
 Patterns:
 1. All words ending in 'vir' case insensitive in class 'chemical_antiviral'.
 """
 PATTERNS_DICT = {'chemical_antiviral':
-            r'(?i)\b\S*vir\b'
-            }
+                 r'(?i)\b\S*vir\b'
+                 }
 paragraph_matches = dict()
 
 
@@ -51,7 +48,7 @@ def load_vocabularies():
     vocabs_col_dict = {'Virus_SARS-CoV-2':
                        virus_vocab_list,
                        'Disease_COVID-19':
-                       disease_vocab_list}
+                        disease_vocab_list}
     return vocabs_col_dict
 
 
@@ -254,7 +251,7 @@ def main():
     metadata_list, metadata_indices_dict = load_metadata()
     for article_name in article_paths:
         if article_name == ".DS_Store":  # For MacOS users skip .DS_Store-file
-            continue                     # generated.
+            continue  # generated.
         full_path = DIRECTORY_NAME + '/' + article_name
         with open(full_path) as article:
             article_dict = json.load(article)
