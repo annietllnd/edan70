@@ -31,4 +31,6 @@ sudo apt-get install python3-pandas
 ```
 
 Now the code can be run writing the following code snippet in the terminal in the project:
+```
 python3 dictionarytagger.py
+```
