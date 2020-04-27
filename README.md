@@ -4,7 +4,7 @@ This is a dictionary tagger which uses pattern based search for matching words i
 ## Authors:
 Annie Tallind, Lund University, Faculty of Engineering
 Kaggle ID: atllnd
-Github ID: annietllnd
+Github ID: annietllnd   
 Sofi Flink, Lund University, Faculty of Engineering
 Kaggle ID: sofiflinck
 Github ID: obakanue
