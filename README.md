@@ -15,7 +15,7 @@ implemented by Aitslab.
 
 # Set up environment:
 *This implementation is built on LinuxOS and as such filepaths are system specific. If using Windows OS make sure to check the paths are written properly before running the code.*   
-In order to run this program pandas have to be installed, which is a Python Data Analysis Library. 
+In order to run this program 'pandas' have to be installed, which is a Python Data Analysis Library. 
 ## Installing pandas with pip on Ubuntu:
 1. Open terminal.
 2. Enter following code snippets:
