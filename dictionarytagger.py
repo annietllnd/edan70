@@ -112,10 +112,10 @@ def process_article(article_dict, metadata_dict):
                                                       paragraph_index,
                                                       paragraph,
                                                       denotation)
-                export_pub_annotation(metadata_info[0],
-                                      file_index,
-                                      section,
-                                      annotation)
+                #export_pub_annotation(metadata_info[0],
+                #                      file_index,
+                #                      section,
+                #                      annotation)
             paragraph_index += 1
         file_index += 1  # Increment with each file
 
