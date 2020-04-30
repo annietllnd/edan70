@@ -108,11 +108,11 @@ def process_article(article_dict, metadata_dict):
             tag_paragraph(paragraph)
             denotation = get_paragraph_denotation(metadata_dict['url'])
             if not re.fullmatch(r'\[\]', denotation):
-                annotation = construct_pub_annotation(metadata_info,
+                annotation = construct_pubannotation(metadata_info,
                                                       paragraph_index,
                                                       paragraph,
                                                       denotation)
-                #export_pub_annotation(metadata_info[0],
+                #export_pubannotation(metadata_info[0],
                 #                      file_index,
                 #                      section,
                 #                      annotation)
@@ -211,7 +211,7 @@ def concat_denotations(denotations):
     return "[" + full_denotation + "]"
 
 
-def construct_pub_annotation(metadata_info, section_index, text, denotation):
+def construct_pubannotation(metadata_info, section_index, text, denotation):
     """
     Returns a string in pub-annotation format.
     """
@@ -233,12 +233,12 @@ def construct_pub_annotation(metadata_info, section_index, text, denotation):
            denotations_str + "}"
 
 
-def export_pub_annotation(idd, file_index, section, annotation):
+def export_pubannotation(idd, file_index, section, annotation):
     """
     Export pub-annotation string to corresponding section file.
     """
-    file_name = idd + "-" + str(file_index) + "-" + section
-    text_file = open("out/" + file_name + ".json", "wt")
+    file_name = idd + '-' + str(file_index) + '-' + section
+    text_file = open('out/' + file_name + '.json', 'wt')
     text_file.write(annotation)
     text_file.close()
 
@@ -250,8 +250,8 @@ def main():
     article_paths = os.listdir(DIRECTORY_NAME)
     metadata_list, metadata_indices_dict = load_metadata()
     for article_name in article_paths:
-        if article_name == ".DS_Store":  # For MacOS users skip .DS_Store-file
-            continue  # generated.
+        if article_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
+            continue                     # generated.
         full_path = DIRECTORY_NAME + '/' + article_name
         with open(full_path) as article:
             article_dict = json.load(article)
