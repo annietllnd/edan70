@@ -70,14 +70,13 @@ class PubannotationEvaluator:
         for cord_uid in self.tagger_output_dicts:
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
             true_pubannotation = self.true_output_dicts[cord_uid]
-            word_classes_list = [true_pubannotation['denotations'] == 'id' in true_pubannotation]
+            word_classes_list = [denotations_list_element['id'] for denotations_list_element in true_pubannotation['denotations']]
             self.compare_output(tagger_pubannotation['denotations'], true_pubannotation['denotations'], cord_uid, word_classes_list)
-
-        self.false_positives = sum(tagger_pubannotation['is_checked'] is False for tagger_pubannotation in
-                                   self.tagger_output_dicts.values())
-        self.false_negatives = sum(true_pubannotation['is_checked'] is False for true_pubannotation in
-                                   self.true_output_dicts.values())
         for word_class in self.word_classes_result_dict:
+            self.word_classes_result_dict[word_class]['false_positives'] = sum(tagger_pubannotation['denotations']['id'] == word_class for tagger_pubannotation in self.tagger_output_dicts.values() and tagger_pubannotation['is_checked'] is False for tagger_pubannotation in
+                                       self.tagger_output_dicts.values())
+            self.word_classes_result_dict[word_class]['false_negatives'] = sum(true_pubannotation['denotations']['id'] == word_class for true_pubannotation in self.true_output_dicts.values() and true_pubannotation['is_checked'] is False for true_pubannotation in
+                                       self.true_output_dicts.values())
             self.recall(word_class)
             self.precision(word_class)
             self.print_result(word_class)
@@ -89,16 +88,15 @@ class PubannotationEvaluator:
                     self.word_classes_result_dict[word_class]['false_negatives'] += 1
             self.tagger_output_dicts[cord_uid].update({'is_checked': True})
             self.true_output_dicts[cord_uid].update({'is_checked': True})
-        i = 0
         for tagger_denotation in tagger_denotations:
+            i = 0
             for true_denotation in true_denotations:
                 if (tagger_denotation['span']['begin'] == true_denotation['span']['begin']
                         and tagger_denotation['span']['end'] == true_denotation['span']['end']):
                     self.word_classes_result_dict[word_classes_list[i]]['true_positives'] += 1
                     self.tagger_output_dicts[cord_uid].update({'is_checked': True})
                     self.true_output_dicts[cord_uid].update({'is_checked': True})
-
-            i += 1
+                i += 1
 
     # for any is_checked = False in tagger_output_dict -> False positives
     # for any is_checked = False in true_output_dict -> False negatives
