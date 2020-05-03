@@ -48,7 +48,7 @@ def load_vocabularies():
     vocabs_col_dict = {'Virus_SARS-CoV-2':
                        virus_vocab_list,
                        'Disease_COVID-19':
-                        disease_vocab_list}
+                       disease_vocab_list}
     return vocabs_col_dict
 
 
