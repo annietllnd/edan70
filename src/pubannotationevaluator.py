@@ -119,12 +119,19 @@ class PubannotationEvaluator:
         sum_value = true_positives + self.word_classes_result_dict[word_class]['false_negatives']
         if sum_value:
             self.recall_value = true_positives / sum_value
+        else: 
+            print("########### WARNING ###########")
+            print(f"{word_class} found no match, the result can be misleading")
+            print("########### WARNING ###########")
+            print("\n")
+            self.recall_value = 1
 
     def precision(self, word_class):
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
         sum_value = true_positives + self.word_classes_result_dict[word_class]['false_positives']
         if sum_value:
             self.precision_value = true_positives / sum_value
+        else: self.precision_value = 1
 
     def print_result(self, word_class):
         print(f'#########\t {word_class.upper()} PRECISION & RECALL RESULT:\t###########')
