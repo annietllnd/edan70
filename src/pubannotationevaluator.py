@@ -71,12 +71,26 @@ class PubannotationEvaluator:
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
             true_pubannotation = self.true_output_dicts[cord_uid]
             word_classes_list = [denotations_list_element['id'] for denotations_list_element in true_pubannotation['denotations']]
+            
             self.compare_output(tagger_pubannotation['denotations'], true_pubannotation['denotations'], cord_uid, word_classes_list)
+       
         for word_class in self.word_classes_result_dict:
-            self.word_classes_result_dict[word_class]['false_positives'] = sum(tagger_pubannotation['denotations']['id'] == word_class for tagger_pubannotation in self.tagger_output_dicts.values() and tagger_pubannotation['is_checked'] is False for tagger_pubannotation in
-                                       self.tagger_output_dicts.values())
-            self.word_classes_result_dict[word_class]['false_negatives'] = sum(true_pubannotation['denotations']['id'] == word_class for true_pubannotation in self.true_output_dicts.values() and true_pubannotation['is_checked'] is False for true_pubannotation in
-                                       self.true_output_dicts.values())
+            false_positives_result = 0
+            false_negatives_result = 0
+            for tagger_pubannotation in self.tagger_output_dicts.values():
+                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] == word_class and tagger_pubannotation['is_checked'] is False):
+                    false_positives_result += 1
+
+            self.word_classes_result_dict[word_class]['false_positives'] = false_positives_result
+
+            for true_pubannotation in self.true_output_dicts.values():
+
+                if(true_pubannotation['denotations'] != [] and true_pubannotation['denotations'][0]['id'] == word_class and true_pubannotation['is_checked'] is False):
+                    false_negatives_result += 1
+
+
+            self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
+            
             self.recall(word_class)
             self.precision(word_class)
             self.print_result(word_class)
@@ -116,7 +130,8 @@ class PubannotationEvaluator:
         print(f'#########\t {word_class.upper()} PRECISION & RECALL RESULT:\t###########')
         print('\n')
         print(f"Precision:\t{self.precision_value * 100}%")
-        print(f"Recall:\t{self.recall_value * 100}%")
+        print(f"Recall:\t\t{self.recall_value * 100}%")
+        print("\n")
 
     def compare_word_class(self, tagger_word_class, true_word_class):
         print('TODO')

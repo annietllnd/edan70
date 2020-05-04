@@ -1,5 +1,7 @@
-from src.dictionarytagger import DictionaryTagger
-from src.pubannotationevaluator import PubannotationEvaluator
+import sys
+sys.path.append('../src')
+from dictionarytagger import DictionaryTagger
+from pubannotationevaluator import PubannotationEvaluator
 
 
 def main():
