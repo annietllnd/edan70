@@ -132,7 +132,7 @@ class DictionaryTagger:
     def load_vocabulary(self, file_path, word_class):
         """
         Return dictionary of imported vocabularies lists provided by @Aitslab.
-        """
+        """ 
         vocab_list = [row.strip() for row in
                       open(file_path)]
         self.vocabs_col_dict.update({word_class:
