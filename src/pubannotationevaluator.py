@@ -11,12 +11,13 @@ Authors:
     Github ID: obakanue
 
     TODO:
-     - We have some fields that are currently not in use, f
+     - We have some fields that are currently not in use,
      or example nbr_true_entities which counts all files from true output for every class.
      - Try the evaluator with golden standard and retrieve result
      - Split code up if needed
      - Docs for member functions
      - Should we check correct word class?
+     - Generate file with table of results?
 """
 
 import os
@@ -24,17 +25,19 @@ import json
 
 
 class PubannotationEvaluator:
-    def __init__(self, tagger_output_dir_path, true_output_dir_path, word_classes_list):
+    def __init__(self, tagger_output_dir_path, true_output_dir_path, word_classes_set):
         self.tagger_output_dicts = dict()
         self.true_output_dicts = dict()
         self.word_classes_result_dict = dict()
+        self.recall_values = list()
+        self.precision_values = list()
+        self.word_classes_set = word_classes_set
         self.true_positives = self.true_negatives = self.false_positives = self.false_negatives = 0
         tagger_output_paths = os.listdir(tagger_output_dir_path)
         true_output_paths = os.listdir(true_output_dir_path)
-        self.generate_result_dict(word_classes_list)
-        self.nbr_true_entities = 0
-        self.recall_value = 0
-        self.precision_value = 0
+        self.generate_result_dict(self.word_classes_set)
+        self.nbr_true_entities = self.recall_value = self.precision_value = self.total_true_positives = \
+            self.total_false_positives = self.total_false_negatives = 0
 
         for pubannotation_file_name in tagger_output_paths:
             if pubannotation_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
@@ -53,12 +56,13 @@ class PubannotationEvaluator:
                 pubannotation_dict = json.load(pubannotation)
                 for denotation in pubannotation_dict['denotations']:
                     word_class = denotation['id']
-                    self.word_classes_result_dict[word_class]['nbr_true_entities'] += 1
+                    if word_class in word_classes_set:
+                        self.word_classes_result_dict[word_class]['nbr_true_entities'] += 1
                 pubannotation_dict.update({'is_checked': False})
                 self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
 
-    def generate_result_dict(self, word_classes_list):
-        for word_class in word_classes_list:
+    def generate_result_dict(self, word_classes_set):
+        for word_class in word_classes_set:
             self.word_classes_result_dict[word_class] = {'nbr_true_entities': 0,
                                                          'true_positives': 0,
                                                          'true_negatives': 0,
@@ -90,16 +94,21 @@ class PubannotationEvaluator:
 
 
             self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
-            
-            self.recall(word_class)
+
             self.precision(word_class)
+            self.recall(word_class)
             self.print_result(word_class)
+        self.calculate_micro()
+        self.print_result('MICRO')
+        self.calculate_macro()
+        self.print_result('MACRO')
 
     def compare_output(self, tagger_denotations, true_denotations, cord_uid, word_classes_list):
         if not bool(tagger_denotations) or not bool(true_denotations):
             if not bool(tagger_denotations) and bool(true_denotations): # before it compared when both were empty
                 for word_class in word_classes_list:
-                    self.word_classes_result_dict[word_class]['false_negatives'] += 1
+                    if word_class in self.word_classes_set:
+                        self.word_classes_result_dict[word_class]['false_negatives'] += 1
             self.tagger_output_dicts[cord_uid].update({'is_checked': True})
             self.true_output_dicts[cord_uid].update({'is_checked': True})
         for tagger_denotation in tagger_denotations:
@@ -114,38 +123,58 @@ class PubannotationEvaluator:
 
     # for any is_checked = False in tagger_output_dict -> False positives
     # for any is_checked = False in true_output_dict -> False negatives
-    def recall(self, word_class):
-        true_positives = self.word_classes_result_dict[word_class]['true_positives']
-        sum_value = true_positives + self.word_classes_result_dict[word_class]['false_negatives']
-        if sum_value:
-            self.recall_value = true_positives / sum_value
-        else: 
-            print("########### WARNING ###########")
-            print(f"{word_class} found no match, the result can be misleading")
-            print("########### WARNING ###########")
-            print("\n")
-            self.recall_value = 1
 
     def precision(self, word_class):
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
-        sum_value = true_positives + self.word_classes_result_dict[word_class]['false_positives']
+        false_positives = self.word_classes_result_dict[word_class]['false_positives']
+        self.total_true_positives += true_positives
+        self.total_false_positives += false_positives
+        sum_value = true_positives + false_positives
         if sum_value:
             self.precision_value = true_positives / sum_value
-        else: self.precision_value = 1
+            self.precision_values.append(self.precision_value.copy())
+        else:
+            print('########### WARNING ###########')
+            print(f'{word_class} found no match, the result can be misleading')
+            print("########### WARNING ###########")
+            print('\n')
+            self.precision_values.append(0)
+
+    def recall(self, word_class):
+        true_positives = self.word_classes_result_dict[word_class]['true_positives']
+        false_negatives = self.word_classes_result_dict[word_class]['false_negatives']
+        self.total_false_negatives += false_negatives
+        sum_value = true_positives + false_negatives
+        if sum_value:
+            self.recall_value = true_positives / sum_value
+            self.recall_values.append(self.recall_value.copy())
+        else: 
+            print('########### WARNING ###########')
+            print(f"'{word_class}' found no match, the result can be misleading.")
+            print('########### WARNING ###########')
+            print('\n')
+            self.precision_values.append(0)
+
+    def calculate_micro(self):
+        self.precision_value = self.total_true_positives / (self.total_true_positives + self.total_false_positives)
+        self.recall_value = self.total_true_positives / (self.total_true_positives + self.total_false_negatives)
+
+    def calculate_macro(self):
+        self.precision_value = 0
+        self.recall_value = 0
+        for precision_value in self.precision_values:
+            self.precision_value += precision_value
+        for recall_value in self.recall_values:
+            self.recall_value += recall_value
+        self.precision_value /= len(self.precision_values)
+        self.recall_value /= len(self.recall_values)
 
     def print_result(self, word_class):
-        print(f'#########\t {word_class.upper()} PRECISION & RECALL RESULT:\t###########')
+        print(f'#########\t{word_class.upper()} PRECISION & RECALL RESULT:\t###########')
         print('\n')
-        print(f"Precision:\t{self.precision_value * 100}%")
-        print(f"Recall:\t\t{self.recall_value * 100}%")
-        print("\n")
-
-    def compare_word_class(self, tagger_word_class, true_word_class):
-        print('TODO')
-
-    def compare_span(self, tagger_span_dict, true_span_dict):
-        print('TODO')
-
+        print(f'Precision:\t{self.precision_value * 100}%')
+        print(f'Recall:\t\t{self.recall_value * 100}%')
+        print('\n')
 
 # load json -> dict
 # true_positives = some_function() # number of true positives

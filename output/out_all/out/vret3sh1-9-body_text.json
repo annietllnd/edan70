@@ -1,0 +1,1 @@
+{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":9, "text":"In a sample ids_to_sequences request (Fig. 3A) , the user specifies four identifiers, and the server returns them as a table (actually a Perl hash) with the associated DNA sequences attached.", "project":"cdlai_CORD-19", "denotations":[]}
