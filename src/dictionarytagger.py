@@ -104,7 +104,7 @@ def export_pubannotation(idd, file_index, section, annotation):
 
 
 class DictionaryTagger:
-    def __init__(self, json_articles_dir_path, metadata_file_path, vocabularies_dir_path, word_classes_list):
+    def __init__(self, json_articles_dir_path, metadata_file_path, vocabularies_dir_path):
         self.articles_directory_name = json_articles_dir_path
 
         self.vocabs_col_dict = dict()
@@ -114,18 +114,19 @@ class DictionaryTagger:
         self.paragraph_matches = dict()
 
         os.chdir('..')
-        self.load_vocabularies(vocabularies_dir_path, word_classes_list)
+        self.load_vocabularies(vocabularies_dir_path)
         self.load_patterns()
         self.load_metadata(metadata_file_path)
 
-    def load_vocabularies(self, vocabularies_dir_path, word_classes_list):
+    def load_vocabularies(self, vocabularies_dir_path):
         vocabularies_file_names = os.listdir(vocabularies_dir_path)
         i = 0;
         for vocabulary_file_name in vocabularies_file_names:
             if vocabulary_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
                 continue  # generated.
             full_path = vocabularies_dir_path + '/' + vocabulary_file_name
-            self.load_vocabulary(full_path, word_classes_list[i])
+            word_class = vocabulary_file_name.replace('.txt', '')
+            self.load_vocabulary(full_path, word_class)
             i += 1
 
     def load_vocabulary(self, file_path, word_class):
@@ -188,21 +189,19 @@ class DictionaryTagger:
                                       article_dict[section]]
             if not bool(section_paragraphs):
                 section_paragraphs = ['']
-            paragraph_index = 0
             for paragraph in section_paragraphs:
                 self.tag_paragraph(paragraph)
                 denotation = self.get_paragraph_denotation(metadata_dict['url'])
-                if not re.fullmatch(r'\[\]', denotation):
-                    annotation = construct_pubannotation(metadata_info,
-                                                         paragraph_index,
-                                                         paragraph,
-                                                         denotation)
-                    # self.export_pubannotation(metadata_info[0],
-                    #                      file_index,
-                    #                      section,
-                    #                      annotation)
-                paragraph_index += 1
-            file_index += 1  # Increment with each file
+                # if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out matches
+                annotation = construct_pubannotation(metadata_info,
+                                                     file_index,
+                                                     paragraph,
+                                                     denotation)
+                export_pubannotation(metadata_info[0],
+                                          file_index,
+                                          section,
+                                          annotation)
+                file_index += 1  # Increment with each file
 
     def tag_paragraph(self, paragraph):
         """
@@ -252,6 +251,8 @@ class DictionaryTagger:
         """
         denotations = []
         for match in self.paragraph_matches:
+            print(url)
+            print(match)
             denotations.append(construct_denotation(self.paragraph_matches[match],
                                                     str(match.start()),
                                                     str(match.end()), url))

@@ -1,0 +1,1 @@
+{"cord_uid":"uo1d8xka", "sourcedb":"PMC", "sourceid":"PMC2259424", "divid":31, "text":"The runtime of this workflow has been profiled on a single server for an input of 42 sequences and N = 100 replica. As can be seen form Figure 10 , the Protdist component clearly dominates the overall execution time and requires parallelization.", "project":"cdlai_CORD-19", "denotations":[]}
