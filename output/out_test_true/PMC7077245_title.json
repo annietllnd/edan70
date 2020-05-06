@@ -1,0 +1,24 @@
+{
+    "cord_uid": "t8s4s0wo",
+    "sourcedb": "PMC",
+    "sourceid": "PMC7077245",
+    "text": "Return of the Coronavirus: 2019-nCoV. ",
+    "denotations": [
+        {
+            "id": "A4",
+            "span": {
+                "begin": 27,
+                "end": 36
+            },
+            "obj": "Virus_SARS-CoV-2"
+        },
+        {
+            "id": "A5",
+            "span": {
+                "begin": 14,
+                "end": 25
+            },
+            "obj": "Virus_family"
+        }
+    ]
+}

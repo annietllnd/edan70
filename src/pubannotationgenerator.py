@@ -12,6 +12,7 @@ Authors:
 """
 
 import re
+import os
 
 
 def construct_pubannotation(metadata_info, section_index, text, denotation):
@@ -71,11 +72,14 @@ class PubannotationGenerator:
     def __init__(self, pubannotations_dict,output_dir_path):
         self.pubannotations_dict = pubannotations_dict
         self.output_dir_path = output_dir_path
+        cwd = os.getcwd()
+        print(cwd)
+
 
     def generate(self):
         for pubannotation_key in self.pubannotations_dict:
             print(self.pubannotations_dict[pubannotation_key]['metadata_info'][0])
-            denotation = self.get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key])
+            denotation = self.get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key]['url'])
             if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out only matches
                 annotation = construct_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'],
                                                       self.pubannotations_dict[pubannotation_key]['file_index'],
@@ -91,8 +95,8 @@ class PubannotationGenerator:
         Constructs complete string denotation for a paragraph.
         """
         denotations = []
-        for match in self.paragraph_matches:
-            denotations.append(construct_denotation(self.paragraph_matches[match],
+        for match in paragraph_matches:
+            denotations.append(construct_denotation(paragraph_matches[match],
                                                     str(match.start()),
                                                     str(match.end()), url))
         return concat_denotations(denotations)
