@@ -33,19 +33,19 @@ def main():
 
     #### SUBSET 10 GOLD STANDARD TEST ####
     # Tagging
-    #test_json_articles_dir_path = 'data/gold_standard_subset_10/'
-    #test_metadata_file_path = 'data/gold_standard_subset_10.csv'
-    #vocabularies_dir_path = 'data/dictionaries/'
-    #test_tagger = DictionaryTagger(test_json_articles_dir_path, test_metadata_file_path, vocabularies_dir_path)
-    #test_tagger.tag()
-    #word_classes_set = test_tagger.get_word_classes()
-    word_classes_set = {'Disease_COVID-19', 'Symptom_Covid-19', 'Virs_SARS-CoV-2', 'chemical_antiviral'}
+    test_json_articles_dir_path = 'data/gold_standard_subset_10/'
+    test_metadata_file_path = 'data/gold_standard_subset_10.csv'
+    vocabularies_dir_path = 'data/dictionaries/'
+    test_tagger = DictionaryTagger(test_json_articles_dir_path, test_metadata_file_path, vocabularies_dir_path)
+    test_tagger.tag()
+    word_classes_set = test_tagger.get_word_classes()
+    #word_classes_set = {'Disease_COVID-19', 'Symptom_Covid-19', 'Virs_SARS-CoV-2', 'chemical_antiviral'}
     
     # Generate Files
-    #output_dir_path = 'output/out_test/'
-    #pubannotations_dict = test_tagger.get_pubannotations()
-    #pubgenerator = PubannotationGenerator(pubannotations_dict, output_dir_path)
-    #pubgenerator.generate()
+    output_dir_path = 'output/out_test/'
+    pubannotations_dict = test_tagger.get_pubannotations()
+    pubgenerator = PubannotationGenerator(pubannotations_dict, output_dir_path)
+    pubgenerator.generate()
     
     # Evaluation
     tagger_output_dir_path = 'output/out_test/'

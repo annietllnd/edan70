@@ -44,10 +44,7 @@ class PubannotationEvaluator:
                 continue                                # generated.
             full_path = tagger_output_dir_path + pubannotation_file_name
             with open(full_path) as pubannotation_obj:
-                print(pubannotation_obj)
                 pubannotation_dict = json.loads(pubannotation_obj.read())
-                print(pubannotation_dict)
-                print("yes")
                 pubannotation_dict.update({'is_checked': False})
                 self.tagger_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
 
@@ -74,7 +71,9 @@ class PubannotationEvaluator:
                                                          }
 
     def evaluate(self):
+        print(self.true_output_dicts)
         for cord_uid in self.tagger_output_dicts:
+            print(cord_uid)
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
             true_pubannotation = self.true_output_dicts[cord_uid]
             word_classes_list = [denotations_list_element['id'] for denotations_list_element in true_pubannotation['denotations']]

@@ -26,7 +26,7 @@ def construct_pubannotation(metadata_info, section_index, text, denotation):
 
     divid = "\"divid\":" + str(section_index) + ", "
 
-    text = "\"text\":\"" + text + "\", "
+    text = "\"text\":\"" + text.replace('"', '\\"') + "\", "
 
     project = "\"project\":\"cdlai_CORD-19\", "
 
