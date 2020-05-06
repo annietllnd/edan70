@@ -11,9 +11,7 @@ Authors:
     Github ID: obakanue
 """
 
-import os
 import re
-import json
 
 
 def construct_pubannotation(metadata_info, section_index, text, denotation):
@@ -75,17 +73,17 @@ class PubannotationGenerator:
         self.output_dir_path = output_dir_path
 
     def generate(self):
-        for pubannotation_dict in self.pubannotations_dict:
-            print(pubannotation_dict['metadata_info'][0])
-            denotation = self.get_paragraph_denotation(pubannotation_dict['matches'],pubannotation_dict['url'])
+        for pubannotation_key in self.pubannotations_dict:
+            print(self.pubannotations_dict[pubannotation_key]['metadata_info'][0])
+            denotation = self.get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key])
             if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out only matches
-                annotation = construct_pubannotation(pubannotation_dict['metadata_info'],
-                                                      pubannotation_dict['file_index'],
-                                                      pubannotation_dict['paragraph_text'],
+                annotation = construct_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'],
+                                                      self.pubannotations_dict[pubannotation_key]['file_index'],
+                                                      self.pubannotations_dict[pubannotation_key]['paragraph_text'],
                                                       denotation)
-                self.export_pubannotation(pubannotation_dict['metadata_info[0]'],
-                                      pubannotation_dict['file_index'],
-                                      pubannotation_dict['section_name'],
+                self.export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
+                                      self.pubannotations_dict[pubannotation_key]['file_index'],
+                                      self.pubannotations_dict[pubannotation_key]['section_name'],
                                       annotation)
 
     def get_paragraph_denotation(self, paragraph_matches, url):
@@ -94,8 +92,6 @@ class PubannotationGenerator:
         """
         denotations = []
         for match in self.paragraph_matches:
-            print(url)
-            print(match)
             denotations.append(construct_denotation(self.paragraph_matches[match],
                                                     str(match.start()),
                                                     str(match.end()), url))
