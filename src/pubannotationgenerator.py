@@ -12,7 +12,6 @@ Authors:
 """
 
 import re
-import os
 
 
 def construct_pubannotation(metadata_info, section_index, text, denotation):
@@ -68,38 +67,47 @@ def construct_denotation(idd, begin, end, url):
     return denotation
 
 
+def print_progress(nbr_pubannotations_processed, total_pubannotations):
+    """
+    Prints estimated progress based on number of total PubAnnotatnions and number of PubAnnotations generated.
+    """
+    print(f'PUBANNOTATION GENERATOR ESTIMATED PROGRESS: {nbr_pubannotations_processed/total_pubannotations*100:.2f}%')
+
+
+def get_paragraph_denotation(paragraph_matches, url):
+    """
+    Constructs complete string denotation for a paragraph.
+    """
+    denotations = []
+    for match in paragraph_matches:
+        denotations.append(construct_denotation(paragraph_matches[match],
+                                                str(match.start()),
+                                                str(match.end()), url))
+    return concat_denotations(denotations)
+
+
 class PubannotationGenerator:
     def __init__(self, pubannotations_dict,output_dir_path):
         self.pubannotations_dict = pubannotations_dict
         self.output_dir_path = output_dir_path
-        cwd = os.getcwd()
-        print(cwd)
-
 
     def generate(self):
+        pubannotation_nbr = 0
+        pubannotations_total = len(self.pubannotations_dict)
         for pubannotation_key in self.pubannotations_dict:
-            print(self.pubannotations_dict[pubannotation_key]['metadata_info'][0])
-            denotation = self.get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key]['url'])
-            if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out only matches
-                annotation = construct_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'],
-                                                      self.pubannotations_dict[pubannotation_key]['file_index'],
-                                                      self.pubannotations_dict[pubannotation_key]['paragraph_text'],
-                                                      denotation)
-                self.export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
+            print_progress(pubannotation_nbr, pubannotations_total)
+            denotation = get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key]['url'])
+            # if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out only matches
+            annotation = construct_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'],
+                                                 self.pubannotations_dict[pubannotation_key]['file_index'],
+                                                 self.pubannotations_dict[pubannotation_key]['paragraph_text'],
+                                                 denotation)
+            self.export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
                                       self.pubannotations_dict[pubannotation_key]['file_index'],
                                       self.pubannotations_dict[pubannotation_key]['section_name'],
                                       annotation)
-
-    def get_paragraph_denotation(self, paragraph_matches, url):
-        """
-        Constructs complete string denotation for a paragraph.
-        """
-        denotations = []
-        for match in paragraph_matches:
-            denotations.append(construct_denotation(paragraph_matches[match],
-                                                    str(match.start()),
-                                                    str(match.end()), url))
-        return concat_denotations(denotations)
+            pubannotation_nbr += 1
+        print_progress(pubannotation_nbr, pubannotations_total)
 
     def export_pubannotation(self, idd, file_index, section, annotation):
         """

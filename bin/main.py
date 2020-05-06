@@ -31,26 +31,27 @@ def main():
     # evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
     # evaluator.evaluate()
 
-    # #### SUBSET 10 GOLD STANDARD TEST ####
-    # # Tagging
-    test_json_articles_dir_path = 'data/gold_standard_subset_10'
-    test_metadata_file_path = 'data/gold_standard_subset_10.csv'
-    vocabularies_dir_path = 'data/dictionaries'
-    test_tagger = DictionaryTagger(test_json_articles_dir_path, test_metadata_file_path, vocabularies_dir_path)
-    test_tagger.tag()
-    word_classes_set = test_tagger.get_word_classes()
+    #### SUBSET 10 GOLD STANDARD TEST ####
+    # Tagging
+    #test_json_articles_dir_path = 'data/gold_standard_subset_10/'
+    #test_metadata_file_path = 'data/gold_standard_subset_10.csv'
+    #vocabularies_dir_path = 'data/dictionaries/'
+    #test_tagger = DictionaryTagger(test_json_articles_dir_path, test_metadata_file_path, vocabularies_dir_path)
+    #test_tagger.tag()
+    #word_classes_set = test_tagger.get_word_classes()
+    word_classes_set = {'Disease_COVID-19', 'Symptom_Covid-19', 'Virs_SARS-CoV-2', 'chemical_antiviral'}
     
-    # # Generate Files
-    output_dir_path = 'output/out_test/'
-    pubannotations_dict = test_tagger.get_pubannotations()
-    pubgenerator = PubannotationGenerator(pubannotations_dict, output_dir_path)
-    pubgenerator.generate()
+    # Generate Files
+    #output_dir_path = 'output/out_test/'
+    #pubannotations_dict = test_tagger.get_pubannotations()
+    #pubgenerator = PubannotationGenerator(pubannotations_dict, output_dir_path)
+    #pubgenerator.generate()
     
-    # # Evaluation
-    # tagger_output_dir_path = 'output/out_test'
-    # true_output_dir_path = 'data/out_test_true'
-    # evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
-    # evaluator.evaluate()
+    # Evaluation
+    tagger_output_dir_path = 'output/out_test/'
+    true_output_dir_path = 'output/out_test_true/'
+    evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
+    evaluator.evaluate()
 
 if __name__ == '__main__':
     main()

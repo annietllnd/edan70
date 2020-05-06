@@ -41,17 +41,20 @@ class PubannotationEvaluator:
 
         for pubannotation_file_name in tagger_output_paths:
             if pubannotation_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
-                continue  # generated.
-            full_path = tagger_output_dir_path + '/' + pubannotation_file_name
-            with open(full_path) as pubannotation:
-                pubannotation_dict = json.load(pubannotation)
+                continue                                # generated.
+            full_path = tagger_output_dir_path + pubannotation_file_name
+            with open(full_path) as pubannotation_obj:
+                print(pubannotation_obj)
+                pubannotation_dict = json.loads(pubannotation_obj.read())
+                print(pubannotation_dict)
+                print("yes")
                 pubannotation_dict.update({'is_checked': False})
                 self.tagger_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
 
-        for pubannotation in true_output_paths:
-            if pubannotation == ".DS_Store":  # For MacOS users skip .DS_Store-file
+        for file_name in true_output_paths:
+            if file_name == ".DS_Store":  # For MacOS users skip .DS_Store-file
                 continue  # generated.
-            full_path = true_output_dir_path + '/' + pubannotation
+            full_path = true_output_dir_path + file_name
             with open(full_path) as pubannotation:
                 pubannotation_dict = json.load(pubannotation)
                 for denotation in pubannotation_dict['denotations']:

@@ -26,8 +26,8 @@ import pandas as pd
 
 def obtain_metadata_args(metadata_dict):
     """
-    Returns necessary columns from metadata dictionary. Index 0 gives cord_uid, index 1 gives source_x, index 2 gives
-    pmcid.
+    Returns list of necessary columns from kaggle COVID-19 metadata dictionary. Index 0 gives cord_uid, index 1 gives
+    source_x, index 2 gives pmcid.
     """
     cord_uid = metadata_dict['cord_uid']
     source_x = metadata_dict['source_x']
@@ -36,37 +36,50 @@ def obtain_metadata_args(metadata_dict):
     return metadata_info
 
 
+def print_progress(nbr_articles_processed, total_articles):
+    """
+    Prints estimated progress based on number of total articles and number of articles processed.
+    """
+    print(f'TAGGER ESTIMATED PROGRESS: {nbr_articles_processed/total_articles*100:.2f}%')
+
+
 class DictionaryTagger:
+    """
+    DictionaryTagger uses paths as arguments for the constructor in order to find all the necessary input data which is
+    used to save date necassary for tagging.
+    """
     def __init__(self, json_articles_dir_path, metadata_file_path, vocabularies_dir_path):
         self.articles_directory_name = json_articles_dir_path
-
         self.vocabs_col_dict = dict()
         self.patterns_dict = dict()
-        self.metadata_list = list()
         self.metadata_indices_dict = dict()
         self.paragraph_matches = dict()
         self.pubannotations_dict = dict()
+        self.metadata_list = list()
         self.word_classes = set()
 
-        os.chdir('..')
         self.load_vocabularies(vocabularies_dir_path)
         self.load_patterns()
         self.load_metadata(metadata_file_path)
 
     def load_vocabularies(self, vocabularies_dir_path):
+        """
+        Uses path in order to find all vocabularies/dictionaries containing the words to be tagged in the articles.
+        """
         vocabularies_file_names = os.listdir(vocabularies_dir_path)
         i = 0;
         for vocabulary_file_name in vocabularies_file_names:
             if vocabulary_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
                 continue  # generated.
-            full_path = vocabularies_dir_path + '/' + vocabulary_file_name
+            full_path = vocabularies_dir_path + vocabulary_file_name
             word_class = vocabulary_file_name.replace('.txt', '')
             self.load_vocabulary(full_path, word_class)
             i += 1
 
     def load_vocabulary(self, file_path, word_class):
         """
-        Return dictionary of imported vocabularies lists provided by @Aitslab.
+        Opens a vocabulary/dictionary containing the words to be tagged in the articles and saves them in a list which
+        is added to a dictionary using the word class correspondig the filename as key. Word classes are added to a set.
         """
         vocab_list = [row.strip() for row in
                       open(file_path)]
@@ -75,6 +88,10 @@ class DictionaryTagger:
         self.word_classes.update(word_class)
 
     def load_patterns(self):
+        """
+        Save patterns in same fashion as vocabularies/dictionaries in a dictionary. Word classes are added to a set.
+        Pattern 1. 'chemical_antiviral' tags all words ending in 'vir'.
+        """
         self.patterns_dict = {'chemical_antiviral':
                               r'(?i)\b\S*vir\b'
                               }
@@ -97,11 +114,17 @@ class DictionaryTagger:
             index += 1
 
     def tag(self):
+        """
+        Iterate all articles and tag them.
+        """
         article_paths = os.listdir(self.articles_directory_name)
+        article_nbr = 0
+        articles_total = len(article_paths)
         for article_name in article_paths:
+            print_progress(article_nbr, articles_total)
             if article_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
                 continue  # generated.
-            full_path = self.articles_directory_name + '/' + article_name
+            full_path = self.articles_directory_name + article_name
             with open(full_path) as article:
                 article_dict = json.load(article)
             # Finds index of metadata that matches with sha of article_name
@@ -109,6 +132,8 @@ class DictionaryTagger:
             metadata_index = self.metadata_indices_dict[article_dict['paper_id']]
             metadata_dict = self.metadata_list[metadata_index]
             self.process_article(article_dict, metadata_dict)
+            article_nbr += 1
+        print_progress(article_nbr, articles_total)
 
     def process_article(self, article_dict, metadata_dict):
         """
@@ -167,7 +192,6 @@ class DictionaryTagger:
         Returns 'True' if new match is to be added (prioritized).
         """
         for match in self.paragraph_matches:
-            print(match)
             word_match = match.group(0)
             if word_class == 'Virus_SARS-CoV-2' or word_class == 'Disease_COVID-19':
                 prev_tagged = re.match(pattern, word_match)
@@ -181,7 +205,13 @@ class DictionaryTagger:
         return True
 
     def get_word_classes(self):
+        """
+        Returns set of word classes.
+        """
         return self.word_classes.copy()
 
     def get_pubannotations(self):
+        """
+        Returns dictionary with pubannotations information.
+        """
         return self.pubannotations_dict.copy()
