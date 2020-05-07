@@ -104,14 +104,14 @@ class PubannotationGenerator:
                                                  self.pubannotations_dict[pubannotation_key]['file_index'],
                                                  self.pubannotations_dict[pubannotation_key]['paragraph_text'],
                                                  denotation)
-            self.export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
+            self.__export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
                                       self.pubannotations_dict[pubannotation_key]['file_index'],
                                       self.pubannotations_dict[pubannotation_key]['section_name'],
                                       annotation)
             pubannotation_nbr += 1
         print_progress(pubannotation_nbr, pubannotations_total)
 
-    def export_pubannotation(self, idd, file_index, section, annotation):
+    def __export_pubannotation(self, idd, file_index, section, annotation):
         """
         Export pub-annotation string to corresponding section file.
         """

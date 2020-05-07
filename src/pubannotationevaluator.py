@@ -11,103 +11,119 @@ Authors:
     Github ID: obakanue
 
     TODO:
-     - We have some fields that are currently not in use,
-     or example nbr_true_entities which counts all files from true output for every class.
-     - Try the evaluator with golden standard and retrieve result
-     - Split code up if needed
-     - Docs for member functions
      - Should we check correct word class?
      - Generate file with table of results?
+     - Chemical_antiviral warning prints twice?
 """
+
+# true_positives = some_function() # number of true positives
+# false_positives = some_other_function() # number of false positives
+# true_negatives = other_function() # number of true negatives
+# false_negatives = last_one() # number of false negatives
+# for any is_checked = False in tagger_output_dict -> False positives
+# for any is_checked = False in true_output_dict -> False negatives
 
 import os
 import json
 
 
+def print_progress(nbr_pubannotations_evaluated, total_pubannotations):
+    """
+    Prints estimated progress based on number of total PubAnnotatnions and number of PubAnnotations generated.
+    """
+    print(f'EVALUATION ESTIMATED PROGRESS: {nbr_pubannotations_evaluated/total_pubannotations*100:.2f}%')
+
+
 class PubannotationEvaluator:
+    """
+    PubAnnotationEvaluator evaluates output compared to a true output, the arguments are the directory paths to the
+    location of the outputs and a set containing what word classes/dictionaries to be evaluated.
+    """
     def __init__(self, tagger_output_dir_path, true_output_dir_path, word_classes_set):
         self.tagger_output_dicts = dict()
         self.true_output_dicts = dict()
         self.word_classes_result_dict = dict()
         self.recall_values = list()
         self.precision_values = list()
+
         self.word_classes_set = word_classes_set
-        self.true_positives = self.true_negatives = self.false_positives = self.false_negatives = 0
-        tagger_output_paths = os.listdir(tagger_output_dir_path)
-        true_output_paths = os.listdir(true_output_dir_path)
-        self.generate_result_dict(self.word_classes_set)
-        self.nbr_true_entities = self.recall_value = self.precision_value = self.total_true_positives = \
-            self.total_false_positives = self.total_false_negatives = 0
+        self.true_positives = self.true_negatives = self.false_positives = self.false_negatives = \
+            self.nbr_true_entities = self.recall_value = self.precision_value = self.total_true_positives = \
+            self.total_false_positives = self.total_false_negatives = self.output_nbr = 0
 
-        for pubannotation_file_name in tagger_output_paths:
-            if pubannotation_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
-                continue                                # generated.
-            full_path = tagger_output_dir_path + pubannotation_file_name
-            with open(full_path) as pubannotation_obj:
-                pubannotation_dict = json.loads(pubannotation_obj.read())
-                pubannotation_dict.update({'is_checked': False})
-                self.tagger_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+        self.__generate_result_dict(self.word_classes_set)
 
-        for file_name in true_output_paths:
-            if file_name == ".DS_Store":  # For MacOS users skip .DS_Store-file
-                continue  # generated.
-            full_path = true_output_dir_path + file_name
-            with open(full_path) as pubannotation:
-                pubannotation_dict = json.load(pubannotation)
-                for denotation in pubannotation_dict['denotations']:
-                    word_class = denotation['id']
-                    if word_class in word_classes_set:
-                        self.word_classes_result_dict[word_class]['nbr_true_entities'] += 1
-                pubannotation_dict.update({'is_checked': False})
-                self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+        self.__load_output(tagger_output_dir_path, 1)
+        self.__load_output(true_output_dir_path, 0)
 
-    def generate_result_dict(self, word_classes_set):
+        self.processes_total = len(self.tagger_output_dicts) + len(self.word_classes_result_dict)
+
+    def __generate_result_dict(self, word_classes_set):
+        """
+        Initializes a dictionary containing all the results for respective word class.
+        """
         for word_class in word_classes_set:
-            self.word_classes_result_dict[word_class] = {'nbr_true_entities': 0,
-                                                         'true_positives': 0,
+            self.word_classes_result_dict[word_class] = {'true_positives': 0,
                                                          'true_negatives': 0,
                                                          'false_positives': 0,
                                                          'false_negatives': 0
                                                          }
 
+    def __load_output(self, dir_output_path, is_tagger_output):
+        """
+        Loads output files from a given directory in to corresponding dictionary. Second argument indicates if it is
+        the true output or the output to be evaluated.
+        """
+        output_paths = os.listdir(dir_output_path)
+        for pubannotation_file_name in output_paths:
+            if pubannotation_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
+                continue                                # generated.
+            full_path = dir_output_path + pubannotation_file_name
+            with open(full_path) as pubannotation_obj:
+                pubannotation_dict = json.loads(pubannotation_obj.read())
+                pubannotation_dict.update({'is_checked': False})
+                if is_tagger_output:
+                    self.tagger_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+                else:
+                    self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+
     def evaluate(self):
-        #print(self.true_output_dicts)
+        """
+        Evaluates outputs compared to true outputs.
+        """
+        self.__compare_outputs()
+        self.__evaluate_word_class()
+        self.__calculate_micro()
+        self.__print_result('MICRO')
+        self.__calculate_macro()
+        self.__print_result('MACRO')
+
+    def __compare_outputs(self):
+        """
+        Iterates through all outputs to be compared to through output and compare output denotations.
+        """
         for cord_uid in self.tagger_output_dicts:
-            #print(cord_uid)
+            print_progress(self.output_nbr, self.processes_total)
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
             true_pubannotation = self.true_output_dicts[cord_uid]
-            word_classes_list = [denotations_list_element['id'] for denotations_list_element in true_pubannotation['denotations']]
-            
-            self.compare_output(tagger_pubannotation['denotations'], true_pubannotation['denotations'], cord_uid, word_classes_list)
-       
-        for word_class in self.word_classes_result_dict:
-            false_positives_result = 0
-            false_negatives_result = 0
-            for tagger_pubannotation in self.tagger_output_dicts.values():
-                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] == word_class and tagger_pubannotation['is_checked'] is False):
-                    false_positives_result += 1
+            word_classes_list = [denotations_list_element['id'] for denotations_list_element in
+                                 true_pubannotation['denotations']]
 
-            self.word_classes_result_dict[word_class]['false_positives'] = false_positives_result
+            self.__compare_output(tagger_pubannotation['denotations'], true_pubannotation['denotations'], cord_uid,
+                                word_classes_list)
+            self.output_nbr += 1
+        print_progress(self.output_nbr, self.processes_total)
 
-            for true_pubannotation in self.true_output_dicts.values():
-
-                if(true_pubannotation['denotations'] != [] and true_pubannotation['denotations'][0]['id'] == word_class and true_pubannotation['is_checked'] is False):
-                    false_negatives_result += 1
-
-
-            self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
-
-            self.precision(word_class)
-            self.recall(word_class)
-            self.print_result(word_class)
-        self.calculate_micro()
-        self.print_result('MICRO')
-        self.calculate_macro()
-        self.print_result('MACRO')
-
-    def compare_output(self, tagger_denotations, true_denotations, cord_uid, word_classes_list):
+    def __compare_output(self, tagger_denotations, true_denotations, cord_uid, word_classes_list):
+        """
+        Compares denotations with true denotations, false negatives field are incremented if there is a an existing
+        match in true denotations that does not exist in denotations to be compared, and only for the word classes
+        existing in the list argument. When a PubAnnotations is checked the field 'is_checked' is set to True which
+        helps to calculate false positives and false negatives. If two denotations are matching in span true positives
+        filed will be incremented in the result dictionary.
+        """
         if not bool(tagger_denotations) or not bool(true_denotations):
-            if not bool(tagger_denotations) and bool(true_denotations): # before it compared when both were empty
+            if not bool(tagger_denotations) and bool(true_denotations):  # before it compared when both were empty
                 for word_class in word_classes_list:
                     if word_class in self.word_classes_set:
                         self.word_classes_result_dict[word_class]['false_negatives'] += 1
@@ -123,10 +139,37 @@ class PubannotationEvaluator:
                     self.true_output_dicts[cord_uid].update({'is_checked': True})
                 i += 1
 
-    # for any is_checked = False in tagger_output_dict -> False positives
-    # for any is_checked = False in true_output_dict -> False negatives
+    def __evaluate_word_class(self):
+        """
+        Evaluates results for each word class.
+        """
+        for word_class in self.word_classes_result_dict:
+            print_progress(self.output_nbr, self.processes_total)
+            false_positives_result = 0
+            false_negatives_result = 0
+            for tagger_pubannotation in self.tagger_output_dicts.values():
+                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] == word_class and tagger_pubannotation['is_checked'] is False):
+                    false_positives_result += 1
 
-    def precision(self, word_class):
+            self.word_classes_result_dict[word_class]['false_positives'] = false_positives_result
+
+            for true_pubannotation_dict in self.true_output_dicts.values():
+
+                if(true_pubannotation_dict['denotations'] != [] and true_pubannotation_dict['denotations'][0]['id'] == word_class and true_pubannotation_dict['is_checked'] is False):
+                    false_negatives_result += 1
+
+            self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
+
+            self.__precision(word_class)
+            self.__recall(word_class)
+            self.__print_result(word_class)
+            self.output_nbr += 1
+        print_progress(self.output_nbr, self.processes_total)
+
+    def __precision(self, word_class):
+        """
+        Calculates precision figure.
+        """
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
         false_positives = self.word_classes_result_dict[word_class]['false_positives']
         self.total_true_positives += true_positives
@@ -142,7 +185,10 @@ class PubannotationEvaluator:
             print('\n')
             self.precision_values.append(0)
 
-    def recall(self, word_class):
+    def __recall(self, word_class):
+        """
+        Calculates recall figure.
+        """
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
         false_negatives = self.word_classes_result_dict[word_class]['false_negatives']
         self.total_false_negatives += false_negatives
@@ -157,11 +203,17 @@ class PubannotationEvaluator:
             print('\n')
             self.precision_values.append(0)
 
-    def calculate_micro(self):
+    def __calculate_micro(self):
+        """
+        Calculates micro figure.
+        """
         self.precision_value = self.total_true_positives / (self.total_true_positives + self.total_false_positives)
         self.recall_value = self.total_true_positives / (self.total_true_positives + self.total_false_negatives)
 
-    def calculate_macro(self):
+    def __calculate_macro(self):
+        """
+        Calculates macro figure.
+        """
         self.precision_value = 0
         self.recall_value = 0
         for precision_value in self.precision_values:
@@ -171,17 +223,12 @@ class PubannotationEvaluator:
         self.precision_value /= len(self.precision_values)
         self.recall_value /= len(self.recall_values)
 
-    def print_result(self, word_class):
+    def __print_result(self, word_class):
+        """
+        Prints result for a given section/word class.
+        """
         print(f'#########\t{word_class.upper()} PRECISION & RECALL RESULT:\t###########')
         print('\n')
         print(f'Precision:\t{self.precision_value * 100:.0f}%')
         print(f'Recall:\t\t{self.recall_value * 100:.0f}%')
         print('\n')
-
-# load json -> dict
-# true_positives = some_function() # number of true positives
-# false_positives = some_other_function() # number of false positives
-# true_negatives = other_function() # number of true negatives
-# false_negatives = last_one() # number of false negatives
-
-# true_output_dictionary['denotations']['span'] == tagger_output_dictionary['denotations']['span']

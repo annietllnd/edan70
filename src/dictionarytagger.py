@@ -58,11 +58,11 @@ class DictionaryTagger:
         self.metadata_list = list()
         self.word_classes = set()
 
-        self.load_vocabularies(vocabularies_dir_path)
-        self.load_patterns()
-        self.load_metadata(metadata_file_path)
+        self.__load_vocabularies(vocabularies_dir_path)
+        self.__load_patterns()
+        self.__load_metadata(metadata_file_path)
 
-    def load_vocabularies(self, vocabularies_dir_path):
+    def __load_vocabularies(self, vocabularies_dir_path):
         """
         Uses path in order to find all vocabularies/dictionaries containing the words to be tagged in the articles.
         """
@@ -73,10 +73,10 @@ class DictionaryTagger:
                 continue  # generated.
             full_path = vocabularies_dir_path + vocabulary_file_name
             word_class = vocabulary_file_name.replace('.txt', '')
-            self.load_vocabulary(full_path, word_class)
+            self.__load_vocabulary(full_path, word_class)
             i += 1
 
-    def load_vocabulary(self, file_path, word_class):
+    def __load_vocabulary(self, file_path, word_class):
         """
         Opens a vocabulary/dictionary containing the words to be tagged in the articles and saves them in a list which
         is added to a dictionary using the word class correspondig the filename as key. Word classes are added to a set.
@@ -87,7 +87,7 @@ class DictionaryTagger:
                                      vocab_list})
         self.word_classes.add(word_class)
 
-    def load_patterns(self):
+    def __load_patterns(self):
         """
         Save patterns in same fashion as vocabularies/dictionaries in a dictionary. Word classes are added to a set.
         Pattern 1. 'chemical_antiviral' tags all words ending in 'vir'.
@@ -98,7 +98,7 @@ class DictionaryTagger:
         for word_class in self.patterns_dict:
             self.word_classes.add(word_class)
 
-    def load_metadata(self, metadata_file_path):
+    def __load_metadata(self, metadata_file_path):
         """
         Returns list with metadata and dictionary with sha as keys and indices of metadata list as values.
         """
@@ -131,11 +131,11 @@ class DictionaryTagger:
             # (without '.JSON' part.)
             metadata_index = self.metadata_indices_dict[article_dict['paper_id']]
             metadata_dict = self.metadata_list[metadata_index]
-            self.process_article(article_dict, metadata_dict)
+            self.__process_article(article_dict, metadata_dict)
             article_nbr += 1
         print_progress(article_nbr, articles_total)
 
-    def process_article(self, article_dict, metadata_dict):
+    def __process_article(self, article_dict, metadata_dict):
         """
         Process article for each section and paragraph and generate pub-annotations for export to file.
         """
@@ -152,7 +152,7 @@ class DictionaryTagger:
             if not bool(section_paragraphs):
                 section_paragraphs = ['']
             for paragraph in section_paragraphs:
-                self.tag_paragraph(paragraph)
+                self.__tag_paragraph(paragraph)
                 self.pubannotations_dict.update({f'{metadata_info[0]}-{str(file_index)}-{section}':
                                                 {'matches': self.paragraph_matches.copy(),
                                                  'file_index': file_index,
@@ -162,7 +162,7 @@ class DictionaryTagger:
                                                  'metadata_info': metadata_info}})
                 file_index += 1
 
-    def tag_paragraph(self, paragraph):
+    def __tag_paragraph(self, paragraph):
         """
         For a paragraph, iterate through all vocabularies and patterns and tag using corresponding regex-pattern.
         """
@@ -170,22 +170,22 @@ class DictionaryTagger:
         for vocabulary in self.vocabs_col_dict:
             for word in self.vocabs_col_dict[vocabulary]:
                 pattern = fr'(?i)\b{word}(es|s)?\b'
-                self.tag_pattern(pattern, paragraph, vocabulary)
+                self.__tag_pattern(pattern, paragraph, vocabulary)
 
         for word_class in self.patterns_dict:
-            self.tag_pattern(self.patterns_dict[word_class], paragraph, word_class)
+            self.__tag_pattern(self.patterns_dict[word_class], paragraph, word_class)
 
-    def tag_pattern(self, pattern, text, word_class):
+    def __tag_pattern(self, pattern, text, word_class):
         """
         For a particular pattern, find matches in paragraph and add to 'paragraph_matches' dictionary, if match is
         prioritized.
         """
         for match in re.finditer(pattern, text):
-            is_priority = self.is_match_priority(pattern, match.group(0), word_class)
+            is_priority = self.__is_match_priority(pattern, match.group(0), word_class)
             if is_priority:
                 self.paragraph_matches.update({match: word_class})
 
-    def is_match_priority(self, pattern, new_word_match, word_class):
+    def __is_match_priority(self, pattern, new_word_match, word_class):
         """
         Checks priorities of tagging for vocabularies. For 'Virus_SARS-CoV-2' and 'Disease_COVID-19' if already pattern
         matches with existing match in 'paragraph_matches' then only the longest match will be kept in the dictionary.
