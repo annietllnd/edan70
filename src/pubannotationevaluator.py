@@ -62,6 +62,7 @@ class PubannotationEvaluator:
                 self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
 
     def generate_result_dict(self, word_classes_set):
+        print(word_classes_set)
         for word_class in word_classes_set:
             self.word_classes_result_dict[word_class] = {'nbr_true_entities': 0,
                                                          'true_positives': 0,
@@ -71,9 +72,9 @@ class PubannotationEvaluator:
                                                          }
 
     def evaluate(self):
-        print(self.true_output_dicts)
+        #print(self.true_output_dicts)
         for cord_uid in self.tagger_output_dicts:
-            print(cord_uid)
+            #print(cord_uid)
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
             true_pubannotation = self.true_output_dicts[cord_uid]
             word_classes_list = [denotations_list_element['id'] for denotations_list_element in true_pubannotation['denotations']]
@@ -115,6 +116,7 @@ class PubannotationEvaluator:
             self.true_output_dicts[cord_uid].update({'is_checked': True})
         for tagger_denotation in tagger_denotations:
             i = 0
+            print(self.word_classes_result_dict.keys())
             for true_denotation in true_denotations:
                 if (tagger_denotation['span']['begin'] == true_denotation['span']['begin']
                         and tagger_denotation['span']['end'] == true_denotation['span']['end']):

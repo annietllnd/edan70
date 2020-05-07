@@ -1,24 +1,24 @@
 {
-    "cord_uid": "qele28zk",
+    "cord_uid": "PMC7094943",
     "sourcedb": "PMC",
     "sourceid": "PMC7094943",
     "text": "A new coronavirus associated with human respiratory disease in China. ",
     "denotations": [
         {
-            "id": "A138",
+            "id": "Virus_SARS-CoV-2",
             "span": {
                 "begin": 2,
                 "end": 17
             },
-            "obj": "Virus_SARS-CoV-2"
+            "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7094943/"
         },
         {
-            "id": "A139",
+            "id": "Disease_other",
             "span": {
                 "begin": 40,
                 "end": 59
             },
-            "obj": "Disease_other"
+            "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7094943/"
         }
     ]
 }

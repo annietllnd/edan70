@@ -5,12 +5,12 @@
     "text": "Real-time tentative assessment of the epidemiological characteristics of novel coronavirus infections in Wuhan, China, as at 22 January 2020. ",
     "denotations": [
         {
-            "id": "A134",
+            "id": "Disease_COVID-19",
             "span": {
                 "begin": 73,
                 "end": 101
             },
-            "obj": "Disease_COVID-19"
+            "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988272/"
         }
     ]
 }

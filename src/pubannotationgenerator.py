@@ -12,6 +12,7 @@ Authors:
 """
 
 import re
+import os
 
 
 def construct_pubannotation(metadata_info, section_index, text, denotation):
@@ -90,6 +91,7 @@ class PubannotationGenerator:
     def __init__(self, pubannotations_dict,output_dir_path):
         self.pubannotations_dict = pubannotations_dict
         self.output_dir_path = output_dir_path
+        os.chdir('..')
 
     def generate(self):
         pubannotation_nbr = 0
