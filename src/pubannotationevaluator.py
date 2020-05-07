@@ -13,7 +13,8 @@ Authors:
     TODO:
      - Should we check correct word class?
      - Generate file with table of results?
-     - Chemical_antiviral warning prints twice?
+     - Harmonic means figure implement
+     - List with errors
 """
 
 # true_positives = some_function() # number of true positives
@@ -184,6 +185,7 @@ class PubannotationEvaluator:
             print("########### WARNING ###########")
             print('\n')
             self.precision_values.append(0)
+            self.precision_value = 0
 
     def __recall(self, word_class):
         """
@@ -202,6 +204,7 @@ class PubannotationEvaluator:
             print('########### WARNING ###########')
             print('\n')
             self.precision_values.append(0)
+            self.recall_value = 0
 
     def __calculate_micro(self):
         """

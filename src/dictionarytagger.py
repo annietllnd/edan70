@@ -15,7 +15,6 @@ Credit:
 
 TODO-list:
     (- Way of reaching files through github.)
-        * List with errors
 """
 
 import os
