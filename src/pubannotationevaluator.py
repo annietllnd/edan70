@@ -137,7 +137,7 @@ class PubannotationEvaluator:
             self.precision_values.append(self.precision_value)
         else:
             print('########### WARNING ###########')
-            print(f'{word_class} found no match, the result can be misleading')
+            print(f'{word_class} found no match, the precision result can be misleading')
             print("########### WARNING ###########")
             print('\n')
             self.precision_values.append(0)
@@ -152,7 +152,7 @@ class PubannotationEvaluator:
             self.recall_values.append(self.recall_value)
         else: 
             print('########### WARNING ###########')
-            print(f"'{word_class}' found no match, the result can be misleading")
+            print(f"'{word_class}' found no match, the recall result can be misleading")
             print('########### WARNING ###########')
             print('\n')
             self.precision_values.append(0)
