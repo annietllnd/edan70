@@ -62,7 +62,6 @@ class PubannotationEvaluator:
                 self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
 
     def generate_result_dict(self, word_classes_set):
-        print(word_classes_set)
         for word_class in word_classes_set:
             self.word_classes_result_dict[word_class] = {'nbr_true_entities': 0,
                                                          'true_positives': 0,
@@ -116,7 +115,6 @@ class PubannotationEvaluator:
             self.true_output_dicts[cord_uid].update({'is_checked': True})
         for tagger_denotation in tagger_denotations:
             i = 0
-            print(self.word_classes_result_dict.keys())
             for true_denotation in true_denotations:
                 if (tagger_denotation['span']['begin'] == true_denotation['span']['begin']
                         and tagger_denotation['span']['end'] == true_denotation['span']['end']):
@@ -136,7 +134,7 @@ class PubannotationEvaluator:
         sum_value = true_positives + false_positives
         if sum_value:
             self.precision_value = true_positives / sum_value
-            self.precision_values.append(self.precision_value.copy())
+            self.precision_values.append(self.precision_value)
         else:
             print('########### WARNING ###########')
             print(f'{word_class} found no match, the result can be misleading')
@@ -151,10 +149,10 @@ class PubannotationEvaluator:
         sum_value = true_positives + false_negatives
         if sum_value:
             self.recall_value = true_positives / sum_value
-            self.recall_values.append(self.recall_value.copy())
+            self.recall_values.append(self.recall_value)
         else: 
             print('########### WARNING ###########')
-            print(f"'{word_class}' found no match, the result can be misleading.")
+            print(f"'{word_class}' found no match, the result can be misleading")
             print('########### WARNING ###########')
             print('\n')
             self.precision_values.append(0)
@@ -176,8 +174,8 @@ class PubannotationEvaluator:
     def print_result(self, word_class):
         print(f'#########\t{word_class.upper()} PRECISION & RECALL RESULT:\t###########')
         print('\n')
-        print(f'Precision:\t{self.precision_value * 100}%')
-        print(f'Recall:\t\t{self.recall_value * 100}%')
+        print(f'Precision:\t{self.precision_value * 100:.0f}%')
+        print(f'Recall:\t\t{self.recall_value * 100:.0f}%')
         print('\n')
 
 # load json -> dict

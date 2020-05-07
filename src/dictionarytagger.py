@@ -85,7 +85,7 @@ class DictionaryTagger:
                       open(file_path)]
         self.vocabs_col_dict.update({word_class:
                                      vocab_list})
-        self.word_classes.update(word_class)
+        self.word_classes.add(word_class)
 
     def load_patterns(self):
         """
@@ -96,7 +96,7 @@ class DictionaryTagger:
                               r'(?i)\b\S*vir\b'
                               }
         for word_class in self.patterns_dict:
-            self.word_classes.update(word_class)
+            self.word_classes.add(word_class)
 
     def load_metadata(self, metadata_file_path):
         """
