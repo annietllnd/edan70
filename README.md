@@ -23,12 +23,27 @@ In order to run this program 'pandas' have to be installed, which is a Python Da
 sudo apt-get install python3-pip
 sudo pip3 install pandas
 ```
+
 ## Installing pandas with apt-get on Ubuntu:
 1. Open terminal.
 2. Enter following code snippet:
 ```
 sudo apt-get install python3-pandas
 ```
+
+## Modifications to the code: 
+*In order to run the code properly, some of the paths need to be manually edited to find the sources of the data*. In `main.py` check the following:
+### Subset 100
+`json_articles_dir_path`: The folder in which the article files are stored
+`metadata_file_path`: The path with the .csv file that is the metadata
+`vocabularies_dir_path`: The folder in which the dictionaries are stored
+`output_dir_path`: A target folder to which the output files are written
+`tagger_output_dir_path`: ???
+`true_output_dir_path`: The folder in which the gold standard output files are stored
+
+
+
+## Running the program:
 
 Now the code can be run writing the following code snippet in the terminal in the project:
 ```
