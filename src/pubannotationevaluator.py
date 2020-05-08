@@ -98,6 +98,7 @@ class PubannotationEvaluator:
         self.__print_result('MICRO')
         self.__calculate_macro()
         self.__print_result('MACRO')
+        self.__calculate_harmonic_mean()
 
     def __compare_outputs(self):
         """
@@ -225,6 +226,14 @@ class PubannotationEvaluator:
             self.recall_value += recall_value
         self.precision_value /= len(self.precision_values)
         self.recall_value /= len(self.recall_values)
+
+    def __calculate_harmonic_mean(self):
+        """
+        Calculates harmonic mean/F1 score figure.
+        """
+        harmonic_mean = (2*self.precision_value*self.recall_value) / (self.precision_value + self.recall_value)
+        print(f'#########\t HARMONIC MEAN RESULT:\t###########')
+        print(f'Harmonic mean:\t{harmonic_mean * 100:.0f}%')
 
     def __print_result(self, word_class):
         """
