@@ -5,10 +5,15 @@
 											dictionary does not contain the word and as such
 											'new coronavirus' present in dictionary is tagged
 											instead.
-		*	N/A				begin:74,	end:83		Gold output tags '2019-nCoV' which does not exist in 												dictionary	
-		*	N/A				begin:345	end:354		Gold output tags '2019-nCoV' which does not exist in 												dictionary
-		*	N/A				begin:1095	end:1104	Gold output tags '2019-nCoV' which does not exist in 												dictionary
-		*	N/A				begin:1158	end:1168	Gold output tags '2019- nCoV' which does not exist in 												dictionary
+		*	N/A				begin:74	end:83		Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary	
+		*	N/A				begin:345	end:354		Gold standard output tags '2019-nCoV' which does not 
+											exist in dictionary
+		*	N/A				begin:1095	end:1104	Gold standard output tags '2019-nCoV' which does not 
+											exist in dictionary
+		*	N/A				begin:1158	end:1168	Gold standard output tags '2019- nCoV' which does not 
+											exist in dictionary
+	WARNING: NOTE THAT Disease_COVID-19 IS USED TO TAG '2019-nCoV' IN PMC7003341 ABSTRACT
 	- Virus_family
 		Tagger does not support this word class
 	- chemical_antiviral
@@ -21,11 +26,13 @@
 											dictionary does not contain the word and as such
 											'new coronavirus' present in dictionary is tagged
 											instead.
-		*	N/A				begin:53,	end:62		Tags '2019-nCoV' which does not exist in 												dictionary
+		*	N/A				begin:53	end:62		Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
 32013309 Abstract:
 	- Virus_SARS-CoV-2:
 			Tagger result			Gold standard output		Discrepancy comment
-		*	N/A				begin:0,	end:11		Tags 'Coronavirus' which does not exist in 												dictionary
+		*	N/A				begin:0		end:11		Gold standard output tags 'Coronavirus' which does 
+											not exist in dictionary
 	- Disease_other
 		Tagger does not support this word class
 	- Virus_family
@@ -35,8 +42,10 @@
 		*	begin:344	end:356		begin:344	end:356
 		*	begin:363	end:368		begin:363	end:368
 		*	begin:370	end:375		begin:370	end:375
-		*	N/A				begin:415	end:445		Gold output tags 'dysfunction of internal organs' which does not exist in 												dictionary
-		*	N/A				begin:463	end:468		Gold output tags 'death' which does not exist in 												dictionary
+		*	N/A				begin:415	end:445		Gold standard output tags 'dysfunction of internal 
+											organs' which does not exist in dictionary
+		*	N/A				begin:463	end:468		Gold standard output tags 'death' which does not 
+											exist in dictionary
 		*	begin:1012	end:1024	begin:1012	end:1024
 	- Protein
 		Tagger does not support this word class
@@ -48,4 +57,102 @@
 			Tagger result			Gold standard output		Discrepancy comment
 		*	begin:45	end:57		begin:45	end:57
 
+PMC6988272 Abstract:
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:2		end:19		begin:2		end:19		
+		*	N/A				begin:21	end:30		Gold standard output tags '2019- nCoV' which does not 
+											exist in dictionary
+	- Disease_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	N/A				begin:40	end:72		Gold standard output tags 'severe acute respiratory 
+											disease' which does not exist in dictionary
 
+PMC6988272 Title:
+	- Disease_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:73	end:101		begin:73	end:101
+
+PMC7003341 Abstract:
+	- Disease_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	N/A				begin:20	end:44		Gold standard output tags 'new type viral pneumonia 
+											disease' which does not exist in dictionary
+		*	N/A				begin:460	end:488		Gold standard output tags '2019-nCoV infected 												pneumonia' which does not exist in dictionary
+		*	N/A				begin:1062	end:1071	Gold standard output tags '2019-nCoV' which does not 
+											exist in dictionary. NOTE THAT Virus_SARS-CoV-2 IS 												USED TO TAG '2019-nCoV' IN 31996494 BUT NOT
+											Disease_COVID-19
+		*	N/A				begin:1160	end:1188	Gold standard output tags '2019-nCoV infected 												pneumonia' which does not exist in dictionary.
+		*	N/A				begin:1239	end:1259	Gold standard output tags '2019-nCoV infections' 												which does not exist in dictionary.
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:102	end:124		begin:102	end:124
+		*	begin:107	end:124		N/A				Tagger tags 'novel coronavirus' present in 
+											dictionary, gold standard output does not.
+		*	N/A				begin:126	end:135		Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
+		*	N/A				begin:1499	end:1508	Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
+	- Disease_other
+		Tagger does not support this word class
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:35	end:44		N/A				Tagger tags 'pneumonia' present in 
+											dictionary, gold standard output does not.
+		*	begin:479	end:488		N/A				Tagger tags 'pneumonia' present in 
+											dictionary, gold standard output does not.
+		*	begin:1179	end:1188	N/A				Tagger tags 'pneumonia' present in 
+											dictionary, gold standard output does not.
+
+PMC7003341 Title:
+	- Disease_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	N/A				begin:60	end:113		Gold standard output tags '2019 novel coronavirus 												(2019-nCoV) infected pneumonia' which does not exist 												in dictionary
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:104	end:113		N/A				Tagger tags 'novel coronavirus' present in 
+											dictionary, gold standard output does not.
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:65	end:82		N/A				Due to priority rule longest match between
+		*	begin:60	end:82		N/A				Disease_COVID-19 and Virus_SARS-CoV-2
+											the words aren't tagged, but since the word
+											is missing in the dictionary the tagger
+											tags the shorter words in Virus_SARS-CoV-2
+											dictionary.
+
+PMC70033720 Abstract:
+	- Disease_other
+		Tagger does not support this word class
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:43	end:52		N/A				Tagger tags 'pneumonia' present in dictionary, gold 												standard output does not. Gold standard output
+											tags it under Disease_othter instead with same span
+		*	begin:356	end:361		begin:356	end:361
+		*	begin:363	end:368		begin:363	end:368
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:640	end:657		begin:640	end:657		
+		*	N/A				begin:665	end:674		Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
+		*	N/A				begin:1068	end:1077	Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
+		*	N/A				begin:1488	end:1497	Gold standard output tags '2019-nCoV' which does not
+											exist in dictionary
+	- Virus_family
+		Tagger does not support this word class
+	- Virus_other
+		Tagger does not support this word class
+	- Protein
+		Tagger does not support this word class
+
+PMC70033720 Title:
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	N/A				begin:37	end:60
+	- Virus_other
+		Tagger does not support this word class
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:81	end:90		N/A				Tagger tags 'pneumonia' present in dictionary, gold 												standard output does not. Instead it taggs it for
+											dictionary Virus_other
