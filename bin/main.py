@@ -5,7 +5,9 @@ from dictionarytagger import DictionaryTagger
 from pubannotationgenerator import PubannotationGenerator
 from pubannotationevaluator import PubannotationEvaluator
 
-# TODO Update Read Me with description on how to run the program (what is needed, folders, data, changeable parameters)
+# TODO:
+#  - Update Read Me with description on how to run the program (what is needed, folders, data, changeable parameters)
+#  - Progress bar
 
 def main():
     """
