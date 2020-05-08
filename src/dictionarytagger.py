@@ -12,9 +12,6 @@ Authors:
 
 Credit:
     Dictionaries were generated using golden- and silver-standard implemented by Aitslab.
-
-TODO-list:
-    (- Way of reaching files through github.)
 """
 
 import os
