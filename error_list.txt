@@ -1,0 +1,51 @@
+31996494 Abstract:
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:57	end:72		begin:52 	end:72		Gold standard tags span as '2019-new coronavirus',
+											dictionary does not contain the word and as such
+											'new coronavirus' present in dictionary is tagged
+											instead.
+		*	N/A				begin:74,	end:83		Gold output tags '2019-nCoV' which does not exist in 												dictionary	
+		*	N/A				begin:345	end:354		Gold output tags '2019-nCoV' which does not exist in 												dictionary
+		*	N/A				begin:1095	end:1104	Gold output tags '2019-nCoV' which does not exist in 												dictionary
+		*	N/A				begin:1158	end:1168	Gold output tags '2019- nCoV' which does not exist in 												dictionary
+	- Virus_family
+		Tagger does not support this word class
+	- chemical_antiviral
+		Gold output does not support this word class
+
+31996494 Title:
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:36	end:51		begin:31 	end:51		Gold standard tags span as '2019-new coronavirus',
+											dictionary does not contain the word and as such
+											'new coronavirus' present in dictionary is tagged
+											instead.
+		*	N/A				begin:53,	end:62		Tags '2019-nCoV' which does not exist in 												dictionary
+32013309 Abstract:
+	- Virus_SARS-CoV-2:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	N/A				begin:0,	end:11		Tags 'Coronavirus' which does not exist in 												dictionary
+	- Disease_other
+		Tagger does not support this word class
+	- Virus_family
+		Tagger does not support this word class
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:344	end:356		begin:344	end:356
+		*	begin:363	end:368		begin:363	end:368
+		*	begin:370	end:375		begin:370	end:375
+		*	N/A				begin:415	end:445		Gold output tags 'dysfunction of internal organs' which does not exist in 												dictionary
+		*	N/A				begin:463	end:468		Gold output tags 'death' which does not exist in 												dictionary
+		*	begin:1012	end:1024	begin:1012	end:1024
+	- Protein
+		Tagger does not support this word class
+
+32013309 Title:
+	- Virus_family
+		Tagger does not support this word class
+	- Symptom_COVID-19:
+			Tagger result			Gold standard output		Discrepancy comment
+		*	begin:45	end:57		begin:45	end:57
+
+
