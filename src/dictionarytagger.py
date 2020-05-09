@@ -189,7 +189,6 @@ class DictionaryTagger:
         """
         self.paragraph_matches.clear()
         case_insensitive_regex = r'(?i)'
-        hyphen_or_whitespace_regex = r'[-\s]'
         hyphen_or_whitespace_or_both_regex = r'(\s|\-\s?)'
         opt_plural_regex = r'(es|s)?'
         boundary_regex = r'\b'
