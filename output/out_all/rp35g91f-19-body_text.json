@@ -1,1 +1,8 @@
-{"cord_uid":"rp35g91f", "sourcedb":"PMC", "sourceid":"PMC5592927", "divid":19, "text":"Two myosin heavy chains, two essential myosin light chains and two regulatory myosin light chains interact to form the thick filament of the sarcomere (Reiser et al. 2001; Yamashita et al. 2003 )", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rp35g91f",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5592927",
+   "divid": 19,
+   "text": "Two myosin heavy chains, two essential myosin light chains and two regulatory myosin light chains interact to form the thick filament of the sarcomere (Reiser et al. 2001; Yamashita et al. 2003 )",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

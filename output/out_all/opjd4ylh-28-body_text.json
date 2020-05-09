@@ -1,1 +1,18 @@
-{"cord_uid":"opjd4ylh", "sourcedb":"PMC", "sourceid":"PMC6949926", "divid":28, "text":"According to the findings of this study, physical environment was poor and TB ward designs were not conducive. A study that was done by Kieft et al. [13] indicated that improved hospital design can help reduce staff stress and fatigue and increase effectiveness in delivering care, improve patient safety, reduce patient and family stress, and improve outcomes and the overall healthcare quality. The findings of this study concur with the study that was done by Brophy [14] , which indicated that the nurses were concerned with their occupational environment and voiced concern about the deteriorating hospital infrastructure.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":227,"end":234}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949926/"}]}
+{
+   "cord_uid": "opjd4ylh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6949926",
+   "divid": 28,
+   "text": "According to the findings of this study, physical environment was poor and TB ward designs were not conducive. A study that was done by Kieft et al. [13] indicated that improved hospital design can help reduce staff stress and fatigue and increase effectiveness in delivering care, improve patient safety, reduce patient and family stress, and improve outcomes and the overall healthcare quality. The findings of this study concur with the study that was done by Brophy [14] , which indicated that the nurses were concerned with their occupational environment and voiced concern about the deteriorating hospital infrastructure.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":227,
+              "end": 234
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6949926/"
+       }
+   ]
+}

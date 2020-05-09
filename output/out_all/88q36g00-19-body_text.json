@@ -1,1 +1,8 @@
-{"cord_uid":"88q36g00", "sourcedb":"PMC", "sourceid":"PMC6003913", "divid":19, "text":"Reagents. LPS (serotype O55:B5) was obtained from Sigma-Aldrich (St. Louis, MO, USA). HW and hydrogen medium (HM) were prepared by dissolving H 2 gas as described previously 12, 75 . Both HW and HM had a concentration of >0.4 mM H 2 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "88q36g00",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6003913",
+   "divid": 19,
+   "text": "Reagents. LPS (serotype O55:B5) was obtained from Sigma-Aldrich (St. Louis, MO, USA). HW and hydrogen medium (HM) were prepared by dissolving H 2 gas as described previously 12, 75 . Both HW and HM had a concentration of >0.4 mM H 2 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

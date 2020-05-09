@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":40, "text":"The qRRT-PCR detected virus RNA in all of the organs that are commonly assumed to be the target of LPAI viruses, namely the duodenum, the cecal tonsil or the lungs in 83% of the birds, throughout the study. Moreover, at least one of the four sections of the oviduct was positive by qRRT-PCR in 71%, 57% and 14% of the layers on days 4, 6 and 10 pi, respectively (Table 1) .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 40,
+   "text": "The qRRT-PCR detected virus RNA in all of the organs that are commonly assumed to be the target of LPAI viruses, namely the duodenum, the cecal tonsil or the lungs in 83% of the birds, throughout the study. Moreover, at least one of the four sections of the oviduct was positive by qRRT-PCR in 71%, 57% and 14% of the layers on days 4, 6 and 10 pi, respectively (Table 1) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

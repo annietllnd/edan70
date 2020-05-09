@@ -1,1 +1,8 @@
-{"cord_uid":"jq0i4emg", "sourcedb":"PMC", "sourceid":"PMC3441612", "divid":14, "text":"where β and γ are the infection and recovered rates. Eq. (S1) represents the decrease of θ when an infected neighbor transmits the disease. The Eq. (S2) represents the decrease of Φ S when a susceptible neighbor is infected, which is proportional to G ′ 1 (θ), i.e., the mean connectivity of the susceptible first neighbors or the excess degree of the susceptible individuals, because when a susceptible individual is infected, all its links except the one used to infected it, can transmit the disease. This term contributes to an increase of Φ I in Eq. (S3). In Eq. (S3) on the r.h.s, the first term represents the decrease of Φ I when the links transmit the disease, the second term corresponds to the term of Eq. (S2) mentioned above and the third term represents the decrease of Φ I due to the recovery of infected individuals.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "jq0i4emg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3441612",
+   "divid": 14,
+   "text": "where β and γ are the infection and recovered rates. Eq. (S1) represents the decrease of θ when an infected neighbor transmits the disease. The Eq. (S2) represents the decrease of Φ S when a susceptible neighbor is infected, which is proportional to G ′ 1 (θ), i.e., the mean connectivity of the susceptible first neighbors or the excess degree of the susceptible individuals, because when a susceptible individual is infected, all its links except the one used to infected it, can transmit the disease. This term contributes to an increase of Φ I in Eq. (S3). In Eq. (S3) on the r.h.s, the first term represents the decrease of Φ I when the links transmit the disease, the second term corresponds to the term of Eq. (S2) mentioned above and the third term represents the decrease of Φ I due to the recovery of infected individuals.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

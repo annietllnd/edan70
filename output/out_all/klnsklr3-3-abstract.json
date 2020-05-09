@@ -1,1 +1,8 @@
-{"cord_uid":"klnsklr3", "sourcedb":"PMC", "sourceid":"PMC2699471", "divid":3, "text":"Conclusion: Results indicate that LDV-induced activation of lymphocytes is due to recognition of LDV nucleic acid by TLR7 pattern recognition receptors in pDC's that respond with a lymphocyte-inducing IFNa response.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "klnsklr3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2699471",
+   "divid": 3,
+   "text": "Conclusion: Results indicate that LDV-induced activation of lymphocytes is due to recognition of LDV nucleic acid by TLR7 pattern recognition receptors in pDC's that respond with a lymphocyte-inducing IFNa response.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

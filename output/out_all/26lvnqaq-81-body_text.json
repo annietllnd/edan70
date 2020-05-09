@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":81, "text":"Although other papers have experimentally proven a causative relationship between the replication of H9N2 viruses in the oviduct of layers and changes in the quality and number of laid eggs [18, 19] , their focus was limited to 1 week after the infection of SPF White Leghorn hens, and no microbiological examination was performed.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 81,
+   "text": "Although other papers have experimentally proven a causative relationship between the replication of H9N2 viruses in the oviduct of layers and changes in the quality and number of laid eggs [18, 19] , their focus was limited to 1 week after the infection of SPF White Leghorn hens, and no microbiological examination was performed.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

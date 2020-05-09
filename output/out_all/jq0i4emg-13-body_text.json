@@ -1,1 +1,8 @@
-{"cord_uid":"jq0i4emg", "sourcedb":"PMC", "sourceid":"PMC3441612", "divid":13, "text":"In the EBCM approach, θ t is the probability that a root node has not being infected by a neighbor at time t. This is possible if the neighbor is susceptible, recovered, or infected but has not transmitted the disease yet to the root, which happens with probabilities Φ S (t), Φ R (t) and Φ I (t), respectively. Then, θ t = Φ S (t) + Φ I (t) + Φ R (t). The probability that a root node of connectivity k is susceptible is θ k and the fraction of susceptible nodes is S(t) = k P (k)θ k t = G 0 (θ t ). On the other hand, a neighbor is susceptible with probability Φ S (t) = G 1 (θ t ). Then in the SIR model with infection and recovery rates [1, 2] , the probabilities Φ I (t), Φ S (t) and θ t evolve as,", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "jq0i4emg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3441612",
+   "divid": 13,
+   "text": "In the EBCM approach, θ t is the probability that a root node has not being infected by a neighbor at time t. This is possible if the neighbor is susceptible, recovered, or infected but has not transmitted the disease yet to the root, which happens with probabilities Φ S (t), Φ R (t) and Φ I (t), respectively. Then, θ t = Φ S (t) + Φ I (t) + Φ R (t). The probability that a root node of connectivity k is susceptible is θ k and the fraction of susceptible nodes is S(t) = k P (k)θ k t = G 0 (θ t ). On the other hand, a neighbor is susceptible with probability Φ S (t) = G 1 (θ t ). Then in the SIR model with infection and recovery rates [1, 2] , the probabilities Φ I (t), Φ S (t) and θ t evolve as,",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

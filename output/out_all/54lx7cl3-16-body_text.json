@@ -1,1 +1,18 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":16, "text":"Although the impact of the host microbiota on viral infections is an important consideration (reviewed by Wilks et al. [78] ), the majority of in vivo experiments pertaining to virus-bacterial interactions in the URT focus on the role of viruses on the host microbiota. The results of these studies suggest that viruses can alter carriage structure by promoting the colonization of certain commensals. In both animal models and human adults, infection with influenza A virus showed increased colonization by S. pneumoniae and H. influenzae in the URT [79] [80] [81] [82] [83] . Similarly, infecting rats and chinchillas with RSV led to increased colonization by nontypeable H. influenzae [84, 85] . Collectively, epidemiologic studies and laboratory experiments suggest that the introduction of a virus to the URT niche can substantially alter the bacterial community present [26] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 16,
+   "text": "Although the impact of the host microbiota on viral infections is an important consideration (reviewed by Wilks et al. [78] ), the majority of in vivo experiments pertaining to virus-bacterial interactions in the URT focus on the role of viruses on the host microbiota. The results of these studies suggest that viruses can alter carriage structure by promoting the colonization of certain commensals. In both animal models and human adults, infection with influenza A virus showed increased colonization by S. pneumoniae and H. influenzae in the URT [79] [80] [81] [82] [83] . Similarly, infecting rats and chinchillas with RSV led to increased colonization by nontypeable H. influenzae [84, 85] . Collectively, epidemiologic studies and laboratory experiments suggest that the introduction of a virus to the URT niche can substantially alter the bacterial community present [26] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":511,
+              "end": 520
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

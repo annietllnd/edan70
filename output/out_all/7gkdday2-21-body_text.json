@@ -1,1 +1,42 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":21, "text":"In summary, if in vitro antibiotic resistance patterns found in this study match in vivo resistance patterns, it can be concluded that the antibiotic resistance levels have possibly crossed the danger line for K. pneumoniae, Streptococcus species, E. agglomerans, and H. influenzae, although S. pneumoniae still exhibits sensitivity to a good number of antibiotics. It should be mentioned here that two isolates of S. pneumoniae from asymptomatic ARI participants showed an antibiotic sensitivity pattern similar to that of S. pneumoniae isolates from symptomatic children (data not shown).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 21,
+   "text": "In summary, if in vitro antibiotic resistance patterns found in this study match in vivo resistance patterns, it can be concluded that the antibiotic resistance levels have possibly crossed the danger line for K. pneumoniae, Streptococcus species, E. agglomerans, and H. influenzae, although S. pneumoniae still exhibits sensitivity to a good number of antibiotics. It should be mentioned here that two isolates of S. pneumoniae from asymptomatic ARI participants showed an antibiotic sensitivity pattern similar to that of S. pneumoniae isolates from symptomatic children (data not shown).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":213,
+              "end": 222
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":295,
+              "end": 304
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":418,
+              "end": 427
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":527,
+              "end": 536
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       }
+   ]
+}

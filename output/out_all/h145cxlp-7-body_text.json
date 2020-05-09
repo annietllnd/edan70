@@ -1,1 +1,8 @@
-{"cord_uid":"h145cxlp", "sourcedb":"PMC", "sourceid":"PMC4683816", "divid":7, "text":"Prospective, active surveillance was conducted in PICUs of paediatric hospitals in Bavaria, Germany. On December 31 st , 2010 roughly 2,001,700 children <17 years of age were registered in Bavaria [21] , representing 16 % of the German population in this age group [22] . The annual study population was defined as the sub-group of all children in Bavaria at least 1 month and <17 years of age.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "h145cxlp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4683816",
+   "divid": 7,
+   "text": "Prospective, active surveillance was conducted in PICUs of paediatric hospitals in Bavaria, Germany. On December 31 st , 2010 roughly 2,001,700 children <17 years of age were registered in Bavaria [21] , representing 16 % of the German population in this age group [22] . The annual study population was defined as the sub-group of all children in Bavaria at least 1 month and <17 years of age.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

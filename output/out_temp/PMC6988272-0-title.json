@@ -7,14 +7,6 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
-              "begin":73,
-              "end": 90
-           }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988272/"
-       },
-       {
            "id": "Disease_COVID-19", 
            "span": {
               "begin":73,

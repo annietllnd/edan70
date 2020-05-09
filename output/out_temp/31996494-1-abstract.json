@@ -9,14 +9,6 @@
        {
            "id": "Virus_SARS-CoV-2", 
            "span": {
-              "begin":57,
-              "end": 72
-           }, 
-           "obj": "n/a"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
               "begin":52,
               "end": 72
            }, 
@@ -43,6 +35,14 @@
            "span": {
               "begin":1095,
               "end": 1104
+           }, 
+           "obj": "n/a"
+       },
+       {
+           "id": "Virus_SARS-CoV-2", 
+           "span": {
+              "begin":1158,
+              "end": 1168
            }, 
            "obj": "n/a"
        },

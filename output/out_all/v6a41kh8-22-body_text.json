@@ -1,1 +1,8 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":22, "text":"The monthly distribution of RSV infections and meteorological data are shown in Figure 4 . The monthly number of RSV infections was positively correlated with relative humidity in the Spearman's correlation analysis, but not with temperature or rainfall ( Table 3 ). The same association with relative humidity was seen for hMPV. In contrast, the number of PIV3 was positively associated with both temperature and rainfall, and not with relative humidity. InfA did not correlate with any of these meteorological factors, while InfB showed moderate negative correlation with all three factors.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 22,
+   "text": "The monthly distribution of RSV infections and meteorological data are shown in Figure 4 . The monthly number of RSV infections was positively correlated with relative humidity in the Spearman's correlation analysis, but not with temperature or rainfall ( Table 3 ). The same association with relative humidity was seen for hMPV. In contrast, the number of PIV3 was positively associated with both temperature and rainfall, and not with relative humidity. InfA did not correlate with any of these meteorological factors, while InfB showed moderate negative correlation with all three factors.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

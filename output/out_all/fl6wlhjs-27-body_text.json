@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":27, "text":"4. When {a l } is the exponential filter, {f k,l } is a combination of the 4 most recent days (mostly the current day, very little by the fourth day). We subtract an average of the past values (mostly days 6 -11 in the past).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 27,
+   "text": "4. When {a l } is the exponential filter, {f k,l } is a combination of the 4 most recent days (mostly the current day, very little by the fourth day). We subtract an average of the past values (mostly days 6 -11 in the past).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

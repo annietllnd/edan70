@@ -1,1 +1,8 @@
-{"cord_uid":"jq0i4emg", "sourcedb":"PMC", "sourceid":"PMC3441612", "divid":18, "text":"We reformulate the EBCM approach process with discrete time steps, for a fixed recovery time t r . It is straightforward that Eq. (S1-S5) can be written as,", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "jq0i4emg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3441612",
+   "divid": 18,
+   "text": "We reformulate the EBCM approach process with discrete time steps, for a fixed recovery time t r . It is straightforward that Eq. (S1-S5) can be written as,",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

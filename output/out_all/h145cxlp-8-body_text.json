@@ -1,1 +1,34 @@
-{"cord_uid":"h145cxlp", "sourcedb":"PMC", "sourceid":"PMC4683816", "divid":8, "text":"All 30 paediatric hospitals in Bavaria equipped for paediatric intensive care treatment of children older than 1 month of age were invited to participate. These PICUs reported a total of 432 intensive care beds (median 14, IQR [11] [12] [13] [14] [15] [16] , including 207 beds (median 9, IQR 6-12) equipped with ventilation facilities. , all patients who fulfilled the following inclusion criteria were enrolled: i) admission to a participating PICU with suspected acute respiratory infection (ARI) of the upper or lower respiratory tract, with ARIrelated symptoms (for example, coryza, cough, or sore throat); ii) age at PICU admission due to ARI at least 1 month and below 17 years of age; iii) parental written informed consent. Enrolled children with PCR-confirmed influenza were classed as influenza-associated ARI.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":598,"end":609}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}, {"id":"Symptom_Covid-19", "span":{"begin":588,"end":593}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}, {"id":"Symptom_Covid-19", "span":{"begin":580,"end":586}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}]}
+{
+   "cord_uid": "h145cxlp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4683816",
+   "divid": 8,
+   "text": "All 30 paediatric hospitals in Bavaria equipped for paediatric intensive care treatment of children older than 1 month of age were invited to participate. These PICUs reported a total of 432 intensive care beds (median 14, IQR [11] [12] [13] [14] [15] [16] , including 207 beds (median 9, IQR 6-12) equipped with ventilation facilities. , all patients who fulfilled the following inclusion criteria were enrolled: i) admission to a participating PICU with suspected acute respiratory infection (ARI) of the upper or lower respiratory tract, with ARIrelated symptoms (for example, coryza, cough, or sore throat); ii) age at PICU admission due to ARI at least 1 month and below 17 years of age; iii) parental written informed consent. Enrolled children with PCR-confirmed influenza were classed as influenza-associated ARI.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":598,
+              "end": 609
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":588,
+              "end": 593
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":580,
+              "end": 586
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       }
+   ]
+}

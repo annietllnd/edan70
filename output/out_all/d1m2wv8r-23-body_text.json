@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":23, "text":"What's more, we enriched a panel of 29 proteins that are associated with p53 by Metacore TM software, as shown in Fig. 5 . As p53 is known as an important anti-cancer protein, these proteins could be related to cancer development. For instance, API5 was enriched in this network, and the API5 expression level was reduced in F81 cells at 48 hpi and 60 hpi. API5 is an apoptosis inhibitory protein that can suppress E2F-dependent apoptosis 44 . It is frequently up-regulated in tumour cells and functions as a master regulator of immune escape genes in tumours 45 . Based on these findings, CPV may be a powerful apoptosis-modulating agent that could down-regulate API5 gene expression.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 23,
+   "text": "What's more, we enriched a panel of 29 proteins that are associated with p53 by Metacore TM software, as shown in Fig. 5 . As p53 is known as an important anti-cancer protein, these proteins could be related to cancer development. For instance, API5 was enriched in this network, and the API5 expression level was reduced in F81 cells at 48 hpi and 60 hpi. API5 is an apoptosis inhibitory protein that can suppress E2F-dependent apoptosis 44 . It is frequently up-regulated in tumour cells and functions as a master regulator of immune escape genes in tumours 45 . Based on these findings, CPV may be a powerful apoptosis-modulating agent that could down-regulate API5 gene expression.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

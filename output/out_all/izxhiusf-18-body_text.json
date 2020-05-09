@@ -1,1 +1,8 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":18, "text":"Cytology BAL-fluid was transported to the laboratory in a siliconized container on ice. The fluid was filtered through nylon gauze. After staining with brilliant cresyl blue, total nuclear cell counts were performed in a Bürker counting chamber under light microscopy at a magnification of 250x. A cell suspension of 2.10 6 cells/ μl was made in phosphate-buffered saline with 1 % bovine serum albumin (PBS-BSA). Cytocentrifuge preparations were made and stained by May-Grünwald Giemsa. Two hundred cells were examined for differential cell counts.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 18,
+   "text": "Cytology BAL-fluid was transported to the laboratory in a siliconized container on ice. The fluid was filtered through nylon gauze. After staining with brilliant cresyl blue, total nuclear cell counts were performed in a Bürker counting chamber under light microscopy at a magnification of 250x. A cell suspension of 2.10 6 cells/ μl was made in phosphate-buffered saline with 1 % bovine serum albumin (PBS-BSA). Cytocentrifuge preparations were made and stained by May-Grünwald Giemsa. Two hundred cells were examined for differential cell counts.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

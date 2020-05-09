@@ -1,1 +1,8 @@
-{"cord_uid":"zl4abcn0", "sourcedb":"PMC", "sourceid":"PMC4033353", "divid":19, "text":"To date, there is very little information available on the phytochemical analysis or standardization of H. littoralis extract, and to our best knowledge there is no HPLC method reported for the analysis of phytochemicals in H. littoralis. Therefore, an HPLC-UV method was developed and validated for quantification of lycorine in various H. littoralis extracts. Lycorine absorbed maximum UV wavelength at 325 nm, which was selected as detection wavelength. The wavelength selected differs from previous reports which ranged between 287 and 292 nm [2, 7, 14] . Lycorine was eluted in the present HPLC method within 5 min and the total run time was 10 min.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zl4abcn0",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033353",
+   "divid": 19,
+   "text": "To date, there is very little information available on the phytochemical analysis or standardization of H. littoralis extract, and to our best knowledge there is no HPLC method reported for the analysis of phytochemicals in H. littoralis. Therefore, an HPLC-UV method was developed and validated for quantification of lycorine in various H. littoralis extracts. Lycorine absorbed maximum UV wavelength at 325 nm, which was selected as detection wavelength. The wavelength selected differs from previous reports which ranged between 287 and 292 nm [2, 7, 14] . Lycorine was eluted in the present HPLC method within 5 min and the total run time was 10 min.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

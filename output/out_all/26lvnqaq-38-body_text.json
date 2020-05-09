@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":38, "text":"In 56%, 78% and 60% of the birds the cloacal swabs resulted positive on days 2, 4 and 6 pi, respectively (Additional file 1), while all of the birds shed virus RNA via the trachea at each sampling time. We compared the average Ct values of cloacal and tracheal swabs and observed that the virus load in the trachea was significantly higher than in the cloaca, on days 2 and 4 pi.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 38,
+   "text": "In 56%, 78% and 60% of the birds the cloacal swabs resulted positive on days 2, 4 and 6 pi, respectively (Additional file 1), while all of the birds shed virus RNA via the trachea at each sampling time. We compared the average Ct values of cloacal and tracheal swabs and observed that the virus load in the trachea was significantly higher than in the cloaca, on days 2 and 4 pi.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

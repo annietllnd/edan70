@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":40, "text":"The quantitative comparison of three main policy approaches, (i) changing ventilation rates only; (ii) filtration of outdoor air; and (iii) indoor source control, showed that all three approaches are able to provide substantial reductions in the health risks varying from approximately 20% to 44%, corresponding to 400 000 and 900 000 saved healthy life years in EU-26.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 40,
+   "text": "The quantitative comparison of three main policy approaches, (i) changing ventilation rates only; (ii) filtration of outdoor air; and (iii) indoor source control, showed that all three approaches are able to provide substantial reductions in the health risks varying from approximately 20% to 44%, corresponding to 400 000 and 900 000 saved healthy life years in EU-26.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

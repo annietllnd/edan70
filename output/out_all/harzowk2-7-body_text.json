@@ -1,1 +1,18 @@
-{"cord_uid":"harzowk2", "sourcedb":"PMC", "sourceid":"PMC3488377", "divid":7, "text":"History of immunization with the 7-valent vaccine is not a guaranteed prevention against pneumococcal infection in children [1] [2] [3] . Evolving serotypes associated with severe lobar pneumonia, pleural effusion, and PICU admission despite prior immunization have been previously reported locally [4] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":186,"end":195}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"}]}
+{
+   "cord_uid": "harzowk2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3488377",
+   "divid": 7,
+   "text": "History of immunization with the 7-valent vaccine is not a guaranteed prevention against pneumococcal infection in children [1] [2] [3] . Evolving serotypes associated with severe lobar pneumonia, pleural effusion, and PICU admission despite prior immunization have been previously reported locally [4] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":186,
+              "end": 195
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       }
+   ]
+}

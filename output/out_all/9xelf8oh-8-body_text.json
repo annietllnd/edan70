@@ -1,1 +1,8 @@
-{"cord_uid":"9xelf8oh", "sourcedb":"PMC", "sourceid":"PMC7088385", "divid":8, "text":"All qPCR reactions were carried out using white 96-well plates sealed with optical clear caps (Primer Design, Southampton, UK) and were run in a LightCycler® 480 II real-time cycler (Roche, Welwyn Garden City, UK), unless otherwise stated.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "9xelf8oh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7088385",
+   "divid": 8,
+   "text": "All qPCR reactions were carried out using white 96-well plates sealed with optical clear caps (Primer Design, Southampton, UK) and were run in a LightCycler® 480 II real-time cycler (Roche, Welwyn Garden City, UK), unless otherwise stated.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

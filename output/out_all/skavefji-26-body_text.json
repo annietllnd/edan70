@@ -1,1 +1,18 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":26, "text":"In conclusion, the data indicate that cellular analysis of BAL fluid, alone or in combination with serum procalcitonin and Creactive protein concentrations, may rapidly provide valuable diagnostic information for the early differential diagnosis of pneumonia in critically ill adult patients. ", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":249,"end":258}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 26,
+   "text": "In conclusion, the data indicate that cellular analysis of BAL fluid, alone or in combination with serum procalcitonin and Creactive protein concentrations, may rapidly provide valuable diagnostic information for the early differential diagnosis of pneumonia in critically ill adult patients. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":249,
+              "end": 258
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

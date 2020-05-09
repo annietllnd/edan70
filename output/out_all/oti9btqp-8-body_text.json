@@ -1,1 +1,8 @@
-{"cord_uid":"oti9btqp", "sourcedb":"PMC", "sourceid":"PMC5707885", "divid":8, "text":"plasmid vaccines (Supplementary Figure S1A,B) . Detailed mapping analysis of the cellular responses induced by either the Brazilian or MR766 prME vaccines revealed that both vaccines induced a significant cellular response against the dominant Env-specific CTL epitope as identified in Figure 2b and c for the consensus ZIKV-prME plasmid (data not shown). The consensus immunogen consistently induced more robust responses in these T-cell assays at the same dose and was evaluated further in additional assays.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "oti9btqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5707885",
+   "divid": 8,
+   "text": "plasmid vaccines (Supplementary Figure S1A,B) . Detailed mapping analysis of the cellular responses induced by either the Brazilian or MR766 prME vaccines revealed that both vaccines induced a significant cellular response against the dominant Env-specific CTL epitope as identified in Figure 2b and c for the consensus ZIKV-prME plasmid (data not shown). The consensus immunogen consistently induced more robust responses in these T-cell assays at the same dose and was evaluated further in additional assays.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

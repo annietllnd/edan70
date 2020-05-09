@@ -1,1 +1,8 @@
-{"cord_uid":"rl7sdzd7", "sourcedb":"PMC", "sourceid":"PMC2656497", "divid":16, "text":"That LAMP is able to detect very small amounts of target and do that even in high amounts of background DNA makes it ideal for GMO detection. GMO testing can be performed in steps: routine screening for the presence of GMOs using generic assays such as for 35S promoters and T-nos; and if required, identification of specific events can be performed using event-specific assays. Equally, direct screening using event-specific assays is also feasible. The levels of sensitivity are orders of magnitude below the permissible threshold for GMO in food and feed (EC regulation 1830/2003), ensuring the detection of the presence of GMOs at acceptable levels and the reliable detection of any presence of unauthorised GM events, for which at present there is no legally acceptable lower limit (according to EC regulations).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rl7sdzd7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2656497",
+   "divid": 16,
+   "text": "That LAMP is able to detect very small amounts of target and do that even in high amounts of background DNA makes it ideal for GMO detection. GMO testing can be performed in steps: routine screening for the presence of GMOs using generic assays such as for 35S promoters and T-nos; and if required, identification of specific events can be performed using event-specific assays. Equally, direct screening using event-specific assays is also feasible. The levels of sensitivity are orders of magnitude below the permissible threshold for GMO in food and feed (EC regulation 1830/2003), ensuring the detection of the presence of GMOs at acceptable levels and the reliable detection of any presence of unauthorised GM events, for which at present there is no legally acceptable lower limit (according to EC regulations).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

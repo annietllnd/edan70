@@ -1,1 +1,8 @@
-{"cord_uid":"442gq3k5", "sourcedb":"PMC", "sourceid":"PMC3050921", "divid":11, "text":"Culture of blood and cerebrospinal fluid was performed in the microbiology laboratory of the HTD using standard culture methods. Blood samples were taken on admission for all patients and blood cultures were performed using the BD BACTECH 9050 blood culture system. S. suis was identified on the basis of colony morphology, negative catalase reaction, optochin resistance, and by APIStrep (Biomerieux, France) and subsequently serotyped (Statens Serum Institute, Denmark).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "442gq3k5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3050921",
+   "divid": 11,
+   "text": "Culture of blood and cerebrospinal fluid was performed in the microbiology laboratory of the HTD using standard culture methods. Blood samples were taken on admission for all patients and blood cultures were performed using the BD BACTECH 9050 blood culture system. S. suis was identified on the basis of colony morphology, negative catalase reaction, optochin resistance, and by APIStrep (Biomerieux, France) and subsequently serotyped (Statens Serum Institute, Denmark).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

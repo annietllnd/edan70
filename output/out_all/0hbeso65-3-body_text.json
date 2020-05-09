@@ -1,1 +1,18 @@
-{"cord_uid":"0hbeso65", "sourcedb":"PMC", "sourceid":"PMC3655463", "divid":3, "text":"The viral load can return to the pretransplant values within 4 days after transplantation and may be influenced by the usage of corticosteroids [5] . Acute hepatitis occurs between 2-5 months after transplant, and it is characterized by acute lobular hepatitis [4] . In the early reinfection stage, the graft injury occurs only after 3 weeks. Chronic hepatitis is established about 6-12 months after transplantation. The stage of chronic hepatitis is characterized by a decrease of viral load and a pattern of immune-mediated injury. A variant form of posttransplant HCV infection is cholestatic hepatitis C that occurs in <10% of patients, frequently associated with high viral load and immunosuppression. Usually, it occurs within 1-6 months after transplant and can progress to hepatic failure in 3-6 months [6] . This form is characterized by very high viral load, cellular ballooning, low inflammation, and a Th2 intrahepatic immunological response. These features suggest that the liver lesion is due to a direct cytopathic injury caused by HCV.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":894,"end":906}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}]}
+{
+   "cord_uid": "0hbeso65",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3655463",
+   "divid": 3,
+   "text": "The viral load can return to the pretransplant values within 4 days after transplantation and may be influenced by the usage of corticosteroids [5] . Acute hepatitis occurs between 2-5 months after transplant, and it is characterized by acute lobular hepatitis [4] . In the early reinfection stage, the graft injury occurs only after 3 weeks. Chronic hepatitis is established about 6-12 months after transplantation. The stage of chronic hepatitis is characterized by a decrease of viral load and a pattern of immune-mediated injury. A variant form of posttransplant HCV infection is cholestatic hepatitis C that occurs in <10% of patients, frequently associated with high viral load and immunosuppression. Usually, it occurs within 1-6 months after transplant and can progress to hepatic failure in 3-6 months [6] . This form is characterized by very high viral load, cellular ballooning, low inflammation, and a Th2 intrahepatic immunological response. These features suggest that the liver lesion is due to a direct cytopathic injury caused by HCV.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":894,
+              "end": 906
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       }
+   ]
+}

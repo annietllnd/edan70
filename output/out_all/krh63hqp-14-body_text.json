@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":14, "text":"We did a similar, but much larger analysis of mutation accumulation in all human H1N1 strains from 1918 to 2012, using the 1918 "Brevig Mission" reference genome (A/Brevig Mission/1/1918) as a reference. This sequence was missing the last 480 nucleotides of segment 4. We amended this by appending the ending sequence of another 1918 H1N1 virus, A/South Carolina/1/18(H1N1). These two strains had only one nucleotide difference in the ORF of segment 4 (C/T at position 238). Thus, they are essentially identical and we do not expect to have introduced extra mutations in this way.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 14,
+   "text": "We did a similar, but much larger analysis of mutation accumulation in all human H1N1 strains from 1918 to 2012, using the 1918 \"Brevig Mission\" reference genome (A/Brevig Mission/1/1918) as a reference. This sequence was missing the last 480 nucleotides of segment 4. We amended this by appending the ending sequence of another 1918 H1N1 virus, A/South Carolina/1/18(H1N1). These two strains had only one nucleotide difference in the ORF of segment 4 (C/T at position 238). Thus, they are essentially identical and we do not expect to have introduced extra mutations in this way.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

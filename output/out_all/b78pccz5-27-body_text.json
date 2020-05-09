@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":27, "text":"Although the authors provide an explanation of the methods that can be used to achieve such source control for each pollutant, it is not clear how the specific reduction % was decided upon in each case. Are the reductions based on evidence or just plausible best guesses? For example, how do you know that implementing compulsory alarms will reduce CO sources by exactly 90%?", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 27,
+   "text": "Although the authors provide an explanation of the methods that can be used to achieve such source control for each pollutant, it is not clear how the specific reduction % was decided upon in each case. Are the reductions based on evidence or just plausible best guesses? For example, how do you know that implementing compulsory alarms will reduce CO sources by exactly 90%?",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

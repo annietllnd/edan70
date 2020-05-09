@@ -1,1 +1,42 @@
-{"cord_uid":"btuoin6d", "sourcedb":"PMC", "sourceid":"PMC7033854", "divid":16, "text":"Comparisons of fever and response to antipyretics Figure 2 shows the changes in mean body temperature at admission and during the 7 days after admission between Adv and Non-Adv group patients. In addition, we also compared the fever and response to antipyretic treatment between the patients in the no pathogen group and in the Adv and Non-Adv groups, the results of which are shown in Table 3 . In general, Adv group patients had a much longer duration of fever after admission than the Non-Adv patients (3.2 ± 1.6 days vs. 1.9 ± 1.2 days, 2.2 ± 1.5 days, P = 0.018) and symptom onset (5.8 ± 2.2 days vs. 3.9 ± 2.5 days, 3.7 ± 2.0 days, P = 0.006). To evaluate the degree of fever, we assessed the mean temperature and number of patients to the maximal temperature at admission. The Adv group patients had higher a mean temperature at admission (37.8 ± 0.3°C vs. 37.3 ± 0.3°C vs. 37.3 ± 0.2°C, P = 0.005), and more observed instances of a temperature of over 40 and 39 to 40°C (P < 0.001). The Adv group patients took longer to attain the maximal fall in body temperature than the Non-Adv and unknown pathogen group patients at admission (10.2 ± 5.6 vs. 8.0 ± 4.5 vs. 8.6 ± 5.5, P = 0.015).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":15,"end":20}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}, {"id":"Symptom_Covid-19", "span":{"begin":227,"end":232}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}, {"id":"Symptom_Covid-19", "span":{"begin":457,"end":462}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}, {"id":"Symptom_Covid-19", "span":{"begin":676,"end":681}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}]}
+{
+   "cord_uid": "btuoin6d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7033854",
+   "divid": 16,
+   "text": "Comparisons of fever and response to antipyretics Figure 2 shows the changes in mean body temperature at admission and during the 7 days after admission between Adv and Non-Adv group patients. In addition, we also compared the fever and response to antipyretic treatment between the patients in the no pathogen group and in the Adv and Non-Adv groups, the results of which are shown in Table 3 . In general, Adv group patients had a much longer duration of fever after admission than the Non-Adv patients (3.2 ± 1.6 days vs. 1.9 ± 1.2 days, 2.2 ± 1.5 days, P = 0.018) and symptom onset (5.8 ± 2.2 days vs. 3.9 ± 2.5 days, 3.7 ± 2.0 days, P = 0.006). To evaluate the degree of fever, we assessed the mean temperature and number of patients to the maximal temperature at admission. The Adv group patients had higher a mean temperature at admission (37.8 ± 0.3°C vs. 37.3 ± 0.3°C vs. 37.3 ± 0.2°C, P = 0.005), and more observed instances of a temperature of over 40 and 39 to 40°C (P < 0.001). The Adv group patients took longer to attain the maximal fall in body temperature than the Non-Adv and unknown pathogen group patients at admission (10.2 ± 5.6 vs. 8.0 ± 4.5 vs. 8.6 ± 5.5, P = 0.015).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":15,
+              "end": 20
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":227,
+              "end": 232
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":457,
+              "end": 462
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":676,
+              "end": 681
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       }
+   ]
+}

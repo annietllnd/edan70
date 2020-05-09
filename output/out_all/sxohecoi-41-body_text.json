@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":41, "text":"HEC-1A cells were incubated with 50 mg/ml rabbit polyclonal anti-FcRn IgG (H-274; Santa Cruz Biotechnology Inc.) or normal rabbit polyclonal IgG for 1 hour at pH 7.4 before exposing the apical surface to HIV-1 US712 and HIVIG, b12, IVIG or Synagis. Similarly, HEC-1A cells were incubated with 0.1 mM bafilomycin A1 (Santa Cruz Biotechnology Inc.) for 1 hour prior to HIV-1 and antibody exposure. Transcytosis was then carried out as above.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 41,
+   "text": "HEC-1A cells were incubated with 50 mg/ml rabbit polyclonal anti-FcRn IgG (H-274; Santa Cruz Biotechnology Inc.) or normal rabbit polyclonal IgG for 1 hour at pH 7.4 before exposing the apical surface to HIV-1 US712 and HIVIG, b12, IVIG or Synagis. Similarly, HEC-1A cells were incubated with 0.1 mM bafilomycin A1 (Santa Cruz Biotechnology Inc.) for 1 hour prior to HIV-1 and antibody exposure. Transcytosis was then carried out as above.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

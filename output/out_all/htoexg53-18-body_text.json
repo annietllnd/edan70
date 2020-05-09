@@ -1,1 +1,8 @@
-{"cord_uid":"htoexg53", "sourcedb":"PMC", "sourceid":"PMC6316859", "divid":18, "text":"Statistical analysis was performed by t-test using GraphPad Prism version 5 software (GraphPad software, San Diego CA, USA); P-values less than 0.05 were considered to be statistically significant.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "htoexg53",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6316859",
+   "divid": 18,
+   "text": "Statistical analysis was performed by t-test using GraphPad Prism version 5 software (GraphPad software, San Diego CA, USA); P-values less than 0.05 were considered to be statistically significant.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

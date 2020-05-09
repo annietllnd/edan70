@@ -1,1 +1,8 @@
-{"cord_uid":"pj330wn4", "sourcedb":"PMC", "sourceid":"PMC3607980", "divid":15, "text":"Linear regression was used to correlate CBF measurements made by conventional frame by frame counting of individual ciliary beat cycles by slow-motion playback of digital high-speed video sequences to measurements obtained using the ciliaFA system (for the same region of interest). All regions of interest were chosen based on areas where optimal images of moving cilia were visible to the observer. The video sequences were reanalyzed by a second observer. Paired t tests were performed to compare the CBF obtained using the two methods and the Bland-Altman limits of agreement were calculated from the mean difference ± the 95% confidence intervals between the two methods.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "pj330wn4",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3607980",
+   "divid": 15,
+   "text": "Linear regression was used to correlate CBF measurements made by conventional frame by frame counting of individual ciliary beat cycles by slow-motion playback of digital high-speed video sequences to measurements obtained using the ciliaFA system (for the same region of interest). All regions of interest were chosen based on areas where optimal images of moving cilia were visible to the observer. The video sequences were reanalyzed by a second observer. Paired t tests were performed to compare the CBF obtained using the two methods and the Bland-Altman limits of agreement were calculated from the mean difference ± the 95% confidence intervals between the two methods.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

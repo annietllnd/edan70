@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":80, "text":"The benefits are approximately 44% from the baseline, or 940 000 DALYs in EU-26, and changing from reduction of 41% (865 000 DALY) with lower source control assumptions to 57% (1.21 million DALY) with higher source control assumptions, demonstrating source control to be more effective than dilution or filtration even with smaller reductions of source exposures.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 80,
+   "text": "The benefits are approximately 44% from the baseline, or 940 000 DALYs in EU-26, and changing from reduction of 41% (865 000 DALY) with lower source control assumptions to 57% (1.21 million DALY) with higher source control assumptions, demonstrating source control to be more effective than dilution or filtration even with smaller reductions of source exposures.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

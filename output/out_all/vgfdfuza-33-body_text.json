@@ -1,1 +1,8 @@
-{"cord_uid":"vgfdfuza", "sourcedb":"PMC", "sourceid":"PMC6963657", "divid":33, "text":""At the treatment end, there's no problem because their treatment process is rigorous enough to remove all these bugs and all that . . . But, of course, I think it's more from the environmental leakage (of antibiotics)." -I09, Environment Health", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vgfdfuza",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6963657",
+   "divid": 33,
+   "text": "\"At the treatment end, there's no problem because their treatment process is rigorous enough to remove all these bugs and all that . . . But, of course, I think it's more from the environmental leakage (of antibiotics).\" -I09, Environment Health",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

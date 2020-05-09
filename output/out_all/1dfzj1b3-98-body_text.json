@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":98, "text":"NF-κB is a transcriptional regulator that consists of homo-and heterodimers of proteins (p65 or RelA, p50/p105, c-Rel, p52/p100 and RelB). NF-κB is maintained as a latent form in the cytoplasm of cells where it is complexed to IκB inhibitor protein. Seven members of the IκB family of proteins have been identified and includes IκB-α. Upon activation of NF-κB, IκB-α is phosphorylated by IκB kinases (IKK) leading to proteasome-dependent degradation of IκB, which allows a rapid translocation of NF-κB into the nucleus where it binds to DNA. The most predominant NF-κB dimmer activated is p65:p50. Translocation of p65:p50 to the nucleus results in the transcription of several proinflammatory genes, such as cytokines (TNF-α, IL-1β, IL-6) and inducible enzymes (iNOS and COX-2) [127, 128] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 98,
+   "text": "NF-κB is a transcriptional regulator that consists of homo-and heterodimers of proteins (p65 or RelA, p50/p105, c-Rel, p52/p100 and RelB). NF-κB is maintained as a latent form in the cytoplasm of cells where it is complexed to IκB inhibitor protein. Seven members of the IκB family of proteins have been identified and includes IκB-α. Upon activation of NF-κB, IκB-α is phosphorylated by IκB kinases (IKK) leading to proteasome-dependent degradation of IκB, which allows a rapid translocation of NF-κB into the nucleus where it binds to DNA. The most predominant NF-κB dimmer activated is p65:p50. Translocation of p65:p50 to the nucleus results in the transcription of several proinflammatory genes, such as cytokines (TNF-α, IL-1β, IL-6) and inducible enzymes (iNOS and COX-2) [127, 128] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"0oq4kkn5", "sourcedb":"PMC", "sourceid":"PMC5052702", "divid":4, "text":"Identity and purity (>95%) of all compounds were determined by chromatography (silica or RP-18 HPLC), by fully assigned 1 H-and 13 C NMR spectra (see supplementary NMR spectra) and by high-resolution mass spectra. Solvents were purchased in p.a. quality by VWR ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "0oq4kkn5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5052702",
+   "divid": 4,
+   "text": "Identity and purity (>95%) of all compounds were determined by chromatography (silica or RP-18 HPLC), by fully assigned 1 H-and 13 C NMR spectra (see supplementary NMR spectra) and by high-resolution mass spectra. Solvents were purchased in p.a. quality by VWR ",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

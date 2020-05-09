@@ -1,1 +1,8 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":24, "text":"None of the children were treated with antibiotics in the 7 days prior to FOB + BAL.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 24,
+   "text": "None of the children were treated with antibiotics in the 7 days prior to FOB + BAL.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

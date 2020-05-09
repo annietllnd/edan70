@@ -1,1 +1,90 @@
-{"cord_uid":"0hbeso65", "sourcedb":"PMC", "sourceid":"PMC3655463", "divid":20, "text":"In treatment of genotype 1 HCV infection, the first generation of DAAs, telaprevir and boceprevir were recently used to enhance the efficacy of the standard regiment, Pegylated IFN plus RBV [76] . Although DAAs significantly increase the SVR rate in naïve patients, relapsers, and nonresponders [59] [60] [61] , evidence is still limited about their efficacy in recurrent HCV infection after LT. In addition, there are some limitations for safety and tolerance. One critical limitation is the potential interaction with CNI. One recent study in healthy volunteers showed that boceprevir increased the area under the curve of CsA and Tac by 2.7 and of 17, respectively, [77] . Another study reported that the concomitant administration of immunosuppressive therapy with telaprevir in healthy volunteers increased CsA and Tac exposures by approximately 4.6-fold and 70-fold, respectively [78] . In 2012, several teams have communicated preliminary results of DAAs use after LT, which are summarized by Coilly et al. [79] . Overall, at 12 weeks of triple therapy, a complete early virological response (EVR) was obtained in 71% of patients treated with boceprevir and in 73% of patients treated with telaprevir. Notably, the CsA dose should be reduced by 1.3-fold with boceprevir and fourfold with telaprevir. The Tac dose should be reduced by fivefold with boceprevir and 35-fold with telaprevir. It was concluded that DAAs could completely change the prognosis of patients with severe HCV recurrence and offer new perspectives for the treatment of HCV recurrence in liver transplant patients.", "project":"cdlai_CORD-19", "denotations":[{"id":"chemical_antiviral", "span":{"begin":72,"end":82}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":87,"end":97}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":576,"end":586}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":769,"end":779}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1150,"end":1160}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1197,"end":1207}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1266,"end":1276}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1295,"end":1305}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1355,"end":1365}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}, {"id":"chemical_antiviral", "span":{"begin":1383,"end":1393}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"}]}
+{
+   "cord_uid": "0hbeso65",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3655463",
+   "divid": 20,
+   "text": "In treatment of genotype 1 HCV infection, the first generation of DAAs, telaprevir and boceprevir were recently used to enhance the efficacy of the standard regiment, Pegylated IFN plus RBV [76] . Although DAAs significantly increase the SVR rate in naïve patients, relapsers, and nonresponders [59] [60] [61] , evidence is still limited about their efficacy in recurrent HCV infection after LT. In addition, there are some limitations for safety and tolerance. One critical limitation is the potential interaction with CNI. One recent study in healthy volunteers showed that boceprevir increased the area under the curve of CsA and Tac by 2.7 and of 17, respectively, [77] . Another study reported that the concomitant administration of immunosuppressive therapy with telaprevir in healthy volunteers increased CsA and Tac exposures by approximately 4.6-fold and 70-fold, respectively [78] . In 2012, several teams have communicated preliminary results of DAAs use after LT, which are summarized by Coilly et al. [79] . Overall, at 12 weeks of triple therapy, a complete early virological response (EVR) was obtained in 71% of patients treated with boceprevir and in 73% of patients treated with telaprevir. Notably, the CsA dose should be reduced by 1.3-fold with boceprevir and fourfold with telaprevir. The Tac dose should be reduced by fivefold with boceprevir and 35-fold with telaprevir. It was concluded that DAAs could completely change the prognosis of patients with severe HCV recurrence and offer new perspectives for the treatment of HCV recurrence in liver transplant patients.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":72,
+              "end": 82
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":87,
+              "end": 97
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":576,
+              "end": 586
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":769,
+              "end": 779
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1150,
+              "end": 1160
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1197,
+              "end": 1207
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1266,
+              "end": 1276
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1295,
+              "end": 1305
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1355,
+              "end": 1365
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":1383,
+              "end": 1393
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+       }
+   ]
+}

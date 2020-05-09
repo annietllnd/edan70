@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":20, "text":"Since eEF1A binds to aa-tRNA among mammalian RNA species [35] , it is possible for eEF1A to bind to the similar RNA structures located in 5 1 -or 3 1 -UTR of the viral genome. It has been shown that interaction between eEF1A and the 3 1 -terminal stem-loop of the WNV genomic RNA facilitates the viral minus-strand RNA synthesis [30, 36, 37] . In the present study, we demonstrated that eEF1A binds to IRES located in the 5 1 -UTR of CSFV. Whether eEF1A binds to 3 1 -UTR of CSFV and influences RNA replication requires further study. We showed that eEF1A inhibits CSFV growth and reduces IRES activity of CSFV. Thus, we speculate that eEF1A affects the process of the viral protein translation via interacting with the CSFV IRES.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 20,
+   "text": "Since eEF1A binds to aa-tRNA among mammalian RNA species [35] , it is possible for eEF1A to bind to the similar RNA structures located in 5 1 -or 3 1 -UTR of the viral genome. It has been shown that interaction between eEF1A and the 3 1 -terminal stem-loop of the WNV genomic RNA facilitates the viral minus-strand RNA synthesis [30, 36, 37] . In the present study, we demonstrated that eEF1A binds to IRES located in the 5 1 -UTR of CSFV. Whether eEF1A binds to 3 1 -UTR of CSFV and influences RNA replication requires further study. We showed that eEF1A inhibits CSFV growth and reduces IRES activity of CSFV. Thus, we speculate that eEF1A affects the process of the viral protein translation via interacting with the CSFV IRES.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,42 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":11, "text":"We recruited cases from an open cohort of children less than 3 years of age, who were under monthly active and passive surveillance for respiratory illness. Trained fieldworkers referred children with respiratory complaints to the study clinic at the outpatient department (OPD) at Siddhi Memorial Hospital in Bhaktapur, and families could bring their children for free treatment at our clinic for common childhood illnesses. Children residing in Bhaktapur district, but outside the municipality, were only under such passive surveillance. Children aged 2 to 35 months presenting at our study clinic were screened for fast breathing or lower chest wall indrawing (LCI) and classified according to the standard World Health Organization (WHO) algorithm for acute respiratory infection (ARI) [19] (Figure 1 ). Pneumonia was defined as cough or difficult breathing combined with fast breathing, that is ≥ 50 breaths/min for children 2 to 11 months old, and ≥ 40 breaths/min for children ≥ 12 months old. Severe pneumonia was defined as cough or difficult breathing combined with LCI. Children with audible or auscultatory wheeze were given 2 doses of 2.5 mg nebulized salbutamol administered 15 min apart followed by reassessment after 30 min, which is in accordance with the revised WHO guidelines [20] . A child was included only if he or she had fast breathing or LCI at reassessment.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":808,"end":817}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":1008,"end":1017}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":833,"end":838}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":1033,"end":1038}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 11,
+   "text": "We recruited cases from an open cohort of children less than 3 years of age, who were under monthly active and passive surveillance for respiratory illness. Trained fieldworkers referred children with respiratory complaints to the study clinic at the outpatient department (OPD) at Siddhi Memorial Hospital in Bhaktapur, and families could bring their children for free treatment at our clinic for common childhood illnesses. Children residing in Bhaktapur district, but outside the municipality, were only under such passive surveillance. Children aged 2 to 35 months presenting at our study clinic were screened for fast breathing or lower chest wall indrawing (LCI) and classified according to the standard World Health Organization (WHO) algorithm for acute respiratory infection (ARI) [19] (Figure 1 ). Pneumonia was defined as cough or difficult breathing combined with fast breathing, that is ≥ 50 breaths/min for children 2 to 11 months old, and ≥ 40 breaths/min for children ≥ 12 months old. Severe pneumonia was defined as cough or difficult breathing combined with LCI. Children with audible or auscultatory wheeze were given 2 doses of 2.5 mg nebulized salbutamol administered 15 min apart followed by reassessment after 30 min, which is in accordance with the revised WHO guidelines [20] . A child was included only if he or she had fast breathing or LCI at reassessment.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":808,
+              "end": 817
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1008,
+              "end": 1017
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":833,
+              "end": 838
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1033,
+              "end": 1038
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

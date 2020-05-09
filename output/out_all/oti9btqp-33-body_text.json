@@ -1,1 +1,18 @@
-{"cord_uid":"oti9btqp", "sourcedb":"PMC", "sourceid":"PMC5707885", "divid":33, "text":"ZIKV challenge studies in IFNAR − / − mice For the ZIKA challenge studies, IFNAR − / − mice (n = 10/group) were immunised once or twice with the ZIKA-prME vaccine or pVax1. The mice were challenge with either 1 × 10 6 PFU or 2 × 10 6 PFU ZIKV-PR209 virus on day 15 (single immunisation group) or day 21 one week after the second immunisation (two immunisation groups). Post challenge, the animals were weighed and body temperature was measured daily by a subcutaneously located temperature chip. In addition, they were observed for clinical signs of disease twice daily (decreased mobility; hunched posture; hind-limb knuckle walking (partial paralysis), paralysis of one hind limb or both hind limbs) and blood was drawn for viral load determination. The criteria for killing on welfare grounds consisted of 20% weight loss or paralysis in one or both hind limbs.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":813,"end":824}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707885/"}]}
+{
+   "cord_uid": "oti9btqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5707885",
+   "divid": 33,
+   "text": "ZIKV challenge studies in IFNAR − / − mice For the ZIKA challenge studies, IFNAR − / − mice (n = 10/group) were immunised once or twice with the ZIKA-prME vaccine or pVax1. The mice were challenge with either 1 × 10 6 PFU or 2 × 10 6 PFU ZIKV-PR209 virus on day 15 (single immunisation group) or day 21 one week after the second immunisation (two immunisation groups). Post challenge, the animals were weighed and body temperature was measured daily by a subcutaneously located temperature chip. In addition, they were observed for clinical signs of disease twice daily (decreased mobility; hunched posture; hind-limb knuckle walking (partial paralysis), paralysis of one hind limb or both hind limbs) and blood was drawn for viral load determination. The criteria for killing on welfare grounds consisted of 20% weight loss or paralysis in one or both hind limbs.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":813,
+              "end": 824
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707885/"
+       }
+   ]
+}

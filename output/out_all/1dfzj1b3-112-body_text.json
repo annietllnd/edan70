@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":112, "text":"In human macrophage-like U937 cells, carvacrol suppressed LPS-induced COX-2 mRNA and protein expression, suggesting that carvacrol regulates COX-2 expression through its agonistic effect on PPARγ [132] . However, this property of carvacrol was not as remarkable as was that of citral [147] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 112,
+   "text": "In human macrophage-like U937 cells, carvacrol suppressed LPS-induced COX-2 mRNA and protein expression, suggesting that carvacrol regulates COX-2 expression through its agonistic effect on PPARγ [132] . However, this property of carvacrol was not as remarkable as was that of citral [147] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

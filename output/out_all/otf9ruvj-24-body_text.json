@@ -1,1 +1,8 @@
-{"cord_uid":"otf9ruvj", "sourcedb":"PMC", "sourceid":"PMC5827994", "divid":24, "text":"Lymphocyte levels were analyzed retrospectively when available. Initially after admission, lymphocyte levels were not different between the groups (control alive 8.3% ± 3.4; control dead 8.9% ± 4.5; IVIG alive 8.9% ± 4.4; IVIG dead 7.3% ± 5.7). However, lymphocyte levels were higher in survivors compared to those in non-survivors (Fig. 2) . The increase in lymphocytes was more prominent in survivors compared to that in non-survivors (control alive 1.74 ± 0.85; IVIG alive 3.16 ± 5.03; control dead 0.92 ± 0.17; IVIG dead 2.13 ± 1.55; Fig. 3 ). In addition, in patients treated with IVIG, this increase during treatment was more prominent than that in the control group in the first 28 days (Fig. 3 ). Since we did not evaluate differential blood counts routinely, limited data were available for determining significant difference.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "otf9ruvj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5827994",
+   "divid": 24,
+   "text": "Lymphocyte levels were analyzed retrospectively when available. Initially after admission, lymphocyte levels were not different between the groups (control alive 8.3% ± 3.4; control dead 8.9% ± 4.5; IVIG alive 8.9% ± 4.4; IVIG dead 7.3% ± 5.7). However, lymphocyte levels were higher in survivors compared to those in non-survivors (Fig. 2) . The increase in lymphocytes was more prominent in survivors compared to that in non-survivors (control alive 1.74 ± 0.85; IVIG alive 3.16 ± 5.03; control dead 0.92 ± 0.17; IVIG dead 2.13 ± 1.55; Fig. 3 ). In addition, in patients treated with IVIG, this increase during treatment was more prominent than that in the control group in the first 28 days (Fig. 3 ). Since we did not evaluate differential blood counts routinely, limited data were available for determining significant difference.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

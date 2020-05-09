@@ -1,1 +1,8 @@
-{"cord_uid":"i08zc62d", "sourcedb":"PMC", "sourceid":"PMC4014123", "divid":18, "text":"Structural comparison of apo NanI CD , NanI CD -Neu5Ac and NanI CDdiplacone. (a) Overall superposed structures of apo NanI CD (orange) and the NanI CD -Neu5Ac (cyan) and NanI CD -diplacone (yellow) complexes. (b) Catalytic site. Diplacone and Neu5Ac molecules are displayed as green and cyan sticks, respectively. Water molecules (W1, W2 and W3) are shown as red spheres.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "i08zc62d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4014123",
+   "divid": 18,
+   "text": "Structural comparison of apo NanI CD , NanI CD -Neu5Ac and NanI CDdiplacone. (a) Overall superposed structures of apo NanI CD (orange) and the NanI CD -Neu5Ac (cyan) and NanI CD -diplacone (yellow) complexes. (b) Catalytic site. Diplacone and Neu5Ac molecules are displayed as green and cyan sticks, respectively. Water molecules (W1, W2 and W3) are shown as red spheres.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

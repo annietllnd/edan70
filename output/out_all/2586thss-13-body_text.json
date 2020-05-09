@@ -1,1 +1,8 @@
-{"cord_uid":"2586thss", "sourcedb":"PMC", "sourceid":"PMC3573733", "divid":13, "text":"Statistical analysis. The statistical package SPSS 11.5 was used for data analysis. P-value ≤0.05 was considered to indicate a statistically significant difference.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "2586thss",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3573733",
+   "divid": 13,
+   "text": "Statistical analysis. The statistical package SPSS 11.5 was used for data analysis. P-value ≤0.05 was considered to indicate a statistically significant difference.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

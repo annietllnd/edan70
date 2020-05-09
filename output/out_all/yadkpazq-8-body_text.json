@@ -1,1 +1,8 @@
-{"cord_uid":"yadkpazq", "sourcedb":"PMC", "sourceid":"PMC3537549", "divid":8, "text":"Feline PBMC isolation, cell lines, ODNs, cell culture and cell viability assay Feline PBMCs were isolated from EDTA-anticoagulated whole blood by Ficoll-Hypaque density gradient centrifugation using a standard protocol [56] . Purified cells were counted prior to their utilization in the different experiments using the Sysmex XT 2000iV (Sysmex, Norderstedt, Germany) as described previously [57] , and cultured in RPMI 1640 with Glutamax I (Gibco ® , Invitrogen, Basel, Switzerland). Adherent CRFK (ATCC no. CCL-94) and FEA cells were maintained in RPMI 1640 with Glutamax I, while adherent fcwf-4 cells (ATCC no. CRL-2787) were cultured in EMEM (ATCC ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "yadkpazq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3537549",
+   "divid": 8,
+   "text": "Feline PBMC isolation, cell lines, ODNs, cell culture and cell viability assay Feline PBMCs were isolated from EDTA-anticoagulated whole blood by Ficoll-Hypaque density gradient centrifugation using a standard protocol [56] . Purified cells were counted prior to their utilization in the different experiments using the Sysmex XT 2000iV (Sysmex, Norderstedt, Germany) as described previously [57] , and cultured in RPMI 1640 with Glutamax I (Gibco ® , Invitrogen, Basel, Switzerland). Adherent CRFK (ATCC no. CCL-94) and FEA cells were maintained in RPMI 1640 with Glutamax I, while adherent fcwf-4 cells (ATCC no. CRL-2787) were cultured in EMEM (ATCC ",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

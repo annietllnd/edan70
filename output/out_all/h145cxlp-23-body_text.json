@@ -1,1 +1,34 @@
-{"cord_uid":"h145cxlp", "sourcedb":"PMC", "sourceid":"PMC4683816", "divid":23, "text":"In the pre-pandemic period, median duration of PICU stay was longer (19 days) , and children were more often diagnosed with encephalitis/encephalopathy (25 %) and co-infections (65 %) than in later periods ( Table 7) . The proportion of children with influenza-associated pneumonia was highest (74 %) during the pandemic, whereas secondary bacterial pneumonia (17 %), bronchitis/ bronchiolitis (12 %) and sepsis (6 %) were reported less frequently during the pandemic than in the pre-and post-pandemic seasons. Oseltamivir treatment decreased significantly in the post-pandemic period (Table 7) .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":272,"end":281}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}, {"id":"Symptom_Covid-19", "span":{"begin":350,"end":359}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}, {"id":"chemical_antiviral", "span":{"begin":511,"end":522}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}]}
+{
+   "cord_uid": "h145cxlp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4683816",
+   "divid": 23,
+   "text": "In the pre-pandemic period, median duration of PICU stay was longer (19 days) , and children were more often diagnosed with encephalitis/encephalopathy (25 %) and co-infections (65 %) than in later periods ( Table 7) . The proportion of children with influenza-associated pneumonia was highest (74 %) during the pandemic, whereas secondary bacterial pneumonia (17 %), bronchitis/ bronchiolitis (12 %) and sepsis (6 %) were reported less frequently during the pandemic than in the pre-and post-pandemic seasons. Oseltamivir treatment decreased significantly in the post-pandemic period (Table 7) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":272,
+              "end": 281
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":350,
+              "end": 359
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":511,
+              "end": 522
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       }
+   ]
+}

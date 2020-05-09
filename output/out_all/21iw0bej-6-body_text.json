@@ -1,1 +1,8 @@
-{"cord_uid":"21iw0bej", "sourcedb":"PMC", "sourceid":"PMC5296350", "divid":6, "text":"The viral titers were determined by measuring the 50% tissue culture infective dose (TCID50) in a microtitration assay using RD cells, as described (Gay et al., 2006) . RD cells were seeded and incubated at 37 • C for 24 h in 96-well plates. Viruscontaining supernatant was serially diluted 10-fold, and 100 µl of diluent virus was added per well in octuplicate. Until the experimental endpoint was reached the cytopathic effect was observed once per day. According to the Reed-Muench method (Reed, 1983 ) the viral titers of the TCID50 were determined, based on the assumption that material with 1 × 10 5 TCID50/ml will produce 0.7 × 10 5 plaque forming units/ml (www.protocol-online.org/biology-forums/posts/1664.html).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "21iw0bej",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5296350",
+   "divid": 6,
+   "text": "The viral titers were determined by measuring the 50% tissue culture infective dose (TCID50) in a microtitration assay using RD cells, as described (Gay et al., 2006) . RD cells were seeded and incubated at 37 • C for 24 h in 96-well plates. Viruscontaining supernatant was serially diluted 10-fold, and 100 µl of diluent virus was added per well in octuplicate. Until the experimental endpoint was reached the cytopathic effect was observed once per day. According to the Reed-Muench method (Reed, 1983 ) the viral titers of the TCID50 were determined, based on the assumption that material with 1 × 10 5 TCID50/ml will produce 0.7 × 10 5 plaque forming units/ml (www.protocol-online.org/biology-forums/posts/1664.html).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

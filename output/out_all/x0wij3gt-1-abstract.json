@@ -1,1 +1,18 @@
-{"cord_uid":"x0wij3gt", "sourcedb":"PMC", "sourceid":"PMC4699375", "divid":1, "text":"Background: Cyclooxygenase-2-derived prostaglandin E 2 (PGE 2 ), a bioactive eicosanoid, has been implicated in many biological processes including reproduction, inflammation and tumor growth. We previously showed that PGE 2 stimulated lung cancer cell growth and progression through PGE 2 receptor EP2/EP4-mediated kinase signaling pathways. However, the role of PGE 2 in controlling lung airway epithelial cell phenotype remains unknown. We evaluated the effects of c-Jun and 3-phosphoinositede dependent protein kinase-1 (PDK1) in mediating epithelial cell hyperplasia induced by PGE 2 .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":162,"end":174}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4699375/"}]}
+{
+   "cord_uid": "x0wij3gt",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4699375",
+   "divid": 1,
+   "text": "Background: Cyclooxygenase-2-derived prostaglandin E 2 (PGE 2 ), a bioactive eicosanoid, has been implicated in many biological processes including reproduction, inflammation and tumor growth. We previously showed that PGE 2 stimulated lung cancer cell growth and progression through PGE 2 receptor EP2/EP4-mediated kinase signaling pathways. However, the role of PGE 2 in controlling lung airway epithelial cell phenotype remains unknown. We evaluated the effects of c-Jun and 3-phosphoinositede dependent protein kinase-1 (PDK1) in mediating epithelial cell hyperplasia induced by PGE 2 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":162,
+              "end": 174
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4699375/"
+       }
+   ]
+}

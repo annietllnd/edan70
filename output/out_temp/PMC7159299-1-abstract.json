@@ -73,14 +73,6 @@
        {
            "id": "Virus_SARS-CoV-2", 
            "span": {
-              "begin":113,
-              "end": 130
-           }, 
-           "obj": "n/a"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
               "begin":108,
               "end": 130
            }, 
@@ -99,30 +91,6 @@
            "span": {
               "begin":322,
               "end": 331
-           }, 
-           "obj": "n/a"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
-              "begin":464,
-              "end": 473
-           }, 
-           "obj": "n/a"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
-              "begin":1071,
-              "end": 1080
-           }, 
-           "obj": "n/a"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
-              "begin":2314,
-              "end": 2323
            }, 
            "obj": "n/a"
        },

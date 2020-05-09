@@ -1,1 +1,8 @@
-{"cord_uid":"yr1zanxx", "sourcedb":"PMC", "sourceid":"PMC6354430", "divid":7, "text":"All experiments were performed in strict compliance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health and according to the international Guiding Principles for Biomedical Research Involving Animals. The protocol was approved by the Washington University School of Medicine in St Louis Animal Safety Committee (#20170064).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "yr1zanxx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6354430",
+   "divid": 7,
+   "text": "All experiments were performed in strict compliance with the recommendations in the Guide for the Care and Use of Laboratory Animals of the National Institutes of Health and according to the international Guiding Principles for Biomedical Research Involving Animals. The protocol was approved by the Washington University School of Medicine in St Louis Animal Safety Committee (#20170064).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":26, "text":"Although colistin has been used in some studies to promote animal growth, data were not conclusive to support the effectiveness of this practice [81] . In this study, no difference was observed between the CS treated and the control group in terms of average daily gain per day (ADG/day) [81] . Also, the economic benefits of antimicrobial growth promotion in modern farms have been questioned [82] , the benefit of this use being associated with poor hygiene on farms.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 26,
+   "text": "Although colistin has been used in some studies to promote animal growth, data were not conclusive to support the effectiveness of this practice [81] . In this study, no difference was observed between the CS treated and the control group in terms of average daily gain per day (ADG/day) [81] . Also, the economic benefits of antimicrobial growth promotion in modern farms have been questioned [82] , the benefit of this use being associated with poor hygiene on farms.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

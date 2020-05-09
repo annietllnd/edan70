@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":34, "text":"A great deal has been learned from studying genes that tend to occur close to one another in diverse genomes [33, 34, 35, 36, 37, 38] . In particular, the co-occurrence of hypothetical and non-hypothetical proteins can be exploited to suggest the function of the former based on the function of the latter.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 34,
+   "text": "A great deal has been learned from studying genes that tend to occur close to one another in diverse genomes [33, 34, 35, 36, 37, 38] . In particular, the co-occurrence of hypothetical and non-hypothetical proteins can be exploited to suggest the function of the former based on the function of the latter.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

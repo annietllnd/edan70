@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":8, "text":"HeLa cells were transiently transfected with p∆R PR - [32] . After overnight cultivation at 37 • C, released VLPs were harvested as described above and lysed in protease cleavage buffer (50 mM MES pH 6.5, 1 M NaCl, 0.5% Triton X-100 adapted from [55] ). In vitro processing was performed using 2.56 µM Recombinant HIV1 Protease Protein (Abcam, Cambridge, UK) for 9 h at 37 • C. Processing was terminated by addition of SDS-PAGE sample buffer and boiling.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 8,
+   "text": "HeLa cells were transiently transfected with p∆R PR - [32] . After overnight cultivation at 37 • C, released VLPs were harvested as described above and lysed in protease cleavage buffer (50 mM MES pH 6.5, 1 M NaCl, 0.5% Triton X-100 adapted from [55] ). In vitro processing was performed using 2.56 µM Recombinant HIV1 Protease Protein (Abcam, Cambridge, UK) for 9 h at 37 • C. Processing was terminated by addition of SDS-PAGE sample buffer and boiling.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -33,14 +33,6 @@
        {
            "id": "Virus_SARS-CoV-2", 
            "span": {
-              "begin":107,
-              "end": 124
-           }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
               "begin":102,
               "end": 124
            }, 
@@ -75,14 +67,6 @@
            "span": {
               "begin":1160,
               "end": 1169
-           }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
-              "begin":1239,
-              "end": 1248
            }, 
            "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
        },

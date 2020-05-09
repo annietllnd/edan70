@@ -1,1 +1,26 @@
-{"cord_uid":"rn84e3ur", "sourcedb":"PMC", "sourceid":"PMC4133625", "divid":47, "text":"Uncertainties and errors still exist in this work. In the risk assessment and the likelihood estimation, an average walking possibility is used for all the seated passengers. This is not accurate because each individual may have a unique behavioral characteristic. So investigations on behavioral characteristics of the occupants in the airplane are strongly needed. And also, only the coughing droplets are numerical simulated in this study. Droplets expelled by breathing and sneezing can also influence the infection risk of each individual. An aerosol source model that takes the droplets expelled by multiple respiratory activities into account may also be helpful for better evaluating the aerosol disseminate process in the airplane cabin. The pathogen concentration in the expiratory fluid was considered as constant in this work. Since the volume concentration of the virus varies with the size of the cough droplets, changes of the pathogen concentration in the droplets of different size may also influence the risk assessment results [50] . Besides, the re-suspension of the aerosols is not considered in this work. During human walking, the movement may lead to the re-suspension of the aerosols from the floor. When taking the re-suspension of the exhaled droplets into consideration, the risk assessment results will be more accurate. However, since the airflow induced by the ventilation system is downward to the outlet (located on the side wall and close to the floor), the re-suspended aerosols can hardly rise to the breathing level of the seated passengers. So the effects of the re-suspended aerosols on the risk assessment results can be considered as insignificant in this case.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":911,"end":916}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"}, {"id":"Symptom_Covid-19", "span":{"begin":386,"end":394}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"}]}
+{
+   "cord_uid": "rn84e3ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4133625",
+   "divid": 47,
+   "text": "Uncertainties and errors still exist in this work. In the risk assessment and the likelihood estimation, an average walking possibility is used for all the seated passengers. This is not accurate because each individual may have a unique behavioral characteristic. So investigations on behavioral characteristics of the occupants in the airplane are strongly needed. And also, only the coughing droplets are numerical simulated in this study. Droplets expelled by breathing and sneezing can also influence the infection risk of each individual. An aerosol source model that takes the droplets expelled by multiple respiratory activities into account may also be helpful for better evaluating the aerosol disseminate process in the airplane cabin. The pathogen concentration in the expiratory fluid was considered as constant in this work. Since the volume concentration of the virus varies with the size of the cough droplets, changes of the pathogen concentration in the droplets of different size may also influence the risk assessment results [50] . Besides, the re-suspension of the aerosols is not considered in this work. During human walking, the movement may lead to the re-suspension of the aerosols from the floor. When taking the re-suspension of the exhaled droplets into consideration, the risk assessment results will be more accurate. However, since the airflow induced by the ventilation system is downward to the outlet (located on the side wall and close to the floor), the re-suspended aerosols can hardly rise to the breathing level of the seated passengers. So the effects of the re-suspended aerosols on the risk assessment results can be considered as insignificant in this case.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":911,
+              "end": 916
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":386,
+              "end": 394
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"
+       }
+   ]
+}

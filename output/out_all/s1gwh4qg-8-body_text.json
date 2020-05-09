@@ -1,1 +1,8 @@
-{"cord_uid":"s1gwh4qg", "sourcedb":"PMC", "sourceid":"PMC2739203", "divid":8, "text":"The diagram of SNAD dataflow is shown in Figure 1 . The user submits sequence IDs, defines a format of conversion, and selects a database to be searched. Currently available databases include GenBank/RefSeq/GenPept, UniProt, EMBL, SeqHound and EnsEMBL (Gene and Transcripts divisions for Human sequences). SNAD extracts IDs from the input and queries the database with these IDs to locate associated annotation. After retrieving annotation, SNAD designs names according to a name template that defines name structure and annotationbased content for submitted entries. The final step of the SNAD-mediated processing is substitution of submitted IDs in the input with the designed names to return results to the user.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "s1gwh4qg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2739203",
+   "divid": 8,
+   "text": "The diagram of SNAD dataflow is shown in Figure 1 . The user submits sequence IDs, defines a format of conversion, and selects a database to be searched. Currently available databases include GenBank/RefSeq/GenPept, UniProt, EMBL, SeqHound and EnsEMBL (Gene and Transcripts divisions for Human sequences). SNAD extracts IDs from the input and queries the database with these IDs to locate associated annotation. After retrieving annotation, SNAD designs names according to a name template that defines name structure and annotationbased content for submitted entries. The final step of the SNAD-mediated processing is substitution of submitted IDs in the input with the designed names to return results to the user.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

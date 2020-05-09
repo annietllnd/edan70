@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":49, "text":"The Perl distribution contains the following: Client Packages.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 49,
+   "text": "The Perl distribution contains the following: Client Packages.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

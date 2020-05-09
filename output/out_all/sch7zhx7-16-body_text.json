@@ -1,1 +1,8 @@
-{"cord_uid":"sch7zhx7", "sourcedb":"PMC", "sourceid":"PMC6563312", "divid":16, "text":"Prism 6 (GraphPad) was used to generate graphs and perform statistical analysis. For all analyses, two-tailed Student's t-test was used to compare groups, unless otherwise noted, with a = 0.05. For tests of sample proportions, p values were derived from calculated Z scores with two tails and a = 0.05. Half-maximal inhibitory concentration (IC50) values were calculated using Prism 6 using the built-in analysis tool.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sch7zhx7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6563312",
+   "divid": 16,
+   "text": "Prism 6 (GraphPad) was used to generate graphs and perform statistical analysis. For all analyses, two-tailed Student's t-test was used to compare groups, unless otherwise noted, with a = 0.05. For tests of sample proportions, p values were derived from calculated Z scores with two tails and a = 0.05. Half-maximal inhibitory concentration (IC50) values were calculated using Prism 6 using the built-in analysis tool.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

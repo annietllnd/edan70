@@ -1,1 +1,8 @@
-{"cord_uid":"s1gwh4qg", "sourcedb":"PMC", "sourceid":"PMC2739203", "divid":0, "text":"SNAD: sequence name annotation-based designer", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "s1gwh4qg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2739203",
+   "divid": 0,
+   "text": "SNAD: sequence name annotation-based designer",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":74, "text":"The capacity of the essential oils obtained from the aerial parts or from the fruits of Foeniculum vulgare for scavenging hydroxyl radicals was always less than 50%, at the concentrations assayed (100-2,000 mg/mL) [57] . Mannitol, the reference used in this assay, showed a similar scavenging percentage at ≈2,000 mg/mL. Only higher concentrations presented percentages >50%.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 74,
+   "text": "The capacity of the essential oils obtained from the aerial parts or from the fruits of Foeniculum vulgare for scavenging hydroxyl radicals was always less than 50%, at the concentrations assayed (100-2,000 mg/mL) [57] . Mannitol, the reference used in this assay, showed a similar scavenging percentage at ≈2,000 mg/mL. Only higher concentrations presented percentages >50%.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

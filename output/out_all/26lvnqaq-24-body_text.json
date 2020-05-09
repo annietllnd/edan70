@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":24, "text":"As both primary and secondary bacterial colonization of the oviduct can occur in birds contributing to abnormal eggs in shape, color and size, we carried out bacteriological examination on oviduct specimens that had resulted positive for the presence of influenza A virus by RRT-PCR to investigate the presence of relevant bacteria (e.g. E. coli, Gallibacterium spp., Enterococcus spp., Streptococccus spp., Pseudomonas spp.). Moreover, specific PCRs for Mycoplasma synoviae and galllisepticum were performed from oviducts in order to rule out the onset of abnormal eggs due to mycoplasma infection.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 24,
+   "text": "As both primary and secondary bacterial colonization of the oviduct can occur in birds contributing to abnormal eggs in shape, color and size, we carried out bacteriological examination on oviduct specimens that had resulted positive for the presence of influenza A virus by RRT-PCR to investigate the presence of relevant bacteria (e.g. E. coli, Gallibacterium spp., Enterococcus spp., Streptococccus spp., Pseudomonas spp.). Moreover, specific PCRs for Mycoplasma synoviae and galllisepticum were performed from oviducts in order to rule out the onset of abnormal eggs due to mycoplasma infection.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

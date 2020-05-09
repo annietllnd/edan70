@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":34, "text":"The second method on which Iterative HFold builds, called HFold-PKonly, is similar to HFold except that G may only contain base pairs that cross base pairs in G. The prediction provided by HFold-PKonly can be useful in cases where HFold does not produce a pseudoknotted structure.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 34,
+   "text": "The second method on which Iterative HFold builds, called HFold-PKonly, is similar to HFold except that G may only contain base pairs that cross base pairs in G. The prediction provided by HFold-PKonly can be useful in cases where HFold does not produce a pseudoknotted structure.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

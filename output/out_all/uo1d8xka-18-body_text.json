@@ -1,1 +1,8 @@
-{"cord_uid":"uo1d8xka", "sourcedb":"PMC", "sourceid":"PMC2259424", "divid":18, "text":"Global preparedness for H5N1 pandemic has been declared as the top priority of global health agencies such as CDC. In view of the ever escalating threat of the virus mutating to a human lethal form, it has become essential to constantly monitor the molecular evolution of this virus utilizing the latest and best phylogenetic algorithms.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "uo1d8xka",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2259424",
+   "divid": 18,
+   "text": "Global preparedness for H5N1 pandemic has been declared as the top priority of global health agencies such as CDC. In view of the ever escalating threat of the virus mutating to a human lethal form, it has become essential to constantly monitor the molecular evolution of this virus utilizing the latest and best phylogenetic algorithms.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

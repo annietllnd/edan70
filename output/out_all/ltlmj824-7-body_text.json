@@ -1,1 +1,18 @@
-{"cord_uid":"ltlmj824", "sourcedb":"PMC", "sourceid":"PMC6831962", "divid":7, "text":"Based on the highest risk contact for each participant, seven (20.6%) of the responders were classified as Grade 1; they were partially protected with at least gloves and an N95 respirator ( Table 1 ). They contacted asymptomatic or symptomatic patients, and symptomatic patients wore surgical masks. After MERS-CoV had been confirmed in a patient, all staff were fully protected when in contact with the patient. The closest contact occurred when touching and holding patients during transport. One responder wearing full PPE had a mild fever (37.5 °C) after contact with a symptomatic patient who was later confirmed as infected. Since the response system had not expanded in the early days of the outbreak, she was not tested but was isolated with self-monitoring.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":538,"end":543}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6831962/"}]}
+{
+   "cord_uid": "ltlmj824",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6831962",
+   "divid": 7,
+   "text": "Based on the highest risk contact for each participant, seven (20.6%) of the responders were classified as Grade 1; they were partially protected with at least gloves and an N95 respirator ( Table 1 ). They contacted asymptomatic or symptomatic patients, and symptomatic patients wore surgical masks. After MERS-CoV had been confirmed in a patient, all staff were fully protected when in contact with the patient. The closest contact occurred when touching and holding patients during transport. One responder wearing full PPE had a mild fever (37.5 °C) after contact with a symptomatic patient who was later confirmed as infected. Since the response system had not expanded in the early days of the outbreak, she was not tested but was isolated with self-monitoring.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":538,
+              "end": 543
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6831962/"
+       }
+   ]
+}

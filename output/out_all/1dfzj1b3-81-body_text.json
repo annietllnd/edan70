@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":81, "text":"The anti-inflammatory activity of essential oils may be attributed not only to their antioxidant activities but also to their interactions with signalling cascades involving cytokines and regulatory transcription factors, and on the expression of pro-inflammatory genes.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 81,
+   "text": "The anti-inflammatory activity of essential oils may be attributed not only to their antioxidant activities but also to their interactions with signalling cascades involving cytokines and regulatory transcription factors, and on the expression of pro-inflammatory genes.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

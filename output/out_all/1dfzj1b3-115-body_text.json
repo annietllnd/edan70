@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":115, "text":"In a short report, Chainy et al. (2000) [148] described that anethole, eugenol and isoeugenol inhibited TNF-α-induced NF-κB activation in ML1-a cells. The same authors also reported that anethole inhibited the degradation of IκBα, blocking its phosphorylation in TNF-stimulated ML1-a cells. In the same cells and with TNF stimulation, anethole did not induce the phosphorylation of MAP kinase. Besides NF-κB and MAP kinase, anethole also blocked TNF-induced JNK and AP-1.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 115,
+   "text": "In a short report, Chainy et al. (2000) [148] described that anethole, eugenol and isoeugenol inhibited TNF-α-induced NF-κB activation in ML1-a cells. The same authors also reported that anethole inhibited the degradation of IκBα, blocking its phosphorylation in TNF-stimulated ML1-a cells. In the same cells and with TNF stimulation, anethole did not induce the phosphorylation of MAP kinase. Besides NF-κB and MAP kinase, anethole also blocked TNF-induced JNK and AP-1.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

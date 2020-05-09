@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":60, "text":"where Z is a standard normal random variable. The solution for the threshold under this approximation is where Φ -1 (·) denotes the inverse cumulative distribution function for a standard normal random variable.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 60,
+   "text": "where Z is a standard normal random variable. The solution for the threshold under this approximation is where Φ -1 (·) denotes the inverse cumulative distribution function for a standard normal random variable.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

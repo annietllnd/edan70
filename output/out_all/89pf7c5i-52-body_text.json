@@ -1,1 +1,18 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":52, "text":"Hyperglobulinemia with increased gammaglobulin level reported in FeL is usually found in chronic infections caused by viruses, bacteria or systemic fungi, or inflammation associated with FCGS or inflammatory bowel disease, or in neoplasia such as lymphoma, or multiple myeloma.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":158,"end":170}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 52,
+   "text": "Hyperglobulinemia with increased gammaglobulin level reported in FeL is usually found in chronic infections caused by viruses, bacteria or systemic fungi, or inflammation associated with FCGS or inflammatory bowel disease, or in neoplasia such as lymphoma, or multiple myeloma.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":158,
+              "end": 170
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       }
+   ]
+}

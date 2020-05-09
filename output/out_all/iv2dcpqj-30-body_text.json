@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":30, "text":"HEK293T cells were cotransfected with pMyc-eEF1A (3 µg) and p3ˆFlag-NS5A (2 µg). After 48-h incubation, the cells were fixed with 4% paraformaldehyde in PBS for 30 min and permeabilized with 0.1% Triton X-100 for 15 min. The cells were then incubated with an anti-Myc PAb (1:100) (catalog no. C3956; Sigma-Aldrich) or anti-Flag MAb (1:100) (catalog no. F1804; Sigma-Aldrich) for 2 h.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 30,
+   "text": "HEK293T cells were cotransfected with pMyc-eEF1A (3 µg) and p3ˆFlag-NS5A (2 µg). After 48-h incubation, the cells were fixed with 4% paraformaldehyde in PBS for 30 min and permeabilized with 0.1% Triton X-100 for 15 min. The cells were then incubated with an anti-Myc PAb (1:100) (catalog no. C3956; Sigma-Aldrich) or anti-Flag MAb (1:100) (catalog no. F1804; Sigma-Aldrich) for 2 h.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,18 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":26, "text":"To date, only few in vi vo studies have been reported with CPP-PNA conjugates [98] . In the field of antivirals, Pandey and colleagues have started preliminary toxicity, immunological and pharmacokinetic studies in mice for the anti-HIV-1 PNA TAR -penetratin conjugate [99] [100] [101] . Chaubey et a l. reported the non-toxicity of the complex when administered at repeat doses ranging up to 100 mg/kg [99] . Mice which were given 100 mg/kg of the conjugate, a dose the authors highlight is far in excess of the expected therapeutic dose, suffered from diarrhea and reduced physical activity and from spleen, liver and kidney serotosis. However they recovered during the 60-day follow-up period with no irreversible organ damage reported.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":554,"end":562}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4033964/"}]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 26,
+   "text": "To date, only few in vi vo studies have been reported with CPP-PNA conjugates [98] . In the field of antivirals, Pandey and colleagues have started preliminary toxicity, immunological and pharmacokinetic studies in mice for the anti-HIV-1 PNA TAR -penetratin conjugate [99] [100] [101] . Chaubey et a l. reported the non-toxicity of the complex when administered at repeat doses ranging up to 100 mg/kg [99] . Mice which were given 100 mg/kg of the conjugate, a dose the authors highlight is far in excess of the expected therapeutic dose, suffered from diarrhea and reduced physical activity and from spleen, liver and kidney serotosis. However they recovered during the 60-day follow-up period with no irreversible organ damage reported.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":554,
+              "end": 562
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4033964/"
+       }
+   ]
+}

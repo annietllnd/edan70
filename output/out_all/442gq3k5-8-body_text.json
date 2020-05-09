@@ -1,1 +1,8 @@
-{"cord_uid":"442gq3k5", "sourcedb":"PMC", "sourceid":"PMC3050921", "divid":8, "text":"Consecutive patients admitted with signs and symptoms consistent with central nervous system (CNS) infection were eligible for the study (Table 1) . When S. suis infection was confirmed, patients were included as cases. After inclusion of a patient as a case, the next three consecutive patients admitted to the ward who met the inclusion criteria were included as hospital controls. Three community controls, matched for age (within a 10 year age range), were randomly identified from a list of eligible households available at the health center in the community of residence of the case, by using random number tables ( Figure 1 ). Written informed consent was obtained from all patients and controls or their care takers.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "442gq3k5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3050921",
+   "divid": 8,
+   "text": "Consecutive patients admitted with signs and symptoms consistent with central nervous system (CNS) infection were eligible for the study (Table 1) . When S. suis infection was confirmed, patients were included as cases. After inclusion of a patient as a case, the next three consecutive patients admitted to the ward who met the inclusion criteria were included as hospital controls. Three community controls, matched for age (within a 10 year age range), were randomly identified from a list of eligible households available at the health center in the community of residence of the case, by using random number tables ( Figure 1 ). Written informed consent was obtained from all patients and controls or their care takers.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

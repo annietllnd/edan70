@@ -1,1 +1,34 @@
-{"cord_uid":"7bgerq3r", "sourcedb":"PMC", "sourceid":"PMC5968208", "divid":17, "text":"infected 28 individuals [23] , 1 had contact with a spreader (case #118) who infected 2 individuals, and 3 had contact with a nonspreader (case #89). Among the ELISA-positive individuals, only 1 was both IFA-positive and PRNT-positive. Therefore, the confirmed rates of asymptomatic MERS infection were 0.17% in patients and 0.060% (95% confidence interval, 0.002 to 0.346) overall ( Table 1) . The confirmed asymptomatic case, patient zero, and 11 secondary MERS patients were hospitalized on the same floor of the hospital at the same time [23, 24] . The asymptomatic case was quarantined at home for 2 weeks after discharge. The case had underlying diseases that included hypertension, angina, and degenerative arthritis. The case reported no fever, cough, myalgia, or gastrointestinal symptoms during hospitalization or quarantine (Table 2).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":753,"end":758}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":746,"end":751}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":760,"end":767}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}]}
+{
+   "cord_uid": "7bgerq3r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5968208",
+   "divid": 17,
+   "text": "infected 28 individuals [23] , 1 had contact with a spreader (case #118) who infected 2 individuals, and 3 had contact with a nonspreader (case #89). Among the ELISA-positive individuals, only 1 was both IFA-positive and PRNT-positive. Therefore, the confirmed rates of asymptomatic MERS infection were 0.17% in patients and 0.060% (95% confidence interval, 0.002 to 0.346) overall ( Table 1) . The confirmed asymptomatic case, patient zero, and 11 secondary MERS patients were hospitalized on the same floor of the hospital at the same time [23, 24] . The asymptomatic case was quarantined at home for 2 weeks after discharge. The case had underlying diseases that included hypertension, angina, and degenerative arthritis. The case reported no fever, cough, myalgia, or gastrointestinal symptoms during hospitalization or quarantine (Table 2).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":753,
+              "end": 758
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":746,
+              "end": 751
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":760,
+              "end": 767
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       }
+   ]
+}

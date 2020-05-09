@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":34, "text":"Total RNA was extracted from the culture supernatant of CSFV-infected PK-15 cells using a TRIzol reagent (catalog no. 15596026; Invitrogen, Waltham, MA, USA). The isolated RNA was then reverse transcribed to cDNA with reverse transcriptase XL (AMV) (catalog no. 2621; TaKaRa, Dalian, China) according to the manufacturer's instructions. Genomic copies of CSFV were quantified by a real-time RT-PCR assay as described previously [25] . The experiment was carried out in triplicates.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 34,
+   "text": "Total RNA was extracted from the culture supernatant of CSFV-infected PK-15 cells using a TRIzol reagent (catalog no. 15596026; Invitrogen, Waltham, MA, USA). The isolated RNA was then reverse transcribed to cDNA with reverse transcriptase XL (AMV) (catalog no. 2621; TaKaRa, Dalian, China) according to the manufacturer's instructions. Genomic copies of CSFV were quantified by a real-time RT-PCR assay as described previously [25] . The experiment was carried out in triplicates.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

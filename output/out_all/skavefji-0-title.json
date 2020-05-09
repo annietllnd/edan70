@@ -1,1 +1,18 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":0, "text":"Usefulness of Cellular Analysis of Bronchoalveolar Lavage Fluid for Predicting the Etiology of Pneumonia in Critically Ill Patients", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":95,"end":104}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 0,
+   "text": "Usefulness of Cellular Analysis of Bronchoalveolar Lavage Fluid for Predicting the Etiology of Pneumonia in Critically Ill Patients",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":95,
+              "end": 104
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

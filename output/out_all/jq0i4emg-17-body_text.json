@@ -1,1 +1,8 @@
-{"cord_uid":"jq0i4emg", "sourcedb":"PMC", "sourceid":"PMC3441612", "divid":17, "text":"where the first term represents the decrease of S which is proportional to β, the mean connectivity of susceptible individuals G ′ 0 (θ) and the probability that an outgoing edge from a root is connected with an infected node that has not transmitted the disease to the root at time t. The second term corresponds to the recovery of infected individuals at a rate γ.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "jq0i4emg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3441612",
+   "divid": 17,
+   "text": "where the first term represents the decrease of S which is proportional to β, the mean connectivity of susceptible individuals G ′ 0 (θ) and the probability that an outgoing edge from a root is connected with an infected node that has not transmitted the disease to the root at time t. The second term corresponds to the recovery of infected individuals at a rate γ.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

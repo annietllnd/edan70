@@ -1,1 +1,8 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":30, "text":"Although Kumar et al. did not use CPP as a cell delivery system per se , it is noteworthy that they exploited its binding capability to polyanionic nucleic acids such as siRNAs [15] . The authors developed a novel method for systemic delivery of antiviral siRNAs into T cells in mice: they used an antibody to the CD7 receptor as their delivery system by receptor-mediated endocytosis. They bound the siRNA to the antibody through the positively charged nona-D-arginine (9R) peptide conjugated to its C-terminal via a disulfide bond. They successfully suppressed HIV-1 infection in a humanized mouse model using a cocktail of these siRNA complexes, inhibiting HIV-1 entry into target cells and its replication.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 30,
+   "text": "Although Kumar et al. did not use CPP as a cell delivery system per se , it is noteworthy that they exploited its binding capability to polyanionic nucleic acids such as siRNAs [15] . The authors developed a novel method for systemic delivery of antiviral siRNAs into T cells in mice: they used an antibody to the CD7 receptor as their delivery system by receptor-mediated endocytosis. They bound the siRNA to the antibody through the positively charged nona-D-arginine (9R) peptide conjugated to its C-terminal via a disulfide bond. They successfully suppressed HIV-1 infection in a humanized mouse model using a cocktail of these siRNA complexes, inhibiting HIV-1 entry into target cells and its replication.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

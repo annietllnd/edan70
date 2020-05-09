@@ -1,1 +1,8 @@
-{"cord_uid":"m6abyuvx", "sourcedb":"PMC", "sourceid":"PMC3524174", "divid":8, "text":"To determine whether activation of the host immune response caused the reduction with HCV protein levels in the livers of CN2-29 (+/2) /MxCre (+/2) mice, we used a highly attenuated VV strain, LC16m8, to generate three rVVs [12] . Each rVV encoded a different HCV protein; rVV-CN2 encoded mainly structural proteins, rVV-N25 encoded nonstructural proteins, and rVV-CN5 encoded the entire HCV protein region (Figure 2A ). Because rVVs can express a variety of proteins and induce strong and long-term immunity, they have been evaluated as potential prophylactic vaccines [13] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "m6abyuvx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3524174",
+   "divid": 8,
+   "text": "To determine whether activation of the host immune response caused the reduction with HCV protein levels in the livers of CN2-29 (+/2) /MxCre (+/2) mice, we used a highly attenuated VV strain, LC16m8, to generate three rVVs [12] . Each rVV encoded a different HCV protein; rVV-CN2 encoded mainly structural proteins, rVV-N25 encoded nonstructural proteins, and rVV-CN5 encoded the entire HCV protein region (Figure 2A ). Because rVVs can express a variety of proteins and induce strong and long-term immunity, they have been evaluated as potential prophylactic vaccines [13] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":47, "text":"Quantiles of the chest radiograph distribution attributable to an anthrax outbreak Figure 4 Quantiles of the chest radiograph distribution attributable to an anthrax outbreak. Plots of the day-by-day quantiles of the radiograph counts attributable to an anthrax attack, based on 500 simulated anthrax outbreaks. these four models. For illustration we use the linear filter, which represents a compromise between the actual specificity and sensitivity (Across all four models, the 1-day filter always had specificities closest to nominal and the 7-", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 47,
+   "text": "Quantiles of the chest radiograph distribution attributable to an anthrax outbreak Figure 4 Quantiles of the chest radiograph distribution attributable to an anthrax outbreak. Plots of the day-by-day quantiles of the radiograph counts attributable to an anthrax attack, based on 500 simulated anthrax outbreaks. these four models. For illustration we use the linear filter, which represents a compromise between the actual specificity and sensitivity (Across all four models, the 1-day filter always had specificities closest to nominal and the 7-",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

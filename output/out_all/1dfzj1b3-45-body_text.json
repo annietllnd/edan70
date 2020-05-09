@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":45, "text":"For measuring free radical scavenging ability, the methods are grouped in two groups, according to the chemical reactions involved: hydrogen atom transfer reaction-based methods and single electron transfer reaction-based methods [5] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 45,
+   "text": "For measuring free radical scavenging ability, the methods are grouped in two groups, according to the chemical reactions involved: hydrogen atom transfer reaction-based methods and single electron transfer reaction-based methods [5] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

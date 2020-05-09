@@ -1,1 +1,8 @@
-{"cord_uid":"bcwcjf01", "sourcedb":"PMC", "sourceid":"PMC3836733", "divid":6, "text":"The apparent sustained fox-to-fox transmission in this outbreak suggests that CST occurred and enabled this epizootic. We hypothesized that molecular changes in the viral genome would be associated with this event. While phylogenetic data support that rabies viruses have jumped species boundaries historically [5] , it is rare and has never been subject to comprehensive genetic analysis at the intra-host population level.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "bcwcjf01",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836733",
+   "divid": 6,
+   "text": "The apparent sustained fox-to-fox transmission in this outbreak suggests that CST occurred and enabled this epizootic. We hypothesized that molecular changes in the viral genome would be associated with this event. While phylogenetic data support that rabies viruses have jumped species boundaries historically [5] , it is rare and has never been subject to comprehensive genetic analysis at the intra-host population level.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":50, "text":"where C i is the total indoor concentration (µg m -3 ) of the pollutant in question, C a is the concentration in the intake air, P is the probability of the pollutant remaining suspended after penetrating through the building envelope, α is air exchange rate (h -1 ), k is the deposition rate of the pollutant indoors (h -1 ), G is the indoor generation level (µg h -1 ), V is the volume and t is the temperature of the indoor space. The third term covering the transient impacts of changing concentration can be considered zero for the sake of long-term average exposures. Detailed input data and more details of calculations are presented in Hänninen and Asikainen (2013) [16] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 50,
+   "text": "where C i is the total indoor concentration (µg m -3 ) of the pollutant in question, C a is the concentration in the intake air, P is the probability of the pollutant remaining suspended after penetrating through the building envelope, α is air exchange rate (h -1 ), k is the deposition rate of the pollutant indoors (h -1 ), G is the indoor generation level (µg h -1 ), V is the volume and t is the temperature of the indoor space. The third term covering the transient impacts of changing concentration can be considered zero for the sake of long-term average exposures. Detailed input data and more details of calculations are presented in Hänninen and Asikainen (2013) [16] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

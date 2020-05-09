@@ -1,1 +1,8 @@
-{"cord_uid":"6lv3di4x", "sourcedb":"PMC", "sourceid":"PMC6258954", "divid":34, "text":"Statistics. Figures and data collection analysis were done using GraphPad Prism 7 software (Graph-Pad Software, San Diego, CA). For viral titrations, differences between groups were assessed by Kruskal-Wallis analysis, and for individual differences the Mann-Whitney U test with Bonferroni correction as post hoc was employed. For the rest of the comparisons, such as differences between groups in the percentage of infected cells or gene expression levels, we employed a two-way analysis of variance (ANOVA). A P value lower than 0.05 was considered statistically significant.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "6lv3di4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6258954",
+   "divid": 34,
+   "text": "Statistics. Figures and data collection analysis were done using GraphPad Prism 7 software (Graph-Pad Software, San Diego, CA). For viral titrations, differences between groups were assessed by Kruskal-Wallis analysis, and for individual differences the Mann-Whitney U test with Bonferroni correction as post hoc was employed. For the rest of the comparisons, such as differences between groups in the percentage of infected cells or gene expression levels, we employed a two-way analysis of variance (ANOVA). A P value lower than 0.05 was considered statistically significant.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

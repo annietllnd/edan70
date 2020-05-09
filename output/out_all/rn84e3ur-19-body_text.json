@@ -1,1 +1,18 @@
-{"cord_uid":"rn84e3ur", "sourcedb":"PMC", "sourceid":"PMC4133625", "divid":19, "text":"where D(x,t) is the intake fraction of the susceptible passengers for one cough.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":74,"end":79}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"}]}
+{
+   "cord_uid": "rn84e3ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4133625",
+   "divid": 19,
+   "text": "where D(x,t) is the intake fraction of the susceptible passengers for one cough.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":74,
+              "end": 79
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"
+       }
+   ]
+}

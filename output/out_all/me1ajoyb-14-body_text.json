@@ -1,1 +1,34 @@
-{"cord_uid":"me1ajoyb", "sourcedb":"PMC", "sourceid":"PMC3970152", "divid":14, "text":"The presence of high-titer IgG antibodies during hantavirus infections of reservoir hosts indicates both T cell and B cell responses occur because T cells induce class switching and affinity maturation of antibodies produced by antigen-specific B cells. In experimental infections of rats with SEOV and deer mice with SNV, early infection results in subtle inflammatory signatures, but a regulatory T cell (Treg) response predominates at persistence (Figure 1 ) [20, 54] . Treg responses are critical for suppressing inflammation [71, 72] ; however, inflammation is a prominent feature of hantavirus disease in humans [73] and hamsters [55, 74] . In other viral diseases, the occurrence of a Treg response is associated with persistent infection because these cells, while suppressing inflammation, also prevent virus clearance [75, 76] . For reservoirs of hantaviruses, the Treg response may limit inflammatory immunopathology to an otherwise innocuous infection, but it may also impair virus clearance. How this relationship evolved is unknown, but considering the presence of hantavirus proteins with immunomodulatory activities, it suggests the viruses may manipulate the host response to favor persistence; a Treg response may prevent sterilizing immunity, thus allow virus to remain in a population. It may also explain the ecoimmunology and ecology of hantavirus infections of reservoir hosts, thus studies assessing the energetics of inflammatory and anti-inflammatory immune responses should be performed.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":517,"end":529}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"}, {"id":"Symptom_Covid-19", "span":{"begin":550,"end":562}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"}, {"id":"Symptom_Covid-19", "span":{"begin":785,"end":797}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"}]}
+{
+   "cord_uid": "me1ajoyb",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3970152",
+   "divid": 14,
+   "text": "The presence of high-titer IgG antibodies during hantavirus infections of reservoir hosts indicates both T cell and B cell responses occur because T cells induce class switching and affinity maturation of antibodies produced by antigen-specific B cells. In experimental infections of rats with SEOV and deer mice with SNV, early infection results in subtle inflammatory signatures, but a regulatory T cell (Treg) response predominates at persistence (Figure 1 ) [20, 54] . Treg responses are critical for suppressing inflammation [71, 72] ; however, inflammation is a prominent feature of hantavirus disease in humans [73] and hamsters [55, 74] . In other viral diseases, the occurrence of a Treg response is associated with persistent infection because these cells, while suppressing inflammation, also prevent virus clearance [75, 76] . For reservoirs of hantaviruses, the Treg response may limit inflammatory immunopathology to an otherwise innocuous infection, but it may also impair virus clearance. How this relationship evolved is unknown, but considering the presence of hantavirus proteins with immunomodulatory activities, it suggests the viruses may manipulate the host response to favor persistence; a Treg response may prevent sterilizing immunity, thus allow virus to remain in a population. It may also explain the ecoimmunology and ecology of hantavirus infections of reservoir hosts, thus studies assessing the energetics of inflammatory and anti-inflammatory immune responses should be performed.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":517,
+              "end": 529
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":550,
+              "end": 562
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":785,
+              "end": 797
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"otf9ruvj", "sourcedb":"PMC", "sourceid":"PMC5827994", "divid":10, "text":"The indication for IgM-enriched immunoglobulin (IVIG) treatment was determined at the discretion of the treating intensivist. IVIG was applied if a viral infection or an infection due to multi-resistant gram-negative bacteria (MRGN) was suspected. IVIG dosing was performed according to the instruction of the manufacturer: 0.4 ml/kg/h (up to 100 ml) as the initial dose, followed by 0.2 ml/kg/h for 72 h until a total dose of 15 mg/kg was achieved. Twenty-nine patients did not receive immunoglobulins (control group).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "otf9ruvj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5827994",
+   "divid": 10,
+   "text": "The indication for IgM-enriched immunoglobulin (IVIG) treatment was determined at the discretion of the treating intensivist. IVIG was applied if a viral infection or an infection due to multi-resistant gram-negative bacteria (MRGN) was suspected. IVIG dosing was performed according to the instruction of the manufacturer: 0.4 ml/kg/h (up to 100 ml) as the initial dose, followed by 0.2 ml/kg/h for 72 h until a total dose of 15 mg/kg was achieved. Twenty-nine patients did not receive immunoglobulins (control group).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

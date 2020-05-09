@@ -1,1 +1,34 @@
-{"cord_uid":"nomco7bv", "sourcedb":"PMC", "sourceid":"PMC5819164", "divid":14, "text":"Compared to normal weight individuals, overweight and obese people consistently had a higher prevalence (Table 3) for the single RTIs, URTIs, LRTIs, as well as the other outcome parameters we looked at with other acute infections and pneumonia as the exceptions. For pneumonia, only obese subjects had a higher prevalence. The overweight group was typically falling in between the groups with normal weight and obesity ( Table 3 ). The strongest association was seen for pneumonia and bronchitis, and accordingly, any LRTI was more strongly associated with obesity than any URTI. Long-lasting RTIs, frequent RTIs and high diary scores were also more strongly associated with obesity than the individual symptoms. Adjustments by age and education did only marginally change these estimates. Among subjects with an infection, long lasting infections were again associated with obesity, reaching significance for any RTI, rhinitis, pharyngitis/laryngitis, influenza-like illness, and bronchitis ( Table 3) .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":234,"end":243}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"}, {"id":"Symptom_Covid-19", "span":{"begin":267,"end":276}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"}, {"id":"Symptom_Covid-19", "span":{"begin":471,"end":480}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"}]}
+{
+   "cord_uid": "nomco7bv",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5819164",
+   "divid": 14,
+   "text": "Compared to normal weight individuals, overweight and obese people consistently had a higher prevalence (Table 3) for the single RTIs, URTIs, LRTIs, as well as the other outcome parameters we looked at with other acute infections and pneumonia as the exceptions. For pneumonia, only obese subjects had a higher prevalence. The overweight group was typically falling in between the groups with normal weight and obesity ( Table 3 ). The strongest association was seen for pneumonia and bronchitis, and accordingly, any LRTI was more strongly associated with obesity than any URTI. Long-lasting RTIs, frequent RTIs and high diary scores were also more strongly associated with obesity than the individual symptoms. Adjustments by age and education did only marginally change these estimates. Among subjects with an infection, long lasting infections were again associated with obesity, reaching significance for any RTI, rhinitis, pharyngitis/laryngitis, influenza-like illness, and bronchitis ( Table 3) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":234,
+              "end": 243
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":267,
+              "end": 276
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":471,
+              "end": 480
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+       }
+   ]
+}

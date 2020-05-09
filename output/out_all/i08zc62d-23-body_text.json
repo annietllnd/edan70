@@ -1,1 +1,18 @@
-{"cord_uid":"i08zc62d", "sourcedb":"PMC", "sourceid":"PMC4014123", "divid":23, "text":"On the other hand, despite extensive efforts in drug development targeting influenza neuraminidase, a series of drug-resistant mutants from influenza viruses have been reported, such as the I223R/H275Y dual mutation of neuraminidase from influenza A H1N1, which shows enormous resistance towards oseltamivir (approximately 7500 times that of the wild type; van der Vries et al., 2012) . To overcome drug resistance, various natural flavonoid compounds containing a Structural comparison of Cp-NanI CD , the human Neu2-Neu5Ac2en complex structure and homology models of human Neu1, Neu3 and Neu4. (a) Overall superposed structures of Cp-NanI CD (green), the human Neu2-Neu5Ac2en complex structure (grey) and homology models of human Neu1 (purple), Neu3 (brown) and Neu4 (magenta). (b) Detailed view. Diplacone and Neu5Ac2en molecules are displayed as green and grey sticks, respectively. Water molecules are shown as red spheres.", "project":"cdlai_CORD-19", "denotations":[{"id":"chemical_antiviral", "span":{"begin":296,"end":307}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}]}
+{
+   "cord_uid": "i08zc62d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4014123",
+   "divid": 23,
+   "text": "On the other hand, despite extensive efforts in drug development targeting influenza neuraminidase, a series of drug-resistant mutants from influenza viruses have been reported, such as the I223R/H275Y dual mutation of neuraminidase from influenza A H1N1, which shows enormous resistance towards oseltamivir (approximately 7500 times that of the wild type; van der Vries et al., 2012) . To overcome drug resistance, various natural flavonoid compounds containing a Structural comparison of Cp-NanI CD , the human Neu2-Neu5Ac2en complex structure and homology models of human Neu1, Neu3 and Neu4. (a) Overall superposed structures of Cp-NanI CD (green), the human Neu2-Neu5Ac2en complex structure (grey) and homology models of human Neu1 (purple), Neu3 (brown) and Neu4 (magenta). (b) Detailed view. Diplacone and Neu5Ac2en molecules are displayed as green and grey sticks, respectively. Water molecules are shown as red spheres.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":296,
+              "end": 307
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       }
+   ]
+}

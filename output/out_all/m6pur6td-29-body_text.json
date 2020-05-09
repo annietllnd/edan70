@@ -1,1 +1,8 @@
-{"cord_uid":"m6pur6td", "sourcedb":"PMC", "sourceid":"PMC6370191", "divid":29, "text":"Where p = P, represents the total population size, UR represents the level of urbanization. g ¼ GDP P , represents the per capita GDP. e i ¼ E i GDP i (i = 1, 2, 3, 4, 5, 6), represents the energy consumption intensity of agriculture, production, construction, service, urban resident, and rural resident, respectively.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "m6pur6td",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6370191",
+   "divid": 29,
+   "text": "Where p = P, represents the total population size, UR represents the level of urbanization. g ¼ GDP P , represents the per capita GDP. e i ¼ E i GDP i (i = 1, 2, 3, 4, 5, 6), represents the energy consumption intensity of agriculture, production, construction, service, urban resident, and rural resident, respectively.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

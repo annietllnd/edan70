@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":14, "text":"All of Iterative HFold's underlying methods use the energy model of HotKnots V2.0 DP09 [36] ; with this model, HFold obtained predictions with higher accuracy than those obtained with our earlier implementation of HFold. One of Iterative HFold's underlying methods is HFold-PKonly, which given the input structure only adds pseudoknotted base pairs. HFold-PKonly is especially useful for cases when the user has either complete information about the true pseudoknot-free structure or wants to check whether a single stem of the input structure can be part of a pseudoknot since, if the input structure only has the specific stem in question, the output structure of HFold-PKonly will determine if the given stem can be part of a pseudoknot.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 14,
+   "text": "All of Iterative HFold's underlying methods use the energy model of HotKnots V2.0 DP09 [36] ; with this model, HFold obtained predictions with higher accuracy than those obtained with our earlier implementation of HFold. One of Iterative HFold's underlying methods is HFold-PKonly, which given the input structure only adds pseudoknotted base pairs. HFold-PKonly is especially useful for cases when the user has either complete information about the true pseudoknot-free structure or wants to check whether a single stem of the input structure can be part of a pseudoknot since, if the input structure only has the specific stem in question, the output structure of HFold-PKonly will determine if the given stem can be part of a pseudoknot.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

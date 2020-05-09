@@ -1,1 +1,8 @@
-{"cord_uid":"tg0tczni", "sourcedb":"PMC", "sourceid":"PMC3079669", "divid":9, "text":"Genes, whose codon choice is constrained only by a mutation bias, will lie on or just below the curve of the predicted values. The predicted values of ENC were calculated as", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "tg0tczni",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3079669",
+   "divid": 9,
+   "text": "Genes, whose codon choice is constrained only by a mutation bias, will lie on or just below the curve of the predicted values. The predicted values of ENC were calculated as",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -13,7 +13,6 @@ Authors:
 Credit:
     Dictionaries were generated using golden- and silver-standard implemented by Aitslab.
 """
-
 import os
 import json
 import string
@@ -42,6 +41,9 @@ def print_progress(nbr_articles_processed, total_articles):
 
 def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
     """
+    Author: StackOverflow
+            User Greenstick
+            Question 30740258
     Call in a loop to create terminal progress bar
     @params:
         iteration   - Required  : current iteration (Int)
@@ -86,7 +88,7 @@ class DictionaryTagger:
         Uses path in order to find all vocabularies/dictionaries containing the words to be tagged in the articles.
         """
         vocabularies_file_names = os.listdir(vocabularies_dir_path)
-        i = 0;
+        i = 0
         for vocabulary_file_name in vocabularies_file_names:
             if vocabulary_file_name == '.DS_Store':  # For MacOS users skip .DS_Store-file
                 continue  # generated.
@@ -188,6 +190,7 @@ class DictionaryTagger:
         self.paragraph_matches.clear()
         case_insensitive_regex = r'(?i)'
         hyphen_or_whitespace_regex = r'[-\s]'
+        hyphen_or_whitespace_or_both_regex = r'(\s|\-\s?)'
         opt_plural_regex = r'(es|s)?'
         boundary_regex = r'\b'
         for vocabulary in self.vocabs_col_dict:
@@ -199,7 +202,7 @@ class DictionaryTagger:
                         if composite_word == composite_words[-1]:
                             pattern += composite_word + opt_plural_regex + boundary_regex
                         else:
-                            pattern += composite_word + hyphen_or_whitespace_regex
+                            pattern += composite_word + hyphen_or_whitespace_or_both_regex
                 else:
                     pattern += word + opt_plural_regex
                 self.__tag_pattern(pattern, paragraph, vocabulary)
@@ -212,27 +215,66 @@ class DictionaryTagger:
         For a particular pattern, find matches in paragraph and add to 'paragraph_matches' dictionary, if match is
         prioritized.
         """
+        temp_paragraph_matches = dict()
         for match in re.finditer(pattern, text):
-            is_priority = self.__is_match_priority(pattern, match.group(0), word_class)
+            is_priority = self.__is_match_priority(match, word_class)
             if is_priority:
-                self.paragraph_matches.update({match: word_class})
+                temp_paragraph_matches.update({match: word_class})
+        for match in temp_paragraph_matches:
+            self.paragraph_matches.update({match: temp_paragraph_matches[match]})
 
-    def __is_match_priority(self, pattern, new_word_match, word_class):
+    def __is_match_priority(self, new_match, new_word_class):
         """
-        Checks priorities of tagging for vocabularies. For 'Virus_SARS-CoV-2' and 'Disease_COVID-19' if already pattern
+        Checks priorities of tagging for vocabularies. For 'Virus_SARS-CoV-2' and 'Disease_COVID-19' if pattern already
         matches with existing match in 'paragraph_matches' then only the longest match will be kept in the dictionary.
+        If the the word class matches with a previously match word in word class the longest match will be kept.
         Returns 'True' if new match is to be added (prioritized).
         """
-        for match in self.paragraph_matches:
-            word_match = match.group(0)
-            if word_class == 'Virus_SARS-CoV-2' or word_class == 'Disease_COVID-19':
-                prev_tagged = re.match(pattern, word_match)
-                if prev_tagged:
-                    longest_match = max(new_word_match, word_match, key=len)
-                    if longest_match == new_word_match:
-                        del self.paragraph_matches[match]
-                        return True
+        temp_paragraph_matches = self.paragraph_matches.copy()
+        for prev_match in temp_paragraph_matches:
+            prev_word_class = temp_paragraph_matches[prev_match]
+            is_virus_disease_rule = (new_word_class == 'Virus_SARS-CoV-2' and prev_word_class == 'Disease_COVID-19') or\
+                                    (prev_word_class == 'Virus_SARS-CoV-2' and new_word_class == 'Disease_COVID-19')
+            new_word_match = new_match.group(0)
+            prev_word_match = prev_match.group(0)
+            if prev_word_match == new_word_match:
+                continue
+
+            if prev_word_class == new_word_class:
+                candidate_match = self.is_longest_match(new_match, prev_match)
+                if candidate_match:
+                    continue
+                else:
                     return False
+            elif is_virus_disease_rule:
+                candidate_match = self.is_longest_match(new_match, prev_match)
+                if candidate_match:
+                    continue
+                else:
+                    return False
+        return True
+
+    def is_longest_match(self, new_match, prev_match):
+        """
+        Returns true if new match is equally long or longer than prev_match for a common span and if words don't match.
+        """
+        new_word_match = new_match.group(0)
+        prev_word_match = prev_match.group(0)
+        if prev_word_match == new_word_match:
+            return True
+        new_pattern = new_match.re
+        prev_pattern = prev_match.re
+        is_span_overlap = ((prev_match.start() <= new_match.end() and prev_match.end() >= new_match.start()) or
+                           (prev_match.start() >= new_match.end() and prev_match.end() <= new_match.start()))
+        shortest_word = min(new_word_match, prev_word_match, key=len)
+        if shortest_word == new_word_match:
+            prev_tagged = re.search(new_pattern, prev_word_match)
+            if prev_tagged and is_span_overlap:
+                return False
+        else:
+            prev_tagged = re.search(prev_pattern, new_word_match)
+            if prev_tagged and is_span_overlap:
+                del self.paragraph_matches[prev_match]
                 return True
         return True
 

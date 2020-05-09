@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":52, "text":"#!/usr/bin/perl w use strict; use SAPserver; my $sapObject = SAPserver-.new(); my $genomes = $sapObject-.all_genomes(); foreach my $g (sort { $genomes-.{$a} cmp $genomes-.{$b} } keys(%$genomes)) { print "$g\t$genomes-.{$g}\n"; } The function call $sapObject-.all_genomes() marshals the correct server-side function call and arguments into a network package, transmits that package to the server, waits for and retrieves the answer, processes any returned error codes, decodes the return package into a Perl data structure, and returns the result. All function calls in all the client packages perform these basic services.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 52,
+   "text": "#!/usr/bin/perl w use strict; use SAPserver; my $sapObject = SAPserver-.new(); my $genomes = $sapObject-.all_genomes(); foreach my $g (sort { $genomes-.{$a} cmp $genomes-.{$b} } keys(%$genomes)) { print \"$g\t$genomes-.{$g}\n\"; } The function call $sapObject-.all_genomes() marshals the correct server-side function call and arguments into a network package, transmits that package to the server, waits for and retrieves the answer, processes any returned error codes, decodes the return package into a Perl data structure, and returns the result. All function calls in all the client packages perform these basic services.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

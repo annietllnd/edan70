@@ -1,1 +1,8 @@
-{"cord_uid":"04q71md3", "sourcedb":"PMC", "sourceid":"PMC3930559", "divid":20, "text":"To also explore spatial dynamics at smaller scales, we further partition large geographical regions that are administratively coherent, such as the USA, China, Japan and Australia, resulting in 26 global sampling regions (Text S1). In this analysis, air travel again predicts viral movement (posterior probability .0.99 and Bayes factor .18000), but the movement is also inversely associated with geographical distance between locations (posterior probability = 0.76 and Bayes factor = 87), and, less intuitively, with origin and destination population densities (although the size of the latter effects are weaker, Fig. 2 ). The negative association of population density with viral movement may suggest that commuting is less likely, per capita, to occur out of, or into, dense subpopulations.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "04q71md3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3930559",
+   "divid": 20,
+   "text": "To also explore spatial dynamics at smaller scales, we further partition large geographical regions that are administratively coherent, such as the USA, China, Japan and Australia, resulting in 26 global sampling regions (Text S1). In this analysis, air travel again predicts viral movement (posterior probability .0.99 and Bayes factor .18000), but the movement is also inversely associated with geographical distance between locations (posterior probability = 0.76 and Bayes factor = 87), and, less intuitively, with origin and destination population densities (although the size of the latter effects are weaker, Fig. 2 ). The negative association of population density with viral movement may suggest that commuting is less likely, per capita, to occur out of, or into, dense subpopulations.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

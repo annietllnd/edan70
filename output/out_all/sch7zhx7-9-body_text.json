@@ -1,1 +1,8 @@
-{"cord_uid":"sch7zhx7", "sourcedb":"PMC", "sourceid":"PMC6563312", "divid":9, "text":"Vero cells were treated with either 100 µM to 2000 µM DFMO for 4 days or 1 µm to 100 µM DENSpm for 16 h prior to infection with CVB3 at an MOI of 0.1. At 24 hpi, supernatants were collected and titers were determined.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sch7zhx7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6563312",
+   "divid": 9,
+   "text": "Vero cells were treated with either 100 µM to 2000 µM DFMO for 4 days or 1 µm to 100 µM DENSpm for 16 h prior to infection with CVB3 at an MOI of 0.1. At 24 hpi, supernatants were collected and titers were determined.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

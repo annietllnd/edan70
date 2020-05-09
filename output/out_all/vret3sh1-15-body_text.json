@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":15, "text":"The Annotation Support Server also provides the ability to take as input a set of functional roles (in the controlled vocabulary established by the subsystem collection) and to produce a detailed estimate of which subsystems are represented by those functional roles. That is, one can also use the server to develop a metabolic reconstruction based on the functional roles that have been assigned to the protein-encoding genes.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 15,
+   "text": "The Annotation Support Server also provides the ability to take as input a set of functional roles (in the controlled vocabulary established by the subsystem collection) and to produce a detailed estimate of which subsystems are represented by those functional roles. That is, one can also use the server to develop a metabolic reconstruction based on the functional roles that have been assigned to the protein-encoding genes.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

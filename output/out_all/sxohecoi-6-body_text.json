@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":6, "text":"Cervicovaginal secretions are maintained at acidic pH by acidproducing bacteria that make up part of the normal vaginal microbiota [25] . Although perturbations of normal microbiota, such as occur with bacterial vaginosis, raise the pH, the secretions generally remain in the acidic range [26, 27] . Semen rapidly neutralizes cervicovaginal secretions, but the extent of the pH change is variable. For example, a large amount of ejaculate may raise the pH to the neutral range, whereas a small amount may not [28, 29] . The pH of rectal secretions ranges from about 6.8 to 7.2 [30] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 6,
+   "text": "Cervicovaginal secretions are maintained at acidic pH by acidproducing bacteria that make up part of the normal vaginal microbiota [25] . Although perturbations of normal microbiota, such as occur with bacterial vaginosis, raise the pH, the secretions generally remain in the acidic range [26, 27] . Semen rapidly neutralizes cervicovaginal secretions, but the extent of the pH change is variable. For example, a large amount of ejaculate may raise the pH to the neutral range, whereas a small amount may not [28, 29] . The pH of rectal secretions ranges from about 6.8 to 7.2 [30] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

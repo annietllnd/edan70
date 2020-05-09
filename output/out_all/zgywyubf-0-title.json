@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":0, "text":"The ORF2 glycoprotein of hepatitis E virus inhibits cellular NF-κB activity by blocking ubiquitination mediated proteasomal degradation of IκBα in human hepatoma cells", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 0,
+   "text": "The ORF2 glycoprotein of hepatitis E virus inhibits cellular NF-κB activity by blocking ubiquitination mediated proteasomal degradation of IκBα in human hepatoma cells",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

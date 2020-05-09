@@ -1,1 +1,8 @@
-{"cord_uid":"56fc398e", "sourcedb":"PMC", "sourceid":"PMC4455802", "divid":41, "text":"The results indicate that for a fast-spreading disease such as FMD, sampling a small proportion of the network is sufficient. This relies on the assumption that infected movements result in all livestock on the destination farm becoming rapidly infected. This is not the case for all livestock diseases. For example, animals infected with bTB can remain asymptomatic carriers for several months [13] before becoming infectious. The model framework described here would not be appropriate for a disease of this nature, and further work will focus upon the development of optimal sampling strategies for slow-spreading diseases such as bTB, where it may be crucial to track movements of individual cattle.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "56fc398e",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4455802",
+   "divid": 41,
+   "text": "The results indicate that for a fast-spreading disease such as FMD, sampling a small proportion of the network is sufficient. This relies on the assumption that infected movements result in all livestock on the destination farm becoming rapidly infected. This is not the case for all livestock diseases. For example, animals infected with bTB can remain asymptomatic carriers for several months [13] before becoming infectious. The model framework described here would not be appropriate for a disease of this nature, and further work will focus upon the development of optimal sampling strategies for slow-spreading diseases such as bTB, where it may be crucial to track movements of individual cattle.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

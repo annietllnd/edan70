@@ -1,1 +1,8 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":27, "text":"Aerobic bacteria were isolated as sole pathogen in 11 of 33 (33.3 %) cases. Mixed bacterial-viral infection and mixed bacterial-atypical infection were found in 4 of 33 (12.1 %) and in 1 of 33 (3.0 %) cases, respectively ( Table 2) .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 27,
+   "text": "Aerobic bacteria were isolated as sole pathogen in 11 of 33 (33.3 %) cases. Mixed bacterial-viral infection and mixed bacterial-atypical infection were found in 4 of 33 (12.1 %) and in 1 of 33 (3.0 %) cases, respectively ( Table 2) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

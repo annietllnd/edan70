@@ -1,1 +1,8 @@
-{"cord_uid":"p2h8p5bm", "sourcedb":"PMC", "sourceid":"PMC6071234", "divid":22, "text":"Although the innate antiviral response has been well-studied in mosquito-borne flavivirus infection, the responses to TBFVs are less investigated, and most studies have used TBEV which therefore will be the main focus of the remainder of this review.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p2h8p5bm",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6071234",
+   "divid": 22,
+   "text": "Although the innate antiviral response has been well-studied in mosquito-borne flavivirus infection, the responses to TBFVs are less investigated, and most studies have used TBEV which therefore will be the main focus of the remainder of this review.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"p2h8p5bm", "sourcedb":"PMC", "sourceid":"PMC6071234", "divid":25, "text":"Taken together, studies so far have demonstrated the importance of the RIG-I-like-IPS-1 pathway in tick-borne flavivirus infection, whereas the role of the TLR pathways remains unclear.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p2h8p5bm",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6071234",
+   "divid": 25,
+   "text": "Taken together, studies so far have demonstrated the importance of the RIG-I-like-IPS-1 pathway in tick-borne flavivirus infection, whereas the role of the TLR pathways remains unclear.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

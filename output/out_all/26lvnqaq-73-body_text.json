@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":73, "text":"The spread of this LPAI virus beyond the respiratory and digestive districts and its high tropism for the infundibulum called for an in-depth analysis of the virus phenotype. Firstly, we evaluated the timing and routes of viral spread to the organs by RRT-PCR analysis of both the cellular and non-cellular fractions of the blood but we could not detect virus RNA. Even though we consider these negative results as the possible consequence of both a suboptimal sensitivity of the molecular techniques applied and the limited sampling times, we should also consider that H9N2 viruses have been rarely detected in the blood of chickens [39, 40] , either in the presence of a S. aureus co-infection [10] or after a combination of an intranasal and intratracheal challenge [41] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 73,
+   "text": "The spread of this LPAI virus beyond the respiratory and digestive districts and its high tropism for the infundibulum called for an in-depth analysis of the virus phenotype. Firstly, we evaluated the timing and routes of viral spread to the organs by RRT-PCR analysis of both the cellular and non-cellular fractions of the blood but we could not detect virus RNA. Even though we consider these negative results as the possible consequence of both a suboptimal sensitivity of the molecular techniques applied and the limited sampling times, we should also consider that H9N2 viruses have been rarely detected in the blood of chickens [39, 40] , either in the presence of a S. aureus co-infection [10] or after a combination of an intranasal and intratracheal challenge [41] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,26 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":22, "text":"Among the currently available inflammatory markers, serum procalcitonin is one of the best indicators of bacterial infections, including lower respiratory tract infections [19] . The usefulness of serum procalcitonin measurements has been validated in the diagnosis, severity assessment, and follow-up of patients with lower respiratory tract infections [20] [21] [22] . In the current study, the AUC of serum procalcitonin concentration for predicting bacterial pneumonia (AUC = 0.705) was smaller than those of total WBC (AUC = 0.855) and neutrophil (AUC = 0.837) counts. The combination of BAL fluid WBC counts and serum procalcitonin concentration tended to improve the diagnostic accuracy of the ROC model. This indicates that combinations of these markers can be useful to rule-out (BAL fluid total WBC count $510/mL or serum procalcitonin concentration $0.71 ng/mL with a sensitivity of 95.8% and negative likelihood ratio of 0.068) or rule-in (BAL fluid total WBC count $510/mL and serum C-reactive protein concentration $26.1 mg/dl with a specificity of 95.7% and positive likelihood ratio of 8.63) bacterial pneumonia. Diagnostic accuracy could be further improved if BAL fluid cellular profiles are interpreted alongside clinical presentations, radiographic studies, and other relevant test results. Using this approach, it might be possible to identify patients who can be managed without antibacterial agents or those who require antiviral agents.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":463,"end":472}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":1118,"end":1127}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 22,
+   "text": "Among the currently available inflammatory markers, serum procalcitonin is one of the best indicators of bacterial infections, including lower respiratory tract infections [19] . The usefulness of serum procalcitonin measurements has been validated in the diagnosis, severity assessment, and follow-up of patients with lower respiratory tract infections [20] [21] [22] . In the current study, the AUC of serum procalcitonin concentration for predicting bacterial pneumonia (AUC = 0.705) was smaller than those of total WBC (AUC = 0.855) and neutrophil (AUC = 0.837) counts. The combination of BAL fluid WBC counts and serum procalcitonin concentration tended to improve the diagnostic accuracy of the ROC model. This indicates that combinations of these markers can be useful to rule-out (BAL fluid total WBC count $510/mL or serum procalcitonin concentration $0.71 ng/mL with a sensitivity of 95.8% and negative likelihood ratio of 0.068) or rule-in (BAL fluid total WBC count $510/mL and serum C-reactive protein concentration $26.1 mg/dl with a specificity of 95.7% and positive likelihood ratio of 8.63) bacterial pneumonia. Diagnostic accuracy could be further improved if BAL fluid cellular profiles are interpreted alongside clinical presentations, radiographic studies, and other relevant test results. Using this approach, it might be possible to identify patients who can be managed without antibacterial agents or those who require antiviral agents.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":463,
+              "end": 472
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1118,
+              "end": 1127
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

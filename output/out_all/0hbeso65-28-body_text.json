@@ -1,1 +1,8 @@
-{"cord_uid":"0hbeso65", "sourcedb":"PMC", "sourceid":"PMC3655463", "divid":28, "text":"process. This process is tightly orchestrated by several viral and host factors. In brief, HCV is believed to first interact with HS and LDLR on the membrane surface of hepatocytes to allow concentration of the virion. Subsequently, interaction with other host factors such as SR-BI, CD81, CLDN1, and OCLN ultimately leads to viral internalization via the socalled clathrin-mediated endocytosis. Fusion between viral and endosomal membranes is followed by release of the viral genome into the cytosol, where translation and replication take place. Finally, HCV particles are assembled and released from the hepatocytes.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "0hbeso65",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3655463",
+   "divid": 28,
+   "text": "process. This process is tightly orchestrated by several viral and host factors. In brief, HCV is believed to first interact with HS and LDLR on the membrane surface of hepatocytes to allow concentration of the virion. Subsequently, interaction with other host factors such as SR-BI, CD81, CLDN1, and OCLN ultimately leads to viral internalization via the socalled clathrin-mediated endocytosis. Fusion between viral and endosomal membranes is followed by release of the viral genome into the cytosol, where translation and replication take place. Finally, HCV particles are assembled and released from the hepatocytes.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

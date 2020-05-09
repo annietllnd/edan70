@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":52, "text":"In spite of the fact that some authors choose only one method for evauating the antioxidant activity, the great majority prefers to check at least two assays. The combinations may include assays for evaluating the ability for inhibiting lipidic peroxidation through the methods reported above and other ones not included in this text and tests regarding the ability for scavenging free radicals.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 52,
+   "text": "In spite of the fact that some authors choose only one method for evauating the antioxidant activity, the great majority prefers to check at least two assays. The combinations may include assays for evaluating the ability for inhibiting lipidic peroxidation through the methods reported above and other ones not included in this text and tests regarding the ability for scavenging free radicals.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

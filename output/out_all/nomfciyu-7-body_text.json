@@ -1,1 +1,34 @@
-{"cord_uid":"nomfciyu", "sourcedb":"PMC", "sourceid":"PMC7080179", "divid":7, "text":"The pathogenic agent of Middle East respiratory syndrome is a new coronavirus which was initially identified from the respiratory content of a patient who was infected, and died, as a result of infection from a mysterious viral disease showing pneumonia like symptoms in Saudi Arabia in 2012 [3] . Initially, a group of healthcare personnel working in a hospital in Jordan contracted a respiratory infection in April 2012, the source of which was not known [4] . Later in June 2012, an elderly businessman with severe pneumonia associated with kidney failure was admitted to a Saudi hospital. The coronavirus detected from his sputum was not known before and for a while [15] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Virus_SARS-CoV-2", "span":{"begin":62,"end":77}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"}, {"id":"Symptom_Covid-19", "span":{"begin":244,"end":253}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"}, {"id":"Symptom_Covid-19", "span":{"begin":518,"end":527}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"}]}
+{
+   "cord_uid": "nomfciyu",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7080179",
+   "divid": 7,
+   "text": "The pathogenic agent of Middle East respiratory syndrome is a new coronavirus which was initially identified from the respiratory content of a patient who was infected, and died, as a result of infection from a mysterious viral disease showing pneumonia like symptoms in Saudi Arabia in 2012 [3] . Initially, a group of healthcare personnel working in a hospital in Jordan contracted a respiratory infection in April 2012, the source of which was not known [4] . Later in June 2012, an elderly businessman with severe pneumonia associated with kidney failure was admitted to a Saudi hospital. The coronavirus detected from his sputum was not known before and for a while [15] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":244,
+              "end": 253
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":518,
+              "end": 527
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"
+       },
+       {
+           "id": "Virus_SARS-CoV-2", 
+           "span": {
+              "begin":62,
+              "end": 77
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7080179/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":28, "text":"Organ samples were fixed in 10% neutral buffered formalin for 48 h, routinely processed for histology and 4-μm sections were stained with hematoxylin and eosin (HE). The infundibulum, magnum and uterus were examined for the presence of: (a) heterophilic infiltrate; (b) lymphocytic and plasmacytic infiltrate; (c) the presence of hemorrhage and/or edema; (d) necrosis; (e) the presence of hemorrhage and/or cell debris within the lumen. For each of these pathological features, a score was given as follows: 0 absence of the feature, 1 mild, 2 moderate, 3 severe. For each section scores were averaged to obtain a mean histopathology score. Mean scores were averaged for each oviduct section and sampling time.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 28,
+   "text": "Organ samples were fixed in 10% neutral buffered formalin for 48 h, routinely processed for histology and 4-μm sections were stained with hematoxylin and eosin (HE). The infundibulum, magnum and uterus were examined for the presence of: (a) heterophilic infiltrate; (b) lymphocytic and plasmacytic infiltrate; (c) the presence of hemorrhage and/or edema; (d) necrosis; (e) the presence of hemorrhage and/or cell debris within the lumen. For each of these pathological features, a score was given as follows: 0 absence of the feature, 1 mild, 2 moderate, 3 severe. For each section scores were averaged to obtain a mean histopathology score. Mean scores were averaged for each oviduct section and sampling time.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

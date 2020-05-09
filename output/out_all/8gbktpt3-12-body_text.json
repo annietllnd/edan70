@@ -1,1 +1,8 @@
-{"cord_uid":"8gbktpt3", "sourcedb":"PMC", "sourceid":"PMC6950618", "divid":12, "text":"An FPV strain identical to that used in a commercially available MLV FPV vaccine was detected in faecal samples from New Zealand cases. Subsequently, qPCR was performed to determine FPV viral loads in DNA extracts of mesenteric lymph nodes and tissues from these cases using a TaqMan qPCR assay as described previously [14] . Faecal samples containing vaccine virus were also submitted to a commercial laboratory for batch testing on a multiplex qPCR panel to detect potential faecal co-pathogens including Feline coronavirus, Tritrichomonas foetus, Clostridium perfringens, Giardia spp, Salmonella spp, Campylobacter jejuni, Campylobacter coli and Toxoplasma gondii (Idexx Pty Ltd.).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8gbktpt3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6950618",
+   "divid": 12,
+   "text": "An FPV strain identical to that used in a commercially available MLV FPV vaccine was detected in faecal samples from New Zealand cases. Subsequently, qPCR was performed to determine FPV viral loads in DNA extracts of mesenteric lymph nodes and tissues from these cases using a TaqMan qPCR assay as described previously [14] . Faecal samples containing vaccine virus were also submitted to a commercial laboratory for batch testing on a multiplex qPCR panel to detect potential faecal co-pathogens including Feline coronavirus, Tritrichomonas foetus, Clostridium perfringens, Giardia spp, Salmonella spp, Campylobacter jejuni, Campylobacter coli and Toxoplasma gondii (Idexx Pty Ltd.).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

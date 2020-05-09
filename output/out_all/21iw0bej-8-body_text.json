@@ -1,1 +1,8 @@
-{"cord_uid":"21iw0bej", "sourcedb":"PMC", "sourceid":"PMC5296350", "divid":8, "text":"Subconfluent cultures of RD cells were synchronized in G0/G1 phase by serum deprivation (He et al., 2010) . Approximately 5 × 10 5 cells were plated in a 6-well plate and maintained in serumfree medium for 24 h. After EV-D68 virus infection, fresh 10% DMEM was added to release the cells from G0/G1.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "21iw0bej",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5296350",
+   "divid": 8,
+   "text": "Subconfluent cultures of RD cells were synchronized in G0/G1 phase by serum deprivation (He et al., 2010) . Approximately 5 × 10 5 cells were plated in a 6-well plate and maintained in serumfree medium for 24 h. After EV-D68 virus infection, fresh 10% DMEM was added to release the cells from G0/G1.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

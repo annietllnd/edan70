@@ -1,1 +1,50 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":4, "text":"The large proportion of pneumonia cases without a detected pathogen underscores the limitations of current surveillance and detection methods and how they frame our understanding of pneumonia etiology (Box 1). EPIC study results suggest we may not be detecting the full panel of pathogens in cases we currently define as viral pneumonia nor considering the potential role of bacteria on the pathogenic potential of viruses. Bacterial causes of pneumonia are associated with more severe clinical symptoms and increasing antibiotic resistance complicates treatment [2, [7] [8] [9] [10] , making bacterial causes of pneumonia a major concern.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":24,"end":33}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":182,"end":191}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":327,"end":336}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":444,"end":453}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":613,"end":622}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 4,
+   "text": "The large proportion of pneumonia cases without a detected pathogen underscores the limitations of current surveillance and detection methods and how they frame our understanding of pneumonia etiology (Box 1). EPIC study results suggest we may not be detecting the full panel of pathogens in cases we currently define as viral pneumonia nor considering the potential role of bacteria on the pathogenic potential of viruses. Bacterial causes of pneumonia are associated with more severe clinical symptoms and increasing antibiotic resistance complicates treatment [2, [7] [8] [9] [10] , making bacterial causes of pneumonia a major concern.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":24,
+              "end": 33
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":182,
+              "end": 191
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":327,
+              "end": 336
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":444,
+              "end": 453
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":613,
+              "end": 622
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

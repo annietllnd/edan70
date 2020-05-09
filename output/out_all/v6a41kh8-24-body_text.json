@@ -1,1 +1,8 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":24, "text":"Hospital-based studies in children <5 years of age from developing countries published over the last 20 years have identified viruses (excluding measles) in 8.4% [25] to 45% [26] of LRTI episodes. One of the larger studies, which included nearly 1,500 Pakistani children <5 years of age, detected a virus (including adenovirus) in 37% of cases using viral culture and immunofluorescence (IF) [27] . Previous community-based studies with longitudi-nal follow-up of children have identified viruses in 11% to 45% of LRTI cases [1, 28, 29] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 24,
+   "text": "Hospital-based studies in children <5 years of age from developing countries published over the last 20 years have identified viruses (excluding measles) in 8.4% [25] to 45% [26] of LRTI episodes. One of the larger studies, which included nearly 1,500 Pakistani children <5 years of age, detected a virus (including adenovirus) in 37% of cases using viral culture and immunofluorescence (IF) [27] . Previous community-based studies with longitudi-nal follow-up of children have identified viruses in 11% to 45% of LRTI cases [1, 28, 29] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

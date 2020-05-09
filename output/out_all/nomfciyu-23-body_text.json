@@ -1,1 +1,8 @@
-{"cord_uid":"nomfciyu", "sourcedb":"PMC", "sourceid":"PMC7080179", "divid":23, "text":"University. The authors have no other relevant affiliations or financial involvement with any organization or entity with a financial interest in or financial conflict with the subject matter or materials discussed in the manuscript apart from those disclosed.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "nomfciyu",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7080179",
+   "divid": 23,
+   "text": "University. The authors have no other relevant affiliations or financial involvement with any organization or entity with a financial interest in or financial conflict with the subject matter or materials discussed in the manuscript apart from those disclosed.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

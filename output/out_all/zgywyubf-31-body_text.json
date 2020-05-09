@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":31, "text":"In vitro protein expression βTRCP protein was expressed in-vitro using pCDNA-βTRCP expression construct in a coupled transcriptiontranslation reaction (TNT kit, Promega Corp., Wisconsin, USA) following manufacturers protocol.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 31,
+   "text": "In vitro protein expression βTRCP protein was expressed in-vitro using pCDNA-βTRCP expression construct in a coupled transcriptiontranslation reaction (TNT kit, Promega Corp., Wisconsin, USA) following manufacturers protocol.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

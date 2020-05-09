@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":38, "text":"2. The section on the "Risk model" directs the reader to several references of previous work. However, the reader may not be familiar with these methodologies and, most importantly, this significant part of the paper should stand alone. To enable a more friendly reading, the authors are kindly required to provide the data used in the methodology, step by step, as supplementary data (i.e. BoD, national estimates/statistics, PAF etc).This would improve a lot the quality and value of this publication. ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 38,
+   "text": "2. The section on the \"Risk model\" directs the reader to several references of previous work. However, the reader may not be familiar with these methodologies and, most importantly, this significant part of the paper should stand alone. To enable a more friendly reading, the authors are kindly required to provide the data used in the methodology, step by step, as supplementary data (i.e. BoD, national estimates/statistics, PAF etc).This would improve a lot the quality and value of this publication. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":39, "text":"CPP should not only promote the cellular uptake of the cargo but also improve its intracellular trafficking to ensure that it reaches the appropriate cellular compartment. This aspect cannot be overlooked when designing antivirals as different viruses may carry their replication cycles in different subcellular locations such as the cytosol, the nucleus or in an intricate membrane system within the cytosol. The type of linkage between the CPP and the antiviral compound is of importance as for instance a disulphide bond would result in the rapid release of the cargo through the action of cytoplasm glutathione. Therefore the choice of CPP should not only be optimized to the cargo but should also be specific to the virus to ensure that the antiviral molecule efficiently reaches its viral target in the subcellular compartment.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 39,
+   "text": "CPP should not only promote the cellular uptake of the cargo but also improve its intracellular trafficking to ensure that it reaches the appropriate cellular compartment. This aspect cannot be overlooked when designing antivirals as different viruses may carry their replication cycles in different subcellular locations such as the cytosol, the nucleus or in an intricate membrane system within the cytosol. The type of linkage between the CPP and the antiviral compound is of importance as for instance a disulphide bond would result in the rapid release of the cargo through the action of cytoplasm glutathione. Therefore the choice of CPP should not only be optimized to the cargo but should also be specific to the virus to ensure that the antiviral molecule efficiently reaches its viral target in the subcellular compartment.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":6, "text":"The study was conducted in accordance with the Declaration of Helsinki, and the protocol was approved by the Ethics Committee of the Medical Faculty of the Friedrich-Alexander University Erlangen-Nürnberg (Project identification code: 3761).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 6,
+   "text": "The study was conducted in accordance with the Declaration of Helsinki, and the protocol was approved by the Ethics Committee of the Medical Faculty of the Friedrich-Alexander University Erlangen-Nürnberg (Project identification code: 3761).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"tg0tczni", "sourcedb":"PMC", "sourceid":"PMC3079669", "divid":21, "text":"Furthermore, we also performed a linear regression analysis on ENC value and gene length of ORFs of 48 polioviruses genomes. However, there was no significant correlation between codon usage and gene length in these virus genes (Spearman P > 0.05).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "tg0tczni",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3079669",
+   "divid": 21,
+   "text": "Furthermore, we also performed a linear regression analysis on ENC value and gene length of ORFs of 48 polioviruses genomes. However, there was no significant correlation between codon usage and gene length in these virus genes (Spearman P > 0.05).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

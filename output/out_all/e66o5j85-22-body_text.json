@@ -1,1 +1,8 @@
-{"cord_uid":"e66o5j85", "sourcedb":"PMC", "sourceid":"PMC4687909", "divid":22, "text":"Among the 47 patients who took antibiotics before hospitalization, 17 (14.4%) received Amoxicillin, 8 (5.6%) Ceftriaxone, 4 (2.8%) Amoxicillin/Clavulanic acid, and 3 (2.1%) Cotrimoxazole. Among the 63 cases tested for antibiotic detection testing in urine, 22 (65.1%) were positive; in this population, sensitivity of declared antibiotic use compared with urine detection was low (sensitivity = 51.2%, 95% confidence interval: 35.1-67.1%).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "e66o5j85",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4687909",
+   "divid": 22,
+   "text": "Among the 47 patients who took antibiotics before hospitalization, 17 (14.4%) received Amoxicillin, 8 (5.6%) Ceftriaxone, 4 (2.8%) Amoxicillin/Clavulanic acid, and 3 (2.1%) Cotrimoxazole. Among the 63 cases tested for antibiotic detection testing in urine, 22 (65.1%) were positive; in this population, sensitivity of declared antibiotic use compared with urine detection was low (sensitivity = 51.2%, 95% confidence interval: 35.1-67.1%).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

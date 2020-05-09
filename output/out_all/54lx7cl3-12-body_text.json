@@ -1,1 +1,82 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":12, "text":"Various other factors-including underlying medical conditions and smoking-can increase the risk of pneumonia by compromising pulmonary clearance mechanisms and the host immune response [47] , potentially influencing the selection of pathogens in both the URT and LRT . Age plays a major role in pneumonia risk. In developed countries, such as the USA, the risk of pneumonia is highest in individuals who are 65 years or over (Fig. 1 ) [48] . The elevated risk in the elderly is likely due to impaired host defenses and an increase in comorbidities-heart failure, liver disease and underlying lung diseasewhich increase risk of aspiration pneumonia that can occur from dysphagia and gastroesophageal reflux disease (reviewed by Akgün et al. [49] ). In developing countries, the burden of pneumonia is greatest in young children [2] due to their inability to physically remove and immunologically deal with bacterial pathogens (reviewed by Siegrist [50] ). Very young children also have the greatest prevalence in the nasopharynx of common bacterial pneumonia pathogens: S. pneumoniae, H. influenzae and M. catarrhalis [23, 51] . Increased carriage may be an important risk factor for pneumonia if the URT bacterial community structure is a determinant of pneumonia etiology. Unfortunately, the majority of carriage studies have been conducted among children <5 years of age, which limits our ability to establish the role of nasopharyngeal carriage in other age groups.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":99,"end":108}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":295,"end":304}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":364,"end":373}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":638,"end":647}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":787,"end":796}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1048,"end":1057}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1183,"end":1192}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1254,"end":1263}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 12,
+   "text": "Various other factors-including underlying medical conditions and smoking-can increase the risk of pneumonia by compromising pulmonary clearance mechanisms and the host immune response [47] , potentially influencing the selection of pathogens in both the URT and LRT . Age plays a major role in pneumonia risk. In developed countries, such as the USA, the risk of pneumonia is highest in individuals who are 65 years or over (Fig. 1 ) [48] . The elevated risk in the elderly is likely due to impaired host defenses and an increase in comorbidities-heart failure, liver disease and underlying lung diseasewhich increase risk of aspiration pneumonia that can occur from dysphagia and gastroesophageal reflux disease (reviewed by Akgün et al. [49] ). In developing countries, the burden of pneumonia is greatest in young children [2] due to their inability to physically remove and immunologically deal with bacterial pathogens (reviewed by Siegrist [50] ). Very young children also have the greatest prevalence in the nasopharynx of common bacterial pneumonia pathogens: S. pneumoniae, H. influenzae and M. catarrhalis [23, 51] . Increased carriage may be an important risk factor for pneumonia if the URT bacterial community structure is a determinant of pneumonia etiology. Unfortunately, the majority of carriage studies have been conducted among children <5 years of age, which limits our ability to establish the role of nasopharyngeal carriage in other age groups.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":99,
+              "end": 108
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":295,
+              "end": 304
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":364,
+              "end": 373
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":638,
+              "end": 647
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":787,
+              "end": 796
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1048,
+              "end": 1057
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1072,
+              "end": 1081
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1183,
+              "end": 1192
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1254,
+              "end": 1263
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

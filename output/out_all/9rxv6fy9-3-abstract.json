@@ -1,1 +1,8 @@
-{"cord_uid":"9rxv6fy9", "sourcedb":"PMC", "sourceid":"PMC5807439", "divid":3, "text":"A direct approach to prevent the transmission of airborne-mediated disease is inactivation of the corresponding airborne pathogens, and in fact the airborne antimicrobial efficacy of ultraviolet (UV) light has long been established 6-8 . Germicidal UV light can also efficiently inactivate both drug-sensitive and multi-drug-resistant bacteria 9 , as well as differing strains of viruses 10 . However, the widespread use of germicidal ultraviolet light in public settings has been very limited because conventional UVC light sources are a human health hazard, being both carcinogenic and cataractogenic 11,12 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "9rxv6fy9",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5807439",
+   "divid": 3,
+   "text": "A direct approach to prevent the transmission of airborne-mediated disease is inactivation of the corresponding airborne pathogens, and in fact the airborne antimicrobial efficacy of ultraviolet (UV) light has long been established 6-8 . Germicidal UV light can also efficiently inactivate both drug-sensitive and multi-drug-resistant bacteria 9 , as well as differing strains of viruses 10 . However, the widespread use of germicidal ultraviolet light in public settings has been very limited because conventional UVC light sources are a human health hazard, being both carcinogenic and cataractogenic 11,12 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":22, "text":"Our second data set is the pk168 data set of Sato et al. [42] . This set contains 168 pseudoknotted structures from 16 categories of pseudoknots. The sequences in this set have at most 85% similarity and have length of at most 140 nucleotides. We refer to this data set as "IP-pk168".", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 22,
+   "text": "Our second data set is the pk168 data set of Sato et al. [42] . This set contains 168 pseudoknotted structures from 16 categories of pseudoknots. The sequences in this set have at most 85% similarity and have length of at most 140 nucleotides. We refer to this data set as \"IP-pk168\".",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

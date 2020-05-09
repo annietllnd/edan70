@@ -1,1 +1,26 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":19, "text":"Multiple logistic regression analysis revealed that BAL fluid total WBC count $510/mL was an independent predictor of bacterial pneumonia with an adjusted odds ratio of 13.5 (95% CI; 2.3-80.4) ( Table 5 ). There was a modest but significant positive correlation between the degree of BAL leukocytosis and the APACHE II score (r = 0.419, P = 0.05) (Figure 4) . Table 3 . Bronchoalveolar lavage total and differential cell counts (%) in patients with pneumonia. ", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":128,"end":137}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":449,"end":458}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 19,
+   "text": "Multiple logistic regression analysis revealed that BAL fluid total WBC count $510/mL was an independent predictor of bacterial pneumonia with an adjusted odds ratio of 13.5 (95% CI; 2.3-80.4) ( Table 5 ). There was a modest but significant positive correlation between the degree of BAL leukocytosis and the APACHE II score (r = 0.419, P = 0.05) (Figure 4) . Table 3 . Bronchoalveolar lavage total and differential cell counts (%) in patients with pneumonia. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":128,
+              "end": 137
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":449,
+              "end": 458
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

@@ -1,1 +1,42 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":18, "text":"There are several studies that support our second hypothesis, that respiratory viruses can promote bacterial colonization of the LRT by certain commensals in the URT. Viruses interact with bacteria and the host at various stages along the pathologic pathway to promote bacterial pneumonia (Table 3) . For example, virus can increase shedding of URT bacteria into the LRT: in vitro biofilm and murine studies suggest influenza A virus infection can lead to the dispersion of S. pneumoniae biofilms, releasing virulent pneumococci for subsequent secondary infections in the LRT [88, 89] . When in a biofilm, S. pneumoniae is less virulent; capsule polysaccharide and pneumolysin production are reduced and synthesis of the bacterial adhesin phosphorylcholine increased [90, 91] . Viral infections also can promote bacterial adhesion to host cells [92] [93] [94] . Influenza and PIV promote bacterial adhesion with respiratory epithelium cells by cleaving sialic acid and exposing receptors on host cell oligosaccharide chains [95, 96] . In vitro and in vivo experiments suggest free sialic acid released by viral neuraminidase can behave as signaling molecules promoting pneumococcal biofilm formation, nasopharyngeal colonization and bacterial spread to the lungs [97] . Free sialic acid is believed to play a role in invasion by nontypeable H. influenza as it is an important component of the biofilm matrix and incorporated into the bacterial capsular polysaccharide to evade host defense mechanisms [98] . Although literature is scarce, the relationship may be bilateral as bacterial neuraminidase can promote virus survival during treatment with neuraminidase inhibitors [99] . In addition, viruses can promote bacterial adhesion by upregulating cell surface receptors for pathogenic bacteria. For example, RSV and PIV-3 infection can lead to upregulation of receptors intracellular adhesion molecule 1 (ICAM-1), carcinoembryonic antigen-related cell adhesion molecule 1 (CEACAM1), and platelet-activating factor receptor (PAF-r) to promote binding of nontypeable H. influenzae and S. pneumoniae to epithelial cells [100] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":279,"end":288}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 18,
+   "text": "There are several studies that support our second hypothesis, that respiratory viruses can promote bacterial colonization of the LRT by certain commensals in the URT. Viruses interact with bacteria and the host at various stages along the pathologic pathway to promote bacterial pneumonia (Table 3) . For example, virus can increase shedding of URT bacteria into the LRT: in vitro biofilm and murine studies suggest influenza A virus infection can lead to the dispersion of S. pneumoniae biofilms, releasing virulent pneumococci for subsequent secondary infections in the LRT [88, 89] . When in a biofilm, S. pneumoniae is less virulent; capsule polysaccharide and pneumolysin production are reduced and synthesis of the bacterial adhesin phosphorylcholine increased [90, 91] . Viral infections also can promote bacterial adhesion to host cells [92] [93] [94] . Influenza and PIV promote bacterial adhesion with respiratory epithelium cells by cleaving sialic acid and exposing receptors on host cell oligosaccharide chains [95, 96] . In vitro and in vivo experiments suggest free sialic acid released by viral neuraminidase can behave as signaling molecules promoting pneumococcal biofilm formation, nasopharyngeal colonization and bacterial spread to the lungs [97] . Free sialic acid is believed to play a role in invasion by nontypeable H. influenza as it is an important component of the biofilm matrix and incorporated into the bacterial capsular polysaccharide to evade host defense mechanisms [98] . Although literature is scarce, the relationship may be bilateral as bacterial neuraminidase can promote virus survival during treatment with neuraminidase inhibitors [99] . In addition, viruses can promote bacterial adhesion by upregulating cell surface receptors for pathogenic bacteria. For example, RSV and PIV-3 infection can lead to upregulation of receptors intracellular adhesion molecule 1 (ICAM-1), carcinoembryonic antigen-related cell adhesion molecule 1 (CEACAM1), and platelet-activating factor receptor (PAF-r) to promote binding of nontypeable H. influenzae and S. pneumoniae to epithelial cells [100] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":279,
+              "end": 288
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":477,
+              "end": 486
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":609,
+              "end": 618
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":2088,
+              "end": 2097
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

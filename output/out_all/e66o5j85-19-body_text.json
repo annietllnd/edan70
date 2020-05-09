@@ -1,1 +1,18 @@
-{"cord_uid":"e66o5j85", "sourcedb":"PMC", "sourceid":"PMC4687909", "divid":19, "text":"Overall, 216 patient, accounting for 118 (54.6%) pneumonia cases and 98 (45.4%) controls, were analyzed. Among them, 93 (44.1%) were female. The male/female gender ratio was 0.79, and median age was 11 months (IQR: 5-55 months).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":49,"end":58}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"}]}
+{
+   "cord_uid": "e66o5j85",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4687909",
+   "divid": 19,
+   "text": "Overall, 216 patient, accounting for 118 (54.6%) pneumonia cases and 98 (45.4%) controls, were analyzed. Among them, 93 (44.1%) were female. The male/female gender ratio was 0.79, and median age was 11 months (IQR: 5-55 months).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":49,
+              "end": 58
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":12, "text":"Our manuscript is organized as follows: we start by summarizing the data of interest, and propose a statistical model for the ED data in each city. Using the growing lit-erature on the subject, we outline a stochastic model for an anthrax outbreak along with a healthcare utilization model for simulating people entering the ED. We then describe the methodology and theory for detecting unexpected outbreak signatures in time series sources using filters. We examine the form and function of the filters used for detection. In the results section, we explore the time series models obtained for each Midwest ED included in our study. We assess these detection methods using a simulated anthrax attack, and we end with a discussion.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 12,
+   "text": "Our manuscript is organized as follows: we start by summarizing the data of interest, and propose a statistical model for the ED data in each city. Using the growing lit-erature on the subject, we outline a stochastic model for an anthrax outbreak along with a healthcare utilization model for simulating people entering the ED. We then describe the methodology and theory for detecting unexpected outbreak signatures in time series sources using filters. We examine the form and function of the filters used for detection. In the results section, we explore the time series models obtained for each Midwest ED included in our study. We assess these detection methods using a simulated anthrax attack, and we end with a discussion.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

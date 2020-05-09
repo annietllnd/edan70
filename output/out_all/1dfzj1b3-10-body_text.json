@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":10, "text":"Direct and indirect methods have been applied to determine the chain-breaking antioxidant activity of natural products. Direct methods are based on studying the effect of a tested product (e.g. food) containing antioxidants on the oxidative degradation of a testing system. The substrate of oxidation may be individual lipids, lipid mixtures (oils), proteins, DNA, blood plasma, LDL, and biological membranes. Homogenous lipids or microheterogeneous systems (micelles and liposomes) can be used depending on the solubility of samples. The indirect method studies the ability of antioxidant to scavenge some free radicals, which is not associated with the real oxidative degradation [29] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 10,
+   "text": "Direct and indirect methods have been applied to determine the chain-breaking antioxidant activity of natural products. Direct methods are based on studying the effect of a tested product (e.g. food) containing antioxidants on the oxidative degradation of a testing system. The substrate of oxidation may be individual lipids, lipid mixtures (oils), proteins, DNA, blood plasma, LDL, and biological membranes. Homogenous lipids or microheterogeneous systems (micelles and liposomes) can be used depending on the solubility of samples. The indirect method studies the ability of antioxidant to scavenge some free radicals, which is not associated with the real oxidative degradation [29] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

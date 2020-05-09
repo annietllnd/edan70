@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":8, "text":"Further, we examined the turnover of IκBα in IΚKβ and ORF2 co-expressing cells since IκBα is the major inhibitor of NF-κB activity in unstimulated cells. By performing a pulse chase assay, using [ 35 S]-cys/met labeling mix, the half-life of IκBα in IKKβ expressing cells was found to be approximately 90 minutes, whereas in cells expressing both IKKβ and ORF2, approximately 15% of Heterologous expression of ORF2 protein inhibits NF-κB activity. (A) Huh7 cells were cotransfected in duplicate with NF-κB CAT reporter and pSGI vector or pSGI-ORF2 expression plasmid. 48 hour post transfection, cells were treated with 100 ng/ml TPA for 30 minutes and CAT activity was assayed. Spot intensity was quantified using NIH Image program and percentage CAT activity was calculated assuming the highest value as 100%.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 8,
+   "text": "Further, we examined the turnover of IκBα in IΚKβ and ORF2 co-expressing cells since IκBα is the major inhibitor of NF-κB activity in unstimulated cells. By performing a pulse chase assay, using [ 35 S]-cys/met labeling mix, the half-life of IκBα in IKKβ expressing cells was found to be approximately 90 minutes, whereas in cells expressing both IKKβ and ORF2, approximately 15% of Heterologous expression of ORF2 protein inhibits NF-κB activity. (A) Huh7 cells were cotransfected in duplicate with NF-κB CAT reporter and pSGI vector or pSGI-ORF2 expression plasmid. 48 hour post transfection, cells were treated with 100 ng/ml TPA for 30 minutes and CAT activity was assayed. Spot intensity was quantified using NIH Image program and percentage CAT activity was calculated assuming the highest value as 100%.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

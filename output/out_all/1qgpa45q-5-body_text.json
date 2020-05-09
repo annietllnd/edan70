@@ -1,1 +1,26 @@
-{"cord_uid":"1qgpa45q", "sourcedb":"PMC", "sourceid":"PMC6941262", "divid":5, "text":"HMPV is reported to have an important contribution to acute respiratory infections (ARI) in Africa. For instance, HMPV-associated hospitalization was estimated at 6.5 per 1000 person years in infants in Soweto, South Africa [4] ; at 4% in hospitalized children with severe ARI during a 2-year period in Cameroon [5] ; and in rural western Kenya, incidence of HMPV associated with ARI cases in outpatient clinic visits was estimated at 0.43 per 100 person-years among outpatients [6] . In Kilifi coastal Kenya, between January 2007 to December 2011, children under 6 months of age accounted for 44% of HMPV positive cases, while 74% were children under 1 year, and 1.3% (2/160) were children > 36 months [7] . In Dadaab and Kakuma refugee camps in Kenya, HMPV was detected in 5.7% hospitalizations, and virus-positive crude hospitalization rate (per 1000 children < 5 years old) was 4 for HMPV [8] . In Mali, contribution of HMPV to pneumonia had a population attributable fraction of 9% (95% CI: 7-11%) [9] ; while in Morocco [10] , 8 .9% of children < 5 years admitted with severe pneumonia were infected with HMPV. HMPV prevalence and incidence elsewhere globally, is indicated in Additional file 4: Table S1 . Of note is that the variations in incidence rates could be attributed to study population, seasonality and even detection methods. Nonetheless, genomic epidemiology of HMPV in Africa is inadequately reported, and comparison of genetic similarity and differences between African and global strains is not documented.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":932,"end":941}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6941262/"}, {"id":"Symptom_Covid-19", "span":{"begin":1082,"end":1091}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6941262/"}]}
+{
+   "cord_uid": "1qgpa45q",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6941262",
+   "divid": 5,
+   "text": "HMPV is reported to have an important contribution to acute respiratory infections (ARI) in Africa. For instance, HMPV-associated hospitalization was estimated at 6.5 per 1000 person years in infants in Soweto, South Africa [4] ; at 4% in hospitalized children with severe ARI during a 2-year period in Cameroon [5] ; and in rural western Kenya, incidence of HMPV associated with ARI cases in outpatient clinic visits was estimated at 0.43 per 100 person-years among outpatients [6] . In Kilifi coastal Kenya, between January 2007 to December 2011, children under 6 months of age accounted for 44% of HMPV positive cases, while 74% were children under 1 year, and 1.3% (2/160) were children > 36 months [7] . In Dadaab and Kakuma refugee camps in Kenya, HMPV was detected in 5.7% hospitalizations, and virus-positive crude hospitalization rate (per 1000 children < 5 years old) was 4 for HMPV [8] . In Mali, contribution of HMPV to pneumonia had a population attributable fraction of 9% (95% CI: 7-11%) [9] ; while in Morocco [10] , 8 .9% of children < 5 years admitted with severe pneumonia were infected with HMPV. HMPV prevalence and incidence elsewhere globally, is indicated in Additional file 4: Table S1 . Of note is that the variations in incidence rates could be attributed to study population, seasonality and even detection methods. Nonetheless, genomic epidemiology of HMPV in Africa is inadequately reported, and comparison of genetic similarity and differences between African and global strains is not documented.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":932,
+              "end": 941
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6941262/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1082,
+              "end": 1091
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6941262/"
+       }
+   ]
+}

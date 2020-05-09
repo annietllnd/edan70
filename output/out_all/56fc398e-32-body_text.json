@@ -1,1 +1,8 @@
-{"cord_uid":"56fc398e", "sourcedb":"PMC", "sourceid":"PMC4455802", "divid":32, "text":"It is important to consider not only the size of the simulated epidemics, but also how well the model captures the spatial spread of infection when partially sampled networks are used. When epidemics are seeded in Cumbria, almost all infected movements occur within Cumbria itself and to neighbouring counties ( figure 3 ). An average of 8.9 farms become infected in Cumbria after 12 weeks, with 13.9 in North Yorkshire and 4.2, 4.0, 4.0 and 8.0 in Durham, Lancashire, Dumfries and Galloway, and Aberdeen, respectively. All other counties have epidemic sizes of fewer than two farms when the epidemic is seeded in Cumbria.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "56fc398e",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4455802",
+   "divid": 32,
+   "text": "It is important to consider not only the size of the simulated epidemics, but also how well the model captures the spatial spread of infection when partially sampled networks are used. When epidemics are seeded in Cumbria, almost all infected movements occur within Cumbria itself and to neighbouring counties ( figure 3 ). An average of 8.9 farms become infected in Cumbria after 12 weeks, with 13.9 in North Yorkshire and 4.2, 4.0, 4.0 and 8.0 in Durham, Lancashire, Dumfries and Galloway, and Aberdeen, respectively. All other counties have epidemic sizes of fewer than two farms when the epidemic is seeded in Cumbria.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

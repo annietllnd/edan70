@@ -1,1 +1,26 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":10, "text":"Children with symptoms other than wheezing, such as chronic wet cough, recurrent bronchitis and stridor, being the main reason for FOB + BAL were excluded. Children with respiratory tract anomalies including malacia of the conductive airways, or with known underlying chronic conditions, such as cystic fibrosis, primary ciliary dyskinesia, immune deficiency, bronchopulmonary dysplasia, congenital heart diseases and neuromuscular disorders were also excluded.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":34,"end":42}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":64,"end":69}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":60,"end":69}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 10,
+   "text": "Children with symptoms other than wheezing, such as chronic wet cough, recurrent bronchitis and stridor, being the main reason for FOB + BAL were excluded. Children with respiratory tract anomalies including malacia of the conductive airways, or with known underlying chronic conditions, such as cystic fibrosis, primary ciliary dyskinesia, immune deficiency, bronchopulmonary dysplasia, congenital heart diseases and neuromuscular disorders were also excluded.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":34,
+              "end": 42
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":60,
+              "end": 69
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

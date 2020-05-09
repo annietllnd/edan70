@@ -1,1 +1,18 @@
-{"cord_uid":"6lv3di4x", "sourcedb":"PMC", "sourceid":"PMC6258954", "divid":16, "text":"As mentioned in the introduction, there is increasing evidence for vector-free transmission of flaviviruses, in which oronasal, contact, or aerosol exposure to the virus has resulted in infection of various vertebrates. The reported flaviviruses, all described as mosquito borne, include at least JEV, WNV, SLEV, yellow fever virus, ZIKV, Spondweni virus, WESSV, TMUV, and dengue virus (DENV), and the species concerned include pigs, humans, nonhuman primates, mice, guinea pigs, hamsters, geese, partridges, ducks, several other species of birds, and even alligators (8, 9, 12, 15-17, 20-22, 24-27, 46-54) . Some of these reports are from experimental studies, and others are from field observations, laboratory infections, or infections of exposed health care providers or animal caretakers. Despite this multitude of reports, nothing is known about the mechanisms leading to such routes of transmission. For nonlaboratory exposures, a first prerequisite for aerosol contact transmission would be that the virus is secreted into body fluids such as mucosal secretions or urine. In fact, this has been described in many of the references previously cited, but the source of virus and first target remained unknown.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":320,"end":325}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6258954/"}]}
+{
+   "cord_uid": "6lv3di4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6258954",
+   "divid": 16,
+   "text": "As mentioned in the introduction, there is increasing evidence for vector-free transmission of flaviviruses, in which oronasal, contact, or aerosol exposure to the virus has resulted in infection of various vertebrates. The reported flaviviruses, all described as mosquito borne, include at least JEV, WNV, SLEV, yellow fever virus, ZIKV, Spondweni virus, WESSV, TMUV, and dengue virus (DENV), and the species concerned include pigs, humans, nonhuman primates, mice, guinea pigs, hamsters, geese, partridges, ducks, several other species of birds, and even alligators (8, 9, 12, 15-17, 20-22, 24-27, 46-54) . Some of these reports are from experimental studies, and others are from field observations, laboratory infections, or infections of exposed health care providers or animal caretakers. Despite this multitude of reports, nothing is known about the mechanisms leading to such routes of transmission. For nonlaboratory exposures, a first prerequisite for aerosol contact transmission would be that the virus is secreted into body fluids such as mucosal secretions or urine. In fact, this has been described in many of the references previously cited, but the source of virus and first target remained unknown.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":320,
+              "end": 325
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6258954/"
+       }
+   ]
+}

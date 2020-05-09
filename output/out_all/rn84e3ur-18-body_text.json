@@ -1,1 +1,8 @@
-{"cord_uid":"rn84e3ur", "sourcedb":"PMC", "sourceid":"PMC4133625", "divid":18, "text":"Based on the results of CFD simulation, the infection risks of the occupants were investigated by using the dose-response model in the risk assessment [36] . The exposure levels of the passengers were assessed according to the concept of intake fraction [18, 37] , which demonstrated the fraction of the quantity of pathogens deposited on the target infection site in the respiratory tract to the total quantity of pathogens produced by the index patient [38] :", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rn84e3ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4133625",
+   "divid": 18,
+   "text": "Based on the results of CFD simulation, the infection risks of the occupants were investigated by using the dose-response model in the risk assessment [36] . The exposure levels of the passengers were assessed according to the concept of intake fraction [18, 37] , which demonstrated the fraction of the quantity of pathogens deposited on the target infection site in the respiratory tract to the total quantity of pathogens produced by the index patient [38] :",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

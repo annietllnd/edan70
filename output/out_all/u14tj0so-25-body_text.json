@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":25, "text":"structure, G big , we remove the minimum number of pseudoknotted base pairs from the reference structure to make the reference structure pseudoknot-free. If the reference structure is pseudoknot-free, then G big is the same as the reference structure itself. We call the removed base pairs from the reference structure G small . Blue base pairs in Figure 1 represent base pairs of the G big structure and green base pairs represent the G small structure.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 25,
+   "text": "structure, G big , we remove the minimum number of pseudoknotted base pairs from the reference structure to make the reference structure pseudoknot-free. If the reference structure is pseudoknot-free, then G big is the same as the reference structure itself. We call the removed base pairs from the reference structure G small . Blue base pairs in Figure 1 represent base pairs of the G big structure and green base pairs represent the G small structure.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

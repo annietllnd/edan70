@@ -1,1 +1,8 @@
-{"cord_uid":"lhn34tc4", "sourcedb":"PMC", "sourceid":"PMC2804616", "divid":15, "text":"The survey response rate varied slightly by study region. Excluding calls to ineligible participants (i.e., did not meet inclusion criteria) and disqualified numbers (e.g., not in service, wrong number, fax/computer/business line), the final response rate was 27% for the City of Toronto and 31% for York Region.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "lhn34tc4",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2804616",
+   "divid": 15,
+   "text": "The survey response rate varied slightly by study region. Excluding calls to ineligible participants (i.e., did not meet inclusion criteria) and disqualified numbers (e.g., not in service, wrong number, fax/computer/business line), the final response rate was 27% for the City of Toronto and 31% for York Region.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

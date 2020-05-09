@@ -1,1 +1,8 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":17, "text":"Porcine pathogenic E. coli involved in PWD typically belong to serogroups O8, O138, O139, O141, O147, O157 and O149, the latter being the predominant serogroup in most countries [56, 57] . The most implicated virotype in PWD is ETEC: LT: STb: F4 [6] . However, O serogroup and virulence gene patterns vary from region to region and over time [2] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 17,
+   "text": "Porcine pathogenic E. coli involved in PWD typically belong to serogroups O8, O138, O139, O141, O147, O157 and O149, the latter being the predominant serogroup in most countries [56, 57] . The most implicated virotype in PWD is ETEC: LT: STb: F4 [6] . However, O serogroup and virulence gene patterns vary from region to region and over time [2] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

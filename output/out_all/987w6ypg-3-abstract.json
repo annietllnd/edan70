@@ -1,1 +1,8 @@
-{"cord_uid":"987w6ypg", "sourcedb":"PMC", "sourceid":"PMC4251951", "divid":3, "text":"The results described here identify a novel mechanism through which IFITMs affect HIV-1 infectivity during the late phases of the viral life cycle. Put in the context of data obtained by other laboratories, these results indicate that IFITMs can target HIV at two distinct moments of its life cycle, in target cells as well as in virus-producing cells. These results raise the possibility that IFITMs could similarly affect distinct steps of the life cycle of a number of other viruses.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "987w6ypg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4251951",
+   "divid": 3,
+   "text": "The results described here identify a novel mechanism through which IFITMs affect HIV-1 infectivity during the late phases of the viral life cycle. Put in the context of data obtained by other laboratories, these results indicate that IFITMs can target HIV at two distinct moments of its life cycle, in target cells as well as in virus-producing cells. These results raise the possibility that IFITMs could similarly affect distinct steps of the life cycle of a number of other viruses.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

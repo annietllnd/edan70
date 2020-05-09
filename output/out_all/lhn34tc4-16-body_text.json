@@ -1,1 +1,8 @@
-{"cord_uid":"lhn34tc4", "sourcedb":"PMC", "sourceid":"PMC2804616", "divid":16, "text":"A factor analysis using Varimax rotation with Kaiser Normalization was performed on the data yielding four factors. Composite index scores were then computed for each factor by summing the responses on items loading on the respective factors. Thus, if a factor comprised five items then individual composite scores for that index could range from 5 to 25.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "lhn34tc4",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2804616",
+   "divid": 16,
+   "text": "A factor analysis using Varimax rotation with Kaiser Normalization was performed on the data yielding four factors. Composite index scores were then computed for each factor by summing the responses on items loading on the respective factors. Thus, if a factor comprised five items then individual composite scores for that index could range from 5 to 25.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

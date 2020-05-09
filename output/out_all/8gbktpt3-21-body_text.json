@@ -1,1 +1,8 @@
-{"cord_uid":"8gbktpt3", "sourcedb":"PMC", "sourceid":"PMC6950618", "divid":21, "text":"Of the nine cases for which clinical samples were available for PCR and sequencing, all cats had a positive faecal CPV antigen test result (FASTest Parvo Strip, Megacor Hoerbranz, Austria) and were euthanised at diagnosis. All cats had been vaccinated on admission using an MLV FPV vaccine (Felocell 3 or Felocell 4, Zoetis Pty. Ltd.). Clinical data are presented in Table 3 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8gbktpt3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6950618",
+   "divid": 21,
+   "text": "Of the nine cases for which clinical samples were available for PCR and sequencing, all cats had a positive faecal CPV antigen test result (FASTest Parvo Strip, Megacor Hoerbranz, Austria) and were euthanised at diagnosis. All cats had been vaccinated on admission using an MLV FPV vaccine (Felocell 3 or Felocell 4, Zoetis Pty. Ltd.). Clinical data are presented in Table 3 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"0oq4kkn5", "sourcedb":"PMC", "sourceid":"PMC5052702", "divid":17, "text":"5-Amino-1-phenyl-1.2-dihydropyrazol-3-one (175 mg, 1 mmol, 1 eq) was dissolved in 7 ml 1,4-dioxane and transferred to a microwave vessel (pressure stable, max. volume 10 ml).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "0oq4kkn5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5052702",
+   "divid": 17,
+   "text": "5-Amino-1-phenyl-1.2-dihydropyrazol-3-one (175 mg, 1 mmol, 1 eq) was dissolved in 7 ml 1,4-dioxane and transferred to a microwave vessel (pressure stable, max. volume 10 ml).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

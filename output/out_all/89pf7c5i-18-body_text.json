@@ -1,1 +1,8 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":18, "text":"In cats, infection could be promoted by concurrent immunosuppressive infections such as FIV or FeLV [13, 31] . The fact that cats appear to better control the infection and more rarely manifest the disease is also in favour of a potential persistent source role of infected individuals. Moreover, the population of pet and stray cats may be even larger than that of dogs in some endemic areas [44] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 18,
+   "text": "In cats, infection could be promoted by concurrent immunosuppressive infections such as FIV or FeLV [13, 31] . The fact that cats appear to better control the infection and more rarely manifest the disease is also in favour of a potential persistent source role of infected individuals. Moreover, the population of pet and stray cats may be even larger than that of dogs in some endemic areas [44] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

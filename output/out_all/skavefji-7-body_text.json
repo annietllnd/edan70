@@ -1,1 +1,34 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":7, "text":"Inclusion criteria were as follows: (1) patients aged $18 years with a clinical diagnosis of pneumonia (see below for definition), and (2) patients who underwent bronchoscopic BAL for etiologic diagnosis of pneumonia. Exclusion criteria were as follows: (1) patients in whom the pathogen was not identified, (2) patients in whom BAL fluid analysis was impossible (due to severe neutropenia or clotting of specimen) or not performed, (3) patients with a mixed infection (identification of bacteria and virus), (4) patients who were treated with antimicrobial agents for more than 24 hours before bronchoscopic BAL, (5) patients with invasive pulmonary aspergillosis, (6) patients with mycobacterial infection, and (7) patients with Pneumocystis jirovecii pneumonia.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":93,"end":102}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":207,"end":216}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":754,"end":763}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 7,
+   "text": "Inclusion criteria were as follows: (1) patients aged $18 years with a clinical diagnosis of pneumonia (see below for definition), and (2) patients who underwent bronchoscopic BAL for etiologic diagnosis of pneumonia. Exclusion criteria were as follows: (1) patients in whom the pathogen was not identified, (2) patients in whom BAL fluid analysis was impossible (due to severe neutropenia or clotting of specimen) or not performed, (3) patients with a mixed infection (identification of bacteria and virus), (4) patients who were treated with antimicrobial agents for more than 24 hours before bronchoscopic BAL, (5) patients with invasive pulmonary aspergillosis, (6) patients with mycobacterial infection, and (7) patients with Pneumocystis jirovecii pneumonia.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":93,
+              "end": 102
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":207,
+              "end": 216
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":754,
+              "end": 763
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":31, "text":"Fc mutants designed to enhance (M428L) or reduce (I253A) mAb b12 binding to FcRn were constructed as follows: briefly, the b12 variable regions were PCR-amplified from pDR12 and cloned into the pc1HC and pkLC vectors [68, 69] . Amino acid substitutions were introduced by QuikChange site-directed mutagenesis (Stratagene, La Jolla, CA). Constructs were verified by sequence analysis before transiently expressed in FreeStyle 293 cells (Invitrogen, Carlsbad, CA) and purified by protein A affinity chromatography (GE Healthcare, United Kingdom).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 31,
+   "text": "Fc mutants designed to enhance (M428L) or reduce (I253A) mAb b12 binding to FcRn were constructed as follows: briefly, the b12 variable regions were PCR-amplified from pDR12 and cloned into the pc1HC and pkLC vectors [68, 69] . Amino acid substitutions were introduced by QuikChange site-directed mutagenesis (Stratagene, La Jolla, CA). Constructs were verified by sequence analysis before transiently expressed in FreeStyle 293 cells (Invitrogen, Carlsbad, CA) and purified by protein A affinity chromatography (GE Healthcare, United Kingdom).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

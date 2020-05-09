@@ -1,1 +1,18 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":35, "text":"All of the challenged birds shed viral RNA via the tracheal route on day 4 pi and showed signs of mild depression, ruffled feathers and a transitory arched posture, while we recorded conjunctivitis in approximately onethird of the layers. Birds started showing signs of the disease on day 3 pi and gradually recovered by day 6-7 pi. To compare egg production between groups on a weekly basis, daily values were averaged ( Figure 1 ) and are here expressed as laying rates (%), considering a production of 10 eggs/10 hens/day as a hypothetical value of 100%. Before the infection, all of the layers in the H9 and K groups laid eggs scoring a mean production of 93.0% and 95.0%, respectively and we did not observe any statistical difference between the two groups.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":183,"end":197}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"}]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 35,
+   "text": "All of the challenged birds shed viral RNA via the tracheal route on day 4 pi and showed signs of mild depression, ruffled feathers and a transitory arched posture, while we recorded conjunctivitis in approximately onethird of the layers. Birds started showing signs of the disease on day 3 pi and gradually recovered by day 6-7 pi. To compare egg production between groups on a weekly basis, daily values were averaged ( Figure 1 ) and are here expressed as laying rates (%), considering a production of 10 eggs/10 hens/day as a hypothetical value of 100%. Before the infection, all of the layers in the H9 and K groups laid eggs scoring a mean production of 93.0% and 95.0%, respectively and we did not observe any statistical difference between the two groups.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":183,
+              "end": 197
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"
+       }
+   ]
+}

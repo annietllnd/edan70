@@ -1,1 +1,8 @@
-{"cord_uid":"i08zc62d", "sourcedb":"PMC", "sourceid":"PMC4014123", "divid":19, "text":"Neu5Ac seems to be responsible for inducing the conformational change of Ile327. Cp-NanI CD in complex with diplacone has the same side-chain orientation of Asp291 as in the substrate (Neu5Ac) complex. In addition, an extra water molecule (W1) rather than the 4 0 -hydroxyl group of Neu5Ac stabilizes the diplacone complex. Therefore, together with the kinetic inhibition assay, the structure of the Cp-NanI CDdiplacone complex suggests that diplacone binds to the same substrate-binding site and acts as a competitive inhibitor.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "i08zc62d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4014123",
+   "divid": 19,
+   "text": "Neu5Ac seems to be responsible for inducing the conformational change of Ile327. Cp-NanI CD in complex with diplacone has the same side-chain orientation of Asp291 as in the substrate (Neu5Ac) complex. In addition, an extra water molecule (W1) rather than the 4 0 -hydroxyl group of Neu5Ac stabilizes the diplacone complex. Therefore, together with the kinetic inhibition assay, the structure of the Cp-NanI CDdiplacone complex suggests that diplacone binds to the same substrate-binding site and acts as a competitive inhibitor.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

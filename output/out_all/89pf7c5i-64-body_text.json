@@ -1,1 +1,8 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":64, "text":"Some other oral drugs (fluconazole, itraconazole, metronidazole and spiramycin) administered to one cat at different times were considered as not effective [37] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 64,
+   "text": "Some other oral drugs (fluconazole, itraconazole, metronidazole and spiramycin) administered to one cat at different times were considered as not effective [37] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

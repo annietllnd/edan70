@@ -1,1 +1,82 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":9, "text":"The weekly episodes of vomiting and diarrhea were analyzed with a mixed-effects negative binomial generalized linear model. Fixed effects in the model were week, diet, and the interaction between. The random effects were animal nested within clinic. For vomiting, the change from week 0 to weeks 1-4 for each diet and between diets was tested. For diarrhea, the change from week 1 to weeks 2-4 for each diet and between diets was tested. The negative binomial models were also used to test for an effect of positive fecal testing for FCoV, C. perfringens enterotoxin gene, and FCoV antibody on vomiting and diarrhea occurrences by changing the fixed effects to week and positive/negative and retaining the same contrasts. This same model was altered to have a response of the total vomiting occurrences over the 4 weeks and fixed effects of diet and age. Vomiting was also modeled against the initial Spec fPL values using a negative binomial model, as before, however with the change in vomiting from baseline as the interaction between. Random effects were animal nested within clinic. The same hypothesis tests were also performed comparing the change between weeks within and between diets.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":36,"end":44}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":348,"end":356}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":607,"end":615}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":23,"end":31}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":254,"end":262}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":594,"end":602}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":782,"end":790}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":855,"end":863}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":988,"end":996}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 9,
+   "text": "The weekly episodes of vomiting and diarrhea were analyzed with a mixed-effects negative binomial generalized linear model. Fixed effects in the model were week, diet, and the interaction between. The random effects were animal nested within clinic. For vomiting, the change from week 0 to weeks 1-4 for each diet and between diets was tested. For diarrhea, the change from week 1 to weeks 2-4 for each diet and between diets was tested. The negative binomial models were also used to test for an effect of positive fecal testing for FCoV, C. perfringens enterotoxin gene, and FCoV antibody on vomiting and diarrhea occurrences by changing the fixed effects to week and positive/negative and retaining the same contrasts. This same model was altered to have a response of the total vomiting occurrences over the 4 weeks and fixed effects of diet and age. Vomiting was also modeled against the initial Spec fPL values using a negative binomial model, as before, however with the change in vomiting from baseline as the interaction between. Random effects were animal nested within clinic. The same hypothesis tests were also performed comparing the change between weeks within and between diets.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":36,
+              "end": 44
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":348,
+              "end": 356
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":607,
+              "end": 615
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":23,
+              "end": 31
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":254,
+              "end": 262
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":594,
+              "end": 602
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":782,
+              "end": 790
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":855,
+              "end": 863
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":988,
+              "end": 996
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

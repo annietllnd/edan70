@@ -1,1 +1,18 @@
-{"cord_uid":"yr1zanxx", "sourcedb":"PMC", "sourceid":"PMC6354430", "divid":16, "text":"To determine whether CSF1R antagonism impacts survival from WNV infection, mice were fed PLX5622-embedded chow for 2 weeks, then infected with WNV-NY [42] at either 10 2 or 10 4 PFU via footpad (f.p.) inoculation. Consistent with published data [8, 49] , 30% of control-treated mice survived infection with 10 4 PFU and 90% of control-treated mice survived infection with 10 2 PFU; however, mice treated with PLX5622 universally succumbed to infection with either inoculum titer (Fig. 2a) . This was associated with significantly increased weight loss (Fig. 2b ) and more severe clinical score (Fig. 2c, d) in PLX5622-treated compared with control-treated mice infected with 10 2 PFU WNV-NY.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":540,"end":551}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6354430/"}]}
+{
+   "cord_uid": "yr1zanxx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6354430",
+   "divid": 16,
+   "text": "To determine whether CSF1R antagonism impacts survival from WNV infection, mice were fed PLX5622-embedded chow for 2 weeks, then infected with WNV-NY [42] at either 10 2 or 10 4 PFU via footpad (f.p.) inoculation. Consistent with published data [8, 49] , 30% of control-treated mice survived infection with 10 4 PFU and 90% of control-treated mice survived infection with 10 2 PFU; however, mice treated with PLX5622 universally succumbed to infection with either inoculum titer (Fig. 2a) . This was associated with significantly increased weight loss (Fig. 2b ) and more severe clinical score (Fig. 2c, d) in PLX5622-treated compared with control-treated mice infected with 10 2 PFU WNV-NY.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":540,
+              "end": 551
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6354430/"
+       }
+   ]
+}

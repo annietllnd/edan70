@@ -1,1 +1,26 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":67, "text":"during the first 4-6 days pi. In these birds, we noticed that the ovaries were productive, but in the lumen of the oviducts, there were abortive, defective eggs, mucous and fibrinous clots. In particular, according to both virological and histopathological data, the most affected section was the infundibulum, and in 29% of the birds in the first 4-6 days pi, the mucosal epithelium was extensively ulcerated and immunohistochemistry revealed diffuse positivity in the remaining epithelial cells. On the other hand, despite the evidence of viral replication in the remaining parts of the oviduct, the degree of inflammation was generally lower in the magnum, and practically absent at the level of the uterus. Interestingly, the proportion of animals with an H9N2 infection in the oviduct (62%) closely translated into a proportional drop in egg production during the first 2 weeks post infection, as the average number of laid eggs per day decreased from approximately 10.00 to 4.43 eggs/group, suggesting that the acute and subacute inflammation of the organ, in particular at the level of infundibulum, impaired the oviposition in each of the infected hens.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":612,"end":624}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"}, {"id":"Symptom_Covid-19", "span":{"begin":1036,"end":1048}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"}]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 67,
+   "text": "during the first 4-6 days pi. In these birds, we noticed that the ovaries were productive, but in the lumen of the oviducts, there were abortive, defective eggs, mucous and fibrinous clots. In particular, according to both virological and histopathological data, the most affected section was the infundibulum, and in 29% of the birds in the first 4-6 days pi, the mucosal epithelium was extensively ulcerated and immunohistochemistry revealed diffuse positivity in the remaining epithelial cells. On the other hand, despite the evidence of viral replication in the remaining parts of the oviduct, the degree of inflammation was generally lower in the magnum, and practically absent at the level of the uterus. Interestingly, the proportion of animals with an H9N2 infection in the oviduct (62%) closely translated into a proportional drop in egg production during the first 2 weeks post infection, as the average number of laid eggs per day decreased from approximately 10.00 to 4.43 eggs/group, suggesting that the acute and subacute inflammation of the organ, in particular at the level of infundibulum, impaired the oviposition in each of the infected hens.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":612,
+              "end": 624
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1036,
+              "end": 1048
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6116506/"
+       }
+   ]
+}

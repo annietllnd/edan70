@@ -1,1 +1,8 @@
-{"cord_uid":"7bgerq3r", "sourcedb":"PMC", "sourceid":"PMC5968208", "divid":18, "text":"Limited information exists regarding MERS-CoV seroprevalence among populations other than confirmed MERS cases. Saudi Arabian data showed that the seroprevalence of MERS-CoV IgG among the general population was 0.15% [25] , suggesting that a number of cases of asymptomatic or mild infections may be present in the general population.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7bgerq3r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5968208",
+   "divid": 18,
+   "text": "Limited information exists regarding MERS-CoV seroprevalence among populations other than confirmed MERS cases. Saudi Arabian data showed that the seroprevalence of MERS-CoV IgG among the general population was 0.15% [25] , suggesting that a number of cases of asymptomatic or mild infections may be present in the general population.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

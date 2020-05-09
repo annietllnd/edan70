@@ -1,1 +1,8 @@
-{"cord_uid":"zl4abcn0", "sourcedb":"PMC", "sourceid":"PMC4033353", "divid":18, "text":"All experiments were repeated thrice with three replicates for each extract. The data were analyzed using IBM SPSS Statistics 20 software. Analysis of variance (ANOVA) and the means which were compared using the Tukey HSD at 5% level of significance ( < 0.05) were used.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zl4abcn0",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033353",
+   "divid": 18,
+   "text": "All experiments were repeated thrice with three replicates for each extract. The data were analyzed using IBM SPSS Statistics 20 software. Analysis of variance (ANOVA) and the means which were compared using the Tukey HSD at 5% level of significance ( < 0.05) were used.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

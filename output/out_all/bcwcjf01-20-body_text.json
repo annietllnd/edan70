@@ -1,1 +1,8 @@
-{"cord_uid":"bcwcjf01", "sourcedb":"PMC", "sourceid":"PMC3836733", "divid":20, "text":"Reads from the noncoding regions were concatenated and consensus data from 454 and Illumina sequencing were compared (Fig. S7) Figure 5 ).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "bcwcjf01",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836733",
+   "divid": 20,
+   "text": "Reads from the noncoding regions were concatenated and consensus data from 454 and Illumina sequencing were compared (Fig. S7) Figure 5 ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

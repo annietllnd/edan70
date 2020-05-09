@@ -1,1 +1,8 @@
-{"cord_uid":"8gbktpt3", "sourcedb":"PMC", "sourceid":"PMC6950618", "divid":9, "text":"Residual diagnostic faecal samples or tissue (intestine or mesenteric lymph node) obtained post-mortem were collected prospectively in Australia from 7 April 2015 until 30 August 2018 and from the UAE and New Zealand during suspected outbreaks of FPL in 2017. In addition, a stored faecal sample from a cat diagnosed with FPL in the first outbreak in Australia in 2014 was obtained for study.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8gbktpt3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6950618",
+   "divid": 9,
+   "text": "Residual diagnostic faecal samples or tissue (intestine or mesenteric lymph node) obtained post-mortem were collected prospectively in Australia from 7 April 2015 until 30 August 2018 and from the UAE and New Zealand during suspected outbreaks of FPL in 2017. In addition, a stored faecal sample from a cat diagnosed with FPL in the first outbreak in Australia in 2014 was obtained for study.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

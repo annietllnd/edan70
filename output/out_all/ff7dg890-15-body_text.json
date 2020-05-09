@@ -1,1 +1,8 @@
-{"cord_uid":"ff7dg890", "sourcedb":"PMC", "sourceid":"PMC1181873", "divid":15, "text":"The Relationship between R 0 and Initial Epidemic Growth Rate During the early phase of an epidemic, the observed exponential growth rate, k, is related to the basic reproduc-tive ratio, R 0 , of the infection. Mathematically, k is just the dominant eigenvalue of the disease-free equilibrium, and one can show that k must satisfy", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "ff7dg890",
+   "sourcedb": "PMC",
+   "sourceid": "PMC1181873",
+   "divid": 15,
+   "text": "The Relationship between R 0 and Initial Epidemic Growth Rate During the early phase of an epidemic, the observed exponential growth rate, k, is related to the basic reproduc-tive ratio, R 0 , of the infection. Mathematically, k is just the dominant eigenvalue of the disease-free equilibrium, and one can show that k must satisfy",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

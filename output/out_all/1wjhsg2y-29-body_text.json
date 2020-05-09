@@ -1,1 +1,8 @@
-{"cord_uid":"1wjhsg2y", "sourcedb":"PMC", "sourceid":"PMC6466127", "divid":29, "text":"Research effort on bat-associated viruses by country. The research effort was quantified as the number of publications indexed in PubMed that included the search terms ("bat" OR "bats" OR "Chiroptera") AND ("virus" OR "viruses") by country. Raw data provided in Table S4 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1wjhsg2y",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6466127",
+   "divid": 29,
+   "text": "Research effort on bat-associated viruses by country. The research effort was quantified as the number of publications indexed in PubMed that included the search terms (\"bat\" OR \"bats\" OR \"Chiroptera\") AND (\"virus\" OR \"viruses\") by country. Raw data provided in Table S4 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

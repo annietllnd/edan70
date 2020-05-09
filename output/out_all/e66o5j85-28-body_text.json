@@ -1,1 +1,74 @@
-{"cord_uid":"e66o5j85", "sourcedb":"PMC", "sourceid":"PMC4687909", "divid":28, "text":"The primary objective of this prospective case-control study was to assess the etiology and factors associated with community-acquired pneumonia in hospitalized children in Mali. In this non-PCV population, we observed that S. pneumoniae, human metapneumovirus, RSV, and influenza A were the main microbial agents associated with pneumonia among children in Mali, independently of patient age, gender, period, and other pathogens. H. influenzae was not associated with pneumonia, but the vaccination rate against this bacteria, at least for the first dose, was above 85% in both cases and controls. In addition, while most patients with S. pneumoniae by PCR in blood had also nasal carriage, frequently with the same serotype, positive S. pneumoniae test from nasal sample was not highly predictive of S. pneumoniae detection in blood, meaning that the bacteria was frequently not the cause of pneumonia.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":135,"end":144}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"}, {"id":"Symptom_Covid-19", "span":{"begin":330,"end":339}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"}, {"id":"Symptom_Covid-19", "span":{"begin":469,"end":478}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"}, {"id":"Symptom_Covid-19", "span":{"begin":894,"end":903}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"}]}
+{
+   "cord_uid": "e66o5j85",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4687909",
+   "divid": 28,
+   "text": "The primary objective of this prospective case-control study was to assess the etiology and factors associated with community-acquired pneumonia in hospitalized children in Mali. In this non-PCV population, we observed that S. pneumoniae, human metapneumovirus, RSV, and influenza A were the main microbial agents associated with pneumonia among children in Mali, independently of patient age, gender, period, and other pathogens. H. influenzae was not associated with pneumonia, but the vaccination rate against this bacteria, at least for the first dose, was above 85% in both cases and controls. In addition, while most patients with S. pneumoniae by PCR in blood had also nasal carriage, frequently with the same serotype, positive S. pneumoniae test from nasal sample was not highly predictive of S. pneumoniae detection in blood, meaning that the bacteria was frequently not the cause of pneumonia.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":135,
+              "end": 144
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":227,
+              "end": 236
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":330,
+              "end": 339
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":469,
+              "end": 478
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":640,
+              "end": 649
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":739,
+              "end": 748
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":805,
+              "end": 814
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":894,
+              "end": 903
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4687909/"
+       }
+   ]
+}

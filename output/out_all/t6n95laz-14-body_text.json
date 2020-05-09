@@ -1,1 +1,26 @@
-{"cord_uid":"t6n95laz", "sourcedb":"PMC", "sourceid":"PMC3820766", "divid":14, "text":"CRP, synthesized in the liver, is an acute phase protein that is rapidly identified in the plasma in cases of infection or tissue damage. CRP is able to activate complement and enhance phagocytosis to facilitate the removal of pathogenic microorganisms and injured, necrotic and apoptotic cells. Therefore, CRP is important in natural immunity (12, 13) . Originally, CRP was considered to be a nonspecific biomarker of inflammation; however, following ~10 years of investigation, it has been demonstrated that CRP participates in inflammation and atherosclerosis directly and has been indicated to be a prognostic factor and a risk factor (14) . In this study, it was revealed that levels of the precursor of CRP were decreased in the patients with CHB and markedly increased in the patients with ACLF. Nearly identical changes were observed for the hemoglobin β chain variant Hb S-Wake, which has been implicated in in orphan diseases (15) , although not in liver diseases.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":419,"end":431}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820766/"}, {"id":"Symptom_Covid-19", "span":{"begin":530,"end":542}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820766/"}]}
+{
+   "cord_uid": "t6n95laz",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3820766",
+   "divid": 14,
+   "text": "CRP, synthesized in the liver, is an acute phase protein that is rapidly identified in the plasma in cases of infection or tissue damage. CRP is able to activate complement and enhance phagocytosis to facilitate the removal of pathogenic microorganisms and injured, necrotic and apoptotic cells. Therefore, CRP is important in natural immunity (12, 13) . Originally, CRP was considered to be a nonspecific biomarker of inflammation; however, following ~10 years of investigation, it has been demonstrated that CRP participates in inflammation and atherosclerosis directly and has been indicated to be a prognostic factor and a risk factor (14) . In this study, it was revealed that levels of the precursor of CRP were decreased in the patients with CHB and markedly increased in the patients with ACLF. Nearly identical changes were observed for the hemoglobin β chain variant Hb S-Wake, which has been implicated in in orphan diseases (15) , although not in liver diseases.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":419,
+              "end": 431
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820766/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":530,
+              "end": 542
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3820766/"
+       }
+   ]
+}

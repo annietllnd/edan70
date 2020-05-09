@@ -1,1 +1,8 @@
-{"cord_uid":"1wjhsg2y", "sourcedb":"PMC", "sourceid":"PMC6466127", "divid":35, "text":"Afghanistan", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1wjhsg2y",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6466127",
+   "divid": 35,
+   "text": "Afghanistan",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":0, "text":"A fast and robust iterative algorithm for prediction of RNA pseudoknotted secondary structures", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 0,
+   "text": "A fast and robust iterative algorithm for prediction of RNA pseudoknotted secondary structures",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

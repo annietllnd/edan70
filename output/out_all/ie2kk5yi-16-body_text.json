@@ -1,1 +1,8 @@
-{"cord_uid":"ie2kk5yi", "sourcedb":"PMC", "sourceid":"PMC6159870", "divid":16, "text":"To examine possible transmission of Bartonella through biting, grooming, blood sharing, or fecal-oral exposure, we used metagenomic data from a parallel study to screen vampire bat saliva and fecal samples for Bartonella DNA. Three saliva and three fecal pools were shotgun sequenced, each containing nucleic acid extractions from swabs collected from ten vampire bats from one to two colonies. Pooled samples contained individuals from the same colonies of bats tested for Bartonella in blood through PCR, though not necessarily the same individuals.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "ie2kk5yi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6159870",
+   "divid": 16,
+   "text": "To examine possible transmission of Bartonella through biting, grooming, blood sharing, or fecal-oral exposure, we used metagenomic data from a parallel study to screen vampire bat saliva and fecal samples for Bartonella DNA. Three saliva and three fecal pools were shotgun sequenced, each containing nucleic acid extractions from swabs collected from ten vampire bats from one to two colonies. Pooled samples contained individuals from the same colonies of bats tested for Bartonella in blood through PCR, though not necessarily the same individuals.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

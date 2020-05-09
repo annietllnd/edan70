@@ -1,1 +1,8 @@
-{"cord_uid":"sch7zhx7", "sourcedb":"PMC", "sourceid":"PMC6563312", "divid":11, "text":"Primers were designed to target either the wild-type 2A or 3C protease. CVB3 plasmids containing either the 2A mutant protease or 3C mutant protease were used to clone the mutant proteases. To target the 2A and 2A mutant proteases, the primers included SacI and XbaI recognition sites (Table 1) . Primers against the 3C and 3C mutant proteases included NotI and XbaI recognition sites. Protease sequences were amplified via PCR and cloned into the pFLAG-CMV-LAP1 vector. Clones were verified for sequencing (GenScript, Piscataway, NJ, USA). Oligonucleotide sequences corresponding to the amino acid sequence for the wild-type and mutant 2A and 3C protease targets were designed and cloned into the pGlo-3F vector and verified by sequencing (GenScript).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sch7zhx7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6563312",
+   "divid": 11,
+   "text": "Primers were designed to target either the wild-type 2A or 3C protease. CVB3 plasmids containing either the 2A mutant protease or 3C mutant protease were used to clone the mutant proteases. To target the 2A and 2A mutant proteases, the primers included SacI and XbaI recognition sites (Table 1) . Primers against the 3C and 3C mutant proteases included NotI and XbaI recognition sites. Protease sequences were amplified via PCR and cloned into the pFLAG-CMV-LAP1 vector. Clones were verified for sequencing (GenScript, Piscataway, NJ, USA). Oligonucleotide sequences corresponding to the amino acid sequence for the wild-type and mutant 2A and 3C protease targets were designed and cloned into the pGlo-3F vector and verified by sequencing (GenScript).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

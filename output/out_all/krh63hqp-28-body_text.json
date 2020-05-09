@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":28, "text":"Analysis of the normalized codon scores (NCS) clearly shows that codon preference degenerated continuously throughout the entire history of the human H1N1 line ( Figure 6 ). All viruses in our database are more duck-like in their codon usage and most (99.8%) are more human-like than pig-like, but codon preference moved toward randomized codon use and away from the codon preference of the human, swine and duck hosts. Thus, the virus is not adapting to use the codon preference of any of the ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 28,
+   "text": "Analysis of the normalized codon scores (NCS) clearly shows that codon preference degenerated continuously throughout the entire history of the human H1N1 line ( Figure 6 ). All viruses in our database are more duck-like in their codon usage and most (99.8%) are more human-like than pig-like, but codon preference moved toward randomized codon use and away from the codon preference of the human, swine and duck hosts. Thus, the virus is not adapting to use the codon preference of any of the ",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

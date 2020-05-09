@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":60, "text":"No bacterial growth was detected in the oviduct swabs of birds sampled on 4, 6 and 10 days pi, except for one subject on day 4 pi, in which we recorded the presence of few colony forming units (cfu) of E. coli and a low load of Gallibacterium anatis. Mycoplasma synoviae and M. gallisepticum were investigated through PCRs and all oviduct samples resulted negative for mycoplasmas. The presence of IBV and NDV virus RNA in the oviducts was ruled out, as all of the swabs were negative by means of RRT-PCR.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 60,
+   "text": "No bacterial growth was detected in the oviduct swabs of birds sampled on 4, 6 and 10 days pi, except for one subject on day 4 pi, in which we recorded the presence of few colony forming units (cfu) of E. coli and a low load of Gallibacterium anatis. Mycoplasma synoviae and M. gallisepticum were investigated through PCRs and all oviduct samples resulted negative for mycoplasmas. The presence of IBV and NDV virus RNA in the oviducts was ruled out, as all of the swabs were negative by means of RRT-PCR.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

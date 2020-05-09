@@ -1,1 +1,50 @@
-{"cord_uid":"i08zc62d", "sourcedb":"PMC", "sourceid":"PMC4014123", "divid":3, "text":"Viral and bacterial sialidases have been focused on as drug targets for the treatment of human infections (Soong et al., 2006; Memoli et al., 2008) . Viral sialidases are critically required for viral propagation because they are required for release from the host cell . Drug discovery of inhibitors targeting sialidase has focused on either synthetic compounds through random screening or substrate (N-acetylneuraminic acid) mimics. However, these studies have mainly been targeted against sialidase from the influenza virus. There are several inhibitors that mimic the substrate, including zanamivir (Relenza), oseltamivir (Tamiflu; a cyclohexene derivative), peramivir (a cyclopentane-based inhibitor) and A-315675 (a pyrrolidine-based inhibitor; Kim et al., 2013) . All of these compounds are based on 2-deoxy-2,3-dehydro-Nacetylneuraminic acid (Neu5Ac2en), a putative transitionstate analogue. At present, the existence of drug-resistant strains against zanamivir (Gubareva et al., 1998) , oseltamivir (Gubareva et al., 2001) and other antivirals (Tambić Andrasević, 2004) have spurred on the need to discover innovative antiviral agents.", "project":"cdlai_CORD-19", "denotations":[{"id":"chemical_antiviral", "span":{"begin":593,"end":602}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}, {"id":"chemical_antiviral", "span":{"begin":614,"end":625}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}, {"id":"chemical_antiviral", "span":{"begin":663,"end":672}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}, {"id":"chemical_antiviral", "span":{"begin":960,"end":969}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}, {"id":"chemical_antiviral", "span":{"begin":996,"end":1007}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"}]}
+{
+   "cord_uid": "i08zc62d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4014123",
+   "divid": 3,
+   "text": "Viral and bacterial sialidases have been focused on as drug targets for the treatment of human infections (Soong et al., 2006; Memoli et al., 2008) . Viral sialidases are critically required for viral propagation because they are required for release from the host cell . Drug discovery of inhibitors targeting sialidase has focused on either synthetic compounds through random screening or substrate (N-acetylneuraminic acid) mimics. However, these studies have mainly been targeted against sialidase from the influenza virus. There are several inhibitors that mimic the substrate, including zanamivir (Relenza), oseltamivir (Tamiflu; a cyclohexene derivative), peramivir (a cyclopentane-based inhibitor) and A-315675 (a pyrrolidine-based inhibitor; Kim et al., 2013) . All of these compounds are based on 2-deoxy-2,3-dehydro-Nacetylneuraminic acid (Neu5Ac2en), a putative transitionstate analogue. At present, the existence of drug-resistant strains against zanamivir (Gubareva et al., 1998) , oseltamivir (Gubareva et al., 2001) and other antivirals (Tambić Andrasević, 2004) have spurred on the need to discover innovative antiviral agents.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":593,
+              "end": 602
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":614,
+              "end": 625
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":663,
+              "end": 672
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":960,
+              "end": 969
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       },
+       {
+           "id": "chemical_antiviral", 
+           "span": {
+              "begin":996,
+              "end": 1007
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+       }
+   ]
+}

@@ -1,1 +1,26 @@
-{"cord_uid":"btuoin6d", "sourcedb":"PMC", "sourceid":"PMC7033854", "divid":4, "text":"If Adv infection can be diagnosed early, increased monitoring and early applied organ support may improve the clinical outcome of these patients. However, sufficient data on the distinctive characteristics of Adv infections in immunocompetent patients is currently unavailable. We previously observed that adenoviruspositive community-acquired pneumonia (CAP) patients have a high fever and respond differently to antipyretic treatment compared to CAP patients who test positive for other viruses or bacteria. Therefore, the primary goal of this study was to compare the clinical characteristics of Adv-and Non-Adv-positive CAP patients among immunocompetent military personnel and to identify the distinctive characteristics.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":344,"end":353}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}, {"id":"Symptom_Covid-19", "span":{"begin":381,"end":386}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"}]}
+{
+   "cord_uid": "btuoin6d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7033854",
+   "divid": 4,
+   "text": "If Adv infection can be diagnosed early, increased monitoring and early applied organ support may improve the clinical outcome of these patients. However, sufficient data on the distinctive characteristics of Adv infections in immunocompetent patients is currently unavailable. We previously observed that adenoviruspositive community-acquired pneumonia (CAP) patients have a high fever and respond differently to antipyretic treatment compared to CAP patients who test positive for other viruses or bacteria. Therefore, the primary goal of this study was to compare the clinical characteristics of Adv-and Non-Adv-positive CAP patients among immunocompetent military personnel and to identify the distinctive characteristics.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":344,
+              "end": 353
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":381,
+              "end": 386
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7033854/"
+       }
+   ]
+}

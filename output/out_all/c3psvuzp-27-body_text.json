@@ -1,1 +1,8 @@
-{"cord_uid":"c3psvuzp", "sourcedb":"PMC", "sourceid":"PMC4038475", "divid":27, "text":"To summarize, our evolutionary findings of recurrent positive selection of five PARP genes and gene turnover in two of those genes, together with previous observations by others (inhibition of viral replication by some PARP genes, viral modulation by chemical inhibitors of PARP activity, pathogenicity dependent on virally-encoded macrodomains in diverse RNA viruses) argue that ADP-ribosylation is a fundamental determinant of host-virus conflicts. Our results raise compelling hypotheses for the function of rapidly evolving PARP genes in these conflicts, and highlight the insights that can be gained from evolutionary analyses of previously poorly characterized genes.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "c3psvuzp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4038475",
+   "divid": 27,
+   "text": "To summarize, our evolutionary findings of recurrent positive selection of five PARP genes and gene turnover in two of those genes, together with previous observations by others (inhibition of viral replication by some PARP genes, viral modulation by chemical inhibitors of PARP activity, pathogenicity dependent on virally-encoded macrodomains in diverse RNA viruses) argue that ADP-ribosylation is a fundamental determinant of host-virus conflicts. Our results raise compelling hypotheses for the function of rapidly evolving PARP genes in these conflicts, and highlight the insights that can be gained from evolutionary analyses of previously poorly characterized genes.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

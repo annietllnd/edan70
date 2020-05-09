@@ -1,1 +1,8 @@
-{"cord_uid":"rdgm0q7m", "sourcedb":"PMC", "sourceid":"PMC4937337", "divid":12, "text":"For each protein tested, 40 l of a 50% suspension of glutathione-agarose beads was centrifuged (500 g, 5 min), the supernatant removed and the beads washed sequentially with 200 l water and thrice with GST wash buffer (50 mM Tris pH 7.6, 100 mM KCl, 5 mM MgCl 2 , 1 mM DTT). Following incubation with nsp1␤ (6 g) for 1 h at 4 • C on a rotating wheel, the protein was removed and the beads washed three times with GST wash buffer. Test protein (2 g) was added to the beads and the incubation and washing steps repeated, with the GST wash buffer supplemented with 0.1% NP-40. After removal of the final wash, 25 l 4 × Laemmli's sample buffer was added, the beads boiled for 5 min and supernatants analysed by SDS-PAGE.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rdgm0q7m",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4937337",
+   "divid": 12,
+   "text": "For each protein tested, 40 l of a 50% suspension of glutathione-agarose beads was centrifuged (500 g, 5 min), the supernatant removed and the beads washed sequentially with 200 l water and thrice with GST wash buffer (50 mM Tris pH 7.6, 100 mM KCl, 5 mM MgCl 2 , 1 mM DTT). Following incubation with nsp1␤ (6 g) for 1 h at 4 • C on a rotating wheel, the protein was removed and the beads washed three times with GST wash buffer. Test protein (2 g) was added to the beads and the incubation and washing steps repeated, with the GST wash buffer supplemented with 0.1% NP-40. After removal of the final wash, 25 l 4 × Laemmli's sample buffer was added, the beads boiled for 5 min and supernatants analysed by SDS-PAGE.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

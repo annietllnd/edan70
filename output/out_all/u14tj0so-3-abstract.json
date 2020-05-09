@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":3, "text":"Iterative HFold is a robust method for prediction of pseudoknotted RNA secondary structures, whose accuracy with more than 5% information about true pseudoknot-free structures is better than that of IPknot, and with about 35% information about true pseudoknot-free structures compares well with that of HotKnots V2.0 while being significantly faster. Iterative HFold and all data used in this work are freely available at computational methods for prediction of RNA structure are valuable.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 3,
+   "text": "Iterative HFold is a robust method for prediction of pseudoknotted RNA secondary structures, whose accuracy with more than 5% information about true pseudoknot-free structures is better than that of IPknot, and with about 35% information about true pseudoknot-free structures compares well with that of HotKnots V2.0 while being significantly faster. Iterative HFold and all data used in this work are freely available at computational methods for prediction of RNA structure are valuable.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

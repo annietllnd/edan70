@@ -1,1 +1,18 @@
-{"cord_uid":"9xelf8oh", "sourcedb":"PMC", "sourceid":"PMC7088385", "divid":27, "text":"Six red squirrels were submitted for post-mortem examination with gross skin lesions consistent with SQPV infection, and seven red squirrels were acquired with abnormalities in the gastrointestinal tract that were compatible with a SADV infection. Of the three squirrels whose mortality was not thought related to SQPV or SADV infection, two had severe pediculosis and the other a severe pneumonia. As with the grey squirrels, swab samples effectively recovered both target and reference DNA in red squirrels, with only one arm swab failing to isolate squirrel DNA (n = 6 for each cutaneous swab site and n = 7 for rectal swabs) (see absolute quantification results in the Online Resource S10, Fig. S10.2) .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":388,"end":397}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7088385/"}]}
+{
+   "cord_uid": "9xelf8oh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7088385",
+   "divid": 27,
+   "text": "Six red squirrels were submitted for post-mortem examination with gross skin lesions consistent with SQPV infection, and seven red squirrels were acquired with abnormalities in the gastrointestinal tract that were compatible with a SADV infection. Of the three squirrels whose mortality was not thought related to SQPV or SADV infection, two had severe pediculosis and the other a severe pneumonia. As with the grey squirrels, swab samples effectively recovered both target and reference DNA in red squirrels, with only one arm swab failing to isolate squirrel DNA (n = 6 for each cutaneous swab site and n = 7 for rectal swabs) (see absolute quantification results in the Online Resource S10, Fig. S10.2) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":388,
+              "end": 397
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7088385/"
+       }
+   ]
+}

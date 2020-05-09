@@ -1,1 +1,8 @@
-{"cord_uid":"bcwcjf01", "sourcedb":"PMC", "sourceid":"PMC3836733", "divid":10, "text":"Reverse transcription was performed using random hexamers and the Superscript III RT reverse transcriptase kit (Invitrogen). The rabies virus cDNA templates were amplified using the Phusion polymerase kit (New England BioLabs, Ipswich, MA), following manufacturer's instructions. PCR conditions consisted of 98uC for 30 s, followed by 40 cycles of 98uC for 15 s, 64uC for 20 s, and 72uC for 1.2 min. The final cycle was 72uC for 10 min.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "bcwcjf01",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836733",
+   "divid": 10,
+   "text": "Reverse transcription was performed using random hexamers and the Superscript III RT reverse transcriptase kit (Invitrogen). The rabies virus cDNA templates were amplified using the Phusion polymerase kit (New England BioLabs, Ipswich, MA), following manufacturer's instructions. PCR conditions consisted of 98uC for 30 s, followed by 40 cycles of 98uC for 15 s, 64uC for 20 s, and 72uC for 1.2 min. The final cycle was 72uC for 10 min.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

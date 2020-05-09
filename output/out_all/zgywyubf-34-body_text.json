@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":34, "text":"RNA isolation and real time quantitative RT-PCR analysis RNA was isolated from Huh7 cells using Trizol reagent (Invitrogen) following manufacturers protocol, followed by reverse transcription and real time quantitative RT-PCR analysis as described [25] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 34,
+   "text": "RNA isolation and real time quantitative RT-PCR analysis RNA was isolated from Huh7 cells using Trizol reagent (Invitrogen) following manufacturers protocol, followed by reverse transcription and real time quantitative RT-PCR analysis as described [25] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

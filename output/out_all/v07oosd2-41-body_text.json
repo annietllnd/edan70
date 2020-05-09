@@ -1,1 +1,18 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":41, "text":"Probiotics such as lactic acid bacteria, Bacillus and yeasts are live microbial feed supplements [122] . Probiotic bacteria have also been shown to produce antimicrobial molecules, such as bacteriocins, and to inhibit the production of bacterial toxins or the adhesion of pathogens to the intestinal mucosa [123] . Several studies demonstrated that pre-treatment with certain probiotics, such as L. rhamnosus, was effective in reducing diarrhea in experimental ETEC: F4 PWD in pigs, possibly via the modulation of the intestinal microbiota, enhancement of intestinal antibody defense, and regulation of production of systemic inflammatory cytokine [128] . Recently, Lane et al. [129] reported that L. acidophilus supplementation (0.2%) in the weaned pig diet resulted in higher Lactobacillus counts and lower E. coli counts, as well as an increase in ADG and the average daily feed intake in supplemented pigs compared to the basal diet pigs. A Bacillus licheniformis and Bacillus subtilis spore mixture (BLS-mix) was effective in preventing loss of intestinal epithelial barrier integrity after a challenge with ETEC:", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":436,"end":444}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"}]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 41,
+   "text": "Probiotics such as lactic acid bacteria, Bacillus and yeasts are live microbial feed supplements [122] . Probiotic bacteria have also been shown to produce antimicrobial molecules, such as bacteriocins, and to inhibit the production of bacterial toxins or the adhesion of pathogens to the intestinal mucosa [123] . Several studies demonstrated that pre-treatment with certain probiotics, such as L. rhamnosus, was effective in reducing diarrhea in experimental ETEC: F4 PWD in pigs, possibly via the modulation of the intestinal microbiota, enhancement of intestinal antibody defense, and regulation of production of systemic inflammatory cytokine [128] . Recently, Lane et al. [129] reported that L. acidophilus supplementation (0.2%) in the weaned pig diet resulted in higher Lactobacillus counts and lower E. coli counts, as well as an increase in ADG and the average daily feed intake in supplemented pigs compared to the basal diet pigs. A Bacillus licheniformis and Bacillus subtilis spore mixture (BLS-mix) was effective in preventing loss of intestinal epithelial barrier integrity after a challenge with ETEC:",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":436,
+              "end": 444
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"
+       }
+   ]
+}

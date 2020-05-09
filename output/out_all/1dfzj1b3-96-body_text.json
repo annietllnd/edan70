@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":96, "text":"There are three isoforms of NOS: constitutive (cNOS), endothelial (eNOS) and the other is cytokine-inducible NOS (iNOS). Inflammatory mediators such as IL-1, TNF-α or LPS stimulate iNOS expression in rodent macrophages in vitro. NO production and/or iNOS expression are also induced by inflammatory mediators in a wide variety of mammalian cells, producing large amounts of NO for prolonged time periods [25] . iNOS catalises the production of large amount of NO from L-arginine and molecular oxygen, is mainly triggered and regulated by a series of signalling pathways including nuclear factor-κB (NF-κB) transcription factor and mitogen-activated protein kinases (MAPKs) [116] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 96,
+   "text": "There are three isoforms of NOS: constitutive (cNOS), endothelial (eNOS) and the other is cytokine-inducible NOS (iNOS). Inflammatory mediators such as IL-1, TNF-α or LPS stimulate iNOS expression in rodent macrophages in vitro. NO production and/or iNOS expression are also induced by inflammatory mediators in a wide variety of mammalian cells, producing large amounts of NO for prolonged time periods [25] . iNOS catalises the production of large amount of NO from L-arginine and molecular oxygen, is mainly triggered and regulated by a series of signalling pathways including nuclear factor-κB (NF-κB) transcription factor and mitogen-activated protein kinases (MAPKs) [116] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

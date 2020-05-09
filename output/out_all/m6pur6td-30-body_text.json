@@ -1,1 +1,8 @@
-{"cord_uid":"m6pur6td", "sourcedb":"PMC", "sourceid":"PMC6370191", "divid":30, "text":", represents the energy carbon intensity of agriculture, production, construction, service, urban resident, and rural resident, respectively. s i ¼ GDP i GDP (i = 1, 2, 3, 4), represents the economic structure of agriculture, production, construction, and service, respectively.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "m6pur6td",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6370191",
+   "divid": 30,
+   "text": ", represents the energy carbon intensity of agriculture, production, construction, service, urban resident, and rural resident, respectively. s i ¼ GDP i GDP (i = 1, 2, 3, 4), represents the economic structure of agriculture, production, construction, and service, respectively.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

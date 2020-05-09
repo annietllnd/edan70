@@ -10,8 +10,6 @@ Authors:
     Kaggle ID: sofiflinck
     Github ID: obakanue
 """
-
-import re
 import os
 
 
@@ -79,6 +77,9 @@ def print_progress(nbr_pubannotations_processed, total_pubannotations):
 
 def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
     """
+    Author: StackOverflow
+            User Greenstick
+            Question 30740258
     Call in a loop to create terminal progress bar
     @params:
         iteration   - Required  : current iteration (Int)

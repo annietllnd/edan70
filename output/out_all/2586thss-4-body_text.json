@@ -1,1 +1,8 @@
-{"cord_uid":"2586thss", "sourcedb":"PMC", "sourceid":"PMC3573733", "divid":4, "text":"Plasmids and bacterial strains. The p90/HCVFLlongpU plasmid carrying full-length coding sequences of HCV was a generous gift from Professor Charles M. Rice from the Center for the Study of Hepatitis C, Rockefeller University, New York, NY, USA. The Escherichia coli (E. coli) strains, Jm109, DH5a and BL21 (DE3), were used as the cloning and expression hosts.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "2586thss",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3573733",
+   "divid": 4,
+   "text": "Plasmids and bacterial strains. The p90/HCVFLlongpU plasmid carrying full-length coding sequences of HCV was a generous gift from Professor Charles M. Rice from the Center for the Study of Hepatitis C, Rockefeller University, New York, NY, USA. The Escherichia coli (E. coli) strains, Jm109, DH5a and BL21 (DE3), were used as the cloning and expression hosts.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

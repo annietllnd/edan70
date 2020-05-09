@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":42, "text":"Health effects of indoor air exposures can be decreased by increasing ventilation and the present modelling shows that controlling indoor air sources plays a major role when selecting appropriate ventilation rate. In a case where indoor sources cannot be removed or their emissions cannot be limited to an accepted level, ventilation needs to be increased to remove remaining pollutants. In these cases outdoor air pollution become the major source of pollution in indoors, and it needs to be taken into account.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 42,
+   "text": "Health effects of indoor air exposures can be decreased by increasing ventilation and the present modelling shows that controlling indoor air sources plays a major role when selecting appropriate ventilation rate. In a case where indoor sources cannot be removed or their emissions cannot be limited to an accepted level, ventilation needs to be increased to remove remaining pollutants. In these cases outdoor air pollution become the major source of pollution in indoors, and it needs to be taken into account.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

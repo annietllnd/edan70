@@ -1,1 +1,34 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":14, "text":"Fecal Consistency Scale scores were available for only 4 (31%) cats fed Diet A and 10 (67%) cats fed Diet B. The model of FCS against day and diet over the 4 weeks showed no significant differences between the diets in the change in fecal score (p > 0.05). There was no correlation between the frequency of vomiting or diarrhea over the 4-week period and the presence of fecal enteropathogens detected via PCR or antibody testing (p > 0.05). Similarly, neither Spec fPL results nor age of the cat correlated with the frequency of vomiting over the 4-week period (p > 0.05).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":319,"end":327}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":307,"end":315}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":530,"end":538}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 14,
+   "text": "Fecal Consistency Scale scores were available for only 4 (31%) cats fed Diet A and 10 (67%) cats fed Diet B. The model of FCS against day and diet over the 4 weeks showed no significant differences between the diets in the change in fecal score (p > 0.05). There was no correlation between the frequency of vomiting or diarrhea over the 4-week period and the presence of fecal enteropathogens detected via PCR or antibody testing (p > 0.05). Similarly, neither Spec fPL results nor age of the cat correlated with the frequency of vomiting over the 4-week period (p > 0.05).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":319,
+              "end": 327
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":307,
+              "end": 315
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":530,
+              "end": 538
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

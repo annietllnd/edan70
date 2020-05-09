@@ -1,1 +1,8 @@
-{"cord_uid":"1wjhsg2y", "sourcedb":"PMC", "sourceid":"PMC6466127", "divid":14, "text":"Western Asia is a region recognized as a geopolitical entity but not always clearly defined across international agencies (e.g., UNESCO, WHO, OECD, UNIDO, IUCN). To delimit "Western Asia" for the purposes of this review, we include the following 20 countries: Afghanistan, Armenia, Azerbaijan, Bahrain, Georgia, Jordan, Kuwait, Lebanon, Iraq, Iran, Israel, Oman, Pakistan, Palestine, Qatar, Saudi Arabia, Syria, Turkey, United Arab Emirates, and Yemen. While Afghanistan and Pakistan are often considered part of "Central" or "South" Asia, we include both in this review as they serve as an important biogeographic gateway linking bats and (potentially) their associated pathogens with Asian countries to the east.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1wjhsg2y",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6466127",
+   "divid": 14,
+   "text": "Western Asia is a region recognized as a geopolitical entity but not always clearly defined across international agencies (e.g., UNESCO, WHO, OECD, UNIDO, IUCN). To delimit \"Western Asia\" for the purposes of this review, we include the following 20 countries: Afghanistan, Armenia, Azerbaijan, Bahrain, Georgia, Jordan, Kuwait, Lebanon, Iraq, Iran, Israel, Oman, Pakistan, Palestine, Qatar, Saudi Arabia, Syria, Turkey, United Arab Emirates, and Yemen. While Afghanistan and Pakistan are often considered part of \"Central\" or \"South\" Asia, we include both in this review as they serve as an important biogeographic gateway linking bats and (potentially) their associated pathogens with Asian countries to the east.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

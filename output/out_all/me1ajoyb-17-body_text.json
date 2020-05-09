@@ -1,1 +1,18 @@
-{"cord_uid":"me1ajoyb", "sourcedb":"PMC", "sourceid":"PMC3970152", "divid":17, "text":"In deer mice infected with SNV, early expression signatures of a mixed Th1/Th2/Treg response were present in virus-specific CD4 + T cells, including Ifnγ, Il4, Il5 and Tgfβ, before transitioning to a Treg-like response at persistence [54] . The expression of immune response genes differed in the spleen, where signatures of inflammation occurred within two days, peaking by days 10 to 15 before subsiding, and lungs, where little immune gene expression occurred [13] . Some deer mice produced nucleocapsid-specific IgG by day 10 while others had IgG around day 20 or later, and neutralizing antibody was not detected until after 3 weeks.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":325,"end":337}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"}]}
+{
+   "cord_uid": "me1ajoyb",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3970152",
+   "divid": 17,
+   "text": "In deer mice infected with SNV, early expression signatures of a mixed Th1/Th2/Treg response were present in virus-specific CD4 + T cells, including Ifnγ, Il4, Il5 and Tgfβ, before transitioning to a Treg-like response at persistence [54] . The expression of immune response genes differed in the spleen, where signatures of inflammation occurred within two days, peaking by days 10 to 15 before subsiding, and lungs, where little immune gene expression occurred [13] . Some deer mice produced nucleocapsid-specific IgG by day 10 while others had IgG around day 20 or later, and neutralizing antibody was not detected until after 3 weeks.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":325,
+              "end": 337
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3970152/"
+       }
+   ]
+}

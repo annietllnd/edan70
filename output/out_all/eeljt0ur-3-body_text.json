@@ -1,1 +1,114 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":3, "text":"While recent studies have focused on chronic diarrhea, less is known regarding dietary intervention with chronic vomiting. Vomiting is the primary clinical sign recognized in feline patients with chronic gastroenteropathy (4, 8, 9) . In the Guilford's study, vomiting was present in 51.4% of the cats, diarrhea in 31.4%, and vomiting and diarrhea in 17.1% (4) . Of patient visits to Banfield Pet Hospital ® between 2008 and 2012, 1.4% of total feline visits per annum presented with chronic vomiting alone, 0.4% with chronic diarrhea alone, and 0.1% with both chronic vomiting and chronic diarrhea (8) . An evaluation of 100 feline cases of chronic small bowel disease suggested that diagnostic evaluation and implementation of dietary management is indicated in cats with vomiting as infrequently as two times per month (9) . While the use of elimination diets containing novel and hydrolyzed protein sources has been evaluated (4, 5) , to the authors' knowledge, no studies to date have evaluated the efficacy of feeding a nonspecific gastrointestinal therapeutic diet to cats with chronic gastroenteropathy with vomiting included as one of the primary clinical signs.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":45,"end":53}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":302,"end":310}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":338,"end":346}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":525,"end":533}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":589,"end":597}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":113,"end":121}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":123,"end":131}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":259,"end":267}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":325,"end":333}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":491,"end":499}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":568,"end":576}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":773,"end":781}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":1115,"end":1123}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 3,
+   "text": "While recent studies have focused on chronic diarrhea, less is known regarding dietary intervention with chronic vomiting. Vomiting is the primary clinical sign recognized in feline patients with chronic gastroenteropathy (4, 8, 9) . In the Guilford's study, vomiting was present in 51.4% of the cats, diarrhea in 31.4%, and vomiting and diarrhea in 17.1% (4) . Of patient visits to Banfield Pet Hospital ® between 2008 and 2012, 1.4% of total feline visits per annum presented with chronic vomiting alone, 0.4% with chronic diarrhea alone, and 0.1% with both chronic vomiting and chronic diarrhea (8) . An evaluation of 100 feline cases of chronic small bowel disease suggested that diagnostic evaluation and implementation of dietary management is indicated in cats with vomiting as infrequently as two times per month (9) . While the use of elimination diets containing novel and hydrolyzed protein sources has been evaluated (4, 5) , to the authors' knowledge, no studies to date have evaluated the efficacy of feeding a nonspecific gastrointestinal therapeutic diet to cats with chronic gastroenteropathy with vomiting included as one of the primary clinical signs.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":45,
+              "end": 53
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":302,
+              "end": 310
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":338,
+              "end": 346
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":525,
+              "end": 533
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":589,
+              "end": 597
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":113,
+              "end": 121
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":123,
+              "end": 131
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":259,
+              "end": 267
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":325,
+              "end": 333
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":491,
+              "end": 499
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":568,
+              "end": 576
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":773,
+              "end": 781
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1115,
+              "end": 1123
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

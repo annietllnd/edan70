@@ -1,1 +1,8 @@
-{"cord_uid":"p95vzcoy", "sourcedb":"PMC", "sourceid":"PMC6920936", "divid":3, "text":"Foodborne virus transmission appears to be less important in honeybees, but may be relevant for transmission to other species [21], especially for predators and scavengers [29] [30] [31] [32] . However, data on foodborne DWV transmission between honeybees and insect predators/scavengers are scarce.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p95vzcoy",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6920936",
+   "divid": 3,
+   "text": "Foodborne virus transmission appears to be less important in honeybees, but may be relevant for transmission to other species [21], especially for predators and scavengers [29] [30] [31] [32] . However, data on foodborne DWV transmission between honeybees and insect predators/scavengers are scarce.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":17, "text":"The criteria for a positive test were OD 450 ≥ 0.400 and at least four times greater than the OD 450 of the negative control [22] . An OD 450 < 0.300 with an OD 450 of the internal control >2.00 indicated a negative test. A reading from 0.300 to 0.399 was interpreted as indeterminate and the sample examined again. If the same result was obtained on repeated testing, the NPA was deemed negative. If the OD 450 of the internal control for a given NPA was <2.00 and sample absorbance was < 0.400 for all tested agents, the NPA was tested again. If the same result was obtained on repeated testing, the interpretation was indeterminate due to potential inhibition, and the case not included in the analyses.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 17,
+   "text": "The criteria for a positive test were OD 450 ≥ 0.400 and at least four times greater than the OD 450 of the negative control [22] . An OD 450 < 0.300 with an OD 450 of the internal control >2.00 indicated a negative test. A reading from 0.300 to 0.399 was interpreted as indeterminate and the sample examined again. If the same result was obtained on repeated testing, the NPA was deemed negative. If the OD 450 of the internal control for a given NPA was <2.00 and sample absorbance was < 0.400 for all tested agents, the NPA was tested again. If the same result was obtained on repeated testing, the interpretation was indeterminate due to potential inhibition, and the case not included in the analyses.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

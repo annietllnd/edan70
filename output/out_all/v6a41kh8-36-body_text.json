@@ -1,1 +1,90 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":36, "text":"We observed a large month-to-month variation in the proportion of CAP cases from whom we identified a res- piratory RNA virus, largely reflecting the epidemic pattern of viral infections in this sub-tropical setting. A limitation of our study was that we were not able to include more etiologic agents in our diagnostic panel. Adenovirus is among the more common viral respiratory pathogens causing LRTI in preschool children [64] . Atypical bacteria, like Mycoplasma pneumoniae, cause pneumonia more frequently in school-age children, but can also cause mild infections in younger children [65] . Streptococcus pneumoniae and Haemophilus influenza are the main bacterial pathogens causing childhood pneumonia. However, nasopharyngeal carriage of these bacteria is frequent in healthy, young children [66] . Moreover, their detection in pneumonia is hampered by the difficulties of obtaining specimens from the lower airways and the low sensitivity of identifying these pathogens by blood culture [67] , and such invasive methods are not well suited for community settings. S. pneumoniae has been suggested to play a role in the development of virus-associated pneumonia in children in hospital, especially in cases with influenza and PIV types 1 to 3 [68] . The monthly number of cases where we did not identify any virus was particularly pronounced in the CAP epidemic that peaked in December 2005 (Figure 2) , which comprised the largest outbreaks of influenza A and B (Figure 3 ). There is abundant evidence that infection with influenza viruses predisposes for pneumococcal disease [69] . Additionally, we cannot rule out the possibility that some of the cases where we detected a viral pathogen in fact had a mixed viral-bacterial pneumonia or pneumonia after acquisition of a new pneumococcal serotype during an upper respiratory viral infection. Again, quantitative PCR methods and carefully conducted casecontrol studies could shed light on the clinical importance of detecting viral pathogens in NPA specimens from children with pneumonia.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":486,"end":495}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":700,"end":709}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":837,"end":846}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":1161,"end":1170}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":1737,"end":1746}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":1750,"end":1759}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":2039,"end":2048}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 36,
+   "text": "We observed a large month-to-month variation in the proportion of CAP cases from whom we identified a res- piratory RNA virus, largely reflecting the epidemic pattern of viral infections in this sub-tropical setting. A limitation of our study was that we were not able to include more etiologic agents in our diagnostic panel. Adenovirus is among the more common viral respiratory pathogens causing LRTI in preschool children [64] . Atypical bacteria, like Mycoplasma pneumoniae, cause pneumonia more frequently in school-age children, but can also cause mild infections in younger children [65] . Streptococcus pneumoniae and Haemophilus influenza are the main bacterial pathogens causing childhood pneumonia. However, nasopharyngeal carriage of these bacteria is frequent in healthy, young children [66] . Moreover, their detection in pneumonia is hampered by the difficulties of obtaining specimens from the lower airways and the low sensitivity of identifying these pathogens by blood culture [67] , and such invasive methods are not well suited for community settings. S. pneumoniae has been suggested to play a role in the development of virus-associated pneumonia in children in hospital, especially in cases with influenza and PIV types 1 to 3 [68] . The monthly number of cases where we did not identify any virus was particularly pronounced in the CAP epidemic that peaked in December 2005 (Figure 2) , which comprised the largest outbreaks of influenza A and B (Figure 3 ). There is abundant evidence that infection with influenza viruses predisposes for pneumococcal disease [69] . Additionally, we cannot rule out the possibility that some of the cases where we detected a viral pathogen in fact had a mixed viral-bacterial pneumonia or pneumonia after acquisition of a new pneumococcal serotype during an upper respiratory viral infection. Again, quantitative PCR methods and carefully conducted casecontrol studies could shed light on the clinical importance of detecting viral pathogens in NPA specimens from children with pneumonia.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":468,
+              "end": 477
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":486,
+              "end": 495
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":612,
+              "end": 621
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":700,
+              "end": 709
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":837,
+              "end": 846
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1077,
+              "end": 1086
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1161,
+              "end": 1170
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1737,
+              "end": 1746
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1750,
+              "end": 1759
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":2039,
+              "end": 2048
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

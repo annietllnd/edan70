@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":39, "text":"Anti-Env IgG ranged from 0.9 to 2.6% of total IgG in the seminal fluid specimens and from 0.1 to 0.6% of total IgG in the CVL fluids specimens ( Figure S6 ).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 39,
+   "text": "Anti-Env IgG ranged from 0.9 to 2.6% of total IgG in the seminal fluid specimens and from 0.1 to 0.6% of total IgG in the CVL fluids specimens ( Figure S6 ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

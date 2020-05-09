@@ -1,1 +1,8 @@
-{"cord_uid":"btuoin6d", "sourcedb":"PMC", "sourceid":"PMC7033854", "divid":17, "text":"Approximately 18% of Adv group patients had no response to antipyretic treatment, which represented a higher proportion compared with that observed in the Non-Adv or unknown pathogen group patients (P < 0.001). However, the proportion of complete response to antipyretic treatment was comparatively lower in patients in the Adv group than that observed in the Non-Adv or unknown pathogen groups.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "btuoin6d",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7033854",
+   "divid": 17,
+   "text": "Approximately 18% of Adv group patients had no response to antipyretic treatment, which represented a higher proportion compared with that observed in the Non-Adv or unknown pathogen group patients (P < 0.001). However, the proportion of complete response to antipyretic treatment was comparatively lower in patients in the Adv group than that observed in the Non-Adv or unknown pathogen groups.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

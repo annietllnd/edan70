@@ -1,1 +1,8 @@
-{"cord_uid":"c3psvuzp", "sourcedb":"PMC", "sourceid":"PMC4038475", "divid":36, "text":"Table S1 Source of primate sequences. 1 Public genome sequences were used when available. 2 Cell lines for primates were obtained from the indicated sources and used for amplification of the indicated PARP gene as described in Materials and Methods. (DOC) 1 The largest exon of indicated PARP4 genes (corresponding to human exon 30) were aligned and subjected to analysis by Kestimator. 2 Estimated Ka and Ks values as determined by Kestimator. 95% confidence interval values are shown in italics. 3 The dN/dS ratio as determined by dividing the estimated Ka value by the estimated Ks value. 4 Percent confidence that the observed dN/dS ratio is .1 (indicative of the region evolving under positive selection) as calculated by K-estimator. (DOC)", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "c3psvuzp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4038475",
+   "divid": 36,
+   "text": "Table S1 Source of primate sequences. 1 Public genome sequences were used when available. 2 Cell lines for primates were obtained from the indicated sources and used for amplification of the indicated PARP gene as described in Materials and Methods. (DOC) 1 The largest exon of indicated PARP4 genes (corresponding to human exon 30) were aligned and subjected to analysis by Kestimator. 2 Estimated Ka and Ks values as determined by Kestimator. 95% confidence interval values are shown in italics. 3 The dN/dS ratio as determined by dividing the estimated Ka value by the estimated Ks value. 4 Percent confidence that the observed dN/dS ratio is .1 (indicative of the region evolving under positive selection) as calculated by K-estimator. (DOC)",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

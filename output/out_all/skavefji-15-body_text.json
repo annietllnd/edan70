@@ -1,1 +1,42 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":15, "text":"Of the 100 pathogen-identified patients who had received antimicrobial agent for more than 24 hours prior to bronchoscopic BAL (Figure 1) , 44 had bacterial pneumonia, 54 had viral pneumonia, and 2 had invasive pulmonary aspergillosis. Of the 98 patients with bacterial pneumonia or viral pneumonia, the median duration of antimicrobial therapy before bronchoscopic BAL was 5 days (interquartile range, 3-9 days). The median total WBC count (395/mL vs. 200/mL, P = 0.52) and percentage of neutrophils (69.0% vs. 67.0%, P = 0.26) were not significantly different between these two groups. Figure S1 shows the changes recorded in the BAL fluid total WBC count and percentage of neutrophils according to the duration of exposure to antimicrobial agents.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":157,"end":166}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":181,"end":190}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":270,"end":279}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":289,"end":298}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 15,
+   "text": "Of the 100 pathogen-identified patients who had received antimicrobial agent for more than 24 hours prior to bronchoscopic BAL (Figure 1) , 44 had bacterial pneumonia, 54 had viral pneumonia, and 2 had invasive pulmonary aspergillosis. Of the 98 patients with bacterial pneumonia or viral pneumonia, the median duration of antimicrobial therapy before bronchoscopic BAL was 5 days (interquartile range, 3-9 days). The median total WBC count (395/mL vs. 200/mL, P = 0.52) and percentage of neutrophils (69.0% vs. 67.0%, P = 0.26) were not significantly different between these two groups. Figure S1 shows the changes recorded in the BAL fluid total WBC count and percentage of neutrophils according to the duration of exposure to antimicrobial agents.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":157,
+              "end": 166
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":181,
+              "end": 190
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":270,
+              "end": 279
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":289,
+              "end": 298
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

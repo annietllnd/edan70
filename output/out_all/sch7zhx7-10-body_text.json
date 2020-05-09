@@ -1,1 +1,8 @@
-{"cord_uid":"sch7zhx7", "sourcedb":"PMC", "sourceid":"PMC6563312", "divid":10, "text":"To measure the stability of the mutations, Vero cells were infected at an MOI of 0.1 with all of the viral mutants for 24 h. The virus was then passed to new cells by transferring 50 µL supernatant. After five passages, RNA was extracted and purified from supernatants and reverse transcribed. Sanger sequencing was used to determine whether mutations were stable over the passages by looking at the chromatograms and determining the presence or absence of the mutant nucleotide. Fitness assays were similarly performed, but Vero cells were infected at an MOI of 0.1 with an equal combination of wild-type and mutant CVB3 and passaged five times. Fitness was determined via Sanger sequencing and analysis of the chromatogram to determine if the wild-type or mutant nucleotide was present in the sample.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sch7zhx7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6563312",
+   "divid": 10,
+   "text": "To measure the stability of the mutations, Vero cells were infected at an MOI of 0.1 with all of the viral mutants for 24 h. The virus was then passed to new cells by transferring 50 µL supernatant. After five passages, RNA was extracted and purified from supernatants and reverse transcribed. Sanger sequencing was used to determine whether mutations were stable over the passages by looking at the chromatograms and determining the presence or absence of the mutant nucleotide. Fitness assays were similarly performed, but Vero cells were infected at an MOI of 0.1 with an equal combination of wild-type and mutant CVB3 and passaged five times. Fitness was determined via Sanger sequencing and analysis of the chromatogram to determine if the wild-type or mutant nucleotide was present in the sample.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

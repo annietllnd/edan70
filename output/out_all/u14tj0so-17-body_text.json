@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":17, "text":"When an RNA molecule folds, bonds may form between canonical pairs of bases (A-U, C-G, and G-U) (see Figure 1 ). Throughout this work, we consider only cases where each base may pair at most with one other base, and represent base pairing between i and j by i.j. We define a secondary structure, R, as a set of pairs i.j, 1 ≤ i < j ≤ n; i.j and k.j can belong to the same set if and only if i = k.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 17,
+   "text": "When an RNA molecule folds, bonds may form between canonical pairs of bases (A-U, C-G, and G-U) (see Figure 1 ). Throughout this work, we consider only cases where each base may pair at most with one other base, and represent base pairing between i and j by i.j. We define a secondary structure, R, as a set of pairs i.j, 1 ≤ i < j ≤ n; i.j and k.j can belong to the same set if and only if i = k.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

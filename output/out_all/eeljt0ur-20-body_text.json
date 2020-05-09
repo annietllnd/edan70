@@ -1,1 +1,18 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":20, "text":"Both Diet A and Diet B are categorized as therapeutic gastrointestinal diets designed to manage non-specific acute and chronic gastrointestinal disorders. Although both diets share similar indications, there are nutritional differences between the two diets that are worth considering. The macronutrient distribution of protein, fat, and carbohydrate differed between the two formulas. The percent of calories from protein, fat, and carbohydrate were 31, 31, and 38% in Diet A and 35, 40, and 25% in Diet B, respectively ( Table 1) . While protein level was similar between the two formulas, the fat and carbohydrate contents varied more widely. Reduced dietary fat has been recommended in patients with gastroenteropathy due to potentially impaired fat absorption (7, 8) ; however, dietary fat was shown to have no difference in clinical response in cats with chronic diarrhea (6) . The presence of concurrent chronic pancreatitis has also been an indication for feeding reduced or moderate fat diets in cats with gastroenteropathies (17) ; however, cats with increased fPL levels were excluded from this study. Carbohydrate malabsorption was previously reported in cats with IBD, but dietary carbohydrates were not shown to negatively impact clinical signs (18) . The higher dietary carbohydrate content of Diet A, relative to Diet B, did not appear to negatively impact diet performance and was well tolerated.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":869,"end":877}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 20,
+   "text": "Both Diet A and Diet B are categorized as therapeutic gastrointestinal diets designed to manage non-specific acute and chronic gastrointestinal disorders. Although both diets share similar indications, there are nutritional differences between the two diets that are worth considering. The macronutrient distribution of protein, fat, and carbohydrate differed between the two formulas. The percent of calories from protein, fat, and carbohydrate were 31, 31, and 38% in Diet A and 35, 40, and 25% in Diet B, respectively ( Table 1) . While protein level was similar between the two formulas, the fat and carbohydrate contents varied more widely. Reduced dietary fat has been recommended in patients with gastroenteropathy due to potentially impaired fat absorption (7, 8) ; however, dietary fat was shown to have no difference in clinical response in cats with chronic diarrhea (6) . The presence of concurrent chronic pancreatitis has also been an indication for feeding reduced or moderate fat diets in cats with gastroenteropathies (17) ; however, cats with increased fPL levels were excluded from this study. Carbohydrate malabsorption was previously reported in cats with IBD, but dietary carbohydrates were not shown to negatively impact clinical signs (18) . The higher dietary carbohydrate content of Diet A, relative to Diet B, did not appear to negatively impact diet performance and was well tolerated.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":869,
+              "end": 877
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

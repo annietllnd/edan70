@@ -17,14 +17,6 @@
        {
            "id": "Virus_SARS-CoV-2", 
            "span": {
-              "begin":65,
-              "end": 82
-           }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
-       },
-       {
-           "id": "Virus_SARS-CoV-2", 
-           "span": {
               "begin":60,
               "end": 82
            }, 

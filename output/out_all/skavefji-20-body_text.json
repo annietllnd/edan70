@@ -1,1 +1,66 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":20, "text":"This study analyzed the usefulness of cellular analysis of BAL fluid for predicting the etiology of pneumonia in critically ill adult patients. Neutrophilic pleocytosis in BAL fluid was frequently found in patients with bacterial-and viral pneumonia. The degree of pleocytosis, which was higher in the bacterial pneumonia, was useful for differential diagnosis of bacterial pneumonia. Total WBC count had the best diagnostic accuracy for predicting bacterial pneumonia, and its diagnostic performances was better than those of serum procalcitonin and C-reactive protein concentrations. Combinations of BAL fluid total WBC count, serum procalcitonin concentration, and serum C-reactive protein concentration provided the best diagnostic yields. The data suggest that cellular analysis of BAL fluid is a rapid and useful technique for differentiating bacterial pneumonia from viral pneumonia, and can be used to direct early appropriate treatment.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":100,"end":109}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":240,"end":249}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":312,"end":321}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":374,"end":383}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":459,"end":468}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":859,"end":868}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":880,"end":889}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 20,
+   "text": "This study analyzed the usefulness of cellular analysis of BAL fluid for predicting the etiology of pneumonia in critically ill adult patients. Neutrophilic pleocytosis in BAL fluid was frequently found in patients with bacterial-and viral pneumonia. The degree of pleocytosis, which was higher in the bacterial pneumonia, was useful for differential diagnosis of bacterial pneumonia. Total WBC count had the best diagnostic accuracy for predicting bacterial pneumonia, and its diagnostic performances was better than those of serum procalcitonin and C-reactive protein concentrations. Combinations of BAL fluid total WBC count, serum procalcitonin concentration, and serum C-reactive protein concentration provided the best diagnostic yields. The data suggest that cellular analysis of BAL fluid is a rapid and useful technique for differentiating bacterial pneumonia from viral pneumonia, and can be used to direct early appropriate treatment.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":100,
+              "end": 109
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":240,
+              "end": 249
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":312,
+              "end": 321
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":374,
+              "end": 383
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":459,
+              "end": 468
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":859,
+              "end": 868
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":880,
+              "end": 889
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

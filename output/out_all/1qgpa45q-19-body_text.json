@@ -1,1 +1,8 @@
-{"cord_uid":"1qgpa45q", "sourcedb":"PMC", "sourceid":"PMC6941262", "divid":19, "text":"The sequencing protocol consisted of four steps as follows: (i) primer design, (ii) preparation of primer mixes, (iii) cDNA and PCR (iv) Illumina sequencing and data analysis.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1qgpa45q",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6941262",
+   "divid": 19,
+   "text": "The sequencing protocol consisted of four steps as follows: (i) primer design, (ii) preparation of primer mixes, (iii) cDNA and PCR (iv) Illumina sequencing and data analysis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

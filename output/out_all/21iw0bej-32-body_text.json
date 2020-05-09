@@ -1,1 +1,8 @@
-{"cord_uid":"21iw0bej", "sourcedb":"PMC", "sourceid":"PMC5296350", "divid":32, "text":"To assess the possibility that the cell cycle status affects EV-D68 viral replication, we first synchronized cells in G0/G1. Our results demonstrate that G0/G1 arrest promotes EV-D68 replication and increases viral virulence without affecting virus entry. We also assessed the effects of S phase and G2/M phase synchronization on viral production. Our results suggest that S phase synchronization does not affect viral entry, replication or production compared to the control treatment, while G2/M synchronization inhibits viral replication and decreases viral virulence, but does not affect virus entry. These results indicate that G0/G1 phase is most favorable for EV-D68 replication, that S phase can support some viral production, and that G2/M phase is inhibitory for host viral production.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "21iw0bej",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5296350",
+   "divid": 32,
+   "text": "To assess the possibility that the cell cycle status affects EV-D68 viral replication, we first synchronized cells in G0/G1. Our results demonstrate that G0/G1 arrest promotes EV-D68 replication and increases viral virulence without affecting virus entry. We also assessed the effects of S phase and G2/M phase synchronization on viral production. Our results suggest that S phase synchronization does not affect viral entry, replication or production compared to the control treatment, while G2/M synchronization inhibits viral replication and decreases viral virulence, but does not affect virus entry. These results indicate that G0/G1 phase is most favorable for EV-D68 replication, that S phase can support some viral production, and that G2/M phase is inhibitory for host viral production.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

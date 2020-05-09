@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":33, "text":"Cells cultured in 60 mm dish were transfected in triplicate with respective plasmids. Control samples were transfected with EGFP expression plasmid (pSGI-EGFP). Forty-eight hours post-transfection, cells were fixed in 1% formaldehyde and ChIP assay was performed as described elsewhere [24] . Forward and reverse primer sequences for amplification of MHC-I heavy chain promoter were 5 0 CAGGGAGT CCAGTTCAGGGA 3 0 and 5 0 TGAGTCCGGGTGGGTGC GTG 3 0 , respectively and for amplification of IL-8 promoter were 5 0 GGGCCATCAGTTGCAAA TC 3 0 and 5 0 TTCCT TCCGGTGGTTTCTTC 3 0 , respectively.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 33,
+   "text": "Cells cultured in 60 mm dish were transfected in triplicate with respective plasmids. Control samples were transfected with EGFP expression plasmid (pSGI-EGFP). Forty-eight hours post-transfection, cells were fixed in 1% formaldehyde and ChIP assay was performed as described elsewhere [24] . Forward and reverse primer sequences for amplification of MHC-I heavy chain promoter were 5 0 CAGGGAGT CCAGTTCAGGGA 3 0 and 5 0 TGAGTCCGGGTGGGTGC GTG 3 0 , respectively and for amplification of IL-8 promoter were 5 0 GGGCCATCAGTTGCAAA TC 3 0 and 5 0 TTCCT TCCGGTGGTTTCTTC 3 0 , respectively.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

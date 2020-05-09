@@ -1,1 +1,26 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":39, "text":"The presence of a significant increased neutrophilic inflammation in BAL-fluid of those patients in which NTHi was cultured, as compared to patients with a negative BAL-culture, supports the hypothesis that bacterial infection is indeed an inflammatory stimulus in children with persistent wheezing [24] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":290,"end":298}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":53,"end":65}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 39,
+   "text": "The presence of a significant increased neutrophilic inflammation in BAL-fluid of those patients in which NTHi was cultured, as compared to patients with a negative BAL-culture, supports the hypothesis that bacterial infection is indeed an inflammatory stimulus in children with persistent wheezing [24] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":290,
+              "end": 298
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":53,
+              "end": 65
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

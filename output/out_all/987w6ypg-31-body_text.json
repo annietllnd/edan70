@@ -1,1 +1,8 @@
-{"cord_uid":"987w6ypg", "sourcedb":"PMC", "sourceid":"PMC4251951", "divid":31, "text":"IFITMs-HIV-1 particles are impaired at entry, the same step inhibited when IFITMs are present in the opposite topology, i.e. in target cell membranes [17, 26] . At present, the mechanism through which IFITMs block endosomal fusion of incoming viruses remains controversial [25, 26] and this mechanism could be molecularly distinct from the one at play here. Multiple hypotheses have been put forward to explain the antiviral effect of IFITMs in target cells. IFITMs have been reported to increase the intracellular levels of cholesterol [25] and variations in cholesterol have been associated to defects in membrane fusion, viral production and are likely to play an important role in multiple physiological processes [45] [46] [47] [48] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "987w6ypg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4251951",
+   "divid": 31,
+   "text": "IFITMs-HIV-1 particles are impaired at entry, the same step inhibited when IFITMs are present in the opposite topology, i.e. in target cell membranes [17, 26] . At present, the mechanism through which IFITMs block endosomal fusion of incoming viruses remains controversial [25, 26] and this mechanism could be molecularly distinct from the one at play here. Multiple hypotheses have been put forward to explain the antiviral effect of IFITMs in target cells. IFITMs have been reported to increase the intracellular levels of cholesterol [25] and variations in cholesterol have been associated to defects in membrane fusion, viral production and are likely to play an important role in multiple physiological processes [45] [46] [47] [48] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

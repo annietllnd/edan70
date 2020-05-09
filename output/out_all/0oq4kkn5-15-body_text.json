@@ -1,1 +1,8 @@
-{"cord_uid":"0oq4kkn5", "sourcedb":"PMC", "sourceid":"PMC5052702", "divid":15, "text":"70 µmol, 1 eq) was dissolved in 20 ml ethanol. Catalytic amounts of N,N-dimethylformamide were added and oxalylchloride (7.2 µl, 84 µmol, 1.2 eq) were added dropwise with vigorous stirring. The reaction mixture was stirred overnight after which the solvents were evaporated.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "0oq4kkn5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5052702",
+   "divid": 15,
+   "text": "70 µmol, 1 eq) was dissolved in 20 ml ethanol. Catalytic amounts of N,N-dimethylformamide were added and oxalylchloride (7.2 µl, 84 µmol, 1.2 eq) were added dropwise with vigorous stirring. The reaction mixture was stirred overnight after which the solvents were evaporated.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

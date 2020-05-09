@@ -1,1 +1,8 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":76, "text":"Abbreviations ALT: alanine aminotransferase; BID: bis in die (twice a day); CanL: canine leishmaniosis; DAT: direct agglutination test; ELISA: enzyme-linked", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 76,
+   "text": "Abbreviations ALT: alanine aminotransferase; BID: bis in die (twice a day); CanL: canine leishmaniosis; DAT: direct agglutination test; ELISA: enzyme-linked",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

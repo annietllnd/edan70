@@ -1,1 +1,18 @@
-{"cord_uid":"fqna8ffg", "sourcedb":"PMC", "sourceid":"PMC4915176", "divid":33, "text":"3 h, 6 h, 12 h, 18 h, 1d, 3d and 7d, after CNP instillation, mice were anesthetized via intraperitoneal injection of a mixture of xylazine and ketamine and sacrificed by retrobulbar exsanguination. Immediately afterwards, BAL was performed by cannulating the trachea and infusing the lungs eight times with 1.0 ml PBS without calcium and magnesium, as described previously [12, 71] . BAL fluids of the first two lavages were pooled for protein and cytokine analysis after BAL cell separation by centrifugation (425 g, 20 min at room temperature). The cell pellets were suspended in 1 ml RPMI 1640 medium (Bio-Chrome, Berlin, Germany) supplemented with 10 % fetal calf serum (Seromed, Berlin, Germany), and the number of living cells was counted by the trypan blue exclusion method. BAL cell differentials were performed on cytospin preparations (May-Grünwald-Giemsa staining; 2 × 200 cells counted) and the number of polymorphonuclear neutrophils (PMNs) was used as a marker of inflammation [12, 71] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":978,"end":990}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"}]}
+{
+   "cord_uid": "fqna8ffg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4915176",
+   "divid": 33,
+   "text": "3 h, 6 h, 12 h, 18 h, 1d, 3d and 7d, after CNP instillation, mice were anesthetized via intraperitoneal injection of a mixture of xylazine and ketamine and sacrificed by retrobulbar exsanguination. Immediately afterwards, BAL was performed by cannulating the trachea and infusing the lungs eight times with 1.0 ml PBS without calcium and magnesium, as described previously [12, 71] . BAL fluids of the first two lavages were pooled for protein and cytokine analysis after BAL cell separation by centrifugation (425 g, 20 min at room temperature). The cell pellets were suspended in 1 ml RPMI 1640 medium (Bio-Chrome, Berlin, Germany) supplemented with 10 % fetal calf serum (Seromed, Berlin, Germany), and the number of living cells was counted by the trypan blue exclusion method. BAL cell differentials were performed on cytospin preparations (May-Grünwald-Giemsa staining; 2 × 200 cells counted) and the number of polymorphonuclear neutrophils (PMNs) was used as a marker of inflammation [12, 71] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":978,
+              "end": 990
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"
+       }
+   ]
+}

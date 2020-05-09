@@ -1,1 +1,26 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":37, "text":"In our study, we found that bronchial bacterial infection is common in persistent preschool wheezers without apparent reasons for impaired mucociliary clearance, and that H .influenzae was the predominant aerobic pathogen isolated, followed by S. pneumoniae and M. catarrhalis. We also found frequent bacterial co-infection involving these 3 pathogens. Our findings corroborate observations of other authors, who also described the predominance of this bacterial triad in children with persistent or recurrent wheezing [9, 10, 19, 20, 23, 24] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":510,"end":518}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 37,
+   "text": "In our study, we found that bronchial bacterial infection is common in persistent preschool wheezers without apparent reasons for impaired mucociliary clearance, and that H .influenzae was the predominant aerobic pathogen isolated, followed by S. pneumoniae and M. catarrhalis. We also found frequent bacterial co-infection involving these 3 pathogens. Our findings corroborate observations of other authors, who also described the predominance of this bacterial triad in children with persistent or recurrent wheezing [9, 10, 19, 20, 23, 24] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":247,
+              "end": 256
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":510,
+              "end": 518
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":39, "text":"Western blot analysis. Cells were harvested and cellular proteins were extracted as mentioned above. Total cellular proteins from different time points were separated by SDS-PAGE and electrotransferred to nitrocellulose membranes (Whatman). The membranes were blocked with 5% non-fat milk powder dissolved in tris-buffered saline, containing 0.05% Tween-20, for 2 h at room temperature. Primary antibodies (see below) were diluted 1:500 in blocking buffer and incubated with the membranes overnight at 4 °C. Next, the membranes were incubated with the appropriate secondary antibodies diluted in blocking buffer at 1:3000 for 2 h at room temperature. Detected proteins were revealed using the ECL Detection Kit (KeyGen Biotech).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 39,
+   "text": "Western blot analysis. Cells were harvested and cellular proteins were extracted as mentioned above. Total cellular proteins from different time points were separated by SDS-PAGE and electrotransferred to nitrocellulose membranes (Whatman). The membranes were blocked with 5% non-fat milk powder dissolved in tris-buffered saline, containing 0.05% Tween-20, for 2 h at room temperature. Primary antibodies (see below) were diluted 1:500 in blocking buffer and incubated with the membranes overnight at 4 °C. Next, the membranes were incubated with the appropriate secondary antibodies diluted in blocking buffer at 1:3000 for 2 h at room temperature. Detected proteins were revealed using the ECL Detection Kit (KeyGen Biotech).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

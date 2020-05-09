@@ -12,10 +12,9 @@ Authors:
 
     TODO:
      - Should we check correct word class?
-     - Generate file with table of results?
-     - List with errors
 """
-
+import os
+import json
 # true_positives = some_function() # number of true positives
 # false_positives = some_other_function() # number of false positives
 # true_negatives = other_function() # number of true negatives
@@ -23,19 +22,22 @@ Authors:
 # for any is_checked = False in tagger_output_dict -> False positives
 # for any is_checked = False in true_output_dict -> False negatives
 
-import os
-import json
-
 
 def print_progress(nbr_pubannotations_evaluated, total_pubannotations):
     """
     Prints estimated progress based on number of total articles and number of articles processed.
     """
-    print_progress_bar(nbr_pubannotations_evaluated, total_pubannotations, prefix='EVALUATION PROGRESS\t', suffix='COMPLETE')
+    print_progress_bar(nbr_pubannotations_evaluated,
+                       total_pubannotations,
+                       prefix='EVALUATION PROGRESS\t',
+                       suffix='COMPLETE')
 
 
 def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
     """
+    Author: StackOverflow
+            User Greenstick
+            Question 30740258
     Call in a loop to create terminal progress bar
     @params:
         iteration   - Required  : current iteration (Int)
@@ -132,8 +134,10 @@ class PubannotationEvaluator:
             word_classes_list = [denotations_list_element['id'] for denotations_list_element in
                                  true_pubannotation['denotations']]
 
-            self.__compare_output(tagger_pubannotation['denotations'], true_pubannotation['denotations'], cord_uid,
-                                word_classes_list)
+            self.__compare_output(tagger_pubannotation['denotations'],
+                                  true_pubannotation['denotations'],
+                                  cord_uid,
+                                  word_classes_list)
             self.output_nbr += 1
         print_progress(self.output_nbr, self.processes_total)
 
@@ -157,6 +161,8 @@ class PubannotationEvaluator:
             for true_denotation in true_denotations:
                 if (tagger_denotation['span']['begin'] == true_denotation['span']['begin']
                         and tagger_denotation['span']['end'] == true_denotation['span']['end']):
+                    # Might want to change to a safer implementation where we don't depend on an ordered
+                    # word_classes_list. TODO
                     self.word_classes_result_dict[word_classes_list[i]]['true_positives'] += 1
                     self.tagger_output_dicts[cord_uid].update({'is_checked': True})
                     self.true_output_dicts[cord_uid].update({'is_checked': True})
@@ -171,14 +177,16 @@ class PubannotationEvaluator:
             false_positives_result = 0
             false_negatives_result = 0
             for tagger_pubannotation in self.tagger_output_dicts.values():
-                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] == word_class and tagger_pubannotation['is_checked'] is False):
+                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] ==
+                        word_class and tagger_pubannotation['is_checked'] is False):
                     false_positives_result += 1
 
             self.word_classes_result_dict[word_class]['false_positives'] = false_positives_result
 
             for true_pubannotation_dict in self.true_output_dicts.values():
 
-                if(true_pubannotation_dict['denotations'] != [] and true_pubannotation_dict['denotations'][0]['id'] == word_class and true_pubannotation_dict['is_checked'] is False):
+                if(true_pubannotation_dict['denotations'] != [] and true_pubannotation_dict['denotations'][0]['id'] ==
+                        word_class and true_pubannotation_dict['is_checked'] is False):
                     false_negatives_result += 1
 
             self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
@@ -253,14 +261,14 @@ class PubannotationEvaluator:
         Calculates harmonic mean/F1 score figure.
         """
         harmonic_mean = (2*self.precision_value*self.recall_value) / (self.precision_value + self.recall_value)
-        print(f'#########\t HARMONIC MEAN RESULT:\t###########')
+        print(f'#########\tHARMONIC MEAN RESULT:\t###########')
         print(f'Harmonic mean:\t{harmonic_mean * 100:.0f}%')
 
     def __print_result(self, word_class):
         """
         Prints result for a given section/word class.
         """
-        print(f'#########\t{word_class.upper()} PRECISION & RECALL RESULT:\t###########')
+        print(f'\n\n#########\t{word_class.upper()} PRECISION & RECALL RESULT:\t###########')
         print('\n')
         print(f'Precision:\t{self.precision_value * 100:.0f}%')
         print(f'Recall:\t\t{self.recall_value * 100:.0f}%')

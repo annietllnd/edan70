@@ -1,1 +1,8 @@
-{"cord_uid":"m6abyuvx", "sourcedb":"PMC", "sourceid":"PMC3524174", "divid":34, "text":"Tissue samples were fixed in 4% paraformaldehyde in PBS, embedded in paraffin, sectioned (4-mm thickness), and stained with hematoxylin and eosin (H&E). Staining with periodic acid-Schiff stain, Azan stain, silver, or Oil-red-O was also performed to visualize glycogen degeneration, fibrillization, reticular fiber degeneration, or lipid degeneration, respectively.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "m6abyuvx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3524174",
+   "divid": 34,
+   "text": "Tissue samples were fixed in 4% paraformaldehyde in PBS, embedded in paraffin, sectioned (4-mm thickness), and stained with hematoxylin and eosin (H&E). Staining with periodic acid-Schiff stain, Azan stain, silver, or Oil-red-O was also performed to visualize glycogen degeneration, fibrillization, reticular fiber degeneration, or lipid degeneration, respectively.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

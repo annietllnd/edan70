@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":29, "text":"In summary, we have demonstrated that FcRn mediates enhanced transcytosis of HIV-1 in the presence of low pH and HIV-1-specific antibody. We have also shown that FcRn is present on epithelial cells in areas of the genital tract that are potentially exposed to HIV-1 during sexual intercourse. Our findings point toward a novel mechanism by which the sexual transmission of HIV-1 may be facilitated.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 29,
+   "text": "In summary, we have demonstrated that FcRn mediates enhanced transcytosis of HIV-1 in the presence of low pH and HIV-1-specific antibody. We have also shown that FcRn is present on epithelial cells in areas of the genital tract that are potentially exposed to HIV-1 during sexual intercourse. Our findings point toward a novel mechanism by which the sexual transmission of HIV-1 may be facilitated.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

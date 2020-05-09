@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":8, "text":"Other methods for prediction of pseudoknotted structures, such as the IPknot method of Sato et al. [42] , are motivated by the finding of Mathews [43] that base pairs with high base pairing probabilities in the thermodynamic ensemble are more likely to be in the known structure. In a comprehensive comparison performed by Puton et al. [44] on the performance of publicly available non-comparative RNA secondary structure prediction methods that can handle pseudoknotted structures, IPknot ranks first for general length RNA sequences.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 8,
+   "text": "Other methods for prediction of pseudoknotted structures, such as the IPknot method of Sato et al. [42] , are motivated by the finding of Mathews [43] that base pairs with high base pairing probabilities in the thermodynamic ensemble are more likely to be in the known structure. In a comprehensive comparison performed by Puton et al. [44] on the performance of publicly available non-comparative RNA secondary structure prediction methods that can handle pseudoknotted structures, IPknot ranks first for general length RNA sequences.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

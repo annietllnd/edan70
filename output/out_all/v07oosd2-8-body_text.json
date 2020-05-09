@@ -1,1 +1,18 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":8, "text":"Post-weaning diarrhea is usually associated with the proliferation of one or more strains of β-hemolytic ETEC in the small intestine of pigs, in particular those that express fimbrial adhesins F4 (K88) or F18 [2] . Thus, small intestinal epithelial cell adhesion and subsequent colonization by ETEC is mediated by F4-or F18-specific receptors (F4R or F18R), the existence and function of which are crucial in determining the susceptibility of pigs to ETEC infection [2, 7] . The genetic predisposition of the pig is primordial for the development of PWD [28] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":13,"end":21}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"}]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 8,
+   "text": "Post-weaning diarrhea is usually associated with the proliferation of one or more strains of β-hemolytic ETEC in the small intestine of pigs, in particular those that express fimbrial adhesins F4 (K88) or F18 [2] . Thus, small intestinal epithelial cell adhesion and subsequent colonization by ETEC is mediated by F4-or F18-specific receptors (F4R or F18R), the existence and function of which are crucial in determining the susceptibility of pigs to ETEC infection [2, 7] . The genetic predisposition of the pig is primordial for the development of PWD [28] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":13,
+              "end": 21
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"
+       }
+   ]
+}

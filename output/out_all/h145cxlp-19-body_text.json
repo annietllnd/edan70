@@ -1,1 +1,26 @@
-{"cord_uid":"h145cxlp", "sourcedb":"PMC", "sourceid":"PMC4683816", "divid":19, "text":"One or more specific influenza-associated diagnoses/complications were reported for 42 (89.4 %) of the 47 children ( Table 4 ). The most frequent diagnosis was influenzaassociated pneumonia (61.7 %), followed by bronchitis/ bronchiolitis (31.9 %), and secondary bacterial pneumonia (25.5 %). ARDS was reported for 10 (21.3 %) and sepsis for six children (12.8 %); other complications were rare. Thirty-nine of the 47 patients (83.0 %) underwent a chest radiograph.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":180,"end":189}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}, {"id":"Symptom_Covid-19", "span":{"begin":272,"end":281}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"}]}
+{
+   "cord_uid": "h145cxlp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4683816",
+   "divid": 19,
+   "text": "One or more specific influenza-associated diagnoses/complications were reported for 42 (89.4 %) of the 47 children ( Table 4 ). The most frequent diagnosis was influenzaassociated pneumonia (61.7 %), followed by bronchitis/ bronchiolitis (31.9 %), and secondary bacterial pneumonia (25.5 %). ARDS was reported for 10 (21.3 %) and sepsis for six children (12.8 %); other complications were rare. Thirty-nine of the 47 patients (83.0 %) underwent a chest radiograph.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":180,
+              "end": 189
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":272,
+              "end": 281
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+       }
+   ]
+}

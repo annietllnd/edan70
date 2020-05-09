@@ -1,1 +1,18 @@
-{"cord_uid":"8g70j0qw", "sourcedb":"PMC", "sourceid":"PMC7083240", "divid":4, "text":"In conclusion, although further research is warranted as the weight of the evidence increases, with the limited available data, and although the above results are unadjusted for other factors that may impact disease progression, smoking is most likely associated with the negative progression and adverse outcomes of COVID-19. ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8g70j0qw",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7083240",
+   "divid": 4,
+   "text": "In conclusion, although further research is warranted as the weight of the evidence increases, with the limited available data, and although the above results are unadjusted for other factors that may impact disease progression, smoking is most likely associated with the negative progression and adverse outcomes of COVID-19. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Disease_COVID-19", 
+           "span": {
+              "begin":317,
+              "end": 325
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7083240/"
+       }
+   ]
+}

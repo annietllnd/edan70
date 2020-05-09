@@ -1,1 +1,8 @@
-{"cord_uid":"opjd4ylh", "sourcedb":"PMC", "sourceid":"PMC6949926", "divid":32, "text":"The main reason why patients should be admitted at the hospital is that they should be provided with quality care by healthcare professionals to recover well. However, there are challenges that impact quality of care. The following sub-themes will be discussed; adherence to treatment, delay in diagnosis, lack of equipment and working resources, and lack of enough skills and in-service training.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "opjd4ylh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6949926",
+   "divid": 32,
+   "text": "The main reason why patients should be admitted at the hospital is that they should be provided with quality care by healthcare professionals to recover well. However, there are challenges that impact quality of care. The following sub-themes will be discussed; adherence to treatment, delay in diagnosis, lack of equipment and working resources, and lack of enough skills and in-service training.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":30, "text":"The model fit for the data in each city was assessed using diagnostic plots (time series plots, normal quantile plots, autocorrelation and partial autocorrelation plots, and the spectral estimates) of the estimated innovations of the time series component. Figure 3 shows some of these diagnostic plots for the Akron data (the residuals plots for the other cities were similar). Except for a few extremely positive values, the estimated time series looks stationary. The normal approximation is good, as evidenced by the straight line on the normal quantile plot. The plots of the sample autocorrelation and partial autocorrelations functions of the time series innovations lie inside the dotted confidence bounds for a white noise process (i.e., are samples of uncorrelated time series errors).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 30,
+   "text": "The model fit for the data in each city was assessed using diagnostic plots (time series plots, normal quantile plots, autocorrelation and partial autocorrelation plots, and the spectral estimates) of the estimated innovations of the time series component. Figure 3 shows some of these diagnostic plots for the Akron data (the residuals plots for the other cities were similar). Except for a few extremely positive values, the estimated time series looks stationary. The normal approximation is good, as evidenced by the straight line on the normal quantile plot. The plots of the sample autocorrelation and partial autocorrelations functions of the time series innovations lie inside the dotted confidence bounds for a white noise process (i.e., are samples of uncorrelated time series errors).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

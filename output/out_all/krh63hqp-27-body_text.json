@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":27, "text":"Over the history of the human H1N1 lineage, the accumulation of non-synonymous mutations was highly linear, after correcting the "frozen" samples for 21 years of dormancy ( Figure 3 ). While it is true that this simple distance metric applied to amino acid changes would be expected to underestimate evolutionary relationships at large distances due to an increasing likelihood of multiple changes at individual loci, applying the standard Poisson or Gamma corrections [60] made no improvement to the fit of the regression to two significant figures. We therefore conclude that the relationship is indeed linear, at least over the sampled timescale.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 27,
+   "text": "Over the history of the human H1N1 lineage, the accumulation of non-synonymous mutations was highly linear, after correcting the \"frozen\" samples for 21 years of dormancy ( Figure 3 ). While it is true that this simple distance metric applied to amino acid changes would be expected to underestimate evolutionary relationships at large distances due to an increasing likelihood of multiple changes at individual loci, applying the standard Poisson or Gamma corrections [60] made no improvement to the fit of the regression to two significant figures. We therefore conclude that the relationship is indeed linear, at least over the sampled timescale.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

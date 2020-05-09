@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":27, "text":"Number of correctly predicted base pairs Number of base pairs in the reference structure PPV = Number of correctly predicted base pairs Number of predicted base pairs and F-measure = 2 × sensitivity × PPV sensitivity + PPV", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 27,
+   "text": "Number of correctly predicted base pairs Number of base pairs in the reference structure PPV = Number of correctly predicted base pairs Number of predicted base pairs and F-measure = 2 × sensitivity × PPV sensitivity + PPV",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

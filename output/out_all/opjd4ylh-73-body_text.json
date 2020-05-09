@@ -1,1 +1,8 @@
-{"cord_uid":"opjd4ylh", "sourcedb":"PMC", "sourceid":"PMC6949926", "divid":73, "text":"TB is transmitted through airborne routes. Poorly designed or overcrowded healthcare facilities play an important role in TB transmission and also increases the chances of cross-infection between patients and healthcare workers. HCWs are essential in the fight against TB infection and they should be protected. A good ventilated working environment should have natural, mechanical, and negative pressure ventilation to reduce the risk of spreading TB infection in the wards. Natural ventilation relies on open doors and windows to bring fresh air in the wards from outside, which dilutes the concentration of particles such as droplet nuclei containing Mycobacterium tuberculosis.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "opjd4ylh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6949926",
+   "divid": 73,
+   "text": "TB is transmitted through airborne routes. Poorly designed or overcrowded healthcare facilities play an important role in TB transmission and also increases the chances of cross-infection between patients and healthcare workers. HCWs are essential in the fight against TB infection and they should be protected. A good ventilated working environment should have natural, mechanical, and negative pressure ventilation to reduce the risk of spreading TB infection in the wards. Natural ventilation relies on open doors and windows to bring fresh air in the wards from outside, which dilutes the concentration of particles such as droplet nuclei containing Mycobacterium tuberculosis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

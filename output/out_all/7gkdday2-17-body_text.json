@@ -1,1 +1,8 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":17, "text":"Streptococcus spp. n = 10", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 17,
+   "text": "Streptococcus spp. n = 10",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

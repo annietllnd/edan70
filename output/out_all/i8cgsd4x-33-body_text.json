@@ -1,1 +1,8 @@
-{"cord_uid":"i8cgsd4x", "sourcedb":"PMC", "sourceid":"PMC4556628", "divid":33, "text":"Cells were lysed in RIPA lysis buffer (25 mM Tri-HCl, 150 mM NaCl, 1% NP-40, 0.1% SDS) containing protease inhibitor (Halt protease inhibitor cocktail, Pierce). The cell lysates were collected by centrifugation at 16,000 × g for 10 min at 4°C. Protein samples (10 μg) were loaded onto polyacrylamide gradient gels (4-12%). After electrophoresis and transfer to nitrocellulose membranes, proteins were blotted using anti-Culex STAT (rabbit polyclonal against peptide VVIVHGNQEPQSWATITWDNAFADINRV PFHVPDKVSWNLLAEALNTKYRASTGRSM TQENMHFLC), anti-WNV NS1, anti-WNV NS5 [58] or anti-V5 (Invitrogen) antibody followed by anti-rabbit or anti-mouse secondary antibodies. After adding substrate, the membrane was exposed to film to detect protein levels. Anti-β-actin antibody (Abcam) was used in immunoblots as a loading control.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "i8cgsd4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4556628",
+   "divid": 33,
+   "text": "Cells were lysed in RIPA lysis buffer (25 mM Tri-HCl, 150 mM NaCl, 1% NP-40, 0.1% SDS) containing protease inhibitor (Halt protease inhibitor cocktail, Pierce). The cell lysates were collected by centrifugation at 16,000 × g for 10 min at 4°C. Protein samples (10 μg) were loaded onto polyacrylamide gradient gels (4-12%). After electrophoresis and transfer to nitrocellulose membranes, proteins were blotted using anti-Culex STAT (rabbit polyclonal against peptide VVIVHGNQEPQSWATITWDNAFADINRV PFHVPDKVSWNLLAEALNTKYRASTGRSM TQENMHFLC), anti-WNV NS1, anti-WNV NS5 [58] or anti-V5 (Invitrogen) antibody followed by anti-rabbit or anti-mouse secondary antibodies. After adding substrate, the membrane was exposed to film to detect protein levels. Anti-β-actin antibody (Abcam) was used in immunoblots as a loading control.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

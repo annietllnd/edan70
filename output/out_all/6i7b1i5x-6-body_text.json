@@ -1,1 +1,18 @@
-{"cord_uid":"6i7b1i5x", "sourcedb":"PMC", "sourceid":"PMC6514959", "divid":6, "text":"It is possible that there is not one cause of KD, but multiple etiologies that result in similar pathogenesis. This may explain the clinical variability and lack of a definitive agent, however, the low recurrence rate even in high prevalence areas speaks against a large number of causes [40] . A superantigen response was considered by numerous groups [41] [42] [43] [44] [45] [46] . Certain bacterial infections contain proteins that non-specifically bind effector cell receptors causing a more generalized polyclonal expansion and inflammation, termed a superantigen effect. Polyclonality of T cell receptor usage has been shown in KD [47, 48] ; however, the reports are variable as to which subset of T cell receptors are expanded [49] . Other studies support a traditional oligoclonal response consistent with an immune response against a specific etiologic agent. Oligoclonal expansion of CD8+ T cells [50] and peripheral IgM+ B cell responses have been demonstrated [5, 51] , and IGG+ clonality is seen in studies from our own laboratory (unpublished). Numerous other studies have not shown superantigen-associated expansions of cell subsets [50, 52, 53] . This concept is reviewed extensively elsewhere [45] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":534,"end":546}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514959/"}]}
+{
+   "cord_uid": "6i7b1i5x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6514959",
+   "divid": 6,
+   "text": "It is possible that there is not one cause of KD, but multiple etiologies that result in similar pathogenesis. This may explain the clinical variability and lack of a definitive agent, however, the low recurrence rate even in high prevalence areas speaks against a large number of causes [40] . A superantigen response was considered by numerous groups [41] [42] [43] [44] [45] [46] . Certain bacterial infections contain proteins that non-specifically bind effector cell receptors causing a more generalized polyclonal expansion and inflammation, termed a superantigen effect. Polyclonality of T cell receptor usage has been shown in KD [47, 48] ; however, the reports are variable as to which subset of T cell receptors are expanded [49] . Other studies support a traditional oligoclonal response consistent with an immune response against a specific etiologic agent. Oligoclonal expansion of CD8+ T cells [50] and peripheral IgM+ B cell responses have been demonstrated [5, 51] , and IGG+ clonality is seen in studies from our own laboratory (unpublished). Numerous other studies have not shown superantigen-associated expansions of cell subsets [50, 52, 53] . This concept is reviewed extensively elsewhere [45] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":534,
+              "end": 546
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6514959/"
+       }
+   ]
+}

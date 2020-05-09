@@ -1,1 +1,26 @@
-{"cord_uid":"harzowk2", "sourcedb":"PMC", "sourceid":"PMC3488377", "divid":3, "text":"On admission to the pediatric ward, temperature was 36.9 • C, pulse 125/min, respiratory rate 46/min, blood pressure 94/52 mmHg, and SaO 2 95% with 100% oxygen. Shortly, the patient became lethargic with cold peripheries, cyanosis, and insucking chest. She was given normal saline boluses and dobutamine (10 mcg/kg/min) and promptly transferred to the pediatric intensive care unit (PICU). There, she received cardiopulmonary resuscitation (13 minutes) because of cardiopulmonary failure, septic shock, and bradycardia. She was ventilated and treated with intravenous cefotaxime, high dose ampicillin, vancomycin, clarithromycin, packed cell, fresh frozen plasma, and cryoprecipitate transfusions. Abnormal laboratory findings included hemoglobulin 8.0 g/dL, platelets 87 × 10 9 /L, and white cell count 1 × 10 9 /L; activated partial thromboplastin time APTT was 47.9 seconds, prothrombin time PT 13.4 seconds, d-dimer 2192 ng/mL, C-reactive protein 51.9 mg/L, plasma urea 18.2 mmol/L, creatinine 214 umol/L. Her lowest PaO 2 /FiO 2 was 42, and arterio-alveolar gradient 610 mmHg. Echocardiography showed reduced cardiac contractility (ejection fraction 48%) but no pericardial effusion. The pleural effusion was drained, and 40 mL of dark turbid fluid 2 Case Reports in Medicine yielded (Figure 1 insert). Despite multiple inotrope infusions of dobutamine, adrenaline, noradrenaline, and milrinone, her mean blood pressure remained low (50 mmHg) and she suffered another episode of cardiac arrest 9 hours following admission. Hemodiafiltration was instituted for intractable septic shock, renal failure, acidosis, and fluid retention. The patient ran a deteriorating course despite aggressive ICU support. She developed another episode of cardiac arrest and succumbed 39 hours following hospitalization. Nasopharyngeal and tracheal aspirates yielded Mycoplasma pneumoniae (by polymerase chain reaction PCR) and human Metapneumovirus RNA (by RT-PCR). Blood culture, pleural fluid, and tracheal aspirate yielded leucocytes and Streptococcus pneumoniae (serotype 19A) sensitive to cefotaxime and penicillin. CSF was not obtained during the critical episode.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "harzowk2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3488377",
+   "divid": 3,
+   "text": "On admission to the pediatric ward, temperature was 36.9 • C, pulse 125/min, respiratory rate 46/min, blood pressure 94/52 mmHg, and SaO 2 95% with 100% oxygen. Shortly, the patient became lethargic with cold peripheries, cyanosis, and insucking chest. She was given normal saline boluses and dobutamine (10 mcg/kg/min) and promptly transferred to the pediatric intensive care unit (PICU). There, she received cardiopulmonary resuscitation (13 minutes) because of cardiopulmonary failure, septic shock, and bradycardia. She was ventilated and treated with intravenous cefotaxime, high dose ampicillin, vancomycin, clarithromycin, packed cell, fresh frozen plasma, and cryoprecipitate transfusions. Abnormal laboratory findings included hemoglobulin 8.0 g/dL, platelets 87 × 10 9 /L, and white cell count 1 × 10 9 /L; activated partial thromboplastin time APTT was 47.9 seconds, prothrombin time PT 13.4 seconds, d-dimer 2192 ng/mL, C-reactive protein 51.9 mg/L, plasma urea 18.2 mmol/L, creatinine 214 umol/L. Her lowest PaO 2 /FiO 2 was 42, and arterio-alveolar gradient 610 mmHg. Echocardiography showed reduced cardiac contractility (ejection fraction 48%) but no pericardial effusion. The pleural effusion was drained, and 40 mL of dark turbid fluid 2 Case Reports in Medicine yielded (Figure 1 insert). Despite multiple inotrope infusions of dobutamine, adrenaline, noradrenaline, and milrinone, her mean blood pressure remained low (50 mmHg) and she suffered another episode of cardiac arrest 9 hours following admission. Hemodiafiltration was instituted for intractable septic shock, renal failure, acidosis, and fluid retention. The patient ran a deteriorating course despite aggressive ICU support. She developed another episode of cardiac arrest and succumbed 39 hours following hospitalization. Nasopharyngeal and tracheal aspirates yielded Mycoplasma pneumoniae (by polymerase chain reaction PCR) and human Metapneumovirus RNA (by RT-PCR). Blood culture, pleural fluid, and tracheal aspirate yielded leucocytes and Streptococcus pneumoniae (serotype 19A) sensitive to cefotaxime and penicillin. CSF was not obtained during the critical episode.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1863,
+              "end": 1872
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":2041,
+              "end": 2050
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       }
+   ]
+}

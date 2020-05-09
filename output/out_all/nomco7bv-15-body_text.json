@@ -1,1 +1,8 @@
-{"cord_uid":"nomco7bv", "sourcedb":"PMC", "sourceid":"PMC5819164", "divid":15, "text":"For a better understanding of the robustness of the relationship between RTI burden and obesity, the effect of adjusting for putative confounders was explored (Additional file 6). The studied demographic and lifestyle variables (age, gender, education level, smoking status, contact to children, asthma, sports activity, dietary patterns and previous removal of immune organs) did only marginally affect ORs. However, adjustment for asthma, chronic obstructive pulmonary disease (COPD) or a summary score covering all queried co-morbidities weakened the relationship between obesity and all outcomes considerably. Adjustment for vitamin D levels among those for which serum was available (n = 508), had only a slight effect on the magnitude of the association between obesity and RTI outcomes.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "nomco7bv",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5819164",
+   "divid": 15,
+   "text": "For a better understanding of the robustness of the relationship between RTI burden and obesity, the effect of adjusting for putative confounders was explored (Additional file 6). The studied demographic and lifestyle variables (age, gender, education level, smoking status, contact to children, asthma, sports activity, dietary patterns and previous removal of immune organs) did only marginally affect ORs. However, adjustment for asthma, chronic obstructive pulmonary disease (COPD) or a summary score covering all queried co-morbidities weakened the relationship between obesity and all outcomes considerably. Adjustment for vitamin D levels among those for which serum was available (n = 508), had only a slight effect on the magnitude of the association between obesity and RTI outcomes.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

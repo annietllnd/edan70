@@ -1,1 +1,34 @@
-{"cord_uid":"harzowk2", "sourcedb":"PMC", "sourceid":"PMC3488377", "divid":1, "text":"We report a young girl who died of Streptococcus pneumoniae 19A pneumonia, septic shock, and hemolytic uremic syndrome despite prior pneumococcal vaccination, appropriate antibiotics, and aggressive intensive care support. Serotype 19A is not covered by the 7-or 10-valent pneumococcal vaccines. Mycoplasma pneumoniae and metapneumovirus were simultaneously detected by PCR in the nasopharyngeal and tracheal aspirates. The pneumococcus is penicillin sensitive. Although infections with each of these pathogens alone are typically mild, this case highlights that co-infection with the triple respiratory pathogens possibly contributed to the fatal outcome of this child. Also, the new policy in Hong Kong to use PCV13 may help prevent further cases of serotype 19A infections.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":64,"end":73}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"}]}
+{
+   "cord_uid": "harzowk2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3488377",
+   "divid": 1,
+   "text": "We report a young girl who died of Streptococcus pneumoniae 19A pneumonia, septic shock, and hemolytic uremic syndrome despite prior pneumococcal vaccination, appropriate antibiotics, and aggressive intensive care support. Serotype 19A is not covered by the 7-or 10-valent pneumococcal vaccines. Mycoplasma pneumoniae and metapneumovirus were simultaneously detected by PCR in the nasopharyngeal and tracheal aspirates. The pneumococcus is penicillin sensitive. Although infections with each of these pathogens alone are typically mild, this case highlights that co-infection with the triple respiratory pathogens possibly contributed to the fatal outcome of this child. Also, the new policy in Hong Kong to use PCV13 may help prevent further cases of serotype 19A infections.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":49,
+              "end": 58
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":64,
+              "end": 73
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":307,
+              "end": 316
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       }
+   ]
+}

@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":32, "text":"Our results strongly confirm the widely recognized fact that all past and present human and swine H1N1 influenza strains derive from the 1918 strain. By extension, this applies to other human influenza strains, including H3N2 and H2N2 [1] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 32,
+   "text": "Our results strongly confirm the widely recognized fact that all past and present human and swine H1N1 influenza strains derive from the 1918 strain. By extension, this applies to other human influenza strains, including H3N2 and H2N2 [1] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

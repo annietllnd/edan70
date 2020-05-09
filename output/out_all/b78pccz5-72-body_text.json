@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":72, "text":"The contribution of different sources to the total DALYs varies between countries.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 72,
+   "text": "The contribution of different sources to the total DALYs varies between countries.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

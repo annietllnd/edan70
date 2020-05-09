@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":49, "text":"Additional file 1: H1N1 strain variation data using the 1918 Brevig Mission virus as a reference, in .csv format.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 49,
+   "text": "Additional file 1: H1N1 strain variation data using the 1918 Brevig Mission virus as a reference, in .csv format.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

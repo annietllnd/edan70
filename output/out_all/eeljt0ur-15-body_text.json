@@ -1,1 +1,50 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":15, "text":"While therapeutic veterinary gastrointestinal diets are commonly utilized in veterinary practice for the management of gastroenteritis, this was the first study to evaluate the efficacy of these diets in vomiting cats with chronic gastroenteropathy. The majority of cats in this study presented with chronic vomiting represented in 25 of the 28 cats (89%). There were no statistical differences between dietary treatments in the weekly mean vomiting frequency or change in weekly vomiting frequency over time. However, looking within dietary groups, cats fed Diet A showed a significant reduction in vomiting occurrences in weeks 2-4 compared to baseline, with a 63% reduction in the final week compared to baseline. Cats fed Diet B, while not reaching statistical significance, also showed a numerical reduction from baseline over the study period. Follow-up studies with additional cats are needed to better define the efficacy of Diet B and any potential differences between dietary treatments.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":204,"end":212}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":308,"end":316}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":441,"end":449}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":480,"end":488}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":600,"end":608}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 15,
+   "text": "While therapeutic veterinary gastrointestinal diets are commonly utilized in veterinary practice for the management of gastroenteritis, this was the first study to evaluate the efficacy of these diets in vomiting cats with chronic gastroenteropathy. The majority of cats in this study presented with chronic vomiting represented in 25 of the 28 cats (89%). There were no statistical differences between dietary treatments in the weekly mean vomiting frequency or change in weekly vomiting frequency over time. However, looking within dietary groups, cats fed Diet A showed a significant reduction in vomiting occurrences in weeks 2-4 compared to baseline, with a 63% reduction in the final week compared to baseline. Cats fed Diet B, while not reaching statistical significance, also showed a numerical reduction from baseline over the study period. Follow-up studies with additional cats are needed to better define the efficacy of Diet B and any potential differences between dietary treatments.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":204,
+              "end": 212
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":308,
+              "end": 316
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":441,
+              "end": 449
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":480,
+              "end": 488
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":600,
+              "end": 608
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

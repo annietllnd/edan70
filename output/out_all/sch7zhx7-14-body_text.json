@@ -1,1 +1,8 @@
-{"cord_uid":"sch7zhx7", "sourcedb":"PMC", "sourceid":"PMC6563312", "divid":14, "text":"To quantify the relative plaque sizes of the different CVB3 mutants, Vero cells were seeded in 10 cm dishes and grown to confluence. Approximately 30 plaque-forming units (PFU) of each mutant was diluted in a 2.5 mL inoculum of serum-free DMEM. The media on the Vero cells was aspirated and replaced with the 2.5 mL inoculum containing the virus. The inoculum was incubated on the cells for approximately 30 min at 37 • C. After 30 min, an overlay of 8 mL 0.8% agarose was added to each dish. The dishes were incubated at 37 • C for 2 days to allow plaque formation. The cells were fixed with 4% formalin and the agarose plugs removed. The fixed cells were stained with crystal violet. Plaque size was determined using ImageJ software (Version 1.51k) [29] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sch7zhx7",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6563312",
+   "divid": 14,
+   "text": "To quantify the relative plaque sizes of the different CVB3 mutants, Vero cells were seeded in 10 cm dishes and grown to confluence. Approximately 30 plaque-forming units (PFU) of each mutant was diluted in a 2.5 mL inoculum of serum-free DMEM. The media on the Vero cells was aspirated and replaced with the 2.5 mL inoculum containing the virus. The inoculum was incubated on the cells for approximately 30 min at 37 • C. After 30 min, an overlay of 8 mL 0.8% agarose was added to each dish. The dishes were incubated at 37 • C for 2 days to allow plaque formation. The cells were fixed with 4% formalin and the agarose plugs removed. The fixed cells were stained with crystal violet. Plaque size was determined using ImageJ software (Version 1.51k) [29] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

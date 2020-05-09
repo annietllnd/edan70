@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":18, "text":"The domain I of eEF1A was shown to be critical for the NS5A-eEF1A interaction, implying that it may be a potential target of anti-CSFV strategies. We also showed that eEF1A was able to bind to the IRES located in the 5 1 -UTR and inhibit its activity. In addition, we investigated the effects of eEF1A on the inhibition of the IRES activity by NS5A; however, we demonstrated that eEF1A did not antagonize the inhibition of the IRES activity by NS5A, indicating that NS5A and eEF1A perhaps bind to distinct parts of the IRES.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 18,
+   "text": "The domain I of eEF1A was shown to be critical for the NS5A-eEF1A interaction, implying that it may be a potential target of anti-CSFV strategies. We also showed that eEF1A was able to bind to the IRES located in the 5 1 -UTR and inhibit its activity. In addition, we investigated the effects of eEF1A on the inhibition of the IRES activity by NS5A; however, we demonstrated that eEF1A did not antagonize the inhibition of the IRES activity by NS5A, indicating that NS5A and eEF1A perhaps bind to distinct parts of the IRES.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

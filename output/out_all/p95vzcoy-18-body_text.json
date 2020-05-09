@@ -1,1 +1,8 @@
-{"cord_uid":"p95vzcoy", "sourcedb":"PMC", "sourceid":"PMC6920936", "divid":18, "text":"(2) = 42.39, p < 0.001) and sampling week (X 2 (1) = 38.43, p < 0.001), including their interaction term (X 2", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p95vzcoy",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6920936",
+   "divid": 18,
+   "text": "(2) = 42.39, p < 0.001) and sampling week (X 2 (1) = 38.43, p < 0.001), including their interaction term (X 2",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

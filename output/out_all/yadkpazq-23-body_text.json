@@ -1,1 +1,8 @@
-{"cord_uid":"yadkpazq", "sourcedb":"PMC", "sourceid":"PMC3537549", "divid":23, "text":"In order to determine whether a discrepancy in expression of TLR9 between the PBMCs of adult animals and kittens could play a role in these observations, mRNA levels of this gene were measured in immune cells of each cat. Although basal TLR9 expression was similar in the PBMCs of the cats of all age groups ( Figure 2F ), ODN 2216 stimulation increased TLR9 transcription in the cells of kittens, but decreased transcription of this gene in the cells of adult cats so that differences in the mRNA levels of this receptor were significantly higher in young cats (group 1) than in adult cats of groups 2 and 3 (p = 0.0286) ( Figure 2G ).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "yadkpazq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3537549",
+   "divid": 23,
+   "text": "In order to determine whether a discrepancy in expression of TLR9 between the PBMCs of adult animals and kittens could play a role in these observations, mRNA levels of this gene were measured in immune cells of each cat. Although basal TLR9 expression was similar in the PBMCs of the cats of all age groups ( Figure 2F ), ODN 2216 stimulation increased TLR9 transcription in the cells of kittens, but decreased transcription of this gene in the cells of adult cats so that differences in the mRNA levels of this receptor were significantly higher in young cats (group 1) than in adult cats of groups 2 and 3 (p = 0.0286) ( Figure 2G ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,18 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":2, "text":"Methods: From July 2004 to June 2007, we examined nasopharyngeal aspirates (NPA) from 2,230 cases of pneumonia (World Health Organization criteria) in children 2 to 35 months old recruited in a randomized trial of zinc supplementation at a field clinic in Bhaktapur, Nepal. The specimens were examined for respiratory syncytial virus (RSV), influenza virus type A (InfA) and B (InfB), parainfluenza virus types 1, 2 and 3 (PIV1, PIV2, and PIV3), and human metapneumovirus (hMPV) using a multiplex reverse transcriptase polymerase chain reaction (PCR) assay.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":101,"end":110}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 2,
+   "text": "Methods: From July 2004 to June 2007, we examined nasopharyngeal aspirates (NPA) from 2,230 cases of pneumonia (World Health Organization criteria) in children 2 to 35 months old recruited in a randomized trial of zinc supplementation at a field clinic in Bhaktapur, Nepal. The specimens were examined for respiratory syncytial virus (RSV), influenza virus type A (InfA) and B (InfB), parainfluenza virus types 1, 2 and 3 (PIV1, PIV2, and PIV3), and human metapneumovirus (hMPV) using a multiplex reverse transcriptase polymerase chain reaction (PCR) assay.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":101,
+              "end": 110
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

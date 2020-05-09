@@ -1,1 +1,8 @@
-{"cord_uid":"fqna8ffg", "sourcedb":"PMC", "sourceid":"PMC4915176", "divid":35, "text":"Alveolar macrophages were recovered from the lungs of mice by BAL with 8 washes of 1 ml PBS at room temperature. BAL cells were pelleted for 5 min at 425 g and washed twice in complete RPMI-1640 medium. 2 × 10 5 cells were seeded in 12-well plates and were allowed to adhere for 2 h. Non-adherent cells were removed by washing two times with PBS.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fqna8ffg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4915176",
+   "divid": 35,
+   "text": "Alveolar macrophages were recovered from the lungs of mice by BAL with 8 washes of 1 ml PBS at room temperature. BAL cells were pelleted for 5 min at 425 g and washed twice in complete RPMI-1640 medium. 2 × 10 5 cells were seeded in 12-well plates and were allowed to adhere for 2 h. Non-adherent cells were removed by washing two times with PBS.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

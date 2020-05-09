@@ -1,1 +1,42 @@
-{"cord_uid":"bvnqn8pn", "sourcedb":"PMC", "sourceid":"PMC5660758", "divid":21, "text":"Our data show that respiratory tract infections are the most common trigger for asthma exacerbations in both preschool-and school-aged children ( Figure 2 ). The importance of respiratory infectious agents, both viruses (e.g., respiratory syncytial virus, rhinovirus, metapneumovirus, parainfluenza virus, and coronavirus) and bacteria (e.g., Chlamydia pneumoniae, Mycoplasma pneumoniae), in the development of asthma exacerbations has been stressed by several authors [11] [12] [13] [14] . The role of infections in acute wheezing is even more evident in the first years of life. Indeed, our results highlight that almost all the wheezing preschool-aged children had an underlying respiratory illness. On the other hand, one-third of the children aged 6 or more had an asthma exacerbation induced by an allergic trigger, whereas in 10% the etiology could not be made out during the ED visit. In fact, several agents can elicit acute asthma: respiratory tract infections, environmental allergens, pollutants, and stress [14, 15] . Moreover, synergistic interactions between these factors might also very likely play a role [14] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":523,"end":531}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"}, {"id":"Symptom_Covid-19", "span":{"begin":631,"end":639}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"}]}
+{
+   "cord_uid": "bvnqn8pn",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5660758",
+   "divid": 21,
+   "text": "Our data show that respiratory tract infections are the most common trigger for asthma exacerbations in both preschool-and school-aged children ( Figure 2 ). The importance of respiratory infectious agents, both viruses (e.g., respiratory syncytial virus, rhinovirus, metapneumovirus, parainfluenza virus, and coronavirus) and bacteria (e.g., Chlamydia pneumoniae, Mycoplasma pneumoniae), in the development of asthma exacerbations has been stressed by several authors [11] [12] [13] [14] . The role of infections in acute wheezing is even more evident in the first years of life. Indeed, our results highlight that almost all the wheezing preschool-aged children had an underlying respiratory illness. On the other hand, one-third of the children aged 6 or more had an asthma exacerbation induced by an allergic trigger, whereas in 10% the etiology could not be made out during the ED visit. In fact, several agents can elicit acute asthma: respiratory tract infections, environmental allergens, pollutants, and stress [14, 15] . Moreover, synergistic interactions between these factors might also very likely play a role [14] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":353,
+              "end": 362
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":376,
+              "end": 385
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":523,
+              "end": 531
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":631,
+              "end": 639
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"
+       }
+   ]
+}

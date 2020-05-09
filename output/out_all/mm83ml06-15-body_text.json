@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":15, "text":"Viability of infected and treated cells was assessed by the water-soluble tetrazolium salt (WST)-1 assay (Roche) according to the manufacturer's instructions.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 15,
+   "text": "Viability of infected and treated cells was assessed by the water-soluble tetrazolium salt (WST)-1 assay (Roche) according to the manufacturer's instructions.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

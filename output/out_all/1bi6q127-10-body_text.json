@@ -1,1 +1,34 @@
-{"cord_uid":"1bi6q127", "sourcedb":"PMC", "sourceid":"PMC6410205", "divid":10, "text":"Several species of bats control inflammation by having a mutation at a highly conserved serine residue in one of the key adaptor molecules for sensing damaged DNA, i.e., stimulator of interferon genes (STING), which reduces its functionality. STING senses damaged DNA or dsDNA from viruses and induces an interferon response. The replacement of serine at position 358 by other amino acids makes bat STING less effective in activating interferons [30] . In addition to possessing a less effective STING, the pyrin and HIN domain (PHYIN) genes, which are involved in microbial DNA sensing and formation of inflammasome, are absent in bats [21, 31] . These findings demonstrate some of the reasons for reduced inflammation in bats during viral infection. Mechanisms to modulate inflammation may have evolved to mitigate the detrimental effects of flight. Excessive exposure to cytosolic DNA in bat cells during flight might have posed a strong natural selection pressure to reduce the activation of bat DNA sensors.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":32,"end":44}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"}, {"id":"Symptom_Covid-19", "span":{"begin":707,"end":719}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"}, {"id":"Symptom_Covid-19", "span":{"begin":775,"end":787}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"}]}
+{
+   "cord_uid": "1bi6q127",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6410205",
+   "divid": 10,
+   "text": "Several species of bats control inflammation by having a mutation at a highly conserved serine residue in one of the key adaptor molecules for sensing damaged DNA, i.e., stimulator of interferon genes (STING), which reduces its functionality. STING senses damaged DNA or dsDNA from viruses and induces an interferon response. The replacement of serine at position 358 by other amino acids makes bat STING less effective in activating interferons [30] . In addition to possessing a less effective STING, the pyrin and HIN domain (PHYIN) genes, which are involved in microbial DNA sensing and formation of inflammasome, are absent in bats [21, 31] . These findings demonstrate some of the reasons for reduced inflammation in bats during viral infection. Mechanisms to modulate inflammation may have evolved to mitigate the detrimental effects of flight. Excessive exposure to cytosolic DNA in bat cells during flight might have posed a strong natural selection pressure to reduce the activation of bat DNA sensors.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":32,
+              "end": 44
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":707,
+              "end": 719
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":775,
+              "end": 787
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6410205/"
+       }
+   ]
+}

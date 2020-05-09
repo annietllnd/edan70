@@ -1,1 +1,8 @@
-{"cord_uid":"b78pccz5", "sourcedb":"PMC", "sourceid":"PMC4895703", "divid":22, "text":"• The paper refers throughout to "optimization". I think a mathematician might object to the use of the term because the method doesn't actually use a formal optimization process. I don't think this is too much of a problem but I do think a clear statement of what the authors mean by optimization would be helpful (e.g. in the Methods). As I understand it, the "optimal" ventilation rate is just taken to be the one for which the health burden is smallest.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "b78pccz5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4895703",
+   "divid": 22,
+   "text": "• The paper refers throughout to \"optimization\". I think a mathematician might object to the use of the term because the method doesn't actually use a formal optimization process. I don't think this is too much of a problem but I do think a clear statement of what the authors mean by optimization would be helpful (e.g. in the Methods). As I understand it, the \"optimal\" ventilation rate is just taken to be the one for which the health burden is smallest.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

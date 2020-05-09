@@ -1,1 +1,18 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":100, "text":"Peroxisome Proliferator-Activated Receptor (PPARs) are ligand-activated transcription factors that belong to the superfamily of nuclear hormone receptors, which also includes receptors for vitamin D, vitamin A, thyroid hormone, bile acids, and steroid hormones. The PPAR subfamily comprises three isotypes, PPARα, PPARβ/δ, and PPARγ, which play various roles in lipid and carbohydrate metabolism, cell proliferation and differentiation, and inflammation [132, 133] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":441,"end":453}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"}]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 100,
+   "text": "Peroxisome Proliferator-Activated Receptor (PPARs) are ligand-activated transcription factors that belong to the superfamily of nuclear hormone receptors, which also includes receptors for vitamin D, vitamin A, thyroid hormone, bile acids, and steroid hormones. The PPAR subfamily comprises three isotypes, PPARα, PPARβ/δ, and PPARγ, which play various roles in lipid and carbohydrate metabolism, cell proliferation and differentiation, and inflammation [132, 133] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":441,
+              "end": 453
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"
+       }
+   ]
+}

@@ -1,1 +1,90 @@
-{"cord_uid":"7bgerq3r", "sourcedb":"PMC", "sourceid":"PMC5968208", "divid":1, "text":"Middle East Respiratory Syndrome (MERS) is a severe respiratory infection caused by a novel beta coronavirus (MERS-CoV) [1] [2] [3] . The symptoms of MERS include fever, chills, cough, shortness of breath, gastrointestinal symptoms, expectoration, wheezing, chest pain, hemoptysis, sore throat, headache, myalgia, abdominal pain, vomiting, and diarrhea; it can also cause death in severe cases [3] [4] [5] [6] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":185,"end":204}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":248,"end":256}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":282,"end":293}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":178,"end":183}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":163,"end":168}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":295,"end":303}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":314,"end":328}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":305,"end":312}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":344,"end":352}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}, {"id":"Symptom_Covid-19", "span":{"begin":330,"end":338}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"}]}
+{
+   "cord_uid": "7bgerq3r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5968208",
+   "divid": 1,
+   "text": "Middle East Respiratory Syndrome (MERS) is a severe respiratory infection caused by a novel beta coronavirus (MERS-CoV) [1] [2] [3] . The symptoms of MERS include fever, chills, cough, shortness of breath, gastrointestinal symptoms, expectoration, wheezing, chest pain, hemoptysis, sore throat, headache, myalgia, abdominal pain, vomiting, and diarrhea; it can also cause death in severe cases [3] [4] [5] [6] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":185,
+              "end": 204
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":248,
+              "end": 256
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":282,
+              "end": 293
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":178,
+              "end": 183
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":163,
+              "end": 168
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":295,
+              "end": 303
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":314,
+              "end": 328
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":305,
+              "end": 312
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":344,
+              "end": 352
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":330,
+              "end": 338
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5968208/"
+       }
+   ]
+}

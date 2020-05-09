@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":63, "text":"The confidence intervals for HFold and Iterative HFold with HotKnots hotspots are (73.35%, 83.53%) and (72.83%, 83.37%), respectively, and on pseudoknot-free structures they are (75.53%, 80.79%) and (74.93%, 80.26%) respectively. Again, based on the result of the permutation test, the difference in the results of HFold and Iterative HFold on pseudoknotted and pseudoknot-free structures are not significant. Similarly, the permutation test shows that the difference in prediction accuracy of HFold and Iterative HFold on SimFold input is not significant.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 63,
+   "text": "The confidence intervals for HFold and Iterative HFold with HotKnots hotspots are (73.35%, 83.53%) and (72.83%, 83.37%), respectively, and on pseudoknot-free structures they are (75.53%, 80.79%) and (74.93%, 80.26%) respectively. Again, based on the result of the permutation test, the difference in the results of HFold and Iterative HFold on pseudoknotted and pseudoknot-free structures are not significant. Similarly, the permutation test shows that the difference in prediction accuracy of HFold and Iterative HFold on SimFold input is not significant.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

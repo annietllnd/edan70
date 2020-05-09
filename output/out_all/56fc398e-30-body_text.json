@@ -1,1 +1,8 @@
-{"cord_uid":"56fc398e", "sourcedb":"PMC", "sourceid":"PMC4455802", "divid":30, "text":"The TNS method is consistently found to provide most accurate predictions of epidemic size, regardless of the county of disease introduction and disease parameters. In Devon, only 3% of the nodes require sampling for the TNS method to predict epidemic sizes at 6 weeks, compared with 10%, 20% and 80% for the SBS, RMS and RNS methods, respectively, with similar effects seen at 12 weeks and for the full epidemic (electronic supplementary material, figure S17). Similar behaviour is observed in Aberdeenshire (electronic supplementary material, figure S19) . The values for S min for the full epidemic for all sampling methods for epidemics seeded in the three counties are summarized in electronic supplementary material, table S1.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "56fc398e",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4455802",
+   "divid": 30,
+   "text": "The TNS method is consistently found to provide most accurate predictions of epidemic size, regardless of the county of disease introduction and disease parameters. In Devon, only 3% of the nodes require sampling for the TNS method to predict epidemic sizes at 6 weeks, compared with 10%, 20% and 80% for the SBS, RMS and RNS methods, respectively, with similar effects seen at 12 weeks and for the full epidemic (electronic supplementary material, figure S17). Similar behaviour is observed in Aberdeenshire (electronic supplementary material, figure S19) . The values for S min for the full epidemic for all sampling methods for epidemics seeded in the three counties are summarized in electronic supplementary material, table S1.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

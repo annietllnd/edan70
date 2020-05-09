@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":16, "text":"Since the goal is to predict the number of chest radiographs, for each city we fit a linear time series regression model, using the number of chest radiographs as the response, and the number of visits and temperature as predictor variables. We smooth the temperature series, because we believe that long-range temporal trends are more predictive of chest radiograph counts. Let {R k,t } denote the number of chest radiographs for the ED in city k (k = 1, 2, ..., 5) on day t and let", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 16,
+   "text": "Since the goal is to predict the number of chest radiographs, for each city we fit a linear time series regression model, using the number of chest radiographs as the response, and the number of visits and temperature as predictor variables. We smooth the temperature series, because we believe that long-range temporal trends are more predictive of chest radiograph counts. Let {R k,t } denote the number of chest radiographs for the ED in city k (k = 1, 2, ..., 5) on day t and let",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

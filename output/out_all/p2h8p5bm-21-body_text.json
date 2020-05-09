@@ -1,1 +1,8 @@
-{"cord_uid":"p2h8p5bm", "sourcedb":"PMC", "sourceid":"PMC6071234", "divid":21, "text":"Upon recognition, the different PRR will recruit distinct adaptor molecules. TLR3 recruits TIR-domain-containing adapter-inducing interferon-β (TRIF) [121] , TLR7 and 8 recruit myeloid differentiation primary response 88 (Myd88) [122] , whereas the RIG-I-like helicases, RIG-I and MDA-5, recruit interferon-beta promoter stimulator-1 (IPS-1) (also known as mitochondrial antiviral-signaling protein (MAVS), virus-induced signaling adapter (VISA) and CARD adapter-inducing IFN-beta (Cardif)) [123] [124] [125] [126] . Ligation of PRRs and downstream recruitment of the adapter molecules result in the activation of transcription factors NF-κB and interferon regulatory factor (IRF) 3 and IRF7, which translocate to the nucleus and induces the expression and subsequent secretion of type I IFN [127] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p2h8p5bm",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6071234",
+   "divid": 21,
+   "text": "Upon recognition, the different PRR will recruit distinct adaptor molecules. TLR3 recruits TIR-domain-containing adapter-inducing interferon-β (TRIF) [121] , TLR7 and 8 recruit myeloid differentiation primary response 88 (Myd88) [122] , whereas the RIG-I-like helicases, RIG-I and MDA-5, recruit interferon-beta promoter stimulator-1 (IPS-1) (also known as mitochondrial antiviral-signaling protein (MAVS), virus-induced signaling adapter (VISA) and CARD adapter-inducing IFN-beta (Cardif)) [123] [124] [125] [126] . Ligation of PRRs and downstream recruitment of the adapter molecules result in the activation of transcription factors NF-κB and interferon regulatory factor (IRF) 3 and IRF7, which translocate to the nucleus and induces the expression and subsequent secretion of type I IFN [127] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

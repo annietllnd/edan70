@@ -1,1 +1,42 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":9, "text":"Children with physician diagnosed, persistent wheezing unresponsive to ICS therapy, who underwent FOB + BAL between January 2005 and December 2007 were included. As a tertiary referral centre, we are referred children for further evaluation and treatment of persistent wheezing despite ICS treatment and anti-reflux therapy in those with demonstrated GERD. Our initial assessment includes a detailed history of disease, symptoms, signs and treatment adherence, a check for the appropriateness of treatment administration and dosage, and a thorough physical examination. In children without any apparent explanation for persistent wheezing, a work-up, including FOB + BAL is conducted. In these cases, FOB + BAL is always performed under stable condition, outside episodes of acute infection or exacerbation of respiratory symptoms.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":810,"end":830}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":46,"end":54}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":269,"end":277}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}, {"id":"Symptom_Covid-19", "span":{"begin":630,"end":638}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 9,
+   "text": "Children with physician diagnosed, persistent wheezing unresponsive to ICS therapy, who underwent FOB + BAL between January 2005 and December 2007 were included. As a tertiary referral centre, we are referred children for further evaluation and treatment of persistent wheezing despite ICS treatment and anti-reflux therapy in those with demonstrated GERD. Our initial assessment includes a detailed history of disease, symptoms, signs and treatment adherence, a check for the appropriateness of treatment administration and dosage, and a thorough physical examination. In children without any apparent explanation for persistent wheezing, a work-up, including FOB + BAL is conducted. In these cases, FOB + BAL is always performed under stable condition, outside episodes of acute infection or exacerbation of respiratory symptoms.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":810,
+              "end": 830
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":46,
+              "end": 54
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":269,
+              "end": 277
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":630,
+              "end": 638
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

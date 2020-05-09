@@ -1,1 +1,18 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":24, "text":"Most of the recent studies conducted in pigs have used CS in experimental conditions for the control of diarrhea in the post-weaning period ( Table 1) . Several of these studies were performed to examine the effectiveness of alternative substances to colistin in the treatment of PWD [77, 78] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":104,"end":112}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"}]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 24,
+   "text": "Most of the recent studies conducted in pigs have used CS in experimental conditions for the control of diarrhea in the post-weaning period ( Table 1) . Several of these studies were performed to examine the effectiveness of alternative substances to colistin in the treatment of PWD [77, 78] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":104,
+              "end": 112
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"
+       }
+   ]
+}

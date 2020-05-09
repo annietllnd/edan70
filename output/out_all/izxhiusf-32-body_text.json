@@ -1,1 +1,18 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":32, "text":"The Total cell count (TCC) in BAL-fluid was high (median: 1055.5/mm 3 , IQR: 544.5/mm 3 -2099.75/mm 3 ) and differential cytology revealed a neutrophilic inflammation in 24 of 28 (85.7 %) patients.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":154,"end":166}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"}]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 32,
+   "text": "The Total cell count (TCC) in BAL-fluid was high (median: 1055.5/mm 3 , IQR: 544.5/mm 3 -2099.75/mm 3 ) and differential cytology revealed a neutrophilic inflammation in 24 of 28 (85.7 %) patients.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":154,
+              "end": 166
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

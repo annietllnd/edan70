@@ -1,1 +1,8 @@
-{"cord_uid":"tg0tczni", "sourcedb":"PMC", "sourceid":"PMC3079669", "divid":8, "text":"The ENC is used to measure the degree of departure from the equal use of synonymous codons of coding regions of polioviruses. The values of the effective number of codon (ENC) range from 20 to 61. In an extremely biased gene where only one codon is used for each amino acid, this value would be 20; if all codons are used equally, it would be 61; and if the value of ENC is greater than 40, the codon usage bias was regarded as low. The values of ENC were obtained by EMBOSS CHIPS program [20] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "tg0tczni",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3079669",
+   "divid": 8,
+   "text": "The ENC is used to measure the degree of departure from the equal use of synonymous codons of coding regions of polioviruses. The values of the effective number of codon (ENC) range from 20 to 61. In an extremely biased gene where only one codon is used for each amino acid, this value would be 20; if all codons are used equally, it would be 61; and if the value of ENC is greater than 40, the codon usage bias was regarded as low. The values of ENC were obtained by EMBOSS CHIPS program [20] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

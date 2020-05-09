@@ -1,1 +1,74 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":13, "text":"Cats fed both Diets A and B had a numerical reduction in the mean weekly number of vomiting episodes, with little to no change in weekly diarrhea episodes, over the 4-week period ( Table 2 ). There were no differences between diet groups in the mean weekly number of vomiting or diarrhea episodes (p > 0.05). Significant differences were seen in vomiting episodes over time within cats fed Diet A between week 0 and weeks 2-4. These had fold changes in the number of vomiting occurrences Table 3) . Changes in vomiting episodes within cats fed Diet B did not reach significance over the 4-week study period (p > 0.05) ( Table 3) Table 4 ). The change in probability of vomiting within cats fed Diet B did not reach significance over the 4-week study period (p > 0.05) ( Table 4) .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":137,"end":145}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":279,"end":287}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":83,"end":91}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":267,"end":275}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":346,"end":354}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":467,"end":475}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":510,"end":518}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":669,"end":677}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 13,
+   "text": "Cats fed both Diets A and B had a numerical reduction in the mean weekly number of vomiting episodes, with little to no change in weekly diarrhea episodes, over the 4-week period ( Table 2 ). There were no differences between diet groups in the mean weekly number of vomiting or diarrhea episodes (p > 0.05). Significant differences were seen in vomiting episodes over time within cats fed Diet A between week 0 and weeks 2-4. These had fold changes in the number of vomiting occurrences Table 3) . Changes in vomiting episodes within cats fed Diet B did not reach significance over the 4-week study period (p > 0.05) ( Table 3) Table 4 ). The change in probability of vomiting within cats fed Diet B did not reach significance over the 4-week study period (p > 0.05) ( Table 4) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":137,
+              "end": 145
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":279,
+              "end": 287
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":83,
+              "end": 91
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":267,
+              "end": 275
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":346,
+              "end": 354
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":467,
+              "end": 475
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":510,
+              "end": 518
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":669,
+              "end": 677
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

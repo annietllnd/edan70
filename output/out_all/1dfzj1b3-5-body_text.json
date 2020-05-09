@@ -1,1 +1,18 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":5, "text":"If essential oils are able to scavenge some free radicals, they can also act as anti-inflammatory agents, because one of the inflammatory responses is the oxidative burst that occurs in diverse cells (monocytes, neutrophils, eosinophils, and macrophages). Phagocytosis of bacteria, which occurs during inflammation, is accompanied by a dramatic increase in oxygen consumption resulting in the formation of superoxide anion radical (O 2", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":302,"end":314}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"}]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 5,
+   "text": "If essential oils are able to scavenge some free radicals, they can also act as anti-inflammatory agents, because one of the inflammatory responses is the oxidative burst that occurs in diverse cells (monocytes, neutrophils, eosinophils, and macrophages). Phagocytosis of bacteria, which occurs during inflammation, is accompanied by a dramatic increase in oxygen consumption resulting in the formation of superoxide anion radical (O 2",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":302,
+              "end": 314
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"
+       }
+   ]
+}

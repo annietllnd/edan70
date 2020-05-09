@@ -1,1 +1,8 @@
-{"cord_uid":"klnsklr3", "sourcedb":"PMC", "sourceid":"PMC2699471", "divid":4, "text":"This is an open-access article distributed under the terms of the Creative Commons Public Domain declaration which stipulates that, once placed in the public domain, this work may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "klnsklr3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2699471",
+   "divid": 4,
+   "text": "This is an open-access article distributed under the terms of the Creative Commons Public Domain declaration which stipulates that, once placed in the public domain, this work may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

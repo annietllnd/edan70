@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":28, "text":"Effective concentrations of different compounds used: TPA 100 ng/ml, MG-132 50 μM, LPS 10 μg/ml.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 28,
+   "text": "Effective concentrations of different compounds used: TPA 100 ng/ml, MG-132 50 μM, LPS 10 μg/ml.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

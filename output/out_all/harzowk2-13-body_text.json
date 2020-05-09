@@ -1,1 +1,18 @@
-{"cord_uid":"harzowk2", "sourcedb":"PMC", "sourceid":"PMC3488377", "divid":13, "text":"Unlike the nasopharynx, the presence of any pathogens in the tracheal aspirates represents infection in the lower respiratory tract rather than carriage in the upper airway. Both pathogens are known to cause pneumonia on their own and both are not commonly carried by healthy young persons [5, 13, [19] [20] [21] [22] . These facts support the argument that they were copathogens with pneumococcus which was found in pleural fluid, tracheal aspirates, and blood. In conclusion, the simultaneous isolations of 3 respiratory viral and bacterial pathogens have not been reported in our locality and may contribute to the fatal outcome of this unfortunate child.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":208,"end":217}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"}]}
+{
+   "cord_uid": "harzowk2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3488377",
+   "divid": 13,
+   "text": "Unlike the nasopharynx, the presence of any pathogens in the tracheal aspirates represents infection in the lower respiratory tract rather than carriage in the upper airway. Both pathogens are known to cause pneumonia on their own and both are not commonly carried by healthy young persons [5, 13, [19] [20] [21] [22] . These facts support the argument that they were copathogens with pneumococcus which was found in pleural fluid, tracheal aspirates, and blood. In conclusion, the simultaneous isolations of 3 respiratory viral and bacterial pathogens have not been reported in our locality and may contribute to the fatal outcome of this unfortunate child.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":208,
+              "end": 217
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       }
+   ]
+}

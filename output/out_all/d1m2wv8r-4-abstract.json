@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":4, "text":"CPV quickly spread worldwide within months of identification and now threatens various species hosts 6 . CPV infection causes high fatality in neonatal animals and severe haemorrhagic enteritis in adult dogs 7 . It is introduced by faecal-oral transmission, and it initially infects and replicates in the rapidly dividing cells of lymphoid tissues, intestinal crypt epithelial cells, and precursor cells in the bone marrow. Severe haemorrhagic enteritis increases the risk for viral translocation and coliform septicaemia, leading to septic shock and ultimately death 8 . CPV infects cells by binding to the transferrin receptor 9 , and CPV pathogenicity is thought to be caused by the non-structural proteins of parvoviruses 10 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 4,
+   "text": "CPV quickly spread worldwide within months of identification and now threatens various species hosts 6 . CPV infection causes high fatality in neonatal animals and severe haemorrhagic enteritis in adult dogs 7 . It is introduced by faecal-oral transmission, and it initially infects and replicates in the rapidly dividing cells of lymphoid tissues, intestinal crypt epithelial cells, and precursor cells in the bone marrow. Severe haemorrhagic enteritis increases the risk for viral translocation and coliform septicaemia, leading to septic shock and ultimately death 8 . CPV infects cells by binding to the transferrin receptor 9 , and CPV pathogenicity is thought to be caused by the non-structural proteins of parvoviruses 10 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

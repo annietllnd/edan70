@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":19, "text":"FcRn expression was previously reported in human uterine and vaginal epithelial cells [19] . Using immunohistochemistry to survey FcRn protein expression at various sites in the human genital tract, we detected abundant FcRn expression in columnar epithelial cells lining the human penile urethra (Figure 5A and 5D; Figure S7A and S7D) and endocervix ( Figure 5B and 5E; Figure S7B and S7E). In contrast, little to no FcRn protein was observed in vaginal/ectocervical squamous epithelia, and expression occurred only in the basal epithelial layer ( Figure 5C and 5F; Figure S7C) . A similar staining pattern was observed in foreskin tissue (data not shown).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 19,
+   "text": "FcRn expression was previously reported in human uterine and vaginal epithelial cells [19] . Using immunohistochemistry to survey FcRn protein expression at various sites in the human genital tract, we detected abundant FcRn expression in columnar epithelial cells lining the human penile urethra (Figure 5A and 5D; Figure S7A and S7D) and endocervix ( Figure 5B and 5E; Figure S7B and S7E). In contrast, little to no FcRn protein was observed in vaginal/ectocervical squamous epithelia, and expression occurred only in the basal epithelial layer ( Figure 5C and 5F; Figure S7C) . A similar staining pattern was observed in foreskin tissue (data not shown).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

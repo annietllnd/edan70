@@ -1,1 +1,8 @@
-{"cord_uid":"56fc398e", "sourcedb":"PMC", "sourceid":"PMC4455802", "divid":12, "text":"For random movement sampling (RMS), we list the recorded movements and randomly sample from this list. The depleted rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20150205 network is then built from the remaining movements and the resultant network is rescaled such that the total weight of the rebuilt network is equal to that of the original network,", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "56fc398e",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4455802",
+   "divid": 12,
+   "text": "For random movement sampling (RMS), we list the recorded movements and randomly sample from this list. The depleted rspb.royalsocietypublishing.org Proc. R. Soc. B 282: 20150205 network is then built from the remaining movements and the resultant network is rescaled such that the total weight of the rebuilt network is equal to that of the original network,",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

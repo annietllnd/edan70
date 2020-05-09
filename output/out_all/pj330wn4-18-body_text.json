@@ -1,1 +1,8 @@
-{"cord_uid":"pj330wn4", "sourcedb":"PMC", "sourceid":"PMC3607980", "divid":18, "text":"The addition of the bacterial toxin pneumolysin reduced the mean CBF of ependymal cilia within 5 minutes ( Table 1 ). The mean CBF values after 5 minutes exposure to pneumolysin determined by the ciliaFA was 21.45 ± 4.1 Hz. Using the direct counting method, two different observers calculated a mean CBF of 21.75 ± 4.5 Hz and 21.79 ± 4.2 Hz respectively. Repeatability (agreement between methods) was very good and presented values similar to the agreement between two different observers (1.13 Hz and 1.08 Hz respectively). At 15 minutes after the addition of pneumolysin the cilia were mostly static ( Figure 2 ). The ciliaFA accurately predicted the reduction in CBF and detected regions of interest where the cilia had become static.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "pj330wn4",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3607980",
+   "divid": 18,
+   "text": "The addition of the bacterial toxin pneumolysin reduced the mean CBF of ependymal cilia within 5 minutes ( Table 1 ). The mean CBF values after 5 minutes exposure to pneumolysin determined by the ciliaFA was 21.45 ± 4.1 Hz. Using the direct counting method, two different observers calculated a mean CBF of 21.75 ± 4.5 Hz and 21.79 ± 4.2 Hz respectively. Repeatability (agreement between methods) was very good and presented values similar to the agreement between two different observers (1.13 Hz and 1.08 Hz respectively). At 15 minutes after the addition of pneumolysin the cilia were mostly static ( Figure 2 ). The ciliaFA accurately predicted the reduction in CBF and detected regions of interest where the cilia had become static.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":51, "text":"Using the AIC we find Model 1 fits best to the training data, even though it does not always yield the highest sensitivity.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 51,
+   "text": "Using the AIC we find Model 1 fits best to the training data, even though it does not always yield the highest sensitivity.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

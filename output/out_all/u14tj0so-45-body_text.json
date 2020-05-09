@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":45, "text":"In this section we explain details of our computational experiments.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 45,
+   "text": "In this section we explain details of our computational experiments.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

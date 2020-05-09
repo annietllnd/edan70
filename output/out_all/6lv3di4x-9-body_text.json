@@ -1,1 +1,8 @@
-{"cord_uid":"6lv3di4x", "sourcedb":"PMC", "sourceid":"PMC6258954", "divid":9, "text":"JEV infection of NEC induces chemokines mediating monocyte recruitment. Considering that the establishment of innate immune responses by virus-infected cells may also involve the production of chemokines responsible for the recruitment of immune cells to the site of infection, we measured the gene expression of several chemokines in JEV-infected porcine NEC (Fig. 6 ). mRNA expression levels of CCL2, CCL5, and CXCL10 were significantly upregulated by the virus at 48 and 72 hpi compared to those in mock controls ( Fig. 6A to C). Nevertheless, for CCL2, only JEV Laos induced a significant mRNA upregulation at 48 hpi (Fig. 6A) .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "6lv3di4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6258954",
+   "divid": 9,
+   "text": "JEV infection of NEC induces chemokines mediating monocyte recruitment. Considering that the establishment of innate immune responses by virus-infected cells may also involve the production of chemokines responsible for the recruitment of immune cells to the site of infection, we measured the gene expression of several chemokines in JEV-infected porcine NEC (Fig. 6 ). mRNA expression levels of CCL2, CCL5, and CXCL10 were significantly upregulated by the virus at 48 and 72 hpi compared to those in mock controls ( Fig. 6A to C). Nevertheless, for CCL2, only JEV Laos induced a significant mRNA upregulation at 48 hpi (Fig. 6A) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

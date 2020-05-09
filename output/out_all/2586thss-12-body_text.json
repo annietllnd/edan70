@@ -1,1 +1,8 @@
-{"cord_uid":"2586thss", "sourcedb":"PMC", "sourceid":"PMC3573733", "divid":12, "text":"Detection of HCV antibodies in clinical specimens. A total of 300 clinical samples was analyzed by the new DAS-LFIA method as described above and the HCV ELISA test kit (Shanghai Huaguan Biochip Co., Ltd.) according to the supplier's instructions.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "2586thss",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3573733",
+   "divid": 12,
+   "text": "Detection of HCV antibodies in clinical specimens. A total of 300 clinical samples was analyzed by the new DAS-LFIA method as described above and the HCV ELISA test kit (Shanghai Huaguan Biochip Co., Ltd.) according to the supplier's instructions.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

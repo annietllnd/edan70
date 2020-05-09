@@ -1,1 +1,18 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":29, "text":"(Thermo Scientific ™ ), containing a protease inhibitor cocktail, for 10 min under gentle shaking conditions. The samples were centrifuged at 15,000 g for 10 min, and the supernatants were collected. The protein concentrations were measured by the Bradford protein assay. iTRAQ labelling and peptide fractionation. The iTRAQ labelling was conducted according to the protocol of the iTRAQ reagents (8 plex, Applied Biosystems). Briefly, the protein samples were thermally denatured, reduced, and alkylated prior to trypsin (Promega) digestion for 15 h. The digested samples were labelled with each component of the iTRAQ reagent kit: two mock samples were labelled with 113 and 114; and five CPV-infected samples collected at 12, 24, 36, 48, and 60 hpi were labelled with 115, 116, 117, 118, and 119, respectively. Three biological replicates were prepared for all samples. Next, an equal ratio of each set was pooled for analysis.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":90,"end":97}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942776/"}]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 29,
+   "text": "(Thermo Scientific ™ ), containing a protease inhibitor cocktail, for 10 min under gentle shaking conditions. The samples were centrifuged at 15,000 g for 10 min, and the supernatants were collected. The protein concentrations were measured by the Bradford protein assay. iTRAQ labelling and peptide fractionation. The iTRAQ labelling was conducted according to the protocol of the iTRAQ reagents (8 plex, Applied Biosystems). Briefly, the protein samples were thermally denatured, reduced, and alkylated prior to trypsin (Promega) digestion for 15 h. The digested samples were labelled with each component of the iTRAQ reagent kit: two mock samples were labelled with 113 and 114; and five CPV-infected samples collected at 12, 24, 36, 48, and 60 hpi were labelled with 115, 116, 117, 118, and 119, respectively. Three biological replicates were prepared for all samples. Next, an equal ratio of each set was pooled for analysis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":90,
+              "end": 97
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4942776/"
+       }
+   ]
+}

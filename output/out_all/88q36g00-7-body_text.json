@@ -1,1 +1,8 @@
-{"cord_uid":"88q36g00", "sourcedb":"PMC", "sourceid":"PMC6003913", "divid":7, "text":"The prepulse inhibition (PPI) test was performed to evaluate sensorimotor integration by measuring the startle response to administered acoustic pulses, however, no significant differences were detected among the groups (Fig. 2B ).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "88q36g00",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6003913",
+   "divid": 7,
+   "text": "The prepulse inhibition (PPI) test was performed to evaluate sensorimotor integration by measuring the startle response to administered acoustic pulses, however, no significant differences were detected among the groups (Fig. 2B ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

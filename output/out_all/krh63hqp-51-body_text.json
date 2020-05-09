@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":51, "text":"Additional file 3: H1N1 genomic variation data, in .csv format.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 51,
+   "text": "Additional file 3: H1N1 genomic variation data, in .csv format.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

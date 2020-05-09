@@ -1,1 +1,18 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":35, "text":"Despite the high sensitivity and specificity of the Hexaplex Plus assay [15] , we may have underestimated the number of viral infections. Viral load in a specimen depends on several conditions, such as time of collection in relation to onset of illness. In most of the study children, the NPA specimen was collected early in the course of illness, which increases the likelihood of detecting an infectious agent [14] . Moreover, by not including children who had taken antibiotics during the last 48 hours, we primarily recruited new cases of pneumonia. Using multiplex instead of single molecular assays may have contributed to an underestimation of the number of viral CAP cases, as some loss of sensitivity is an inherent limitation of multiplex PCR assays [13] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":543,"end":552}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 35,
+   "text": "Despite the high sensitivity and specificity of the Hexaplex Plus assay [15] , we may have underestimated the number of viral infections. Viral load in a specimen depends on several conditions, such as time of collection in relation to onset of illness. In most of the study children, the NPA specimen was collected early in the course of illness, which increases the likelihood of detecting an infectious agent [14] . Moreover, by not including children who had taken antibiotics during the last 48 hours, we primarily recruited new cases of pneumonia. Using multiplex instead of single molecular assays may have contributed to an underestimation of the number of viral CAP cases, as some loss of sensitivity is an inherent limitation of multiplex PCR assays [13] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":543,
+              "end": 552
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

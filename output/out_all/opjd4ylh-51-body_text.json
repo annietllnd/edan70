@@ -1,1 +1,8 @@
-{"cord_uid":"opjd4ylh", "sourcedb":"PMC", "sourceid":"PMC6949926", "divid":51, "text":"TB is a major occupational hazard for Health care workers (HCWs) worldwide. The transmission of drug-sensitive and drug-resistant strains of Mycobacterium tuberculosis occurs through infected droplets aerosolized by patients with active pulmonary TB. The transmission risk to HCWs is highest when patients have unrecognized TB or are receiving inappropriate treatment. However, many other factors influence the risk of transmission and progression to active disease, including healthcare setting, occupational category, individual susceptibility/immune status, and the adequacy of TB infection control measures.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "opjd4ylh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6949926",
+   "divid": 51,
+   "text": "TB is a major occupational hazard for Health care workers (HCWs) worldwide. The transmission of drug-sensitive and drug-resistant strains of Mycobacterium tuberculosis occurs through infected droplets aerosolized by patients with active pulmonary TB. The transmission risk to HCWs is highest when patients have unrecognized TB or are receiving inappropriate treatment. However, many other factors influence the risk of transmission and progression to active disease, including healthcare setting, occupational category, individual susceptibility/immune status, and the adequacy of TB infection control measures.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

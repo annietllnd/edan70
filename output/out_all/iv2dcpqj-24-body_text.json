@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":24, "text":"The swine eEF1A gene (GenBank accession no. NM_001097418.2) and its various domains were amplified by PCR and cloned into the pCMV-Myc vector (Clontech, Palo Alto, CA, USA) to generate pMyc-eEF1A, pMyc-eEF1A(1-333), pMyc-eEF1A(1-237), pMyc-eEF1A(238-462) and pMyc-eEF1A(201-333), respectively. The CSFV NS5A gene (GenBank accession no. EU497410.1) was amplified by PCR and cloned into the p3ˆFlag-CMV-10 vector (Sigma-Aldrich, ST. Louis, MO, USA) or pCMV-Myc to generate p3ˆFlag-NS5A or pMyc-NS5A. The primers for amplifying eEF1A and NS5A genes are listed in Table 1 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 24,
+   "text": "The swine eEF1A gene (GenBank accession no. NM_001097418.2) and its various domains were amplified by PCR and cloned into the pCMV-Myc vector (Clontech, Palo Alto, CA, USA) to generate pMyc-eEF1A, pMyc-eEF1A(1-333), pMyc-eEF1A(1-237), pMyc-eEF1A(238-462) and pMyc-eEF1A(201-333), respectively. The CSFV NS5A gene (GenBank accession no. EU497410.1) was amplified by PCR and cloned into the p3ˆFlag-CMV-10 vector (Sigma-Aldrich, ST. Louis, MO, USA) or pCMV-Myc to generate p3ˆFlag-NS5A or pMyc-NS5A. The primers for amplifying eEF1A and NS5A genes are listed in Table 1 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

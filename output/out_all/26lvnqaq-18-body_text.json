@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":18, "text":"AIV quantitative real time RT-PCR (qRRT-PCR) was performed using the published probe and primers targeting the avian gene M from Spackman et al. [27] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 18,
+   "text": "AIV quantitative real time RT-PCR (qRRT-PCR) was performed using the published probe and primers targeting the avian gene M from Spackman et al. [27] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

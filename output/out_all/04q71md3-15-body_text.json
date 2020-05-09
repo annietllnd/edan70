@@ -1,1 +1,8 @@
-{"cord_uid":"04q71md3", "sourcedb":"PMC", "sourceid":"PMC3930559", "divid":15, "text":"Phylogeographic movement events among locations are modeled by a continuous-time Markov chain (CTMC) process along each branch of the viral phylogeny. Although both the transitions among locations (Markov jumps) and the waiting times between transitions (Markov rewards) are not directly observed, posterior expectations of these values can be efficiently computed [29, 30] . Here, we implement posterior inference of the complete Markov jump history through time in BEAST and use these estimates to assess the source-sink dynamics of influenza and to evaluate the predictive performance of phylogeographic models.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "04q71md3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3930559",
+   "divid": 15,
+   "text": "Phylogeographic movement events among locations are modeled by a continuous-time Markov chain (CTMC) process along each branch of the viral phylogeny. Although both the transitions among locations (Markov jumps) and the waiting times between transitions (Markov rewards) are not directly observed, posterior expectations of these values can be efficiently computed [29, 30] . Here, we implement posterior inference of the complete Markov jump history through time in BEAST and use these estimates to assess the source-sink dynamics of influenza and to evaluate the predictive performance of phylogeographic models.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

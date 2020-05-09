@@ -1,1 +1,8 @@
-{"cord_uid":"s1gwh4qg", "sourcedb":"PMC", "sourceid":"PMC2739203", "divid":9, "text":"The SNAD web site has six pages including a detailed guide to SNAD with examples ("Introduction"), program execution page ("Execution"), guided access to Java and Perl APIs ("APIs"), frequently asked questions page ("FAQs"), list of the SNAD versions ("History"), and "Reference" page. SNAD execution page has three vertically arranged sections: "Before unique ID (UID) conversion" for uploading input, "Names/format designer" for choosing and refining pre-compiled name templates, and "After UID conversion" for accessing output (Figure 2 ).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "s1gwh4qg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2739203",
+   "divid": 9,
+   "text": "The SNAD web site has six pages including a detailed guide to SNAD with examples (\"Introduction\"), program execution page (\"Execution\"), guided access to Java and Perl APIs (\"APIs\"), frequently asked questions page (\"FAQs\"), list of the SNAD versions (\"History\"), and \"Reference\" page. SNAD execution page has three vertically arranged sections: \"Before unique ID (UID) conversion\" for uploading input, \"Names/format designer\" for choosing and refining pre-compiled name templates, and \"After UID conversion\" for accessing output (Figure 2 ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

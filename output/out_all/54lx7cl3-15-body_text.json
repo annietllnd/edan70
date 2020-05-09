@@ -1,1 +1,42 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":15, "text":"Consistent with our first hypothesis, viral infection frequently has been associated with carriage of common pneumonia pathogens. In a cross-sectional analysis of aboriginal and non-aboriginal children in Western Australia, Jacoby et al. [18] observed positive associations between rhinovirus and S. pneumoniae, H. influenzae and M. catarrhalis and a positive association [48] between adenovirus and M. catarrhalis in the nasopharynx. In a US study, children with a viral URT co-infection not associated with otitis media had a higher prevalence of nontypeable H. influenzae and M. catarrhalis relative to healthy children. Furthermore, children with viral co-infection associated with acute otitis media had an increased prevalence of S. pneumoniae, nontypeable H. influenzae and M. catarrhalis but a decreased prevalence of a-hemolytic Streptococci [77] . van den Bergh et al. [26] assessed the prevalence of 20 respiratory viruses and the main commensal bacteria in the nasopharynx of 433 healthy Dutch children aged 6-24 months. In their study, rhinovirus was positively associated with S. pneumoniae and H. influenzae, RSV was positively associated with H. influenzae, coronaviruses and adenovirus were positively associated with M. catarrhalis, and influenza virus was positively associated S. aureus (Fig. 2) . However, as the associations found in the above-mentioned studies are based on cross-sectional analyses, we cannot determine whether viruses influenced carriage structure, bacterial carriage influenced host susceptibility to viruses or if bidirectional interactions occurred. Prospective studies are required to resolve this temporal ambiguity.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":109,"end":118}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 15,
+   "text": "Consistent with our first hypothesis, viral infection frequently has been associated with carriage of common pneumonia pathogens. In a cross-sectional analysis of aboriginal and non-aboriginal children in Western Australia, Jacoby et al. [18] observed positive associations between rhinovirus and S. pneumoniae, H. influenzae and M. catarrhalis and a positive association [48] between adenovirus and M. catarrhalis in the nasopharynx. In a US study, children with a viral URT co-infection not associated with otitis media had a higher prevalence of nontypeable H. influenzae and M. catarrhalis relative to healthy children. Furthermore, children with viral co-infection associated with acute otitis media had an increased prevalence of S. pneumoniae, nontypeable H. influenzae and M. catarrhalis but a decreased prevalence of a-hemolytic Streptococci [77] . van den Bergh et al. [26] assessed the prevalence of 20 respiratory viruses and the main commensal bacteria in the nasopharynx of 433 healthy Dutch children aged 6-24 months. In their study, rhinovirus was positively associated with S. pneumoniae and H. influenzae, RSV was positively associated with H. influenzae, coronaviruses and adenovirus were positively associated with M. catarrhalis, and influenza virus was positively associated S. aureus (Fig. 2) . However, as the associations found in the above-mentioned studies are based on cross-sectional analyses, we cannot determine whether viruses influenced carriage structure, bacterial carriage influenced host susceptibility to viruses or if bidirectional interactions occurred. Prospective studies are required to resolve this temporal ambiguity.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":109,
+              "end": 118
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":300,
+              "end": 309
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":739,
+              "end": 748
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1094,
+              "end": 1103
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

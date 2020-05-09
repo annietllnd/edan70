@@ -1,1 +1,8 @@
-{"cord_uid":"0pmo3opx", "sourcedb":"PMC", "sourceid":"PMC5431086", "divid":28, "text":"Statistical analysis. Data were analyzed using the unpaired, two-tailed Student t test. Differences at the 95% confidence level (P < 0.05) were considered to be statistically significant.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "0pmo3opx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5431086",
+   "divid": 28,
+   "text": "Statistical analysis. Data were analyzed using the unpaired, two-tailed Student t test. Differences at the 95% confidence level (P < 0.05) were considered to be statistically significant.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

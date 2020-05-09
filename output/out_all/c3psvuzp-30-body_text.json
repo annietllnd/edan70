@@ -1,1 +1,8 @@
-{"cord_uid":"c3psvuzp", "sourcedb":"PMC", "sourceid":"PMC4038475", "divid":30, "text":"PARP4 exon 30 sequences from primates have been deposited to Genbank under accession numbers KJ699095-KJ699100. PARP9, 14 and 15 mRNA sequences have been deposited to Genbank under accession numbers KJ697725-KJ697749.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "c3psvuzp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4038475",
+   "divid": 30,
+   "text": "PARP4 exon 30 sequences from primates have been deposited to Genbank under accession numbers KJ699095-KJ699100. PARP9, 14 and 15 mRNA sequences have been deposited to Genbank under accession numbers KJ697725-KJ697749.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":5, "text":"Virus containing cell culture supernatant was harvested 48 h after transfection of HEK293T cells with proviral expression constructs and passed through a 0.45 µm pore-size filter. Virus was pelleted", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 5,
+   "text": "Virus containing cell culture supernatant was harvested 48 h after transfection of HEK293T cells with proviral expression constructs and passed through a 0.45 µm pore-size filter. Virus was pelleted",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

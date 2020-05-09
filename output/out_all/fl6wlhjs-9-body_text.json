@@ -1,1 +1,8 @@
-{"cord_uid":"fl6wlhjs", "sourcedb":"PMC", "sourceid":"PMC2203979", "divid":9, "text":"In this article we consider time series methods for the modeling and detection of respiratory-related outbreak signatures based on chest radiograph ordering patterns from a number of pediatric emergency departments (EDs) located in the Midwestern region of the United States.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fl6wlhjs",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2203979",
+   "divid": 9,
+   "text": "In this article we consider time series methods for the modeling and detection of respiratory-related outbreak signatures based on chest radiograph ordering patterns from a number of pediatric emergency departments (EDs) located in the Midwestern region of the United States.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":7, "text":"HeLa cells were transiently transfected with pNLenv1 wt. After overnight cultivation at 37 • C the cell culture supernatant was harvested and VLPs released into the supernatant were pelleted through 20% (w/v) sucrose by centrifugation (20,000× g, 4 • C, 90 min), washed with ice cold PBS, centrifuged (20,000× g, 4 • C, 90 min), lysed in SDS-polyacrylamide gel electrophoresis (PAGE) sample buffer containing 2% SDS, and boiled for 5 min. The cells were detached and washed twice in ice cold PBS and lysed in RIPA buffer, supplemented with 1 mM PMSF, 5 mM NEM, and protease inhibitor cocktail Complete (Roche). The samples were analyzed by western blotting. Protein bands were quantified using AIDA [54] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 7,
+   "text": "HeLa cells were transiently transfected with pNLenv1 wt. After overnight cultivation at 37 • C the cell culture supernatant was harvested and VLPs released into the supernatant were pelleted through 20% (w/v) sucrose by centrifugation (20,000× g, 4 • C, 90 min), washed with ice cold PBS, centrifuged (20,000× g, 4 • C, 90 min), lysed in SDS-polyacrylamide gel electrophoresis (PAGE) sample buffer containing 2% SDS, and boiled for 5 min. The cells were detached and washed twice in ice cold PBS and lysed in RIPA buffer, supplemented with 1 mM PMSF, 5 mM NEM, and protease inhibitor cocktail Complete (Roche). The samples were analyzed by western blotting. Protein bands were quantified using AIDA [54] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

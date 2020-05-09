@@ -1,1 +1,8 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":38, "text":"These CPP-antiviral studies illustrate the search for the "perfect" CPP-cargo couple, as CPP carrier efficiency is dependent on the nature of its cargo, affecting the antiviral activity. This is particularly true for PPMO research where much effort has been put towards developing highly active peptides to outperform the more traditionally used penetratin and tat peptides [61, 62] . Improving CPP endosomolytical properties to intensify antiviral activity of the conjugated cargo has become a main focus, as the endosomal escape appears to be critical to antiviral activity [30] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 38,
+   "text": "These CPP-antiviral studies illustrate the search for the \"perfect\" CPP-cargo couple, as CPP carrier efficiency is dependent on the nature of its cargo, affecting the antiviral activity. This is particularly true for PPMO research where much effort has been put towards developing highly active peptides to outperform the more traditionally used penetratin and tat peptides [61, 62] . Improving CPP endosomolytical properties to intensify antiviral activity of the conjugated cargo has become a main focus, as the endosomal escape appears to be critical to antiviral activity [30] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

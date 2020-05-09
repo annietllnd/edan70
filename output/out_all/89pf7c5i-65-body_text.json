@@ -1,1 +1,8 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":65, "text":"Surgical removal of cutaneous nodules (performed in two cats) was followed by relapsing of cutaneous lesions [36, 51] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 65,
+   "text": "Surgical removal of cutaneous nodules (performed in two cats) was followed by relapsing of cutaneous lesions [36, 51] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

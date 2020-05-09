@@ -1,1 +1,8 @@
-{"cord_uid":"mm83ml06", "sourcedb":"PMC", "sourceid":"PMC5580479", "divid":28, "text":"Until now, the role of the vast variety of DUBs in the replication cycle of viruses is poorly understood, although there is an increasing evidence that besides HIV also other virus families evolved strategies to hijack the UPS in order to accomplish their own replication successfully. For Taken together, these results indicate that DIs, especially those targeting USP7 and USP47, not only inhibit HIV-1 replication but also lead to an enhanced polyubiquitination and thus entry of Gag into the MHC-I pathway.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "mm83ml06",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5580479",
+   "divid": 28,
+   "text": "Until now, the role of the vast variety of DUBs in the replication cycle of viruses is poorly understood, although there is an increasing evidence that besides HIV also other virus families evolved strategies to hijack the UPS in order to accomplish their own replication successfully. For Taken together, these results indicate that DIs, especially those targeting USP7 and USP47, not only inhibit HIV-1 replication but also lead to an enhanced polyubiquitination and thus entry of Gag into the MHC-I pathway.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

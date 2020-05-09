@@ -1,1 +1,8 @@
-{"cord_uid":"1bi6q127", "sourcedb":"PMC", "sourceid":"PMC6410205", "divid":8, "text":"These studies suggest that in bats of several species, higher level of interferon and ISGs are always present in their cells, which makes them better prepared to control viruses. Overall, bats seem to possess either an "always ON" interferon strategy plus or a better antiviral ISG defense strategy.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1bi6q127",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6410205",
+   "divid": 8,
+   "text": "These studies suggest that in bats of several species, higher level of interferon and ISGs are always present in their cells, which makes them better prepared to control viruses. Overall, bats seem to possess either an \"always ON\" interferon strategy plus or a better antiviral ISG defense strategy.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

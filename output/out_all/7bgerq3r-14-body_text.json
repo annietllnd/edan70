@@ -1,1 +1,8 @@
-{"cord_uid":"7bgerq3r", "sourcedb":"PMC", "sourceid":"PMC5968208", "divid":14, "text":"This study received approval from the bioethics committee of the KCDC (2015-08-EXP-03-P-A) and the institutional review board of the National Cancer Center (NCC 2016-0058). Informed consent was obtained from study participants or their parent or legal guardian for children under 14.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7bgerq3r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5968208",
+   "divid": 14,
+   "text": "This study received approval from the bioethics committee of the KCDC (2015-08-EXP-03-P-A) and the institutional review board of the National Cancer Center (NCC 2016-0058). Informed consent was obtained from study participants or their parent or legal guardian for children under 14.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

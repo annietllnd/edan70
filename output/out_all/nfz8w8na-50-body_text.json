@@ -1,1 +1,8 @@
-{"cord_uid":"nfz8w8na", "sourcedb":"PMC", "sourceid":"PMC7100305", "divid":50, "text":"Ironically, disease outbreaks facilitated the development of the Global Public Health Intelligence Network (GPHIN), an information sharing platform whose aim is to improve the credibility and authority of public health specialists to manage an outbreak. The platform is thought to have reduced the time between the outbreak and reporting and is thought to contribute to 40% of WHO's early warning and played a role in SARS notification, and subsequent outbreaks (Huff and Winnebah 2015) .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "nfz8w8na",
+   "sourcedb": "PMC",
+   "sourceid": "PMC7100305",
+   "divid": 50,
+   "text": "Ironically, disease outbreaks facilitated the development of the Global Public Health Intelligence Network (GPHIN), an information sharing platform whose aim is to improve the credibility and authority of public health specialists to manage an outbreak. The platform is thought to have reduced the time between the outbreak and reporting and is thought to contribute to 40% of WHO's early warning and played a role in SARS notification, and subsequent outbreaks (Huff and Winnebah 2015) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

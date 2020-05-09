@@ -1,1 +1,8 @@
-{"cord_uid":"rdgm0q7m", "sourcedb":"PMC", "sourceid":"PMC4937337", "divid":9, "text":"and similarly for % −2FS. In the formula, the number of methionines in the stop, −1FS and −2FS products are denoted by MetS, MetFS1 and MetFS2 respectively; while the densitometry values for the same products are denoted by IS, IFS1 and IFS2, respectively. All frameshift assays were carried out a minimum of three times and the measured frameshift efficiencies (±SEM) are provided in the Supplementary Data.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rdgm0q7m",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4937337",
+   "divid": 9,
+   "text": "and similarly for % −2FS. In the formula, the number of methionines in the stop, −1FS and −2FS products are denoted by MetS, MetFS1 and MetFS2 respectively; while the densitometry values for the same products are denoted by IS, IFS1 and IFS2, respectively. All frameshift assays were carried out a minimum of three times and the measured frameshift efficiencies (±SEM) are provided in the Supplementary Data.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,18 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":102, "text":"Only the essential oils of Teucrium brevifolia Schreber and Teucrium montbretii Benth. ssp. heliotropiifolium (Barbey) Davis from a group of four studied effectively inhibited LPS-induced NO production in macrophage cell line RAW 264.7. Spathulenol and δ-cadinene predominated in Teucrium brevifolia whereas carvacrol and caryophyllene oxide dominated in Teucrium montbretii. Such components revealed to be of great importance on the inhibition of NO production and, therefore, on the inflammation inhibition, since the main components of the remaining Teucrium species were caryophyllene and 4-vinyl guaiacol in Teucrium flavum L., and carvacrol and caryophyllene in Teucrium polium ssp. capitatum (L.) Arcangeli [137] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":485,"end":497}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"}]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 102,
+   "text": "Only the essential oils of Teucrium brevifolia Schreber and Teucrium montbretii Benth. ssp. heliotropiifolium (Barbey) Davis from a group of four studied effectively inhibited LPS-induced NO production in macrophage cell line RAW 264.7. Spathulenol and δ-cadinene predominated in Teucrium brevifolia whereas carvacrol and caryophyllene oxide dominated in Teucrium montbretii. Such components revealed to be of great importance on the inhibition of NO production and, therefore, on the inflammation inhibition, since the main components of the remaining Teucrium species were caryophyllene and 4-vinyl guaiacol in Teucrium flavum L., and carvacrol and caryophyllene in Teucrium polium ssp. capitatum (L.) Arcangeli [137] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":485,
+              "end": 497
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"
+       }
+   ]
+}

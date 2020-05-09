@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":87, "text":"The ability to inhibit IL-1β and IL-6 production but not TNF-α was attributed to 1,8-cineole, santoline, spathulenol and caryophyllene oxide, major constituents of the essential oil of Cinnamomum osmophloeum Kaneh. leaves [109] . Rosmarinus officinalis L. oil, mainly constituted by 1,8-cineole along with α-pinene, camphor and p-cymene was only able to reduce the pro-inflammatory IL-6 production in the mouse colon in which colitis was induced by 2,4,6-trinitrobenzene sulphonic acid (TNBS), not suppressing IL-1β [110] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 87,
+   "text": "The ability to inhibit IL-1β and IL-6 production but not TNF-α was attributed to 1,8-cineole, santoline, spathulenol and caryophyllene oxide, major constituents of the essential oil of Cinnamomum osmophloeum Kaneh. leaves [109] . Rosmarinus officinalis L. oil, mainly constituted by 1,8-cineole along with α-pinene, camphor and p-cymene was only able to reduce the pro-inflammatory IL-6 production in the mouse colon in which colitis was induced by 2,4,6-trinitrobenzene sulphonic acid (TNBS), not suppressing IL-1β [110] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

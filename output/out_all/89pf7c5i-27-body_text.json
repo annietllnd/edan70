@@ -1,1 +1,50 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":27, "text":"Non specific signs such as weight loss, reduced appetite, dehydration, and lethargy also have been reported. A list of other sporadic clinical manifestations described includes: pale mucous membranes, hepatomegaly, jaundice, cachexia, fever, vomiting, diarrhea, chronic nasal discharge, splenomegaly, polyuria/polydipsia, dyspnea, wheezing, abortion and hypothermia.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":331,"end":339}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}, {"id":"Symptom_Covid-19", "span":{"begin":235,"end":240}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}, {"id":"Symptom_Covid-19", "span":{"begin":27,"end":38}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}, {"id":"Symptom_Covid-19", "span":{"begin":252,"end":260}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}, {"id":"Symptom_Covid-19", "span":{"begin":242,"end":250}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"}]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 27,
+   "text": "Non specific signs such as weight loss, reduced appetite, dehydration, and lethargy also have been reported. A list of other sporadic clinical manifestations described includes: pale mucous membranes, hepatomegaly, jaundice, cachexia, fever, vomiting, diarrhea, chronic nasal discharge, splenomegaly, polyuria/polydipsia, dyspnea, wheezing, abortion and hypothermia.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":331,
+              "end": 339
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":235,
+              "end": 240
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":27,
+              "end": 38
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":252,
+              "end": 260
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":242,
+              "end": 250
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4462189/"
+       }
+   ]
+}

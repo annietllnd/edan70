@@ -1,1 +1,8 @@
-{"cord_uid":"sxohecoi", "sourcedb":"PMC", "sourceid":"PMC3836734", "divid":38, "text":"Env-specific IgG binding levels in seminal and CVL fluids were quantified by ELISA. Detergent-solubilized Env from HIV-1 US657 was captured by a polyclonal sheep anti-gp120 antibody (D7324, Aalto Bio Reagents Ltd). Sample IgG and an anti-gp120 mAb standard (b6) were serially diluted, added to wells, washed, and detected by anti-human IgG (gamma)-HRP (Sigma-Aldrich, A6029) antibody. Plates were subsequently developed, stopped, and read at OD 450 nm. The concentrations of Env-specific IgG in the seminal and CVL IgG samples were calculated using the mAb b6 standard and are reported as a percent of total IgG in each sample.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sxohecoi",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3836734",
+   "divid": 38,
+   "text": "Env-specific IgG binding levels in seminal and CVL fluids were quantified by ELISA. Detergent-solubilized Env from HIV-1 US657 was captured by a polyclonal sheep anti-gp120 antibody (D7324, Aalto Bio Reagents Ltd). Sample IgG and an anti-gp120 mAb standard (b6) were serially diluted, added to wells, washed, and detected by anti-human IgG (gamma)-HRP (Sigma-Aldrich, A6029) antibody. Plates were subsequently developed, stopped, and read at OD 450 nm. The concentrations of Env-specific IgG in the seminal and CVL IgG samples were calculated using the mAb b6 standard and are reported as a percent of total IgG in each sample.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

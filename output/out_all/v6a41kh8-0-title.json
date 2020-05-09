@@ -1,1 +1,18 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":0, "text":"BMC Medicine RNA viruses in community-acquired childhood pneumonia in semi-urban Nepal; a cross-sectional study", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":57,"end":66}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 0,
+   "text": "BMC Medicine RNA viruses in community-acquired childhood pneumonia in semi-urban Nepal; a cross-sectional study",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":57,
+              "end": 66
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

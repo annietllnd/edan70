@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":62, "text":"Eugenia caryophyllus (clove) showed the highest ferric reducing capacity in terms of Trolox ® concentrations, such as in the DPPH method, in contrast to the TBARS method, in which Thymus vulgaris showed to be more effective [52] . According to the same authors, a significant linear correlation between FRAP values and total phenolic contents of the essential oils analysed were observed, except for the Thymus vulgaris essential oil.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 62,
+   "text": "Eugenia caryophyllus (clove) showed the highest ferric reducing capacity in terms of Trolox ® concentrations, such as in the DPPH method, in contrast to the TBARS method, in which Thymus vulgaris showed to be more effective [52] . According to the same authors, a significant linear correlation between FRAP values and total phenolic contents of the essential oils analysed were observed, except for the Thymus vulgaris essential oil.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

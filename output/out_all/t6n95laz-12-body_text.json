@@ -1,1 +1,8 @@
-{"cord_uid":"t6n95laz", "sourcedb":"PMC", "sourceid":"PMC3820766", "divid":12, "text":"Proteomics research is a potentially useful and effective tool for studying pathogenesis, establishing prognosis and determining treatment outcomes in a variety of diseases. In the field of CHB, proteomics is not widely performed, presumably due to the mechanism of CHB being so complicated. The aim of this study was to describe the changes in serum protein levels in patients with CHB and HBV-induced ACLF, respectively, compared with healthy controls using iTRAQ and western blotting. The authors hypothesized that this approach had the potential to ultimately be beneficial for the identification of proteins that were important in the progression of HBV infections.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "t6n95laz",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3820766",
+   "divid": 12,
+   "text": "Proteomics research is a potentially useful and effective tool for studying pathogenesis, establishing prognosis and determining treatment outcomes in a variety of diseases. In the field of CHB, proteomics is not widely performed, presumably due to the mechanism of CHB being so complicated. The aim of this study was to describe the changes in serum protein levels in patients with CHB and HBV-induced ACLF, respectively, compared with healthy controls using iTRAQ and western blotting. The authors hypothesized that this approach had the potential to ultimately be beneficial for the identification of proteins that were important in the progression of HBV infections.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":114, "text":"Cleistocalyx operculatus (Roxb.) Merr and Perry oil not only significantly inhibited LPS-induced secretion of pro-inflammatory cytokines, TNF-α and IL-1b, in RAW 264.7 cells, as reported above, but also suppressed the mRNA expression of TNF-a and IL-1b as well as blocked LPS-induced transcriptional activation of NF-κB and nuclear translocation of p65 subunit [103] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 114,
+   "text": "Cleistocalyx operculatus (Roxb.) Merr and Perry oil not only significantly inhibited LPS-induced secretion of pro-inflammatory cytokines, TNF-α and IL-1b, in RAW 264.7 cells, as reported above, but also suppressed the mRNA expression of TNF-a and IL-1b as well as blocked LPS-induced transcriptional activation of NF-κB and nuclear translocation of p65 subunit [103] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

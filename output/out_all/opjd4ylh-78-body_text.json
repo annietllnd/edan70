@@ -1,1 +1,8 @@
-{"cord_uid":"opjd4ylh", "sourcedb":"PMC", "sourceid":"PMC6949926", "divid":78, "text":"Nurse (N3) indicated that: "We have an urgent need for good quality equipment and personal measures such as N95 respiratory masks, gloves and protective clothes like those in theatres, to protect us from contracting infection with our clothes and expose our families to risks of contracting infection."", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "opjd4ylh",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6949926",
+   "divid": 78,
+   "text": "Nurse (N3) indicated that: \"We have an urgent need for good quality equipment and personal measures such as N95 respiratory masks, gloves and protective clothes like those in theatres, to protect us from contracting infection with our clothes and expose our families to risks of contracting infection.\"",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

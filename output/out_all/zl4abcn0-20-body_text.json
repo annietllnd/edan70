@@ -1,1 +1,8 @@
-{"cord_uid":"zl4abcn0", "sourcedb":"PMC", "sourceid":"PMC4033353", "divid":20, "text":"In search of optimal chromatographic conditions, different mobile phase compositions were investigated. The mobile phases were acetonitrile-deionised distilled water (ddH 2 O) at ratios of 40 : 60 v/v, 35 : 75 v/v, 30 : 70 v/v, 25 : 75 v/v, 20 : 80 v/v, and 15 : 85 v/v, each at a flow rate of 1 mL/min. All these mobile phases resulted in peak splitting and tailing. The retention time was longer than 5 min. This phenomenon may be due to the ionization of the compound in the column.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zl4abcn0",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033353",
+   "divid": 20,
+   "text": "In search of optimal chromatographic conditions, different mobile phase compositions were investigated. The mobile phases were acetonitrile-deionised distilled water (ddH 2 O) at ratios of 40 : 60 v/v, 35 : 75 v/v, 30 : 70 v/v, 25 : 75 v/v, 20 : 80 v/v, and 15 : 85 v/v, each at a flow rate of 1 mL/min. All these mobile phases resulted in peak splitting and tailing. The retention time was longer than 5 min. This phenomenon may be due to the ionization of the compound in the column.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"jq0i4emg", "sourcedb":"PMC", "sourceid":"PMC3441612", "divid":9, "text":"θ t Probability that a neighbor of a root node has not transmitted yet the disease to the root node at time t.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "jq0i4emg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3441612",
+   "divid": 9,
+   "text": "θ t Probability that a neighbor of a root node has not transmitted yet the disease to the root node at time t.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

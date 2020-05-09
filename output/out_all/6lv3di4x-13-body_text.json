@@ -1,1 +1,8 @@
-{"cord_uid":"6lv3di4x", "sourcedb":"PMC", "sourceid":"PMC6258954", "divid":13, "text":"The first observation made in these experiments was that IL-4 treatment of macrophages enhanced infectivity and virus replication of both strains of JEV ( Fig. 7A and Fig.  8 ). The second observation was that JEV harvested from NEC had enhanced infectivity for IL-4-treated macrophages (Fig. 7A ) and resulted in higher levels of replication in all macrophage cultures than obtained with virus grown in Vero cells (Fig. 7B) . This indicated the presence of additional factors released by epithelial cells with a potential to enhance infection of macrophages.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "6lv3di4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6258954",
+   "divid": 13,
+   "text": "The first observation made in these experiments was that IL-4 treatment of macrophages enhanced infectivity and virus replication of both strains of JEV ( Fig. 7A and Fig.  8 ). The second observation was that JEV harvested from NEC had enhanced infectivity for IL-4-treated macrophages (Fig. 7A ) and resulted in higher levels of replication in all macrophage cultures than obtained with virus grown in Vero cells (Fig. 7B) . This indicated the presence of additional factors released by epithelial cells with a potential to enhance infection of macrophages.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

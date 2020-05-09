@@ -1,1 +1,8 @@
-{"cord_uid":"ff7dg890", "sourcedb":"PMC", "sourceid":"PMC1181873", "divid":21, "text":"We may obtain an estimate for R 0 by calculating the initial growth rate (k) of an infection from data and equating it to the growth rate of the equations, calculated from the dominant eigenvalue of the disease-free equilibrium (see Methods). Such an exercise reveals that for any observed k, the precise value of R 0 estimated is crucially dependent on the fundamental assumptions made concerning the distributions of latent and infectious periods. Specifically, we find that the following equation determines the relationship between R 0 and an empirically estimated epidemic growth rate, k:", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "ff7dg890",
+   "sourcedb": "PMC",
+   "sourceid": "PMC1181873",
+   "divid": 21,
+   "text": "We may obtain an estimate for R 0 by calculating the initial growth rate (k) of an infection from data and equating it to the growth rate of the equations, calculated from the dominant eigenvalue of the disease-free equilibrium (see Methods). Such an exercise reveals that for any observed k, the precise value of R 0 estimated is crucially dependent on the fundamental assumptions made concerning the distributions of latent and infectious periods. Specifically, we find that the following equation determines the relationship between R 0 and an empirically estimated epidemic growth rate, k:",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

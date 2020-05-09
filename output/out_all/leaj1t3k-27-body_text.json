@@ -1,1 +1,8 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":27, "text":"Upadhyay et a l. demonstrated that PNA TAR -penetratin conjugate is moderately immunogenic mainly due to its penetratin moiety [100] . Cytokine secretion profiles of the lymph node cells showed elevated levels of proinflammatory cytokines, such as IL-2 and IL-12, which are known to promote proliferation of T lymphocytes and slow down the death of CD4+ T cells. The authors emphasize that these immunogenic properties of the conjugate could prove to be beneficial to the host.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 27,
+   "text": "Upadhyay et a l. demonstrated that PNA TAR -penetratin conjugate is moderately immunogenic mainly due to its penetratin moiety [100] . Cytokine secretion profiles of the lymph node cells showed elevated levels of proinflammatory cytokines, such as IL-2 and IL-12, which are known to promote proliferation of T lymphocytes and slow down the death of CD4+ T cells. The authors emphasize that these immunogenic properties of the conjugate could prove to be beneficial to the host.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

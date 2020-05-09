@@ -1,1 +1,42 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":29, "text":"The comparisons between frequencies of single infections and coinfections for S. pneumoniae and K. pneumoniae generated significant P-values of 0.0001 and 0.001, respectively. For Streptococcus species, although coinfection cases were higher than single infection cases, the difference did not generate a significant P value. Higher rates of bacterial coinfections by S. pneumoniae and K pneumoniae in synergy with viruses may indicate that predominant ARI viruses predispose their hosts to secondary infections by bacteria.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 29,
+   "text": "The comparisons between frequencies of single infections and coinfections for S. pneumoniae and K. pneumoniae generated significant P-values of 0.0001 and 0.001, respectively. For Streptococcus species, although coinfection cases were higher than single infection cases, the difference did not generate a significant P value. Higher rates of bacterial coinfections by S. pneumoniae and K pneumoniae in synergy with viruses may indicate that predominant ARI viruses predispose their hosts to secondary infections by bacteria.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":81,
+              "end": 90
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":99,
+              "end": 108
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":371,
+              "end": 380
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":388,
+              "end": 397
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       }
+   ]
+}

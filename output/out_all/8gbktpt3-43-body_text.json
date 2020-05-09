@@ -1,1 +1,8 @@
-{"cord_uid":"8gbktpt3", "sourcedb":"PMC", "sourceid":"PMC6950618", "divid":43, "text":"Molecular analysis of faeces from dogs displaying signs of acute gastroenteritis shortly after CPV vaccination ruled out reversion to virulence of CPV MLV, since co-infection with field strains of CPV or other pathogens including Canine coronavirus, Canine distemper virus and Isospora canis was detected [33] . In three pups in which only the vaccine virus was detected, CPV vaccine loads were lower than those associated with enteritis from CPV field strains, ranging from 1.03 × 10 3 to 1.78 × 10 5 DNA copies/mg of faeces [33] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8gbktpt3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6950618",
+   "divid": 43,
+   "text": "Molecular analysis of faeces from dogs displaying signs of acute gastroenteritis shortly after CPV vaccination ruled out reversion to virulence of CPV MLV, since co-infection with field strains of CPV or other pathogens including Canine coronavirus, Canine distemper virus and Isospora canis was detected [33] . In three pups in which only the vaccine virus was detected, CPV vaccine loads were lower than those associated with enteritis from CPV field strains, ranging from 1.03 × 10 3 to 1.78 × 10 5 DNA copies/mg of faeces [33] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

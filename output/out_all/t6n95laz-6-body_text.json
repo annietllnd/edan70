@@ -1,1 +1,8 @@
-{"cord_uid":"t6n95laz", "sourcedb":"PMC", "sourceid":"PMC3820766", "divid":6, "text":"Protein digestion and peptide tagging. Protein solutions [100 µg; 5 mg/ml in 0.5 M triethyl ammonium bicarbonate (TEAB) containing 0.1% sodium dodecyl sulfate, pH 8.5]were digested for 24 h with 10 µg L-1-(4-tosylamido)-2-phenylethyl tosylphenylalanyl chloromethyl ketone (TPCK)-treated trypsin. Each peptide solution was labeled for 3 h at room temperature using an iTRAQ reagent that had been reconstituted in 70 liters of ethanol, in accordance with the iTRAQ Reagents Multiplex kit instructions (Applied Biosystems, Foster City, CA, USA). The reaction was terminated by adding MilliQ water, and the samples were labeled with 114, 115, 116 and 117 mass-tagged iTRAQ reagents.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "t6n95laz",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3820766",
+   "divid": 6,
+   "text": "Protein digestion and peptide tagging. Protein solutions [100 µg; 5 mg/ml in 0.5 M triethyl ammonium bicarbonate (TEAB) containing 0.1% sodium dodecyl sulfate, pH 8.5]were digested for 24 h with 10 µg L-1-(4-tosylamido)-2-phenylethyl tosylphenylalanyl chloromethyl ketone (TPCK)-treated trypsin. Each peptide solution was labeled for 3 h at room temperature using an iTRAQ reagent that had been reconstituted in 70 liters of ethanol, in accordance with the iTRAQ Reagents Multiplex kit instructions (Applied Biosystems, Foster City, CA, USA). The reaction was terminated by adding MilliQ water, and the samples were labeled with 114, 115, 116 and 117 mass-tagged iTRAQ reagents.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

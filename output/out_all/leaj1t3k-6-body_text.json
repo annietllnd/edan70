@@ -1,1 +1,8 @@
-{"cord_uid":"leaj1t3k", "sourcedb":"PMC", "sourceid":"PMC4033964", "divid":6, "text":"Current techniques for cellular delivery of antivirals include targeted liposomes in cell culture and in mice [11] [12] [13] [14] , receptor-mediated endocytosis through antibody binding in cell culture and in mice [15] , retroviral vectors in cell culture [16] , as well as adenoviruses in vaccine delivery [17] . However these techniques present certain limitations and concerns: low efficiency [11, 15] , immunogenicity [14, 15] , stability and rapid clearance in bloodstream [18] for liposomal reagents, and immunogenicity and viral integration on host gene expression for viral vectors [15, 19] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "leaj1t3k",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033964",
+   "divid": 6,
+   "text": "Current techniques for cellular delivery of antivirals include targeted liposomes in cell culture and in mice [11] [12] [13] [14] , receptor-mediated endocytosis through antibody binding in cell culture and in mice [15] , retroviral vectors in cell culture [16] , as well as adenoviruses in vaccine delivery [17] . However these techniques present certain limitations and concerns: low efficiency [11, 15] , immunogenicity [14, 15] , stability and rapid clearance in bloodstream [18] for liposomal reagents, and immunogenicity and viral integration on host gene expression for viral vectors [15, 19] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

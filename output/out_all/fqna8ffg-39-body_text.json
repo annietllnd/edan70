@@ -1,1 +1,8 @@
-{"cord_uid":"fqna8ffg", "sourcedb":"PMC", "sourceid":"PMC4915176", "divid":39, "text":"All values are showed as the mean ± SEM of at least five animals or four independent samples for isolated cells. We used the analysis of variance (ANOVA), as calculated by GraphPad Prism 5, to determine the statistical significance of differences between the experimental groups. Individual inter-group comparisons were analysed using the two-tailed unpaired t test with Welch's correction. Differences were considered significant at *, p < 0.05; **, p < 0.01 and ***, p < 0.001.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "fqna8ffg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4915176",
+   "divid": 39,
+   "text": "All values are showed as the mean ± SEM of at least five animals or four independent samples for isolated cells. We used the analysis of variance (ANOVA), as calculated by GraphPad Prism 5, to determine the statistical significance of differences between the experimental groups. Individual inter-group comparisons were analysed using the two-tailed unpaired t test with Welch's correction. Differences were considered significant at *, p < 0.05; **, p < 0.01 and ***, p < 0.001.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

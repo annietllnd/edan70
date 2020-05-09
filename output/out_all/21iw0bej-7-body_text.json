@@ -1,1 +1,8 @@
-{"cord_uid":"21iw0bej", "sourcedb":"PMC", "sourceid":"PMC5296350", "divid":7, "text":"Cells were mock-infected or infected with EV-D68 or EV-A71 at a multiplicity of infection (MOI) of 0.8. After 2 h of virus adsorption, cells were washed with phosphate-buffered saline (PBS) one time, then added fresh culture medium.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "21iw0bej",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5296350",
+   "divid": 7,
+   "text": "Cells were mock-infected or infected with EV-D68 or EV-A71 at a multiplicity of infection (MOI) of 0.8. After 2 h of virus adsorption, cells were washed with phosphate-buffered saline (PBS) one time, then added fresh culture medium.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

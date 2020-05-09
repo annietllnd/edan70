@@ -1,1 +1,8 @@
-{"cord_uid":"krh63hqp", "sourcedb":"PMC", "sourceid":"PMC3507676", "divid":47, "text":"Sequence analysis confirms that the human H1N1 strain went extinct in 1957, but was reintroduced in 1976, apparently from a specimen frozen in the early 1950s. The resulting "frozen" lineage appeared less mutated compared to all other contemporary H1N1 strains (i.e., porcine strains and a few rare H1N1 strains appearing in humans but not derived from the frozen strain). Consistent with the genetic attenuation model, the frozen human H1N1 lineage disappeared in 2009, and may now be extinct.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "krh63hqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3507676",
+   "divid": 47,
+   "text": "Sequence analysis confirms that the human H1N1 strain went extinct in 1957, but was reintroduced in 1976, apparently from a specimen frozen in the early 1950s. The resulting \"frozen\" lineage appeared less mutated compared to all other contemporary H1N1 strains (i.e., porcine strains and a few rare H1N1 strains appearing in humans but not derived from the frozen strain). Consistent with the genetic attenuation model, the frozen human H1N1 lineage disappeared in 2009, and may now be extinct.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

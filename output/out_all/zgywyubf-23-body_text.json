@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":23, "text":"Owing to its central role in regulating multiple cell signaling pathways, modulation of NFKB activity has been an attractive target of many viral factors in order to allow them to exploit the host cell signaling machinery to their benefit. We have identified the ability of the ORF2 protein of the HEV to inhibit host cell NFKB activity. However, whether such an event is recapitulated during the natural course of HEV infection and whether it is crucial for the virus induced pathogenic effects, can be answered only by performing similar experiments using a model organism infected with the wild type virus. Nevertheless, the present study confirms the NFKB inhibitory property of the HEV ORF2 protein and provides some evidence suggesting a plausible mechanism underlying this event.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 23,
+   "text": "Owing to its central role in regulating multiple cell signaling pathways, modulation of NFKB activity has been an attractive target of many viral factors in order to allow them to exploit the host cell signaling machinery to their benefit. We have identified the ability of the ORF2 protein of the HEV to inhibit host cell NFKB activity. However, whether such an event is recapitulated during the natural course of HEV infection and whether it is crucial for the virus induced pathogenic effects, can be answered only by performing similar experiments using a model organism infected with the wild type virus. Nevertheless, the present study confirms the NFKB inhibitory property of the HEV ORF2 protein and provides some evidence suggesting a plausible mechanism underlying this event.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

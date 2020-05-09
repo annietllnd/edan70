@@ -1,1 +1,8 @@
-{"cord_uid":"tg0tczni", "sourcedb":"PMC", "sourceid":"PMC3079669", "divid":2, "text":"The relative synonymous codon usage (RSCU) values, effective number of codon (ENC) values, nucleotide contents and dinucleotides were investigated and a comparative analysis of codon usage pattern for open reading frames (ORFs) among 48 polioviruses isolates including 31 of genotype 1, 13 of genotype 2 and 4 of genotype 3.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "tg0tczni",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3079669",
+   "divid": 2,
+   "text": "The relative synonymous codon usage (RSCU) values, effective number of codon (ENC) values, nucleotide contents and dinucleotides were investigated and a comparative analysis of codon usage pattern for open reading frames (ORFs) among 48 polioviruses isolates including 31 of genotype 1, 13 of genotype 2 and 4 of genotype 3.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

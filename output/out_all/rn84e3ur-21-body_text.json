@@ -1,1 +1,18 @@
-{"cord_uid":"rn84e3ur", "sourcedb":"PMC", "sourceid":"PMC4133625", "divid":21, "text":"where P I is the infection risk of the susceptible passenger after the flight, which demonstrates the infection possibility of the susceptible passenger; t 0 is the exposure time interval of the flight, hr; f s is the cough frequency, 18/hr [46] ; r l is the infectivity of pathogens in the droplets of the lth size bin; and r is the integrated infectivity factor for all pathogens. For the SARS-CoV, the infectivity of pathogens contained in the droplets of different size classes show no differences, hence the infectivity r l can be expressed as r. According to the experiments on mice for the development of vaccine, efficient replication of the virus is found in the respiratory tract of the mice after they are administered at a very low dose of the SARS-CoV [47, 48] , indicating high infectivity of the SARS-CoV. Since no other infectivity data is found, the infectivity factor r is assumed as 1 per pfu of virus in this work because of the high infectivity of the SARS-CoV. In Eq. (2), N c f s t 0 D(x, t 0 ) can also be regarded as the intake dose of the passenger. To evaluate the effects of different human movement behaviors, the intake fractions of the seated passengers can be expressed as followed:", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":218,"end":223}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"}]}
+{
+   "cord_uid": "rn84e3ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4133625",
+   "divid": 21,
+   "text": "where P I is the infection risk of the susceptible passenger after the flight, which demonstrates the infection possibility of the susceptible passenger; t 0 is the exposure time interval of the flight, hr; f s is the cough frequency, 18/hr [46] ; r l is the infectivity of pathogens in the droplets of the lth size bin; and r is the integrated infectivity factor for all pathogens. For the SARS-CoV, the infectivity of pathogens contained in the droplets of different size classes show no differences, hence the infectivity r l can be expressed as r. According to the experiments on mice for the development of vaccine, efficient replication of the virus is found in the respiratory tract of the mice after they are administered at a very low dose of the SARS-CoV [47, 48] , indicating high infectivity of the SARS-CoV. Since no other infectivity data is found, the infectivity factor r is assumed as 1 per pfu of virus in this work because of the high infectivity of the SARS-CoV. In Eq. (2), N c f s t 0 D(x, t 0 ) can also be regarded as the intake dose of the passenger. To evaluate the effects of different human movement behaviors, the intake fractions of the seated passengers can be expressed as followed:",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":218,
+              "end": 223
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4133625/"
+       }
+   ]
+}

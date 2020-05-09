@@ -1,1 +1,18 @@
-{"cord_uid":"oti9btqp", "sourcedb":"PMC", "sourceid":"PMC5707885", "divid":19, "text":"evidence of weight loss (Figures 5c,d) . The infection of control mice with ZIKV-PR209 virus produced a marked decrease in body weight along with decreased mobility, hunched posture, hindlimb knuckle walking and/or paralysis of one or both hind limbs (Figures 5e,f) .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":12,"end":23}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707885/"}]}
+{
+   "cord_uid": "oti9btqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5707885",
+   "divid": 19,
+   "text": "evidence of weight loss (Figures 5c,d) . The infection of control mice with ZIKV-PR209 virus produced a marked decrease in body weight along with decreased mobility, hunched posture, hindlimb knuckle walking and/or paralysis of one or both hind limbs (Figures 5e,f) .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":12,
+              "end": 23
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5707885/"
+       }
+   ]
+}

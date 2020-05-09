@@ -1,1 +1,8 @@
-{"cord_uid":"2586thss", "sourcedb":"PMC", "sourceid":"PMC3573733", "divid":18, "text":"Immunoassay of the 300 clinical specimens. A total of 300 samples was measured using the anti-HCV DAS-LFIA strip and anti-HCV ELISA immunoassays. In these 300 cases, we found that the rate of the anti-HCV DAS-LFIA strip and the ELISA-negative one was 78% (234/300). The rate of anti-HCV DAS-LFIA-negative but ELISA-positive was 2% (6/300). The rate of the anti-HCV DAS-LFIA-positive strip but the ELISAnegative one was 3.67% (11/300). The rate of the anti-HCV DAS-LFIA and ELISA-positive was 16.33% (49/300). The concordance between the ELISA and DAS-LFIA methods was 94.33%. The disagreement rate between the ELISA and DAS-LFIA methods was not significant (χ 2 = 0.941, P= 0.332) ( Table V) . ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "2586thss",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3573733",
+   "divid": 18,
+   "text": "Immunoassay of the 300 clinical specimens. A total of 300 samples was measured using the anti-HCV DAS-LFIA strip and anti-HCV ELISA immunoassays. In these 300 cases, we found that the rate of the anti-HCV DAS-LFIA strip and the ELISA-negative one was 78% (234/300). The rate of anti-HCV DAS-LFIA-negative but ELISA-positive was 2% (6/300). The rate of the anti-HCV DAS-LFIA-positive strip but the ELISAnegative one was 3.67% (11/300). The rate of the anti-HCV DAS-LFIA and ELISA-positive was 16.33% (49/300). The concordance between the ELISA and DAS-LFIA methods was 94.33%. The disagreement rate between the ELISA and DAS-LFIA methods was not significant (χ 2 = 0.941, P= 0.332) ( Table V) . ",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

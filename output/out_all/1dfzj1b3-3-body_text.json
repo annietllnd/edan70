@@ -1,1 +1,18 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":3, "text":"The proportions of the components present in essential oils vary greatly. Major components can constitute up to 85% of the essential oils, while the remaining components can be present in only trace OPEN ACCESS communication between plants [3, 13] . The detection of some of these biological properties needed for the survival of plants has also been the base for searching similar properties for the combat of several microorganisms responsible for some infectious diseases in humans and animals. This search intends to respond to the increasing resistance of pathogenic microbes to antibiotics. Reichling et al. (2009) [14] have compiled the most important results about antibacterial and antiviral properties of essential oils published in the last decade. In this review, the essential oils against bacteria from the respiratory tract, anti-Helicobacter pylori, anti-Mycoplasma pneumoniae; essential oils against DNA virus: HSV1 (herpes simplex virus), HSV-2, NDV (Newcastle disease); or RNA virus: SARS-Cov (severe acute respiratory syndrome-associated coronavirus), and Junin virus were overviewed. In addition, essential oils have also revealed to be effective on the inhibition of growth and reduction in numbers of the more serious foodborne pathogens such as Salmonella spp., E. coli O157:H7 and Listeria monocytogenes [2] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 3,
+   "text": "The proportions of the components present in essential oils vary greatly. Major components can constitute up to 85% of the essential oils, while the remaining components can be present in only trace OPEN ACCESS communication between plants [3, 13] . The detection of some of these biological properties needed for the survival of plants has also been the base for searching similar properties for the combat of several microorganisms responsible for some infectious diseases in humans and animals. This search intends to respond to the increasing resistance of pathogenic microbes to antibiotics. Reichling et al. (2009) [14] have compiled the most important results about antibacterial and antiviral properties of essential oils published in the last decade. In this review, the essential oils against bacteria from the respiratory tract, anti-Helicobacter pylori, anti-Mycoplasma pneumoniae; essential oils against DNA virus: HSV1 (herpes simplex virus), HSV-2, NDV (Newcastle disease); or RNA virus: SARS-Cov (severe acute respiratory syndrome-associated coronavirus), and Junin virus were overviewed. In addition, essential oils have also revealed to be effective on the inhibition of growth and reduction in numbers of the more serious foodborne pathogens such as Salmonella spp., E. coli O157:H7 and Listeria monocytogenes [2] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":882,
+              "end": 891
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"
+       }
+   ]
+}

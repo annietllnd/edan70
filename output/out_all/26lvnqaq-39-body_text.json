@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":39, "text":"We evaluated the viral colonization of organs carrying out three complementary assays, namely the detection of the virus M gene by qRRT-PCR, isolation and titration of the virus in MDCK cells by TCID 50 and the detection of the virus NP protein by IHC.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 39,
+   "text": "We evaluated the viral colonization of organs carrying out three complementary assays, namely the detection of the virus M gene by qRRT-PCR, isolation and titration of the virus in MDCK cells by TCID 50 and the detection of the virus NP protein by IHC.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

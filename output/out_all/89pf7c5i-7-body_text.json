@@ -1,1 +1,8 @@
-{"cord_uid":"89pf7c5i", "sourcedb":"PMC", "sourceid":"PMC4462189", "divid":7, "text":"Five species within the genus Leishmania have been identified in cats: Leishmania mexicana, Leishmania venezuelensis, Leishmania braziliensis and Leishmania amazonensis in the New World, and Leishmania infantum in both the New and Old Worlds (Table 1) . We can therefore state that cats are likely to be infected by the same Leishmania species found in humans or other animals in the same geographic area.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "89pf7c5i",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4462189",
+   "divid": 7,
+   "text": "Five species within the genus Leishmania have been identified in cats: Leishmania mexicana, Leishmania venezuelensis, Leishmania braziliensis and Leishmania amazonensis in the New World, and Leishmania infantum in both the New and Old Worlds (Table 1) . We can therefore state that cats are likely to be infected by the same Leishmania species found in humans or other animals in the same geographic area.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

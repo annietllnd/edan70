@@ -9,6 +9,14 @@
        {
            "id": "Virus_SARS-CoV-2", 
            "span": {
+              "begin":406,
+              "end": 415
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7054940/"
+       },
+       {
+           "id": "Virus_SARS-CoV-2", 
+           "span": {
               "begin":902,
               "end": 911
            }, 

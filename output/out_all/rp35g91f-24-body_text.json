@@ -1,1 +1,8 @@
-{"cord_uid":"rp35g91f", "sourcedb":"PMC", "sourceid":"PMC5592927", "divid":24, "text":"The pulmonary myocardium gene network is coregulated from loci on Chr1 and Chr2 We next investigated whether transcripts within the pulmonary myocardium gene network were coregulated. Pair-wise comparisons were performed using a matrix function. All probe pairs within this set of 24 transcripts were positively correlated ( Figure S1 in File S1). All pairs had a Pearson correlation .0.5 with the exception of Myl4 and Doc2G (0.486), and Myl4 and Rbm20 (0.495). Further, heat-map analysis of eQTL for all 24 transcripts highlighted prominent regions of shared covariance on Chr1 and 2 with possible minor regions on Chr3, Chr4, Chr13, and Chr17 ( Figure 2A ). This suggested that expression levels of multiple transcripts in this gene network were coordinately regulated by a shared set of cis and trans eQTL.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "rp35g91f",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5592927",
+   "divid": 24,
+   "text": "The pulmonary myocardium gene network is coregulated from loci on Chr1 and Chr2 We next investigated whether transcripts within the pulmonary myocardium gene network were coregulated. Pair-wise comparisons were performed using a matrix function. All probe pairs within this set of 24 transcripts were positively correlated ( Figure S1 in File S1). All pairs had a Pearson correlation .0.5 with the exception of Myl4 and Doc2G (0.486), and Myl4 and Rbm20 (0.495). Further, heat-map analysis of eQTL for all 24 transcripts highlighted prominent regions of shared covariance on Chr1 and 2 with possible minor regions on Chr3, Chr4, Chr13, and Chr17 ( Figure 2A ). This suggested that expression levels of multiple transcripts in this gene network were coordinately regulated by a shared set of cis and trans eQTL.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

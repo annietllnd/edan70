@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":0, "text":"SEED Servers: High-Performance Access to the SEED Genomes, Annotations, and Metabolic Models", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 0,
+   "text": "SEED Servers: High-Performance Access to the SEED Genomes, Annotations, and Metabolic Models",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

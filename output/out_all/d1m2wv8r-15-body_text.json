@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":15, "text":"Furthermore, in cluster B consisting of 35 proteins, 10 are known to be stimulus-responsive, 7 of which are additionally known to respond to viral infections. For instance, both RAB7A and CD63 are required for the HIV-1 replication cycle 25, 26 . In addition, LSD1, HSPA5, and CAV-1 have been reported to influence the efficiency of viral infection and replication [27] [28] [29] [30] [31] ; NPC1 is the key influencer for Ebola virus to enter cells 32 ; SEC22b can inhibit the release of infectious viral progeny 33 ; and the down-regulation of CD59 is associated with the development of hepatitis B cytotoxicity 34 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 15,
+   "text": "Furthermore, in cluster B consisting of 35 proteins, 10 are known to be stimulus-responsive, 7 of which are additionally known to respond to viral infections. For instance, both RAB7A and CD63 are required for the HIV-1 replication cycle 25, 26 . In addition, LSD1, HSPA5, and CAV-1 have been reported to influence the efficiency of viral infection and replication [27] [28] [29] [30] [31] ; NPC1 is the key influencer for Ebola virus to enter cells 32 ; SEC22b can inhibit the release of infectious viral progeny 33 ; and the down-regulation of CD59 is associated with the development of hepatitis B cytotoxicity 34 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

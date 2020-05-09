@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":37, "text":"Occasionally, we observed discoloration and changes in the shape of eggs in the H9-group, but we did not find these features to be statistically different when compared with the K-group. The individual shell thickness fluctuated widely within and between groups, irrespective of the time of challenge. We found no statistical evidence that the replication of the virus related to a change in the thickness of the shell.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 37,
+   "text": "Occasionally, we observed discoloration and changes in the shape of eggs in the H9-group, but we did not find these features to be statistically different when compared with the K-group. The individual shell thickness fluctuated widely within and between groups, irrespective of the time of challenge. We found no statistical evidence that the replication of the virus related to a change in the thickness of the shell.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

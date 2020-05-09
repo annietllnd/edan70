@@ -1,1 +1,58 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":25, "text":"For bacteria, the rates of coinfections of S. pneumoniae, K. pneumoniae, Streptococcus species, E. agglomerans and H. influenza were 94%, 90%, 70%, 75% and 100% respectively. On the other hand, the rates of coinfections of predominantly detected respiratory viral pathogens including HRV, RSV, HMPV, HPIV-3, HBoV, and adenovirus were 63.5%, 52%, 42%, 71%, 50% and 93%, respectively. In 72 coinfected cases, 52 showed a pair-wise fashion of co-occurrences of pathogens, whereas 18 showed pathogen co-occurrences in a tri-partner manner. In two cases, up to four pathogens were detected in each specimen. Interestingly, coinfection partners of adenovirus were mostly confined to viruses including 5 RSV, 4 HRV, 3HPIV-3, 1 influenza A, 1 HMPV, 1 HBoV, whereas there was only one co-detection of bacterial isolates (E. agglomerans) with adenovirus (Table 4 ). Among 16 parainfluenza coinfection cases, 15 were HPIV-3 and 1 was HPIV-1. Although major HPIV-3 coinfection partners included HRV, RSV, adenovirus, S. pneumoniae and K. pneumoniae, one HPIV-1 case was co-detected with RSV and HBoV. On the other hand, 5 out of 11 HMPV coinfection partners included bacteria like S. pneumoniae (two), K. pneumoniae (one), and one Streptococcus species as well as viral pathogens including HRV (five), HPIV-3, HBoV and adenovirus.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 25,
+   "text": "For bacteria, the rates of coinfections of S. pneumoniae, K. pneumoniae, Streptococcus species, E. agglomerans and H. influenza were 94%, 90%, 70%, 75% and 100% respectively. On the other hand, the rates of coinfections of predominantly detected respiratory viral pathogens including HRV, RSV, HMPV, HPIV-3, HBoV, and adenovirus were 63.5%, 52%, 42%, 71%, 50% and 93%, respectively. In 72 coinfected cases, 52 showed a pair-wise fashion of co-occurrences of pathogens, whereas 18 showed pathogen co-occurrences in a tri-partner manner. In two cases, up to four pathogens were detected in each specimen. Interestingly, coinfection partners of adenovirus were mostly confined to viruses including 5 RSV, 4 HRV, 3HPIV-3, 1 influenza A, 1 HMPV, 1 HBoV, whereas there was only one co-detection of bacterial isolates (E. agglomerans) with adenovirus (Table 4 ). Among 16 parainfluenza coinfection cases, 15 were HPIV-3 and 1 was HPIV-1. Although major HPIV-3 coinfection partners included HRV, RSV, adenovirus, S. pneumoniae and K. pneumoniae, one HPIV-1 case was co-detected with RSV and HBoV. On the other hand, 5 out of 11 HMPV coinfection partners included bacteria like S. pneumoniae (two), K. pneumoniae (one), and one Streptococcus species as well as viral pathogens including HRV (five), HPIV-3, HBoV and adenovirus.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":46,
+              "end": 55
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":61,
+              "end": 70
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1008,
+              "end": 1017
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1026,
+              "end": 1035
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1172,
+              "end": 1181
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1193,
+              "end": 1202
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       }
+   ]
+}

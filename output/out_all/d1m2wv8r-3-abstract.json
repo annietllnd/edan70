@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":3, "text":"The CPV genome contains two open reading frames; by alternative splicing, one produces two mRNAs encoding two non-structural proteins (NS1 and NS2), and the other transcribes two mRNAs encoding two structural proteins (VP1 and VP2) 3 . The VP1 and VP2 proteins contain the most important antigenic epitopes, which are targeted by neutralising antibodies. VP2, which represents 90% of the viral capsid, also functions as a viral ligand that determines the viral host specificity and tissue affinity 4 . NS1, a pleiotropic phosphoprotein, is thought to be a culprit of apoptosis of CPV-infected cells. For instance, NS1 of CPV-2 has been shown to induce caspase-dependent and p53-independent apoptosis 5 .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 3,
+   "text": "The CPV genome contains two open reading frames; by alternative splicing, one produces two mRNAs encoding two non-structural proteins (NS1 and NS2), and the other transcribes two mRNAs encoding two structural proteins (VP1 and VP2) 3 . The VP1 and VP2 proteins contain the most important antigenic epitopes, which are targeted by neutralising antibodies. VP2, which represents 90% of the viral capsid, also functions as a viral ligand that determines the viral host specificity and tissue affinity 4 . NS1, a pleiotropic phosphoprotein, is thought to be a culprit of apoptosis of CPV-infected cells. For instance, NS1 of CPV-2 has been shown to induce caspase-dependent and p53-independent apoptosis 5 .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

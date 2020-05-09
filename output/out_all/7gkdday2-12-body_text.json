@@ -1,1 +1,8 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":12, "text":"Again, after January, there was a gradual decline in specimen collection rate from February (8.5%; n = 17) to May (0%), followed by 2% (n = 4) and 1% (n = 2) collection rates in June and July, respectively. The specimen collection rate started rising sharply in August (11%; n = 22). In brief, most of the specimens (90%; n = 180) were collected during the study period between August and February. Further analysis of seasonality in terms of individual viral and bacterial pathogens will be elaborated in the later part of the article.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 12,
+   "text": "Again, after January, there was a gradual decline in specimen collection rate from February (8.5%; n = 17) to May (0%), followed by 2% (n = 4) and 1% (n = 2) collection rates in June and July, respectively. The specimen collection rate started rising sharply in August (11%; n = 22). In brief, most of the specimens (90%; n = 180) were collected during the study period between August and February. Further analysis of seasonality in terms of individual viral and bacterial pathogens will be elaborated in the later part of the article.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

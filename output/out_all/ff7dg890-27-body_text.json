@@ -1,1 +1,8 @@
-{"cord_uid":"ff7dg890", "sourcedb":"PMC", "sourceid":"PMC1181873", "divid":27, "text":"To focus on the effects of the infectious period distribution on different courses of intervention we have assumed that all those who are quarantined and exposed are detected before the end of the quarantine period and are not released back into the general population. We have also formulated a model that takes into account the distribution of the latent period during quarantine and find similar qualitative results to those shown in Figure 4 . However, if the average latent period is increased relative to the fixed quarantine period and there is only a small amount of isolation of infected individuals, then the control measures are predicted to be more effective for the gamma-distributed model, because more exposed individuals in the exponentially distributed model will leave quarantine before they develop the infection.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "ff7dg890",
+   "sourcedb": "PMC",
+   "sourceid": "PMC1181873",
+   "divid": 27,
+   "text": "To focus on the effects of the infectious period distribution on different courses of intervention we have assumed that all those who are quarantined and exposed are detected before the end of the quarantine period and are not released back into the general population. We have also formulated a model that takes into account the distribution of the latent period during quarantine and find similar qualitative results to those shown in Figure 4 . However, if the average latent period is increased relative to the fixed quarantine period and there is only a small amount of isolation of infected individuals, then the control measures are predicted to be more effective for the gamma-distributed model, because more exposed individuals in the exponentially distributed model will leave quarantine before they develop the infection.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

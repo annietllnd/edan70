@@ -1,1 +1,8 @@
-{"cord_uid":"8gbktpt3", "sourcedb":"PMC", "sourceid":"PMC6950618", "divid":8, "text":"Data were analysed using Microsoft Excel ® for Mac Version 16.16.15 and Statistix ® version 10.0 (Analytical Software, Tallahassee, FL, USA). Descriptive statistics were generated for FPL case numbers, age at disease diagnosis, interval between vaccination and disease and interval between admission and disease. Frequency distributions were created for age at disease diagnosis. Mapping and geospatial analysis was performed with ArcGIS ® version 10.2 (Ersi, Redlands, CA, USA).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "8gbktpt3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6950618",
+   "divid": 8,
+   "text": "Data were analysed using Microsoft Excel ® for Mac Version 16.16.15 and Statistix ® version 10.0 (Analytical Software, Tallahassee, FL, USA). Descriptive statistics were generated for FPL case numbers, age at disease diagnosis, interval between vaccination and disease and interval between admission and disease. Frequency distributions were created for age at disease diagnosis. Mapping and geospatial analysis was performed with ArcGIS ® version 10.2 (Ersi, Redlands, CA, USA).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

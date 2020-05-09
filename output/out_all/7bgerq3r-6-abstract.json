@@ -1,1 +1,8 @@
-{"cord_uid":"7bgerq3r", "sourcedb":"PMC", "sourceid":"PMC5968208", "divid":6, "text":"The asymptomatic infection was acquired via healthcare-associated transmission. Thus, it is necessary to extend serologic studies to include inpatient contacts who have no symptoms.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7bgerq3r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5968208",
+   "divid": 6,
+   "text": "The asymptomatic infection was acquired via healthcare-associated transmission. Thus, it is necessary to extend serologic studies to include inpatient contacts who have no symptoms.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

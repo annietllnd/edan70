@@ -1,1 +1,18 @@
-{"cord_uid":"yr1zanxx", "sourcedb":"PMC", "sourceid":"PMC6354430", "divid":11, "text":"For flow cytometry experiments, mice were deeply anesthetized with ketamine/xylazine/acepromazine, then blood was collected in 5 μM EDTA in dPBS (Gibco). Mice were transcardially perfused with dPBS, and then, the spleen, brain, popliteal LNs, and femur were removed. Bone marrow was collected from the femur by centrifuging the bone in a 0.65-ml microtube punctured with an 18G needle nested inside a 1.7-ml tube. Brain tissue was minced and digested in a HBSS (Gibco) containing 0.05% collagenase D (Sigma), 0.1 μg/ml TLCK trypsin inhibitor (Sigma), 10 μg/ml DNase I (Sigma), and 10 mM Hepes pH 7.4 (Gibco) for 1 h at 22°C with shaking. Brain, spleen, and LN tissues were pushed through a 70-μm strainer and centrifuged at 500g for 10 min. Brain cell pellets were resuspended in 37% isotonic Percoll (GE healthcare) and centrifuged at 1200g for 30 min to remove myelin debris, and pellet was resuspended in dPBS. Red blood cells were lysed in blood, spleen, and bone marrow samples with ACK lysing buffer (Gibco) for 5 min, then centrifuged at 500g for 10 min and resuspended in dPBS. Prior to immunostaining, all cells were blocked with 1:50", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":629,"end":636}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6354430/"}]}
+{
+   "cord_uid": "yr1zanxx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6354430",
+   "divid": 11,
+   "text": "For flow cytometry experiments, mice were deeply anesthetized with ketamine/xylazine/acepromazine, then blood was collected in 5 μM EDTA in dPBS (Gibco). Mice were transcardially perfused with dPBS, and then, the spleen, brain, popliteal LNs, and femur were removed. Bone marrow was collected from the femur by centrifuging the bone in a 0.65-ml microtube punctured with an 18G needle nested inside a 1.7-ml tube. Brain tissue was minced and digested in a HBSS (Gibco) containing 0.05% collagenase D (Sigma), 0.1 μg/ml TLCK trypsin inhibitor (Sigma), 10 μg/ml DNase I (Sigma), and 10 mM Hepes pH 7.4 (Gibco) for 1 h at 22°C with shaking. Brain, spleen, and LN tissues were pushed through a 70-μm strainer and centrifuged at 500g for 10 min. Brain cell pellets were resuspended in 37% isotonic Percoll (GE healthcare) and centrifuged at 1200g for 30 min to remove myelin debris, and pellet was resuspended in dPBS. Red blood cells were lysed in blood, spleen, and bone marrow samples with ACK lysing buffer (Gibco) for 5 min, then centrifuged at 500g for 10 min and resuspended in dPBS. Prior to immunostaining, all cells were blocked with 1:50",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":629,
+              "end": 636
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6354430/"
+       }
+   ]
+}

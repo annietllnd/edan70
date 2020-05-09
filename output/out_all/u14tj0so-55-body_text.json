@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":55, "text":"To find the memory usage of the programs, we use the Valgrind package [66] and record the total heap usage as memory usage of each program. IPknot and HotKnots are completely written in C and so we can easily find their memory usage by running Valgrind. However, Iterative HFold program is a perl script that runs a few C programs (HFold, HFold-pkonly and SimFold) sequentially. So we find the memory usage of each C component using Valgrind and assign the maximum as the memory usage of Iterative HFold.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 55,
+   "text": "To find the memory usage of the programs, we use the Valgrind package [66] and record the total heap usage as memory usage of each program. IPknot and HotKnots are completely written in C and so we can easily find their memory usage by running Valgrind. However, Iterative HFold program is a perl script that runs a few C programs (HFold, HFold-pkonly and SimFold) sequentially. So we find the memory usage of each C component using Valgrind and assign the maximum as the memory usage of Iterative HFold.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

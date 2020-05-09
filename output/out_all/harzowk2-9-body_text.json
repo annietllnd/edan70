@@ -1,1 +1,18 @@
-{"cord_uid":"harzowk2", "sourcedb":"PMC", "sourceid":"PMC3488377", "divid":9, "text":"Antibiotic resistance has also developed in Hong Kong [1, 2] . The serotype 19A is especially virulent and may be difficult to isolate in patients who have already been started on antibiotics. The pathogen has been reported to be associated with the hemolytic uremic syndrome [6] [7] [8] [9] [10] [11] . Penicillin can be used in sensitive pneumococcus [1, 2] . In patient with pneumonia not responding satisfactory initially, more invasive investigative/therapeutic management including a pleural drain for biologic specimen is indicated to guide management. Local antimicrobial sensitivity in PICU patients has been reported [1, 2] . The pathogen was sensitive to penicillin and cefotaxime in this case. In patients not responding satisfactorily with initial antibiotics but with known penicillin sensitivity, a higher dose of penicillin should be tried.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":378,"end":387}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"}]}
+{
+   "cord_uid": "harzowk2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3488377",
+   "divid": 9,
+   "text": "Antibiotic resistance has also developed in Hong Kong [1, 2] . The serotype 19A is especially virulent and may be difficult to isolate in patients who have already been started on antibiotics. The pathogen has been reported to be associated with the hemolytic uremic syndrome [6] [7] [8] [9] [10] [11] . Penicillin can be used in sensitive pneumococcus [1, 2] . In patient with pneumonia not responding satisfactory initially, more invasive investigative/therapeutic management including a pleural drain for biologic specimen is indicated to guide management. Local antimicrobial sensitivity in PICU patients has been reported [1, 2] . The pathogen was sensitive to penicillin and cefotaxime in this case. In patients not responding satisfactorily with initial antibiotics but with known penicillin sensitivity, a higher dose of penicillin should be tried.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":378,
+              "end": 387
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488377/"
+       }
+   ]
+}

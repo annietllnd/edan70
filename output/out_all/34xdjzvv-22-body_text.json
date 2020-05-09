@@ -1,1 +1,8 @@
-{"cord_uid":"34xdjzvv", "sourcedb":"PMC", "sourceid":"PMC3728341", "divid":22, "text":"The clinically isolated strains of EV71, genotype B4 of E59 (GenBank: GQ150746.1), was obtained from the Taiwan Centers for Diseases Control (CDC). Genotype C2 of 5746-TW98 (5746; GenBank: AF304457.1), B4 of N0781-TW-01, B5 of N2838-TW-03 (GenBank: DQ008993.1) and one strain of CVA16, 5079 (GenBank: AF177911.1) were provided by Professor Jen-Ren Wang, Department of Medical Technology, National Chen Kung University, Tainan, Taiwan. Viruses were propagated in Vero cells and purified as previously described [41, 42] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "34xdjzvv",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3728341",
+   "divid": 22,
+   "text": "The clinically isolated strains of EV71, genotype B4 of E59 (GenBank: GQ150746.1), was obtained from the Taiwan Centers for Diseases Control (CDC). Genotype C2 of 5746-TW98 (5746; GenBank: AF304457.1), B4 of N0781-TW-01, B5 of N2838-TW-03 (GenBank: DQ008993.1) and one strain of CVA16, 5079 (GenBank: AF177911.1) were provided by Professor Jen-Ren Wang, Department of Medical Technology, National Chen Kung University, Tainan, Taiwan. Viruses were propagated in Vero cells and purified as previously described [41, 42] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

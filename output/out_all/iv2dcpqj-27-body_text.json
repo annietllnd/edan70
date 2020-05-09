@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":27, "text":"For expression of the GST-tagged NS5A protein, the NS5A gene was subcloned into the pGEX-6p-1 vector (catalog no. 28-9546-48; GE Healthcare, Piscataway, NJ, USA), creating pGEX-NS5A. The GST or GST-NS5A fusion protein expressed in E. coli BL21(DE3) were purified with the glutathione-Sepharose 4B resin (catalog no. 10049253; GE Biosciences, Piscataway, NJ, USA) according to the manufacturer's instructions.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 27,
+   "text": "For expression of the GST-tagged NS5A protein, the NS5A gene was subcloned into the pGEX-6p-1 vector (catalog no. 28-9546-48; GE Healthcare, Piscataway, NJ, USA), creating pGEX-NS5A. The GST or GST-NS5A fusion protein expressed in E. coli BL21(DE3) were purified with the glutathione-Sepharose 4B resin (catalog no. 10049253; GE Biosciences, Piscataway, NJ, USA) according to the manufacturer's instructions.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

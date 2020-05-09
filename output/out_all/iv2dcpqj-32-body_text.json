@@ -1,1 +1,8 @@
-{"cord_uid":"iv2dcpqj", "sourcedb":"PMC", "sourceid":"PMC4576194", "divid":32, "text":"To construct a stable cell line overexpressing eEF1A, the swine eEF1A gene was subcloned into the lentivirus vector pFUGW (Addgene, Cambridge, MA, USA). HEK293T cells were cotransfected with the recombinant plasmid pFUGW-eEF1A or the empty vector pFUGW, and the packaging plasmids psPAX2 (Addgene) and pMD2.G (Addgene). At 6 hpt, the medium was replaced with DMEM containing 5% FBS. After 48-h incubation, the supernatant of the cell culture was harvested and ultra-centrifuged to concentrate the recombinant lentiviruses. Subsequently, PK-15 cells grown on 6-well plates were transduced with the lentiviruses of 10 transduction units (TU) per cell. The expression of EGFP-eEF1A in the transduced PK-15 cells was examined by Western blotting using a rabbit anti-eEF1A MAb (1:2000) (catalog no. ab157455; Abcam, Cambridge, UK).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "iv2dcpqj",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4576194",
+   "divid": 32,
+   "text": "To construct a stable cell line overexpressing eEF1A, the swine eEF1A gene was subcloned into the lentivirus vector pFUGW (Addgene, Cambridge, MA, USA). HEK293T cells were cotransfected with the recombinant plasmid pFUGW-eEF1A or the empty vector pFUGW, and the packaging plasmids psPAX2 (Addgene) and pMD2.G (Addgene). At 6 hpt, the medium was replaced with DMEM containing 5% FBS. After 48-h incubation, the supernatant of the cell culture was harvested and ultra-centrifuged to concentrate the recombinant lentiviruses. Subsequently, PK-15 cells grown on 6-well plates were transduced with the lentiviruses of 10 transduction units (TU) per cell. The expression of EGFP-eEF1A in the transduced PK-15 cells was examined by Western blotting using a rabbit anti-eEF1A MAb (1:2000) (catalog no. ab157455; Abcam, Cambridge, UK).",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

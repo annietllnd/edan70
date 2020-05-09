@@ -1,1 +1,34 @@
-{"cord_uid":"skavefji", "sourcedb":"PMC", "sourceid":"PMC4019586", "divid":1, "text":"Background: The usefulness of bronchoalveolar lavage (BAL) fluid cellular analysis in pneumonia has not been adequately evaluated. This study investigated the ability of cellular analysis of BAL fluid to differentially diagnose bacterial pneumonia from viral pneumonia in adult patients who are admitted to intensive care unit.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":86,"end":95}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":238,"end":247}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}, {"id":"Symptom_Covid-19", "span":{"begin":259,"end":268}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"}]}
+{
+   "cord_uid": "skavefji",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4019586",
+   "divid": 1,
+   "text": "Background: The usefulness of bronchoalveolar lavage (BAL) fluid cellular analysis in pneumonia has not been adequately evaluated. This study investigated the ability of cellular analysis of BAL fluid to differentially diagnose bacterial pneumonia from viral pneumonia in adult patients who are admitted to intensive care unit.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":86,
+              "end": 95
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":238,
+              "end": 247
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":259,
+              "end": 268
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4019586/"
+       }
+   ]
+}

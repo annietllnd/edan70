@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":19, "text":"3. An Entrez ID or a Genome Project ID.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 19,
+   "text": "3. An Entrez ID or a Genome Project ID.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

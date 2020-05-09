@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":11, "text":"While HFold is fast, our earlier implementation of HFold had its own shortcomings. First, due to a high pseudoknot initiation penalty in its underlying energy model, many of its predicted structures did not have pseudoknots. Also low band penalty (i.e., penalty for addition of pseudoknotted stems or bands) in its energy model encouraged addition of pseudoknotted stems when a pseudoknot was predicted. Second, if the first structure http://www.biomedcentral.com/1471-2105/15/147 input to HFold contains base pairs that are not in the true pseudoknot-free structure for the given RNA sequence or is not the complete pseudoknot-free structure (i.e., it does not include all the base pairs in the pseudoknot-free structure), HFold is often unable to predict the known pseudoknotted structure as output.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 11,
+   "text": "While HFold is fast, our earlier implementation of HFold had its own shortcomings. First, due to a high pseudoknot initiation penalty in its underlying energy model, many of its predicted structures did not have pseudoknots. Also low band penalty (i.e., penalty for addition of pseudoknotted stems or bands) in its energy model encouraged addition of pseudoknotted stems when a pseudoknot was predicted. Second, if the first structure http://www.biomedcentral.com/1471-2105/15/147 input to HFold contains base pairs that are not in the true pseudoknot-free structure for the given RNA sequence or is not the complete pseudoknot-free structure (i.e., it does not include all the base pairs in the pseudoknot-free structure), HFold is often unable to predict the known pseudoknotted structure as output.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,26 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":14, "text":"Upon arrival in the lab, BAL-samples were processed for smear, bacterial culture, viral culture, and for the detection of influenzavirus A and B; parainfluenzavirus types 1, 2, 3; RSV; human metapneumovirus subtypes A and B; coronaviruses 229E and OC43, Mycoplasma pneumoniae and Chlamydophila pneumoniae using an in-house multiplex Polymerase Chain Reaction (mPCR)-protocol, as described previously [13] . The performance of this test was assessed by regular participation in the external quality programme organised by QCMD (West of Scotland Science Park Glasgow G20 0XA Scotland, UK).", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 14,
+   "text": "Upon arrival in the lab, BAL-samples were processed for smear, bacterial culture, viral culture, and for the detection of influenzavirus A and B; parainfluenzavirus types 1, 2, 3; RSV; human metapneumovirus subtypes A and B; coronaviruses 229E and OC43, Mycoplasma pneumoniae and Chlamydophila pneumoniae using an in-house multiplex Polymerase Chain Reaction (mPCR)-protocol, as described previously [13] . The performance of this test was assessed by regular participation in the external quality programme organised by QCMD (West of Scotland Science Park Glasgow G20 0XA Scotland, UK).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":265,
+              "end": 274
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":294,
+              "end": 303
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3420249/"
+       }
+   ]
+}

@@ -1,1 +1,18 @@
-{"cord_uid":"1dfzj1b3", "sourcedb":"PMC", "sourceid":"PMC6259136", "divid":82, "text":"Arachidonic acid is a polyunsaturated fatty acid that is released from cell membranes by phospholipase A 2 under the stimulus of several factors associated with inflammation. The same fatty acid is metabolised by cyclooxygenase (COX) and lipoxygenase (LOX) pathways in different eicosanoids such as prostaglandins (PGs) and leukotrienes (LTs) in diverse cells and thromboxane A 2 in platlets [22] . Two isoforms of COX, COX-1 and COX-2, have been reported. COX-1 is a constitutive enzyme whilst COX-2 protein is only slightly expressed in most normal mammalian tissues in response to physical, chemical and biological stimuli, including UV light exposure, dioxin and LPS (lipopolyssacharide) insult [96] .", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":161,"end":173}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"}]}
+{
+   "cord_uid": "1dfzj1b3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6259136",
+   "divid": 82,
+   "text": "Arachidonic acid is a polyunsaturated fatty acid that is released from cell membranes by phospholipase A 2 under the stimulus of several factors associated with inflammation. The same fatty acid is metabolised by cyclooxygenase (COX) and lipoxygenase (LOX) pathways in different eicosanoids such as prostaglandins (PGs) and leukotrienes (LTs) in diverse cells and thromboxane A 2 in platlets [22] . Two isoforms of COX, COX-1 and COX-2, have been reported. COX-1 is a constitutive enzyme whilst COX-2 protein is only slightly expressed in most normal mammalian tissues in response to physical, chemical and biological stimuli, including UV light exposure, dioxin and LPS (lipopolyssacharide) insult [96] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":161,
+              "end": 173
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6259136/"
+       }
+   ]
+}

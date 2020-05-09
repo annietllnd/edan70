@@ -1,1 +1,8 @@
-{"cord_uid":"56fc398e", "sourcedb":"PMC", "sourceid":"PMC4455802", "divid":9, "text":"This study will be highly informative for countries where livestock movement data are not routinely available. The outputs of this work will provide guidance to livestock industries around the world regarding both the quantity of data required to predict spread of disease and how to target data collection should it not be possible to record all livestock movements.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "56fc398e",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4455802",
+   "divid": 9,
+   "text": "This study will be highly informative for countries where livestock movement data are not routinely available. The outputs of this work will provide guidance to livestock industries around the world regarding both the quantity of data required to predict spread of disease and how to target data collection should it not be possible to record all livestock movements.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

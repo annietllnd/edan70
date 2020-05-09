@@ -1,1 +1,18 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":4, "text":"In many cases, infection by extra-cellular pathogens has been shown to alter NF-κB activity in order to facilitate the survival of pathogens or host. As part of the host defense mechanism against invading pathogens, NF-κB activation is required for resistance to a variety of viral, bacterial, and parasitic infections [1] . However, many viruses such as HIV, exploit this property to their benefit by driving their gene expression through κB response elements located in their promoters [2] . On the contrary, many pathogens such as African swine fever virus, HIV-1 and cowpox virus [3] [4] [5] have developed strategies to interfere with host NF-κB responses. Inhibition of NF-κB activity by these pathogens has been shown to be important for pathogenesis.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":548,"end":553}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3506457/"}]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 4,
+   "text": "In many cases, infection by extra-cellular pathogens has been shown to alter NF-κB activity in order to facilitate the survival of pathogens or host. As part of the host defense mechanism against invading pathogens, NF-κB activation is required for resistance to a variety of viral, bacterial, and parasitic infections [1] . However, many viruses such as HIV, exploit this property to their benefit by driving their gene expression through κB response elements located in their promoters [2] . On the contrary, many pathogens such as African swine fever virus, HIV-1 and cowpox virus [3] [4] [5] have developed strategies to interfere with host NF-κB responses. Inhibition of NF-κB activity by these pathogens has been shown to be important for pathogenesis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":548,
+              "end": 553
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3506457/"
+       }
+   ]
+}

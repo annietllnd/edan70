@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":20, "text":"The NF-κB inhibitory activity of the ORF2 protein may be mediated by its ability to directly associate with the F-box protein βTRCP and inhibit the assembly of the IκBα ubiquitination complex. βTRCP is a cytoplasmic protein.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 20,
+   "text": "The NF-κB inhibitory activity of the ORF2 protein may be mediated by its ability to directly associate with the F-box protein βTRCP and inhibit the assembly of the IκBα ubiquitination complex. βTRCP is a cytoplasmic protein.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

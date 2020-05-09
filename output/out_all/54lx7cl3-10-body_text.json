@@ -1,1 +1,34 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":10, "text":"Streptococcus pyogenes, Streptococcus agalactiae, H. influenzae, Neisseria meningitidis and S. pneumoniae possess capsules that resist phagocytosis [37] . Streptococcus pneumoniae, the leading cause of pneumonia [39] , is characterized by over 90 serotypes differentiated by variations in the bacterial polysaccharide capsule [40, 41] and associated with different propensities of invasive potential [42] . In addition to protecting against phagocytosis, the capsule prevents clearance by mucous secretion and restricts autolysis [43] . Other species, including S. aureus, release anti-opsonizing proteins and possess surface protein A to evade phagocytosis. Furthermore, S. aureus secretes leukotoxins that lyse leukocytes and express superantigens that hinder immune response (reviewed by Naber et al. [44] ).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":202,"end":211}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 10,
+   "text": "Streptococcus pyogenes, Streptococcus agalactiae, H. influenzae, Neisseria meningitidis and S. pneumoniae possess capsules that resist phagocytosis [37] . Streptococcus pneumoniae, the leading cause of pneumonia [39] , is characterized by over 90 serotypes differentiated by variations in the bacterial polysaccharide capsule [40, 41] and associated with different propensities of invasive potential [42] . In addition to protecting against phagocytosis, the capsule prevents clearance by mucous secretion and restricts autolysis [43] . Other species, including S. aureus, release anti-opsonizing proteins and possess surface protein A to evade phagocytosis. Furthermore, S. aureus secretes leukotoxins that lyse leukocytes and express superantigens that hinder immune response (reviewed by Naber et al. [44] ).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":95,
+              "end": 104
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":169,
+              "end": 178
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":202,
+              "end": 211
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

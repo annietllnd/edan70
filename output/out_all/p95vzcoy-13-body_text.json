@@ -1,1 +1,8 @@
-{"cord_uid":"p95vzcoy", "sourcedb":"PMC", "sourceid":"PMC6920936", "divid":13, "text":"For the reverse transcription, we used the M-MLV RT (Promega, Dübendorf, Switzerland) Kit and followed the manufacturer's recommendations: Template RNA (50-500 µg, Table S1 ) was incubated with 0.75 µL of a random hexamer oligonucleotide (100 µM) and H 2 O for 5 min at 70 • C in a thermocycler (Biometra; Analytik Jena, Jena, Germany). For the cDNA synthesis, 5 µL 5× buffer, 1.125 µL nucleoside triphosphate (dNTP) 10 mM and 1 µL reverse transcriptase (M-MLV) was added to a final reaction volume of 25 µL, which was incubated at 37 • C for 60 min. The resulting cDNA was diluted 1/5 and stored at −25 • C until further processing.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "p95vzcoy",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6920936",
+   "divid": 13,
+   "text": "For the reverse transcription, we used the M-MLV RT (Promega, Dübendorf, Switzerland) Kit and followed the manufacturer's recommendations: Template RNA (50-500 µg, Table S1 ) was incubated with 0.75 µL of a random hexamer oligonucleotide (100 µM) and H 2 O for 5 min at 70 • C in a thermocycler (Biometra; Analytik Jena, Jena, Germany). For the cDNA synthesis, 5 µL 5× buffer, 1.125 µL nucleoside triphosphate (dNTP) 10 mM and 1 µL reverse transcriptase (M-MLV) was added to a final reaction volume of 25 µL, which was incubated at 37 • C for 60 min. The resulting cDNA was diluted 1/5 and stored at −25 • C until further processing.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

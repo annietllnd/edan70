@@ -1,1 +1,42 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":11, "text":"The crucial role these various mechanisms play in determining respiratory disease is demonstrated by contrasting M. catarrhalis with S. pneumoniae. Similar to S. pneumoniae, M. catarrhalis is a primary carriage species estimated to colonize between 31% and 50% of children <2 years in the USA [45] and frequently causes URT infections, such as acute otitis media. However, unlike S. pneumoniae, M. catarrhalis rarely causes pneumonia [46] , suggesting that differences in mechanisms of pathogenicity may be the explanation.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":424,"end":433}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 11,
+   "text": "The crucial role these various mechanisms play in determining respiratory disease is demonstrated by contrasting M. catarrhalis with S. pneumoniae. Similar to S. pneumoniae, M. catarrhalis is a primary carriage species estimated to colonize between 31% and 50% of children <2 years in the USA [45] and frequently causes URT infections, such as acute otitis media. However, unlike S. pneumoniae, M. catarrhalis rarely causes pneumonia [46] , suggesting that differences in mechanisms of pathogenicity may be the explanation.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":136,
+              "end": 145
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":162,
+              "end": 171
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":383,
+              "end": 392
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":424,
+              "end": 433
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

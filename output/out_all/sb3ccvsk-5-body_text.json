@@ -1,1 +1,8 @@
-{"cord_uid":"sb3ccvsk", "sourcedb":"PMC", "sourceid":"PMC5030268", "divid":5, "text":"Mice were perfused with ice cold PBS before harvesting CLN, spleen (SPL), brain, and spinal cord. CLN were dissociated through a cell strainer and single cell suspensions washed and resuspended in RPMI 1640 medium. For splenocyte isolation, tissues were dissociated, treated with Gey's solution to lyse red blood cells, and washed twice in RPMI 1640 medium. To isolate CNS infiltrating cells, brains and spinal cords were homogenized in 4-ml Dulbecco's PBS using TenBroeck tissue grinders as described (26) . Tissue homogenates were adjusted to 30% Percoll (Pharmacia, Uppsala, Sweden) and underlayed with 1-ml 70% Percoll. Following centrifugation at 850 g for 30 min at 4°C, mononuclear cells were recovered from the 30-70% interface and washed with RPMI 1640 medium.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "sb3ccvsk",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5030268",
+   "divid": 5,
+   "text": "Mice were perfused with ice cold PBS before harvesting CLN, spleen (SPL), brain, and spinal cord. CLN were dissociated through a cell strainer and single cell suspensions washed and resuspended in RPMI 1640 medium. For splenocyte isolation, tissues were dissociated, treated with Gey's solution to lyse red blood cells, and washed twice in RPMI 1640 medium. To isolate CNS infiltrating cells, brains and spinal cords were homogenized in 4-ml Dulbecco's PBS using TenBroeck tissue grinders as described (26) . Tissue homogenates were adjusted to 30% Percoll (Pharmacia, Uppsala, Sweden) and underlayed with 1-ml 70% Percoll. Following centrifugation at 850 g for 30 min at 4°C, mononuclear cells were recovered from the 30-70% interface and washed with RPMI 1640 medium.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

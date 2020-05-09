@@ -1,1 +1,8 @@
-{"cord_uid":"zl4abcn0", "sourcedb":"PMC", "sourceid":"PMC4033353", "divid":15, "text":"and Linearity. For the LOD and LOQ determination, the working standard solutions at different concentrations were injected into HPLC from the highest to the lowest concentrations. The concentration with the smallest detectable peak, at a noise-to-signal ratio of 3, was taken as the limit of detection (LOD), whereas the lowest concentration with acceptable accuracy and precision at noise-to-signal ratio of 8 was taken as the limit of quantification (LOQ). The linearity of the calibration curve was evaluated by linear regression analysis.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zl4abcn0",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4033353",
+   "divid": 15,
+   "text": "and Linearity. For the LOD and LOQ determination, the working standard solutions at different concentrations were injected into HPLC from the highest to the lowest concentrations. The concentration with the smallest detectable peak, at a noise-to-signal ratio of 3, was taken as the limit of detection (LOD), whereas the lowest concentration with acceptable accuracy and precision at noise-to-signal ratio of 8 was taken as the limit of quantification (LOQ). The linearity of the calibration curve was evaluated by linear regression analysis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

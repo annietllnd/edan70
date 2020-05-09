@@ -1,1 +1,18 @@
-{"cord_uid":"jx518gz3", "sourcedb":"PMC", "sourceid":"PMC3447300", "divid":9, "text":"Crops and intestines dissected from flies' bodies at various times after virus exposure were used for virus isolation and titration. Virus was isolated from fly crops and intestines up to 24 h after exposure and from feces and vomit matter of 1 of 3 blow flies at 48 h after exposure (Table 1) ", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":227,"end":232}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3447300/"}]}
+{
+   "cord_uid": "jx518gz3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3447300",
+   "divid": 9,
+   "text": "Crops and intestines dissected from flies' bodies at various times after virus exposure were used for virus isolation and titration. Virus was isolated from fly crops and intestines up to 24 h after exposure and from feces and vomit matter of 1 of 3 blow flies at 48 h after exposure (Table 1) ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":227,
+              "end": 232
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3447300/"
+       }
+   ]
+}

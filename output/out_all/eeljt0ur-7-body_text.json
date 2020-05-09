@@ -1,1 +1,50 @@
-{"cord_uid":"eeljt0ur", "sourcedb":"PMC", "sourceid":"PMC5423899", "divid":7, "text":"On day 0, cats that met all of the inclusion criteria were randomized to receive either Diet A or Diet B. The randomization was balanced by site, presence of diarrhea, and the owner reported weekly average number of vomiting and/or diarrhea episodes. Randomization was conducted with an internally developed balance and assignment program through an electronic case record form. Withdrawal criteria included any identified condition that required immediate medical care. Owners were trained to use the feline Fecal Consistency Scale (FCS; Figure 1 ) and to respond to the daily IVRS phone call. On days 1-28, owners received daily IVRS phone calls to record the number of vomiting episodes and presence of diarrhea over the 24-h period. A diary was provided to track daily observations and to record daily FCS scores.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":158,"end":166}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":232,"end":240}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":706,"end":714}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":216,"end":224}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}, {"id":"Symptom_Covid-19", "span":{"begin":672,"end":680}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"}]}
+{
+   "cord_uid": "eeljt0ur",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5423899",
+   "divid": 7,
+   "text": "On day 0, cats that met all of the inclusion criteria were randomized to receive either Diet A or Diet B. The randomization was balanced by site, presence of diarrhea, and the owner reported weekly average number of vomiting and/or diarrhea episodes. Randomization was conducted with an internally developed balance and assignment program through an electronic case record form. Withdrawal criteria included any identified condition that required immediate medical care. Owners were trained to use the feline Fecal Consistency Scale (FCS; Figure 1 ) and to respond to the daily IVRS phone call. On days 1-28, owners received daily IVRS phone calls to record the number of vomiting episodes and presence of diarrhea over the 24-h period. A diary was provided to track daily observations and to record daily FCS scores.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":158,
+              "end": 166
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":232,
+              "end": 240
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":706,
+              "end": 714
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":216,
+              "end": 224
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":672,
+              "end": 680
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5423899/"
+       }
+   ]
+}

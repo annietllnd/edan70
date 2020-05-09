@@ -1,1 +1,42 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":34, "text":"Compared with pneumonia, pulmonary tuberculosis is not common in young Nepalese children [62] . To avoid including cases of undiagnosed tuberculosis and reactive airway disease, we did not include children that had been coughing for more than 14 days and we reassessed respiratory rate in wheezers after salbutamol administration before diagnosis of pneumonia [20] . The number of measles cases in Nepal has decreased dramatically since 2003 [63] . Measles vaccination is recommended at 9 months and the vaccine coverage among those that were 9 months or older in our study area was >90% (unpublished data). Moreover, less than 1% of our cases had a rash and all of these were above 1 year of age. Thus, we believe that our sample consisted of children with pneumonia, and not tuberculosis, bronchial asthma, or measles.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":14,"end":23}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":350,"end":359}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":758,"end":767}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}, {"id":"Symptom_Covid-19", "span":{"begin":220,"end":228}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 34,
+   "text": "Compared with pneumonia, pulmonary tuberculosis is not common in young Nepalese children [62] . To avoid including cases of undiagnosed tuberculosis and reactive airway disease, we did not include children that had been coughing for more than 14 days and we reassessed respiratory rate in wheezers after salbutamol administration before diagnosis of pneumonia [20] . The number of measles cases in Nepal has decreased dramatically since 2003 [63] . Measles vaccination is recommended at 9 months and the vaccine coverage among those that were 9 months or older in our study area was >90% (unpublished data). Moreover, less than 1% of our cases had a rash and all of these were above 1 year of age. Thus, we believe that our sample consisted of children with pneumonia, and not tuberculosis, bronchial asthma, or measles.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":14,
+              "end": 23
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":350,
+              "end": 359
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":758,
+              "end": 767
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":220,
+              "end": 228
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

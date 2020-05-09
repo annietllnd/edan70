@@ -1,1 +1,18 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":45, "text":"In summary, ARI incidence, as well as pathogen detection rates, were higher during postmonsoon and winter in Bangladesh. HRV and RSV were the predominant viral causative agents in under-five ARIs. On the other hand, S. pneumoniae came out as the most prevalent bacterial causative agent. Children aged less than one year of age were most susceptible to infections including coinfections. ", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 45,
+   "text": "In summary, ARI incidence, as well as pathogen detection rates, were higher during postmonsoon and winter in Bangladesh. HRV and RSV were the predominant viral causative agents in under-five ARIs. On the other hand, S. pneumoniae came out as the most prevalent bacterial causative agent. Children aged less than one year of age were most susceptible to infections including coinfections. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":219,
+              "end": 228
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       }
+   ]
+}

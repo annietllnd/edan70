@@ -1,1 +1,8 @@
-{"cord_uid":"98ljj0cy", "sourcedb":"PMC", "sourceid":"PMC4353318", "divid":7, "text":"All serum samples were screened in triplicate at a dilution of 1:20. A specimen was considered as screening positive if the average of the three wells containing the sera exhibited a >50% reduction in luminescence in comparison to the luminescence negative (BSA) or no serum control. Thirteen sera (9 animal exposed and 4 controls) screened positive at 1:20, but upon titration of these sera in subsequent assays, none of them were reproducibly able to neutralize the MERS-CoV pseudotyped lentiviral vector at a serum dilution of 1:20.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "98ljj0cy",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4353318",
+   "divid": 7,
+   "text": "All serum samples were screened in triplicate at a dilution of 1:20. A specimen was considered as screening positive if the average of the three wells containing the sera exhibited a >50% reduction in luminescence in comparison to the luminescence negative (BSA) or no serum control. Thirteen sera (9 animal exposed and 4 controls) screened positive at 1:20, but upon titration of these sera in subsequent assays, none of them were reproducibly able to neutralize the MERS-CoV pseudotyped lentiviral vector at a serum dilution of 1:20.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

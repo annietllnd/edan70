@@ -1,1 +1,18 @@
-{"cord_uid":"7gkdday2", "sourcedb":"PMC", "sourceid":"PMC5367831", "divid":5, "text":"This is a prospective investigation of acute respiratory infections in under-five children in hospital-care settings in Dhaka city. A total of 200 patients who had acute respiratory infections (ARIs), as manifested by clinical signs and symptoms and/or chest X-ray report suggestive of pneumonia admitted to the pediatric units of Dhaka Medical College Hospital and Shaheed Suhrawardy Medical College Hospital, were enrolled in this study over a period of 1 year from August 2014 to July 2015. 30 (15 from each of 2 hospitals) asymptomatic under-five children who were admitted to the hospital because of complications other than respiratory infections were also enrolled during the study period. Prior to enrollment, a written informed consent was obtained from each child's parents or legal guardians. Patients with a history of chronic respiratory infections or patients whose parents'/guardians refused to give consent were excluded from the study. In addition to name, address, height, weight and temperature, patients' demographic data such as age and gender were recorded on a standard form at the time of specimen collection. Vital signs including heart rate and respiratory rate were also recorded at the same time. Nasal swab specimens were collected from each participant. The study was conducted in the Institute for Developing Science and Health Initiatives (IDESHI), Dhaka, Bangladesh. This study was ethically approved by the ethics review committee of Bangladesh Medical Research Council (BMRC).", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":286,"end":295}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"}]}
+{
+   "cord_uid": "7gkdday2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5367831",
+   "divid": 5,
+   "text": "This is a prospective investigation of acute respiratory infections in under-five children in hospital-care settings in Dhaka city. A total of 200 patients who had acute respiratory infections (ARIs), as manifested by clinical signs and symptoms and/or chest X-ray report suggestive of pneumonia admitted to the pediatric units of Dhaka Medical College Hospital and Shaheed Suhrawardy Medical College Hospital, were enrolled in this study over a period of 1 year from August 2014 to July 2015. 30 (15 from each of 2 hospitals) asymptomatic under-five children who were admitted to the hospital because of complications other than respiratory infections were also enrolled during the study period. Prior to enrollment, a written informed consent was obtained from each child's parents or legal guardians. Patients with a history of chronic respiratory infections or patients whose parents'/guardians refused to give consent were excluded from the study. In addition to name, address, height, weight and temperature, patients' demographic data such as age and gender were recorded on a standard form at the time of specimen collection. Vital signs including heart rate and respiratory rate were also recorded at the same time. Nasal swab specimens were collected from each participant. The study was conducted in the Institute for Developing Science and Health Initiatives (IDESHI), Dhaka, Bangladesh. This study was ethically approved by the ethics review committee of Bangladesh Medical Research Council (BMRC).",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":286,
+              "end": 295
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5367831/"
+       }
+   ]
+}

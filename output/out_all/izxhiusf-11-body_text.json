@@ -1,1 +1,8 @@
-{"cord_uid":"izxhiusf", "sourcedb":"PMC", "sourceid":"PMC3420249", "divid":11, "text":"When available, results of allergy and reflux testing, data on anti-reflux therapy prior to FOB + BAL, familial history of allergy and asthma, a history of exposure to tobacco smoke, and the response to antibiotic treatment were recorded. Children with positive skin prick tests and/or elevated specific immunoglobulin E in blood were considered allergic. GERD was assessed by a positive 24 hour-oesophageal pH measurement, interpreted according to gastroenterological criteria [11] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "izxhiusf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3420249",
+   "divid": 11,
+   "text": "When available, results of allergy and reflux testing, data on anti-reflux therapy prior to FOB + BAL, familial history of allergy and asthma, a history of exposure to tobacco smoke, and the response to antibiotic treatment were recorded. Children with positive skin prick tests and/or elevated specific immunoglobulin E in blood were considered allergic. GERD was assessed by a positive 24 hour-oesophageal pH measurement, interpreted according to gastroenterological criteria [11] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

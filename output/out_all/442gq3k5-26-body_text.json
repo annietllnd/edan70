@@ -1,1 +1,8 @@
-{"cord_uid":"442gq3k5", "sourcedb":"PMC", "sourceid":"PMC3050921", "divid":26, "text":"We observed that the mean age of S. suis meningitis patients was significantly higher than the age of patients with bacterial meningitis caused by other bacteria, and that high age was associated with increased risk of infection with S. suis. In contrast, pediatric infections with S. suis are extremely rare, presumably related to a lack of exposure associated with increased risk of S. suis infection, in children.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "442gq3k5",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3050921",
+   "divid": 26,
+   "text": "We observed that the mean age of S. suis meningitis patients was significantly higher than the age of patients with bacterial meningitis caused by other bacteria, and that high age was associated with increased risk of infection with S. suis. In contrast, pediatric infections with S. suis are extremely rare, presumably related to a lack of exposure associated with increased risk of S. suis infection, in children.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

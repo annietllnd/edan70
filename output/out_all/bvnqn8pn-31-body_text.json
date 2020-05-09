@@ -1,1 +1,18 @@
-{"cord_uid":"bvnqn8pn", "sourcedb":"PMC", "sourceid":"PMC5660758", "divid":31, "text":"All children of any age were included; however, in those aged ≤12 months bronchiolitis might be mistaken for a wheezing bronchitis.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":111,"end":119}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"}]}
+{
+   "cord_uid": "bvnqn8pn",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5660758",
+   "divid": 31,
+   "text": "All children of any age were included; however, in those aged ≤12 months bronchiolitis might be mistaken for a wheezing bronchitis.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":111,
+              "end": 119
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5660758/"
+       }
+   ]
+}

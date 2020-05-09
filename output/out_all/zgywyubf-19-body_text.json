@@ -1,1 +1,8 @@
-{"cord_uid":"zgywyubf", "sourcedb":"PMC", "sourceid":"PMC3506457", "divid":19, "text":"HEV infection results in an acute, self-limiting and icteric disease that is prevalent in much of the developing world. Although self-limiting infection occurs in adults with mortality rate~1-2%, a high 10-20% mortality rate is observed during pregnancy [6] . Hence it is important to understand the molecular mechanism by which HEV completes its life cycle inside the host. A recent study done by Prusty and coworkers revealed that NF-κB activity is inhibited in the PBMC and liver of fulminant hepatic failure patients [9] . Our findings that the ORF2 protein has the ability to inhibit NF-κB activity in human hepatoma cells provide a possible molecular explanation to their observation.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "zgywyubf",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3506457",
+   "divid": 19,
+   "text": "HEV infection results in an acute, self-limiting and icteric disease that is prevalent in much of the developing world. Although self-limiting infection occurs in adults with mortality rate~1-2%, a high 10-20% mortality rate is observed during pregnancy [6] . Hence it is important to understand the molecular mechanism by which HEV completes its life cycle inside the host. A recent study done by Prusty and coworkers revealed that NF-κB activity is inhibited in the PBMC and liver of fulminant hepatic failure patients [9] . Our findings that the ORF2 protein has the ability to inhibit NF-κB activity in human hepatoma cells provide a possible molecular explanation to their observation.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

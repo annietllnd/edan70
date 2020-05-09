@@ -1,1 +1,8 @@
-{"cord_uid":"u14tj0so", "sourcedb":"PMC", "sourceid":"PMC4064103", "divid":57, "text":"One of our goals is to learn what is the accuracy of each of our methods when partial information about G big is available (see Section 'Robustness test' for experimental settings). Figure 2 shows the results of this robustness evaluation, for pseudoknotted structures (Figure 2A) , pseudoknot-free structures ( Figure 2B ) and the overall results ( Figure 2C ). Since HFold-PKonly cannot add pseudoknot-free base pairs to the given input structure, we do not compare its performance here with HFold and Iterative HFold. However we provide detailed performance of all versions of HFold including HFold-PKonly in Additional file 3.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "u14tj0so",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4064103",
+   "divid": 57,
+   "text": "One of our goals is to learn what is the accuracy of each of our methods when partial information about G big is available (see Section 'Robustness test' for experimental settings). Figure 2 shows the results of this robustness evaluation, for pseudoknotted structures (Figure 2A) , pseudoknot-free structures ( Figure 2B ) and the overall results ( Figure 2C ). Since HFold-PKonly cannot add pseudoknot-free base pairs to the given input structure, we do not compare its performance here with HFold and Iterative HFold. However we provide detailed performance of all versions of HFold including HFold-PKonly in Additional file 3.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,8 @@
-{"cord_uid":"oti9btqp", "sourcedb":"PMC", "sourceid":"PMC5707885", "divid":23, "text":"The ZIKV-prME consensus construct includes a designed change of the potential NXS/T motif, which removes a putative glycosylation site. Deletion of glycosylation at this site has been correlated with improved binding of EDE1 type bnAbs (broadly neutralising antibodies) against ZIKV-E protein. 24 The antibody responses induced by the consensus ZIKV-prME appear as robust or in some cases superior in magnitude to those elicited by similarly developed MR766 ZIKV-prME and Brazil ZIKV-prME vaccines. These constructs were sequence matched with the original ZIKV-MR766 isolate or a recently circulating ZIKV strain from Brazil, respectively. While supportive, further study will provide more insight into the effects of such incorporated designed changes on induced immune responses.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "oti9btqp",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5707885",
+   "divid": 23,
+   "text": "The ZIKV-prME consensus construct includes a designed change of the potential NXS/T motif, which removes a putative glycosylation site. Deletion of glycosylation at this site has been correlated with improved binding of EDE1 type bnAbs (broadly neutralising antibodies) against ZIKV-E protein. 24 The antibody responses induced by the consensus ZIKV-prME appear as robust or in some cases superior in magnitude to those elicited by similarly developed MR766 ZIKV-prME and Brazil ZIKV-prME vaccines. These constructs were sequence matched with the original ZIKV-MR766 isolate or a recently circulating ZIKV strain from Brazil, respectively. While supportive, further study will provide more insight into the effects of such incorporated designed changes on induced immune responses.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

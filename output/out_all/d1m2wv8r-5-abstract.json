@@ -1,1 +1,8 @@
-{"cord_uid":"d1m2wv8r", "sourcedb":"PMC", "sourceid":"PMC4942776", "divid":5, "text":"Although infection and replication of parvoviruses kill host cells, the extent of cell death strongly depends on the type of the host cell. For instance, neoplastic cells are preferentially killed over normal cells 11, 12 . Due to this", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "d1m2wv8r",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4942776",
+   "divid": 5,
+   "text": "Although infection and replication of parvoviruses kill host cells, the extent of cell death strongly depends on the type of the host cell. For instance, neoplastic cells are preferentially killed over normal cells 11, 12 . Due to this",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

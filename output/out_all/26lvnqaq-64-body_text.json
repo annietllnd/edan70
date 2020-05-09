@@ -1,1 +1,8 @@
-{"cord_uid":"26lvnqaq", "sourcedb":"PMC", "sourceid":"PMC6116506", "divid":64, "text":"To ensure that the binding profile was not biased by the amount of virus used for the incubation step, three doses of 5, 50 and 100 HAU were used. The specificity of the staining was the same from 5 to 100 HAU in the infundibulum and magnum, while non-specific staining was slightly increased at the level of the isthmus and uterus (Additional file 3). Nevertheless, irrespective of the amount of virus used, positivity at the level of the epithelia was maintained.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "26lvnqaq",
+   "sourcedb": "PMC",
+   "sourceid": "PMC6116506",
+   "divid": 64,
+   "text": "To ensure that the binding profile was not biased by the amount of virus used for the incubation step, three doses of 5, 50 and 100 HAU were used. The specificity of the staining was the same from 5 to 100 HAU in the infundibulum and magnum, while non-specific staining was slightly increased at the level of the isthmus and uterus (Additional file 3). Nevertheless, irrespective of the amount of virus used, positivity at the level of the epithelia was maintained.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

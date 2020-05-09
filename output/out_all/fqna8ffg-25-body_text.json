@@ -1,1 +1,26 @@
-{"cord_uid":"fqna8ffg", "sourcedb":"PMC", "sourceid":"PMC4915176", "divid":25, "text":"In summary, although that particle uptake in CNP exposed lungs can clearly be observed by the rapid accumulation of particle laden AMs (Fig. 2) these resident lung cells do not react to the CNP exposure with a classical pro-inflammatory activation during this initial phase, preceding the cellular inflammation (3-12 h) . In contrast to this finding for insoluble, pure carbon particles, ambient PM samples are known for their potency to trigger the release of pro-inflammatory cytokines such as TNFα and IL-6 from exposed AMs [57] , and this cytokine response is assumed to be crucial for the subsequent stimulation of the epithelium [58] or even cardiovascular effects beyond the lungs [59] . In our study CNP IT also induced highest levels of BAL IL-6 concentrations with up to 800 pg/ml 12 h after treatment, in comparison to levels below 10 pg/ml in controls, but again no exposure related change of Il6 gene expression could be detected in macrophages, neither in CD45+ nor in BAL cells at the same time point of investigation. Due to contaminations in ambient PM samples, such as airborne bacterial endotoxin or reactive metallic compounds, the described PM triggered induction of the pro-inflammatory cytokine release for AMs may however differ from that driven by pure carbon particles. On a related note, the initiation of CNP triggered inflammation seems also independent from the alarmin release mechanism, recently uncovered for crystalline silica particles [39] . In their study the authors describe the release of the tissue damage alarmin IL-1α from AM directly after pulmonary silica particle deposition. Opposed to this, no change in IL-1α BAL-levels could be detected in the CNP instilled lungs up to 24 h after exposure (data not shown), again arguing for a different kind of trigger for pure carbon particles.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":298,"end":310}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"}, {"id":"Symptom_Covid-19", "span":{"begin":1347,"end":1359}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"}]}
+{
+   "cord_uid": "fqna8ffg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4915176",
+   "divid": 25,
+   "text": "In summary, although that particle uptake in CNP exposed lungs can clearly be observed by the rapid accumulation of particle laden AMs (Fig. 2) these resident lung cells do not react to the CNP exposure with a classical pro-inflammatory activation during this initial phase, preceding the cellular inflammation (3-12 h) . In contrast to this finding for insoluble, pure carbon particles, ambient PM samples are known for their potency to trigger the release of pro-inflammatory cytokines such as TNFα and IL-6 from exposed AMs [57] , and this cytokine response is assumed to be crucial for the subsequent stimulation of the epithelium [58] or even cardiovascular effects beyond the lungs [59] . In our study CNP IT also induced highest levels of BAL IL-6 concentrations with up to 800 pg/ml 12 h after treatment, in comparison to levels below 10 pg/ml in controls, but again no exposure related change of Il6 gene expression could be detected in macrophages, neither in CD45+ nor in BAL cells at the same time point of investigation. Due to contaminations in ambient PM samples, such as airborne bacterial endotoxin or reactive metallic compounds, the described PM triggered induction of the pro-inflammatory cytokine release for AMs may however differ from that driven by pure carbon particles. On a related note, the initiation of CNP triggered inflammation seems also independent from the alarmin release mechanism, recently uncovered for crystalline silica particles [39] . In their study the authors describe the release of the tissue damage alarmin IL-1α from AM directly after pulmonary silica particle deposition. Opposed to this, no change in IL-1α BAL-levels could be detected in the CNP instilled lungs up to 24 h after exposure (data not shown), again arguing for a different kind of trigger for pure carbon particles.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":298,
+              "end": 310
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1347,
+              "end": 1359
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"
+       }
+   ]
+}

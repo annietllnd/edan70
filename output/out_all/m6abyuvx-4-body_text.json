@@ -1,1 +1,8 @@
-{"cord_uid":"m6abyuvx", "sourcedb":"PMC", "sourceid":"PMC3524174", "divid":4, "text":"Here, we aimed to address how HCV expression causes chronic liver diseases and to provide new options for HCV vaccine development. Using LC16m8, a highly attenuated strain of vaccinia virus (VV), we generated three recombinant vaccinia viruses (rVVs) that each encoded one of three different HCV proteins and found that one recombinant virus (rVV-N25), which encoded nonstructural HCV proteins, resolved pathological chronic hepatitis C symptoms in the liver. We also found that immunization with rVV-N25 suppressed HCV core protein levels in the livers of transgenic mice; moreover, this suppression was mediated by CD4 and CD8 T cells, as has been previously reported [8] .", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "m6abyuvx",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3524174",
+   "divid": 4,
+   "text": "Here, we aimed to address how HCV expression causes chronic liver diseases and to provide new options for HCV vaccine development. Using LC16m8, a highly attenuated strain of vaccinia virus (VV), we generated three recombinant vaccinia viruses (rVVs) that each encoded one of three different HCV proteins and found that one recombinant virus (rVV-N25), which encoded nonstructural HCV proteins, resolved pathological chronic hepatitis C symptoms in the liver. We also found that immunization with rVV-N25 suppressed HCV core protein levels in the livers of transgenic mice; moreover, this suppression was mediated by CD4 and CD8 T cells, as has been previously reported [8] .",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

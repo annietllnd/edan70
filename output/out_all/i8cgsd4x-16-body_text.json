@@ -1,1 +1,8 @@
-{"cord_uid":"i8cgsd4x", "sourcedb":"PMC", "sourceid":"PMC4556628", "divid":16, "text":"To determine which WNV protein expression leads to overexpression of CxCul4, Hsu cells were transfected with select individual WNV genes cloned in insect vector (pIZ-V5/His). Total RNA was collected 48 hours post-transfection and real time RT-qPCR was performed using CxCul4 primers. As a control, real time RT-qPCR was performed using CxRpL32 primers. Western blot was performed on duplicate cells to confirm transfection and protein expression using anti-V5 antibody (S6 Fig). The results showed up-regulation of CxCul4 expression in cells transfected with WNV-NS1 (2 fold) and WNV-NS5 (3 fold) genes (Fig 5A) . This indicates NS1 and NS5 may be involved in upregulation of CxCul4 after WNV infection in Culex cells.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "i8cgsd4x",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4556628",
+   "divid": 16,
+   "text": "To determine which WNV protein expression leads to overexpression of CxCul4, Hsu cells were transfected with select individual WNV genes cloned in insect vector (pIZ-V5/His). Total RNA was collected 48 hours post-transfection and real time RT-qPCR was performed using CxCul4 primers. As a control, real time RT-qPCR was performed using CxRpL32 primers. Western blot was performed on duplicate cells to confirm transfection and protein expression using anti-V5 antibody (S6 Fig). The results showed up-regulation of CxCul4 expression in cells transfected with WNV-NS1 (2 fold) and WNV-NS5 (3 fold) genes (Fig 5A) . This indicates NS1 and NS5 may be involved in upregulation of CxCul4 after WNV infection in Culex cells.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

@@ -1,1 +1,18 @@
-{"cord_uid":"fqna8ffg", "sourcedb":"PMC", "sourceid":"PMC4915176", "divid":0, "text":"No involvement of alveolar macrophages in the initiation of carbon nanoparticle induced acute lung inflammation in mice", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":99,"end":111}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"}]}
+{
+   "cord_uid": "fqna8ffg",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4915176",
+   "divid": 0,
+   "text": "No involvement of alveolar macrophages in the initiation of carbon nanoparticle induced acute lung inflammation in mice",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":99,
+              "end": 111
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4915176/"
+       }
+   ]
+}

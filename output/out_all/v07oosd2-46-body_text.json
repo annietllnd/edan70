@@ -1,1 +1,18 @@
-{"cord_uid":"v07oosd2", "sourcedb":"PMC", "sourceid":"PMC5437690", "divid":46, "text":"Spray dried plasma (SDP) Improved growth performance High cost [111] Reduced incidence and severity of diarrhea Required rigorous control during the preparation process", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":103,"end":111}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"}]}
+{
+   "cord_uid": "v07oosd2",
+   "sourcedb": "PMC",
+   "sourceid": "PMC5437690",
+   "divid": 46,
+   "text": "Spray dried plasma (SDP) Improved growth performance High cost [111] Reduced incidence and severity of diarrhea Required rigorous control during the preparation process",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":103,
+              "end": 111
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5437690/"
+       }
+   ]
+}

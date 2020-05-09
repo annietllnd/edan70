@@ -1,1 +1,18 @@
-{"cord_uid":"v6a41kh8", "sourcedb":"PMC", "sourceid":"PMC2727531", "divid":37, "text":"We detected a viral pathogen from the nasopharynx in 40% of the children with CAP in this study, indicating that respiratory RNA viruses play an important role in this common childhood illness in Nepal. RSV was the most common agent isolated, and occurred with considerable temporal variation. As for many other common childhood infections, such as diarrhea, the occurrence of viral CAP in this community seemed to reflect more or less overlapping micro-epidemics with several respiratory viruses, highlighting the challenges of developing and implementing effective public health control measures in resource-poor settings. Research and Education (NUFU project number PRO 36/2002) . The sponsors of the study had no role in study design, data collection, data analysis, data interpretation, or writing of the report. The corresponding author had full access to all the data in the study and had final responsibility for the decision to submit for publication.", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":349,"end":357}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"}]}
+{
+   "cord_uid": "v6a41kh8",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2727531",
+   "divid": 37,
+   "text": "We detected a viral pathogen from the nasopharynx in 40% of the children with CAP in this study, indicating that respiratory RNA viruses play an important role in this common childhood illness in Nepal. RSV was the most common agent isolated, and occurred with considerable temporal variation. As for many other common childhood infections, such as diarrhea, the occurrence of viral CAP in this community seemed to reflect more or less overlapping micro-epidemics with several respiratory viruses, highlighting the challenges of developing and implementing effective public health control measures in resource-poor settings. Research and Education (NUFU project number PRO 36/2002) . The sponsors of the study had no role in study design, data collection, data analysis, data interpretation, or writing of the report. The corresponding author had full access to all the data in the study and had final responsibility for the decision to submit for publication.",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":349,
+              "end": 357
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2727531/"
+       }
+   ]
+}

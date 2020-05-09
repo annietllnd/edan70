@@ -1,1 +1,8 @@
-{"cord_uid":"uo1d8xka", "sourcedb":"PMC", "sourceid":"PMC2259424", "divid":23, "text":"The complexity involved in using traditional technologies and tools often proves to be over-whelming and counterproductive. Most of these tools require an understanding of programming or scripting languages, such as Perl, Python, Java, and UNIX-scripts. Recent examples of such systems in bioinformatics include Biopipe [15] , BioWBI [16] , Taverna [17] , Wildfire [18] , KDE Biosciences [19] , gRNA [20] , Biowep [21] , and BioWMS [22] . Each deployment is therefore subject to its own code development and testing. Although programming languages offer sophisticated control over the intended procedure, the learning curve and overheads in terms of human resources are difficult to justify. Quascade has been developed with this problem in mind.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "uo1d8xka",
+   "sourcedb": "PMC",
+   "sourceid": "PMC2259424",
+   "divid": 23,
+   "text": "The complexity involved in using traditional technologies and tools often proves to be over-whelming and counterproductive. Most of these tools require an understanding of programming or scripting languages, such as Perl, Python, Java, and UNIX-scripts. Recent examples of such systems in bioinformatics include Biopipe [15] , BioWBI [16] , Taverna [17] , Wildfire [18] , KDE Biosciences [19] , gRNA [20] , Biowep [21] , and BioWMS [22] . Each deployment is therefore subject to its own code development and testing. Although programming languages offer sophisticated control over the intended procedure, the learning curve and overheads in terms of human resources are difficult to justify. Quascade has been developed with this problem in mind.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}

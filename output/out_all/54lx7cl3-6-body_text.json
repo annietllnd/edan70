@@ -1,1 +1,66 @@
-{"cord_uid":"54lx7cl3", "sourcedb":"PMC", "sourceid":"PMC4801059", "divid":6, "text":"We conducted a systematic literature search in PubMed for studies published between 1 January 1990 and 9 December 2015. We restricted studies to those conducted in the USA to minimize potential geographic variation of associations. The following search string was used: '(bacteria[All Fields] OR e x p l a n a t o r y b o x 1 . c h a l l e n g e s i n d e t e r m i n i n g t h e e t i o l o g y o f p n e u m o n i a Even in countries where pneumonia surveillance is routinely conducted such as the USA, no information on microbial etiology is recorded for approximately 65-85% of hospitalized pneumonia cases [11, 12] . Severely ill patients often are not included in surveillance, organisms on the causal pathway may have been cleared by the time that the patient presents clinically or prior to testing because of rapid treatment with antibiotics when pneumonia is suspected, and autopsies are infrequently done on the elderly. To optimally determine etiology, direct sampling via bronchoalveolar lavage is required, but usually detection of causal agents is conducted on blood, sputum and urine because of ease of collection, ethical issues and costs. Bacteremia is observed in only 7%-13% of adult pneumonia cases and 1-5% in child pneumonia cases, sputum can potentially be contaminated by bacteria in the URT and is difficult to obtain from children, and blood and urine antigen assays require further validation or are limited to adults and specific to only a few pathogens (e.g. Streptococcus pneumoniae and Legionella species) (reviewed by Murdoch et al. [13] ). Although modern molecular biologic techniques make it feasible to conduct untargeted screens for all bacterial, viral and fungal species present, it is still difficult to distinguish between infection, colonization or contamination [14] . Continued efforts are needed to develop more accurate methods to determine the etiology of pneumonia, and thus maximize treatment and prevention efforts. ", "project":"cdlai_CORD-19", "denotations":[{"id":"Symptom_Covid-19", "span":{"begin":442,"end":451}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":595,"end":604}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":856,"end":865}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1204,"end":1213}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1238,"end":1247}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}, {"id":"Symptom_Covid-19", "span":{"begin":1904,"end":1913}, "obj":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"}]}
+{
+   "cord_uid": "54lx7cl3",
+   "sourcedb": "PMC",
+   "sourceid": "PMC4801059",
+   "divid": 6,
+   "text": "We conducted a systematic literature search in PubMed for studies published between 1 January 1990 and 9 December 2015. We restricted studies to those conducted in the USA to minimize potential geographic variation of associations. The following search string was used: '(bacteria[All Fields] OR e x p l a n a t o r y b o x 1 . c h a l l e n g e s i n d e t e r m i n i n g t h e e t i o l o g y o f p n e u m o n i a Even in countries where pneumonia surveillance is routinely conducted such as the USA, no information on microbial etiology is recorded for approximately 65-85% of hospitalized pneumonia cases [11, 12] . Severely ill patients often are not included in surveillance, organisms on the causal pathway may have been cleared by the time that the patient presents clinically or prior to testing because of rapid treatment with antibiotics when pneumonia is suspected, and autopsies are infrequently done on the elderly. To optimally determine etiology, direct sampling via bronchoalveolar lavage is required, but usually detection of causal agents is conducted on blood, sputum and urine because of ease of collection, ethical issues and costs. Bacteremia is observed in only 7%-13% of adult pneumonia cases and 1-5% in child pneumonia cases, sputum can potentially be contaminated by bacteria in the URT and is difficult to obtain from children, and blood and urine antigen assays require further validation or are limited to adults and specific to only a few pathogens (e.g. Streptococcus pneumoniae and Legionella species) (reviewed by Murdoch et al. [13] ). Although modern molecular biologic techniques make it feasible to conduct untargeted screens for all bacterial, viral and fungal species present, it is still difficult to distinguish between infection, colonization or contamination [14] . Continued efforts are needed to develop more accurate methods to determine the etiology of pneumonia, and thus maximize treatment and prevention efforts. ",
+   "project": "cdlai_CORD-19", 
+   "denotations": [
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":442,
+              "end": 451
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":595,
+              "end": 604
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":856,
+              "end": 865
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1204,
+              "end": 1213
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1238,
+              "end": 1247
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1503,
+              "end": 1512
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       },
+       {
+           "id": "Symptom_COVID-19", 
+           "span": {
+              "begin":1904,
+              "end": 1913
+           }, 
+           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+       }
+   ]
+}

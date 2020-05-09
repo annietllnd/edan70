@@ -1,1 +1,8 @@
-{"cord_uid":"vret3sh1", "sourcedb":"PMC", "sourceid":"PMC3480482", "divid":55, "text":"println(id + "\t"+ genomes.get(id)); } } Future directions include expanding the applications and releasing packages for use by other programming languages such as Python.", "project":"cdlai_CORD-19", "denotations":[]}
+{
+   "cord_uid": "vret3sh1",
+   "sourcedb": "PMC",
+   "sourceid": "PMC3480482",
+   "divid": 55,
+   "text": "println(id + \"\t\"+ genomes.get(id)); } } Future directions include expanding the applications and releasing packages for use by other programming languages such as Python.",
+   "project": "cdlai_CORD-19", 
+   "denotations": []}
