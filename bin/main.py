@@ -5,9 +5,6 @@ from dictionarytagger import DictionaryTagger
 from pubannotationgenerator import PubannotationGenerator
 from pubannotationevaluator import PubannotationEvaluator
 
-# TODO:
-#  - Update Read Me with description on how to run the program (what is needed, folders, data, changeable parameters)
-#  - Progress bar
 
 def main():
     """
@@ -40,18 +37,18 @@ def main():
     test_metadata_file_path = '../data/gold_standard_subset_10.csv'
     vocabularies_dir_path = '../data/dictionaries/'
     test_tagger = DictionaryTagger(test_json_articles_dir_path, test_metadata_file_path, vocabularies_dir_path)
-    #test_tagger.tag()
+    test_tagger.tag()
     word_classes_set = test_tagger.get_word_classes()
-    #word_classes_set = {'Disease_COVID-19', 'Symptom_Covid-19', 'Virs_SARS-CoV-2', 'chemical_antiviral'}
+    #word_classes_set = {'Disease_COVID-19', 'Symptom_Covid-19', 'Virus_SARS-CoV-2', 'chemical_antiviral'}
     
     # Generate Files
-    output_dir_path = 'output/out_test/'
+    output_dir_path = 'output/out/'
     pubannotations_dict = test_tagger.get_pubannotations()
     pubgenerator = PubannotationGenerator(pubannotations_dict, output_dir_path)
-    #pubgenerator.generate()
+    pubgenerator.generate()
     
     # Evaluation
-    tagger_output_dir_path = 'output/out_test/'
+    tagger_output_dir_path = 'output/out/'
     true_output_dir_path = 'output/out_test_true/'
     evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
     evaluator.evaluate()

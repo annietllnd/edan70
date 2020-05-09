@@ -16,6 +16,7 @@ Credit:
 
 import os
 import json
+import string
 import re
 import pandas as pd
 
@@ -36,7 +37,29 @@ def print_progress(nbr_articles_processed, total_articles):
     """
     Prints estimated progress based on number of total articles and number of articles processed.
     """
-    print(f'TAGGER ESTIMATED PROGRESS: {nbr_articles_processed/total_articles*100:.2f}%')
+    print_progress_bar(nbr_articles_processed, total_articles, prefix='TAGGER PROGRESS\t\t', suffix='COMPLETE')
+
+
+def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar = fill * filled_length + '-' * (length - filled_length)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='', flush=True)
+    # Print New Line on Complete
+    if iteration == total:
+        print()
 
 
 class DictionaryTagger:
@@ -163,9 +186,22 @@ class DictionaryTagger:
         For a paragraph, iterate through all vocabularies and patterns and tag using corresponding regex-pattern.
         """
         self.paragraph_matches.clear()
+        case_insensitive_regex = r'(?i)'
+        hyphen_or_whitespace_regex = r'[-\s]'
+        opt_plural_regex = r'(es|s)?'
+        boundary_regex = r'\b'
         for vocabulary in self.vocabs_col_dict:
             for word in self.vocabs_col_dict[vocabulary]:
-                pattern = fr'(?i)\b{word}(es|s)?\b'
+                pattern = case_insensitive_regex + boundary_regex
+                if True in [character in word for character in string.whitespace]:
+                    composite_words = word.split()
+                    for composite_word in composite_words:
+                        if composite_word == composite_words[-1]:
+                            pattern += composite_word + opt_plural_regex + boundary_regex
+                        else:
+                            pattern += composite_word + hyphen_or_whitespace_regex
+                else:
+                    pattern += word + opt_plural_regex
                 self.__tag_pattern(pattern, paragraph, vocabulary)
 
         for word_class in self.patterns_dict:

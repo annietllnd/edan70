@@ -19,19 +19,19 @@ def construct_pubannotation(metadata_info, section_index, text, denotation):
     """
     Returns a string in pub-annotation format.
     """
-    cord_uid = "\"cord_uid\":\"" + metadata_info[0] + "\", "
+    cord_uid = "\n".ljust(4) + "\"cord_uid\": \"" + metadata_info[0] + "\","
 
-    source_x = "\"sourcedb\":\"" + metadata_info[1] + "\", "
+    source_x = "\n".ljust(4) + "\"sourcedb\": \"" + metadata_info[1] + "\","
 
-    pmcid = "\"sourceid\":\"" + metadata_info[2] + "\", "
+    pmcid = "\n".ljust(4) + "\"sourceid\": \"" + metadata_info[2] + "\","
 
-    divid = "\"divid\":" + str(section_index) + ", "
+    divid = "\n".ljust(4) + "\"divid\": " + str(section_index) + ","
 
-    text = "\"text\":\"" + text.replace('"', '\\"') + "\", "
+    text = "\n".ljust(4) + "\"text\": \"" + text.replace('"', '\\"') + "\","
 
-    project = "\"project\":\"cdlai_CORD-19\", "
+    project = "\n".ljust(4) + "\"project\": \"cdlai_CORD-19\", "
 
-    denotations_str = "\"denotations\":" + denotation
+    denotations_str = "\n".ljust(4) + "\"denotations\": " + denotation
 
     return "{" + cord_uid + source_x + pmcid + divid + text + project + denotations_str + "}"
 
@@ -43,7 +43,7 @@ def concat_denotations(denotations):
     list.
     """
     if not bool(denotations):
-        return "[]"
+        return '[]'
 
     full_denotation = ''
 
@@ -51,28 +51,52 @@ def concat_denotations(denotations):
         if denotation == denotations[-1]:
             full_denotation += denotation
         else:
-            full_denotation += denotation + ", "
-    return "[" + full_denotation + "]"
+            full_denotation += denotation + ","
+    return "[" + full_denotation + "\n".ljust(4) + "]\n"
 
 
 def construct_denotation(idd, begin, end, url):
     """
     Returns a string denotation for a single match.
     """
-    idd = "\"id\":\"" + idd + "\", "
+    idd = "\n".ljust(12) + "\"id\": \"" + idd + "\", "
 
-    span = "\"span\":{\"begin\":" + begin + "," + "\"end\":" + end + "}, "
+    span = "\n".ljust(12) + "\"span\": {\n".ljust(24) + "\"begin\":" + begin + ",\n".ljust(16) + "\"end\": " + end + \
+           "\n".ljust(12) + "}, "
 
-    obj = "\"obj\":\"" + url + "\""
-    denotation = "{" + idd + span + obj + "}"
+    obj = "\n".ljust(12) + "\"obj\": \"" + url + "\""
+    denotation = "\n".ljust(8) + "{" + idd + span + obj + "\n".ljust(8) + "}"
     return denotation
 
 
 def print_progress(nbr_pubannotations_processed, total_pubannotations):
     """
-    Prints estimated progress based on number of total PubAnnotatnions and number of PubAnnotations generated.
+    Prints estimated progress based on number of total articles and number of articles processed.
     """
-    print(f'PUBANNOTATION GENERATOR ESTIMATED PROGRESS: {nbr_pubannotations_processed/total_pubannotations*100:.2f}%')
+    print_progress_bar(nbr_pubannotations_processed, total_pubannotations, prefix='GENERATOR PROGRESS\t',
+                       suffix='COMPLETE')
+
+
+def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█'):
+    """
+    Call in a loop to create terminal progress bar
+    @params:
+        iteration   - Required  : current iteration (Int)
+        total       - Required  : total iterations (Int)
+        prefix      - Optional  : prefix string (Str)
+        suffix      - Optional  : suffix string (Str)
+        decimals    - Optional  : positive number of decimals in percent complete (Int)
+        length      - Optional  : character length of bar (Int)
+        fill        - Optional  : bar fill character (Str)
+        printEnd    - Optional  : end character (e.g. "\r", "\r\n") (Str)
+    """
+    percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar = fill * filled_length + '-' * (length - filled_length)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='', flush=True)
+    # Print New Line on Complete
+    if iteration == total:
+        print()
 
 
 def get_paragraph_denotation(paragraph_matches, url):
@@ -98,16 +122,17 @@ class PubannotationGenerator:
         pubannotations_total = len(self.pubannotations_dict)
         for pubannotation_key in self.pubannotations_dict:
             print_progress(pubannotation_nbr, pubannotations_total)
-            denotation = get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],self.pubannotations_dict[pubannotation_key]['url'])
+            denotation = get_paragraph_denotation(self.pubannotations_dict[pubannotation_key]['matches'],
+                                                  self.pubannotations_dict[pubannotation_key]['url'])
             # if not re.fullmatch(r'\[\]', denotation): # Uncomment in order to filter out only matches
             annotation = construct_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'],
                                                  self.pubannotations_dict[pubannotation_key]['file_index'],
                                                  self.pubannotations_dict[pubannotation_key]['paragraph_text'],
                                                  denotation)
             self.__export_pubannotation(self.pubannotations_dict[pubannotation_key]['metadata_info'][0],
-                                      self.pubannotations_dict[pubannotation_key]['file_index'],
-                                      self.pubannotations_dict[pubannotation_key]['section_name'],
-                                      annotation)
+                                        self.pubannotations_dict[pubannotation_key]['file_index'],
+                                        self.pubannotations_dict[pubannotation_key]['section_name'],
+                                        annotation)
             pubannotation_nbr += 1
         print_progress(pubannotation_nbr, pubannotations_total)
 
