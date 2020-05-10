@@ -15,12 +15,14 @@ Authors:
      - Generate file with table of results?
 """
 import sys
+
+sys.path.append('../src')
+sys.path.append('../output')
+
 from dictionarytagger import DictionaryTagger
 from pubannotationgenerator import PubannotationGenerator
 from pubannotationevaluator import PubannotationEvaluator
 
-sys.path.append('../src')
-sys.path.append('../output')
 
 
 def main():
