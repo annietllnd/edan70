@@ -35,8 +35,8 @@ def main():
     vocabularies_dir_path = '../data/dictionaries/'
     tagger = DictionaryTagger(json_articles_dir_path, metadata_file_path, vocabularies_dir_path)
     #tagger.tag()
-    word_classes_set = tagger.get_word_classes()
-    # word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2'}  # Supported classes:
+    #word_classes_set = tagger.get_word_classes()
+    word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2'}  # Supported classes:
     #                                                                                   - 'chemical_antiviral'
     #                                                                                   - 'Disease_COVID-19'
     #                                                                                   - 'Symptom_Covid-19'

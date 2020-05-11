@@ -52,7 +52,7 @@ def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, lengt
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     filled_length = int(length * iteration // total)
     bar = fill * filled_length + '-' * (length - filled_length)
-    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\n', flush=True)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='', flush=True)
     # Print New Line on Complete
     if iteration == total:
         print()
@@ -216,8 +216,6 @@ class PubannotationEvaluator:
             print('########### WARNING ###########')
             print(f'{word_class} found no match, the precision result can be misleading')
             print("########### WARNING ###########")
-            print('\n')
-            self.precision_values.append(0)
             self.precision_value = 0
 
     def __recall(self, word_class):
