@@ -122,6 +122,9 @@ class PubannotationEvaluator:
         self.__calculate_macro()
         self.__print_result('MACRO')
         self.__calculate_harmonic_mean()
+        print("tp: ", self.total_true_positives)
+        print("fp: ", self.total_false_positives)
+        print("fn: ", self.total_false_negatives)
 
     def __compare_outputs(self):
         """
@@ -163,9 +166,10 @@ class PubannotationEvaluator:
                         and tagger_denotation['span']['end'] == true_denotation['span']['end']):
                     # Might want to change to a safer implementation where we don't depend on an ordered
                     # word_classes_list. TODO
-                    self.word_classes_result_dict[word_classes_list[i]]['true_positives'] += 1
-                    self.tagger_output_dicts[cord_uid].update({'is_checked': True})
-                    self.true_output_dicts[cord_uid].update({'is_checked': True})
+                    if(word_classes_list[i] in self.word_classes_result_dict.keys()):
+                        self.word_classes_result_dict[word_classes_list[i]]['true_positives'] += 1
+                        self.tagger_output_dicts[cord_uid].update({'is_checked': True})
+                        self.true_output_dicts[cord_uid].update({'is_checked': True})
                 i += 1
 
     def __evaluate_word_class(self):
@@ -204,6 +208,7 @@ class PubannotationEvaluator:
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
         false_positives = self.word_classes_result_dict[word_class]['false_positives']
         self.total_true_positives += true_positives
+        print(f"Added from {word_class} to total_true_positives: {true_positives}")
         self.total_false_positives += false_positives
         sum_value = true_positives + false_positives
         if sum_value:
