@@ -33,7 +33,7 @@ def main():
     tagger = DictionaryTagger(json_articles_dir_path, metadata_file_path, vocabularies_dir_path)
     #tagger.tag()
     word_classes_set = tagger.get_word_classes()
-    #word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2'}  # Supported classes:
+    word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2'}  # Supported classes:
     #                                                                                   - 'chemical_antiviral'
     #                                                                                   - 'Disease_COVID-19'
     #                                                                                   - 'Symptom_Covid-19'
@@ -50,6 +50,12 @@ def main():
     true_output_dir_path = 'output/out_test_true/'
     evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
     evaluator.evaluate()
+    for word_class in word_classes_set:
+        print(f'CLASS: {word_class}')
+        print(f'Total: {evaluator.get_total(word_class)}')
+        print(f'True Positives: {evaluator.get_true_positives(word_class)}')
+        print(f'False Positives: {evaluator.get_false_positives(word_class)}')
+        print(f'False Negatives: {evaluator.get_false_negatives(word_class)}')
 
 
 if __name__ == '__main__':
