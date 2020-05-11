@@ -52,7 +52,7 @@ def print_progress_bar(iteration, total, prefix='', suffix='', decimals=1, lengt
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     filled_length = int(length * iteration // total)
     bar = fill * filled_length + '-' * (length - filled_length)
-    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='', flush=True)
+    print('\r%s |%s| %s%% %s' % (prefix, bar, percent, suffix), end='\n', flush=True)
     # Print New Line on Complete
     if iteration == total:
         print()
@@ -107,9 +107,9 @@ class PubannotationEvaluator:
                 pubannotation_dict = json.loads(pubannotation_obj.read())
                 pubannotation_dict.update({'is_checked': False})
                 if is_tagger_output:
-                    self.tagger_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+                    self.tagger_output_dicts.update({pubannotation_file_name: pubannotation_dict})
                 else:
-                    self.true_output_dicts.update({pubannotation_dict['cord_uid']: pubannotation_dict})
+                    self.true_output_dicts.update({pubannotation_file_name: pubannotation_dict})
 
     def evaluate(self):
         """
@@ -122,9 +122,6 @@ class PubannotationEvaluator:
         self.__calculate_macro()
         self.__print_result('MACRO')
         self.__calculate_harmonic_mean()
-        print("tp: ", self.total_true_positives)
-        print("fp: ", self.total_false_positives)
-        print("fn: ", self.total_false_negatives)
 
     def __compare_outputs(self):
         """
@@ -133,10 +130,12 @@ class PubannotationEvaluator:
         for cord_uid in self.tagger_output_dicts:
             print_progress(self.output_nbr, self.processes_total)
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
-            true_pubannotation = self.true_output_dicts[cord_uid]
-            word_classes_list = [denotations_list_element['id'] for denotations_list_element in
-                                 true_pubannotation['denotations']]
-
+            if(cord_uid in self.true_output_dicts):
+                true_pubannotation = self.true_output_dicts[cord_uid]
+                word_classes_list = [denotations_list_element['id'] for denotations_list_element in
+                                      true_pubannotation['denotations']]
+            else:
+                continue
             self.__compare_output(tagger_pubannotation['denotations'],
                                   true_pubannotation['denotations'],
                                   cord_uid,
@@ -208,7 +207,6 @@ class PubannotationEvaluator:
         true_positives = self.word_classes_result_dict[word_class]['true_positives']
         false_positives = self.word_classes_result_dict[word_class]['false_positives']
         self.total_true_positives += true_positives
-        print(f"Added from {word_class} to total_true_positives: {true_positives}")
         self.total_false_positives += false_positives
         sum_value = true_positives + false_positives
         if sum_value:
