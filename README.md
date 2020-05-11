@@ -47,5 +47,7 @@ Same as above, but for the smaller subset.
 
 Now the code can be run writing the following code snippet in the terminal in the project:
 ```
-python3 dictionarytagger.py
+python3 -m bin.main
 ```
+Python does not save the paths and as such won't find the imports, the IDE will work this out for you when you assign
+working directory as edan70.

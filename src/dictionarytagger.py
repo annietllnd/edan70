@@ -219,8 +219,7 @@ class DictionaryTagger:
             is_priority = self.__is_match_priority(match, word_class)
             if is_priority:
                 temp_paragraph_matches.update({match: word_class})
-        for match in temp_paragraph_matches:
-            self.paragraph_matches.update({match: temp_paragraph_matches[match]})
+        self.paragraph_matches.update(temp_paragraph_matches)
 
     def __is_match_priority(self, new_match, new_word_class):
         """
