@@ -187,8 +187,9 @@ class PubannotationEvaluator:
                             f'id: {word_class}, '
                             f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
                             f'span: {tagger_denotation_span}')
-                        true_denotation.update({'is_checked': True})
-                        tagger_denotation.update({'is_checked': True})
+                    true_denotation.update({'is_checked': True})
+                    tagger_denotation.update({'is_checked': True})
+                    break
                 i += 1
 
         for tagger_denotation in tagger_denotations:
