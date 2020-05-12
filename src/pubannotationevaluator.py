@@ -175,7 +175,7 @@ class PubannotationEvaluator:
                     # Might want to change to a safer implementation where we don't depend on an ordered
                     # word_classes_list. TODO
 
-                    if word_classes_list[i] in self.word_classes_set:
+                    if word_classes_list[i] in self.word_classes_set and tagger_denotation['id'] in self.word_classes_set:
                         word_class = word_classes_list[i]
                         self.word_classes_result_dict[word_class]['true_positives']['amount'] += 1
                         self.word_classes_result_dict[word_class]['total']['amount'] += 1
@@ -187,9 +187,9 @@ class PubannotationEvaluator:
                             f'id: {word_class}, '
                             f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
                             f'span: {tagger_denotation_span}')
-                    true_denotation.update({'is_checked': True})
-                    tagger_denotation.update({'is_checked': True})
-                    break
+                        true_denotation.update({'is_checked': True})
+                        tagger_denotation.update({'is_checked': True})
+                        break
                 i += 1
 
         for tagger_denotation in tagger_denotations:
@@ -271,8 +271,13 @@ class PubannotationEvaluator:
         """
         Calculates micro figure.
         """
-        self.precision_value = self.total_true_positives / (self.total_true_positives + self.total_false_positives)
-        self.recall_value = self.total_true_positives / (self.total_true_positives + self.total_false_negatives)
+        sum_value = self.total_true_positives + self.total_false_positives
+        if sum_value:
+            self.precision_value = self.total_true_positives / (self.total_true_positives + self.total_false_positives)
+            self.recall_value = self.total_true_positives / (self.total_true_positives + self.total_false_negatives)
+        else:
+            self.precision_value = 0
+            self.recall_value = 0
 
     def __calculate_macro(self):
         """
@@ -284,14 +289,18 @@ class PubannotationEvaluator:
             self.precision_value += precision_value
         for recall_value in self.recall_values:
             self.recall_value += recall_value
-        self.precision_value /= len(self.precision_values)
-        self.recall_value /= len(self.recall_values)
+        if self.precision_value:
+            self.precision_value /= len(self.precision_values)
+            self.recall_value /= len(self.recall_values)
 
     def __calculate_harmonic_mean(self):
         """
         Calculates harmonic mean/F1 score figure.
         """
-        harmonic_mean = (2*self.precision_value*self.recall_value) / (self.precision_value + self.recall_value)
+        sum_value = self.precision_value + self.recall_value
+        harmonic_mean = 0
+        if sum_value:
+            harmonic_mean = (2*self.precision_value*self.recall_value) / sum_value
         print(f'#########\tHARMONIC MEAN RESULT:\t###########')
         print(f'Harmonic mean:\t{harmonic_mean * 100:.0f}%')
 
