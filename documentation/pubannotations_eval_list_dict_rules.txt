@@ -291,14 +291,13 @@ PMC7159299 Abstract:
 		*	begin:108	end:130		begin:108	end:130		'2019 novel coronavirus'
 		*	begin:132	end:141		begin:132	end:141		'2019-nCoV'
 		*	begin:322	end:331		begin:322	end:331		'2019-nCoV'
-PMC7110798 Abstract:
 	- Disease_COVID-19:
 			Tagger result			Gold standard output		Comment
 		*	begin:464	end:483		begin:464	end:483		'2019-nCoV infection'
 		*	begin:1071	end:1090	begin:1071	end:1090	'2019-nCoV infection'
 		*	begin:2314	end:2333	begin:2314	end:2333	'2019-nCoV infection'
 
-PMC7110798 Title:
+PMC7159299 Title:
 	- Virus_SARS-CoV-2:
 			Tagger result			Gold standard output		Comment
 		*	begin:44	end:66		begin:44	end:66		'2019 novel coronavirus'
