@@ -73,7 +73,7 @@ class PubannotationEvaluator:
         self.word_classes_set = word_classes_set
         self.true_positives = self.true_negatives = self.false_positives = self.false_negatives = \
             self.nbr_true_entities = self.recall_value = self.precision_value = self.total_true_positives = \
-            self.total_false_positives = self.total_false_negatives = self.output_nbr = 0
+            self.total_false_positives = self.total_false_negatives = self.iteration_nbr = 0
 
         self.__generate_result_dict(self.word_classes_set)
 
@@ -87,10 +87,18 @@ class PubannotationEvaluator:
         Initializes a dictionary containing all the results for respective word class.
         """
         for word_class in word_classes_set:
-            self.word_classes_result_dict[word_class] = {'true_positives': 0,
-                                                         'true_negatives': 0,
-                                                         'false_positives': 0,
-                                                         'false_negatives': 0
+            self.word_classes_result_dict[word_class] = {'total': {'amount': 0,
+                                                                   'entities': list()
+                                                                   },
+                                                         'true_positives': {'amount': 0,
+                                                                            'entities': list()
+                                                                            },
+                                                         'false_positives': {'amount': 0,
+                                                                             'entities': list()
+                                                                             },
+                                                         'false_negatives': {'amount': 0,
+                                                                             'entities': list()
+                                                                             }
                                                          }
 
     def __load_output(self, dir_output_path, is_tagger_output):
@@ -128,84 +136,128 @@ class PubannotationEvaluator:
         Iterates through all outputs to be compared to through output and compare output denotations.
         """
         for cord_uid in self.tagger_output_dicts:
-            print_progress(self.output_nbr, self.processes_total)
+            print_progress(self.iteration_nbr, self.processes_total)
             tagger_pubannotation = self.tagger_output_dicts[cord_uid]
-            if(cord_uid in self.true_output_dicts):
+            if cord_uid in self.true_output_dicts:
                 true_pubannotation = self.true_output_dicts[cord_uid]
+                text = true_pubannotation['text']
                 word_classes_list = [denotations_list_element['id'] for denotations_list_element in
-                                      true_pubannotation['denotations']]
-            else:
-                continue
-            self.__compare_output(tagger_pubannotation['denotations'],
-                                  true_pubannotation['denotations'],
-                                  cord_uid,
-                                  word_classes_list)
-            self.output_nbr += 1
-        print_progress(self.output_nbr, self.processes_total)
+                                     true_pubannotation['denotations']]
+                self.__compare_output(tagger_pubannotation['denotations'],
+                                      true_pubannotation['denotations'],
+                                      cord_uid,
+                                      word_classes_list,
+                                      text)
+                self.iteration_nbr += 1
+        print_progress(self.iteration_nbr, self.processes_total)
 
-    def __compare_output(self, tagger_denotations, true_denotations, cord_uid, word_classes_list):
+    def __compare_output(self, tagger_denotations, true_denotations, cord_uid, word_classes_list, text):
         """
         Compares denotations with true denotations, false negatives field are incremented if there is a an existing
         match in true denotations that does not exist in denotations to be compared, and only for the word classes
-        existing in the list argument. When a PubAnnotations is checked the field 'is_checked' is set to True which
+        existing in the list argument. When a denotation is checked the field 'is_checked' is set to True which
         helps to calculate false positives and false negatives. If two denotations are matching in span true positives
         filed will be incremented in the result dictionary.
         """
+        # tagger_denotations = [tagger_denotation.update({'is_checked': False})
+        #                       for tagger_denotation in tagger_denotations]
+        # true_denotations = [true_denotation.update({'is_checked': False})
+        #                     for true_denotation in true_denotations]
         if not bool(tagger_denotations) or not bool(true_denotations):
-            if not bool(tagger_denotations) and bool(true_denotations):  # before it compared when both were empty
-                for word_class in word_classes_list:
+            if not bool(tagger_denotations) and bool(true_denotations):
+                for true_denotation in true_denotations:
+                    word_class = true_denotation['id']
                     if word_class in self.word_classes_set:
-                        self.word_classes_result_dict[word_class]['false_negatives'] += 1
-            self.tagger_output_dicts[cord_uid].update({'is_checked': True})
-            self.true_output_dicts[cord_uid].update({'is_checked': True})
-        for tagger_denotation in tagger_denotations:
-            i = 0
+                        true_denotation_span = (true_denotation['span']['begin'], true_denotation['span']['end'])
+                        self.word_classes_result_dict[word_class]['false_negatives']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['total']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['false_negatives']['entities'].append(
+                            f'id: {word_class}, entity: {text[true_denotation_span[0]:true_denotation_span[1] + 1]}, '
+                            f'span: {true_denotation_span}')
+                        self.word_classes_result_dict[word_class]['total']['entities'].append(
+                            f'id: {word_class}, entity: {text[true_denotation_span[0]:true_denotation_span[1] + 1]}, '
+                            f'span: {true_denotation_span}')
+                    true_denotation.update({'is_checked': True})
+            else:
+                for tagger_denotation in tagger_denotations:
+                    word_class = tagger_denotation['id']
+                    if word_class in self.word_classes_set:
+                        tagger_denotation_span = (tagger_denotation['span']['begin'], tagger_denotation['span']['end'])
+                        self.word_classes_result_dict[word_class]['false_positives']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['false_positives']['entities'].append(
+                            f'id: {word_class}, entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}'
+                            f', span: {tagger_denotation_span}')
+                        self.word_classes_result_dict[word_class]['total']['entities'].append(
+                            f'id: {word_class}, entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}'
+                            f', span: {tagger_denotation_span}')
+                    tagger_denotation.update({'is_checked': True})
+        else:
+            for tagger_denotation in tagger_denotations:
+                i = 0
+                for true_denotation in true_denotations:
+                    tagger_denotation_span = (tagger_denotation['span']['begin'], tagger_denotation['span']['end'])
+                    true_denotation_span = (true_denotation['span']['begin'], true_denotation['span']['end'])
+                    if tagger_denotation_span == true_denotation_span:
+                        # Might want to change to a safer implementation where we don't depend on an ordered
+                        # word_classes_list. TODO
+                        if word_classes_list[i] in self.word_classes_set:
+                            word_class = word_classes_list[i]
+                            self.word_classes_result_dict[word_class]['true_positives']['amount'] += 1
+                            self.word_classes_result_dict[word_class]['total']['amount'] += 1
+                            self.word_classes_result_dict[word_class]['true_positives']['entities'].append(
+                                f'id: {word_class}, '
+                                f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
+                                f'span: {tagger_denotation_span}')
+                            self.word_classes_result_dict[word_class]['total']['entities'].append(
+                                f'id: {word_class}, '
+                                f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
+                                f'span: {tagger_denotation_span}')
+                            tagger_denotation.update({'is_checked': True})
+                            true_denotation.update({'is_checked': True})
+                        break
+                    i += 1
+            for tagger_denotation in tagger_denotations:
+                if not tagger_denotation['is_checked']:
+                    word_class = tagger_denotation['id']
+                    if word_class in self.word_classes_set:
+                        tagger_denotation_span = (tagger_denotation['span']['begin'], tagger_denotation['span']['end'])
+                        self.word_classes_result_dict[word_class]['false_positives']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['false_positives']['entities'].append(
+                            f'id: {word_class}, '
+                            f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
+                            f'span: {tagger_denotation_span}')
+                    tagger_denotation.update({'is_checked': True})
             for true_denotation in true_denotations:
-                if (tagger_denotation['span']['begin'] == true_denotation['span']['begin']
-                        and tagger_denotation['span']['end'] == true_denotation['span']['end']):
-                    # Might want to change to a safer implementation where we don't depend on an ordered
-                    # word_classes_list. TODO
-                    if(word_classes_list[i] in self.word_classes_result_dict.keys()):
-                        self.word_classes_result_dict[word_classes_list[i]]['true_positives'] += 1
-                        self.tagger_output_dicts[cord_uid].update({'is_checked': True})
-                        self.true_output_dicts[cord_uid].update({'is_checked': True})
-                i += 1
+                word_class = true_denotation['id']
+                if word_class in self.word_classes_set:
+                    if not true_denotation['is_checked']:
+                        true_denotation_span = (true_denotation['span']['begin'], true_denotation['span']['end'])
+                        self.word_classes_result_dict[word_class]['false_negatives']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['total']['amount'] += 1
+                        self.word_classes_result_dict[word_class]['false_negatives']['entities'].append(
+                            f'id: {word_class}, '
+                            f'entity: {text[true_denotation_span[0]:true_denotation_span[1] + 1]}, '
+                            f'span: {true_denotation_span}')
+                    true_denotation.update({'is_checked': True})
 
     def __evaluate_word_class(self):
         """
         Evaluates results for each word class.
         """
         for word_class in self.word_classes_result_dict:
-            print_progress(self.output_nbr, self.processes_total)
-            false_positives_result = 0
-            false_negatives_result = 0
-            for tagger_pubannotation in self.tagger_output_dicts.values():
-                if(tagger_pubannotation['denotations'] != [] and tagger_pubannotation['denotations'][0]['id'] ==
-                        word_class and tagger_pubannotation['is_checked'] is False):
-                    false_positives_result += 1
-
-            self.word_classes_result_dict[word_class]['false_positives'] = false_positives_result
-
-            for true_pubannotation_dict in self.true_output_dicts.values():
-
-                if(true_pubannotation_dict['denotations'] != [] and true_pubannotation_dict['denotations'][0]['id'] ==
-                        word_class and true_pubannotation_dict['is_checked'] is False):
-                    false_negatives_result += 1
-
-            self.word_classes_result_dict[word_class]['false_negatives'] = false_negatives_result
-
+            print_progress(self.iteration_nbr, self.processes_total)
             self.__precision(word_class)
             self.__recall(word_class)
             self.__print_result(word_class)
-            self.output_nbr += 1
-        print_progress(self.output_nbr, self.processes_total)
+            self.iteration_nbr += 1
+        print_progress(self.iteration_nbr, self.processes_total)
 
     def __precision(self, word_class):
         """
         Calculates precision figure.
         """
-        true_positives = self.word_classes_result_dict[word_class]['true_positives']
-        false_positives = self.word_classes_result_dict[word_class]['false_positives']
+        true_positives = self.word_classes_result_dict[word_class]['true_positives']['amount']
+        false_positives = self.word_classes_result_dict[word_class]['false_positives']['amount']
         self.total_true_positives += true_positives
         self.total_false_positives += false_positives
         sum_value = true_positives + false_positives
@@ -222,8 +274,8 @@ class PubannotationEvaluator:
         """
         Calculates recall figure.
         """
-        true_positives = self.word_classes_result_dict[word_class]['true_positives']
-        false_negatives = self.word_classes_result_dict[word_class]['false_negatives']
+        true_positives = self.word_classes_result_dict[word_class]['true_positives']['amount']
+        false_negatives = self.word_classes_result_dict[word_class]['false_negatives']['amount']
         self.total_false_negatives += false_negatives
         sum_value = true_positives + false_negatives
         if sum_value:
@@ -274,3 +326,51 @@ class PubannotationEvaluator:
         print(f'Precision:\t{self.precision_value * 100:.0f}%')
         print(f'Recall:\t\t{self.recall_value * 100:.0f}%')
         print('\n')
+
+    def get_total_entities(self, word_class):
+        """
+        Returns a list of total entities for a word class.
+        """
+        return self.word_classes_result_dict[word_class]['total']['entities']
+
+    def get_true_positive_entities(self, word_class):
+        """
+        Returns a list of entities marked as true positives for a word class.
+        """
+        return self.word_classes_result_dict[word_class]['true_positives']['entities']
+
+    def get_false_positive_entities(self, word_class):
+        """
+        Returns a list of entities marked as false positives for a word class.
+        """
+        return self.word_classes_result_dict[word_class]['false_positives']['entities']
+
+    def get_false_negative_entities(self, word_class):
+        """
+        Returns a list of entities marked as false negatives for a word class.
+        """
+        return self.word_classes_result_dict[word_class]['false_negatives']['entities']
+
+    def get_total(self, word_class):
+        """
+        Returns number of entities associated with a word class.
+        """
+        return self.word_classes_result_dict[word_class]['total']['amount']
+
+    def get_true_positives(self, word_class):
+        """
+        Returns number of true positives associated with a word class.
+        """
+        return self.word_classes_result_dict[word_class]['true_positives']['amount']
+
+    def get_false_positives(self, word_class):
+        """
+        Returns number of false positives associated with a word class.
+        """
+        return self.word_classes_result_dict[word_class]['false_positives']['amount']
+
+    def get_false_negatives(self, word_class):
+        """
+        Returns number of false negatives associated with a word class.
+        """
+        return self.word_classes_result_dict[word_class]['false_negatives']['amount']
