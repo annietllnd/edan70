@@ -223,7 +223,6 @@ class PubannotationEvaluator:
                             f'span: {tagger_denotation_span}')
                     tagger_denotation.update({'is_checked': True})
                     true_denotation.update({'is_checked': True})
-                    break
                 i += 1
 
         for tagger_denotation in tagger_denotations:
