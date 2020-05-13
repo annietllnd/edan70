@@ -175,7 +175,7 @@ class PubannotationEvaluator:
                     # Might want to change to a safer implementation where we don't depend on an ordered
                     # word_classes_list. TODO
 
-                    if word_classes_list[i] in self.word_classes_set and tagger_denotation['id'] in self.word_classes_set:
+                    if word_classes_list[i] in self.word_classes_set and tagger_denotation['id'] == true_denotation['id']:
                         word_class = word_classes_list[i]
                         self.word_classes_result_dict[word_class]['true_positives']['amount'] += 1
                         self.word_classes_result_dict[word_class]['total']['amount'] += 1
@@ -203,6 +203,7 @@ class PubannotationEvaluator:
                         f'entity: {text[tagger_denotation_span[0]:tagger_denotation_span[1] + 1]}, '
                         f'span: {tagger_denotation_span}')
                 tagger_denotation.update({'is_checked': True})
+
         for true_denotation in true_denotations:
             word_class = true_denotation['id']
             if word_class in self.word_classes_set:
@@ -243,6 +244,7 @@ class PubannotationEvaluator:
             self.precision_value = true_positives / sum_value
             self.precision_values.append(self.precision_value)
         else:
+            print("\n")
             print('########### WARNING ###########')
             print(f'{word_class} found no match, the precision result can be misleading')
             print("########### WARNING ###########")

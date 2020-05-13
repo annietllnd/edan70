@@ -295,7 +295,7 @@ PMC7159299 Abstract:
 			Tagger result			Gold standard output		Comment
 		*	begin:464	end:483		begin:464	end:483		'2019-nCoV infection'
 		*	begin:1071	end:1090	begin:1071	end:1090	'2019-nCoV infection'
-		*	begin:2314	end:2333	begin:2314	end:2333	'2019-nCoV infection'
+		*	begin:2314	end:2333	N/A				'2019-nCoV infection'
 
 PMC7159299 Title:
 	- Virus_SARS-CoV-2:

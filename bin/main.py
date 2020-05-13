@@ -24,13 +24,14 @@ def main():
     Main program.
     """
     # Tagging
-    json_articles_dir_path = 'data/gold_standard_subset_10/'
-    metadata_file_path = 'data/metadata_gold_standard_subset_10.csv'
-    vocabularies_dir_path = 'data/dictionaries/'
+    json_articles_dir_path = 'edan70/data/gold_standard_subset_10/'
+    metadata_file_path = 'edan70/data/metadata_gold_standard_subset_10.csv'
+    vocabularies_dir_path = 'edan70/data/dictionaries/'
     tagger = DictionaryTagger(json_articles_dir_path, metadata_file_path, vocabularies_dir_path)
     #tagger.tag()
     #word_classes_set = tagger.get_word_classes()
-    word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2'}  # Supported classes:
+    #word_classes_set = {'PROTEIN', 'SPECIES'}
+    word_classes_set = {'Disease_COVID-19', 'Symptom_COVID-19', 'Virus_SARS-CoV-2', 'chemical_antiviral'}  # Supported classes:
     #                                                                                   - 'chemical_antiviral'
     #                                                                                   - 'Disease_COVID-19'
     #                                                                                   - 'Symptom_Covid-19'
@@ -43,8 +44,8 @@ def main():
     #pubgenerator.generate()
     
     # Evaluation
-    tagger_output_dir_path = 'output/out_temp/'
-    true_output_dir_path = 'output/out_test_true/'
+    tagger_output_dir_path = 'edan70/output/out_test/'
+    true_output_dir_path = 'edan70/output/out_test_true/'
     evaluator = PubannotationEvaluator(tagger_output_dir_path, true_output_dir_path, word_classes_set)
     evaluator.evaluate()
     for word_class in word_classes_set:
