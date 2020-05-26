@@ -112,7 +112,7 @@ def get_paragraph_denotation(paragraph_matches, url):
 
 
 class PubannotationGenerator:
-    def __init__(self, pubannotations_dict,output_dir_path):
+    def __init__(self, pubannotations_dict, output_dir_path):
         self.pubannotations_dict = pubannotations_dict
         self.output_dir_path = output_dir_path
 

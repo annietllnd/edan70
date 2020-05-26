@@ -72,7 +72,7 @@ class DictionaryTagger:
     def __init__(self, json_articles_dir_path, metadata_file_path, vocabularies_dir_path):
         self.articles_directory_name = json_articles_dir_path
         self.vocabs_col_dict = dict()
-        self.patterns_dict = dict()
+        self.rules_dict = dict()
         self.metadata_indices_dict = dict()
         self.paragraph_matches = dict()
         self.pubannotations_dict = dict()
@@ -113,10 +113,10 @@ class DictionaryTagger:
         Save patterns in same fashion as vocabularies/dictionaries in a dictionary. Word classes are added to a set.
         Pattern 1. 'chemical_antiviral' tags all words ending in 'vir'.
         """
-        self.patterns_dict = {'chemical_antiviral':
-                              r'(?i)\b\S*vir\b'
-                              }
-        for word_class in self.patterns_dict:
+        self.rules_dict = {'chemical_antiviral':
+                           r'(?i)\b\S*vir\b'
+                           }
+        for word_class in self.rules_dict:
             self.word_classes.add(word_class)
 
     def __load_metadata(self, metadata_file_path):
@@ -206,8 +206,8 @@ class DictionaryTagger:
                     pattern += word + opt_plural_regex
                 self.__tag_pattern(pattern, paragraph, vocabulary)
 
-        for word_class in self.patterns_dict:
-            self.__tag_pattern(self.patterns_dict[word_class], paragraph, word_class)
+        for word_class in self.rules_dict:
+            self.__tag_pattern(self.rules_dict[word_class], paragraph, word_class)
 
     def __tag_pattern(self, pattern, text, word_class):
         """
