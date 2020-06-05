@@ -52,16 +52,16 @@ def concat_denotations(denotations):
     return "[" + full_denotation + "\n".ljust(4) + "]\n"
 
 
-def construct_denotation(idd, begin, end, url):
+def construct_denotation(obj, begin, end, idd):
     """
     Returns a string denotation for a single match.
     """
-    idd = "\n".ljust(12) + "\"id\": \"" + idd + "\", "
+    obj = "\n".ljust(12) + "\"obj\": \"" + obj + "\""
 
     span = "\n".ljust(12) + "\"span\": {\n".ljust(24) + "\"begin\":" + begin + ",\n".ljust(16) + "\"end\": " + end + \
            "\n".ljust(12) + "}, "
 
-    obj = "\n".ljust(12) + "\"obj\": \"" + url + "\""
+    idd = "\n".ljust(12) + "\"id\": \"" + idd + "\","
     denotation = "\n".ljust(8) + "{" + idd + span + obj + "\n".ljust(8) + "}"
     return denotation
 

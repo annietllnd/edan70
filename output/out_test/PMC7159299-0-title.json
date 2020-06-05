@@ -7,12 +7,12 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":44,
               "end": 66
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        }
    ]
 }

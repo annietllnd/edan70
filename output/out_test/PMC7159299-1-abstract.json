@@ -7,116 +7,116 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":32,
               "end": 41
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1897,
               "end": 1906
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1972,
               "end": 1992
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1514,
               "end": 1519
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1481,
               "end": 1486
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1629,
               "end": 1637
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1547,
               "end": 1554
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1536,
               "end": 1543
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":108,
               "end": 130
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":132,
               "end": 141
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":322,
               "end": 331
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Disease_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":464,
               "end": 483
            }, 
-           "obj": "n/a"
+           "obj": "Disease_COVID-19"
        },
        {
-           "id": "Disease_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":1071,
               "end": 1090
            }, 
-           "obj": "n/a"
+           "obj": "Disease_COVID-19"
        },
        {
-           "id": "Disease_COVID-19", 
+           "id": "AS-dictionary_T6",
            "span": {
               "begin":2314,
               "end": 2333
            }, 
-           "obj": "n/a"
+           "obj": "Disease_COVID-19"
        }
    ]
 }

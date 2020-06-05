@@ -78,6 +78,7 @@ class DictionaryTagger:
         self.pubannotations_dict = dict()
         self.metadata_list = list()
         self.word_classes = set()
+        self.article_index = 0
 
         self.__load_vocabularies(vocabularies_dir_path)
         self.__load_patterns()
@@ -160,6 +161,7 @@ class DictionaryTagger:
         """
         Process article for each section and paragraph and generate pub-annotations for export to file.
         """
+        self.article_index += 1
         file_index = 0
         metadata_info = obtain_metadata_args(metadata_dict)
         sections = ['metadata', 'abstract', 'body_text']
@@ -174,12 +176,13 @@ class DictionaryTagger:
                 section_paragraphs = ['']
             for paragraph in section_paragraphs:
                 self.__tag_paragraph(paragraph)
+                url = "AS-dictionary_T" + str(self.article_index)
                 self.pubannotations_dict.update({f'{metadata_info[0]}-{str(file_index)}-{section}':
                                                 {'matches': self.paragraph_matches.copy(),
                                                  'file_index': file_index,
                                                  'paragraph_text': paragraph,
                                                  'section_name': section,
-                                                 'url': metadata_dict['url'],
+                                                 'url': url,
                                                  'metadata_info': metadata_info}})
                 file_index += 1
 

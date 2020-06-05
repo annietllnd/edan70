@@ -7,12 +7,12 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Disease_COVID-19", 
+           "id": "AS-dictionary_T1",
            "span": {
               "begin":73,
               "end": 101
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6988272/"
+           "obj": "Disease_COVID-19"
        }
    ]
 }

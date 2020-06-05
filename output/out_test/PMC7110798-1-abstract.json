@@ -7,60 +7,60 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":68,
               "end": 77
            }, 
-           "obj": "n/a"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":38,
               "end": 55
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":57,
               "end": 66
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":267,
               "end": 276
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":427,
               "end": 436
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":1105,
               "end": 1114
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T8",
            "span": {
               "begin":1216,
               "end": 1225
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        }
    ]
 }

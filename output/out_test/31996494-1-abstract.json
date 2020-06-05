@@ -7,68 +7,68 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":52,
               "end": 72
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":74,
               "end": 83
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":345,
               "end": 354
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":1095,
               "end": 1104
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":1158,
               "end": 1168
            }, 
-           "obj": "n/a"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":755,
               "end": 764
            }, 
-           "obj": "n/a"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":766,
               "end": 775
            }, 
-           "obj": "n/a"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T5",
            "span": {
               "begin":825,
               "end": 835
            }, 
-           "obj": "n/a"
+           "obj": "chemical_antiviral"
        }
    ]
 }

@@ -7,84 +7,84 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":35,
               "end": 44
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":479,
               "end": 488
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":1179,
               "end": 1188
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":102,
               "end": 124
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":126,
               "end": 135
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":460,
               "end": 469
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":1062,
               "end": 1071
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":1160,
               "end": 1169
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":1499,
               "end": 1508
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Disease_COVID-19", 
+           "id": "AS-dictionary_T2",
            "span": {
               "begin":1239,
               "end": 1259
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003341/"
+           "obj": "Disease_COVID-19"
        }
    ]
 }

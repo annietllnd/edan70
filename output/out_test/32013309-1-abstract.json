@@ -7,36 +7,36 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T4",
            "span": {
               "begin":370,
               "end": 375
            }, 
-           "obj": "https://doi.org/10.23812/20-editorial-kritas"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T4",
            "span": {
               "begin":363,
               "end": 368
            }, 
-           "obj": "https://doi.org/10.23812/20-editorial-kritas"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T4",
            "span": {
               "begin":344,
               "end": 356
            }, 
-           "obj": "https://doi.org/10.23812/20-editorial-kritas"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T4",
            "span": {
               "begin":1012,
               "end": 1024
            }, 
-           "obj": "https://doi.org/10.23812/20-editorial-kritas"
+           "obj": "Symptom_COVID-19"
        }
    ]
 }

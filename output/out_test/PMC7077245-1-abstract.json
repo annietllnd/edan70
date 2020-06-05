@@ -7,20 +7,20 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T7",
            "span": {
               "begin":19,
               "end": 36
            }, 
-           "obj": "https://doi.org/10.3390/v12020135"
+           "obj": "Virus_SARS-CoV-2"
        },
        {
-           "id": "Virus_SARS-CoV-2", 
+           "id": "AS-dictionary_T7",
            "span": {
               "begin":38,
               "end": 47
            }, 
-           "obj": "https://doi.org/10.3390/v12020135"
+           "obj": "Virus_SARS-CoV-2"
        }
    ]
 }

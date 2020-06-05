@@ -176,7 +176,8 @@ class PubannotationEvaluator:
                     # Might want to change to a safer implementation where we don't depend on an ordered
                     # word_classes_list. TODO
                     if word_classes_list[i] in self.word_classes_set and\
-                            tagger_denotation['id'] == true_denotation['id']:
+                            tagger_denotation['obj'] == true_denotation['id']:
+
                         word_class = word_classes_list[i]
                         self.word_classes_result_dict[word_class]['true_positives']['amount'] += 1
                         self.word_classes_result_dict[word_class]['total']['amount'] += 1
@@ -195,7 +196,7 @@ class PubannotationEvaluator:
 
         for tagger_denotation in tagger_denotations:
             if not tagger_denotation['is_checked']:
-                word_class = tagger_denotation['id']
+                word_class = tagger_denotation['obj']
                 if word_class in self.word_classes_set:
                     tagger_denotation_span = (tagger_denotation['span']['begin'],
                                               tagger_denotation['span']['end'])
@@ -275,7 +276,8 @@ class PubannotationEvaluator:
         Calculates micro figure.
         """
         sum_value = self.total_true_positives + self.total_false_positives
-        if sum_value:
+        sum_value2 = self.total_true_positives + self.total_false_negatives
+        if sum_value and sum_value2:
             self.precision_value = self.total_true_positives / (self.total_true_positives + self.total_false_positives)
             self.recall_value = self.total_true_positives / (self.total_true_positives + self.total_false_negatives)
         else:
