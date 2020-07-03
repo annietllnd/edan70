@@ -7,52 +7,52 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":10,
               "end": 19
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":142,
               "end": 151
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":199,
               "end": 208
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":823,
               "end": 832
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":1073,
               "end": 1082
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T44",
            "span": {
               "begin":1093,
               "end": 1102
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4801059/"
+           "obj": "Symptom_COVID-19"
        }
    ]
 }

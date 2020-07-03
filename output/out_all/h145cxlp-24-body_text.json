@@ -7,52 +7,52 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":1454,
               "end": 1463
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":1895,
               "end": 1904
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":2155,
               "end": 2166
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":2216,
               "end": 2227
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":2596,
               "end": 2607
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T9",
            "span": {
               "begin":2702,
               "end": 2713
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4683816/"
+           "obj": "chemical_antiviral"
        }
    ]
 }

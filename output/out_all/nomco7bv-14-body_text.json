@@ -7,28 +7,28 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T52",
            "span": {
               "begin":234,
               "end": 243
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T52",
            "span": {
               "begin":267,
               "end": 276
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T52",
            "span": {
               "begin":471,
               "end": 480
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5819164/"
+           "obj": "Symptom_COVID-19"
        }
    ]
 }

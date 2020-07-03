@@ -7,36 +7,36 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T28",
            "span": {
               "begin":789,
               "end": 809
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4972905/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "Symptom_COVID-19", 
+           "id": "AS-dictionary_T28",
            "span": {
               "begin":735,
               "end": 740
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4972905/"
+           "obj": "Symptom_COVID-19"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T28",
            "span": {
               "begin":408,
               "end": 413
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4972905/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T28",
            "span": {
               "begin":627,
               "end": 632
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4972905/"
+           "obj": "chemical_antiviral"
        }
    ]
 }

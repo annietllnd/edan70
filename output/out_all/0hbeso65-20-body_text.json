@@ -7,84 +7,84 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":72,
               "end": 82
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":87,
               "end": 97
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":576,
               "end": 586
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":769,
               "end": 779
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1150,
               "end": 1160
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1197,
               "end": 1207
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1266,
               "end": 1276
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1295,
               "end": 1305
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1355,
               "end": 1365
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        },
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T72",
            "span": {
               "begin":1383,
               "end": 1393
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3655463/"
+           "obj": "chemical_antiviral"
        }
    ]
 }

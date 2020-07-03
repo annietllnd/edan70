@@ -7,12 +7,12 @@
    "project": "cdlai_CORD-19", 
    "denotations": [
        {
-           "id": "chemical_antiviral", 
+           "id": "AS-dictionary_T93",
            "span": {
               "begin":296,
               "end": 307
            }, 
-           "obj": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4014123/"
+           "obj": "chemical_antiviral"
        }
    ]
 }
